@@ -1,0 +1,24 @@
+{
+  "name": "kodex",
+  "version": "1.0.0",
+  "description": "Koser family site written in Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briankoser/kodex.git"
+  },
+  "author": "Brian Koser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briankoser/kodex/issues"
+  },
+  "homepage": "https://github.com/briankoser/kodex#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
