@@ -11,7 +11,7 @@ slug: coronavirus-will-change-our-lives
 ---
 Friday, March 13, 2020 is when I realized that COVID-19 was serious. (Of course it was Friday the 13th.)
 
-Wednesday, March 18, 2020 is when I realized life will never be the same again.
+Wednesday, March 18, 2020 is when I realized life [will never be the same again](https://www.technologyreview.com/s/615370/coronavirus-pandemic-social-distancing-18-months/).
 
 Hopefully we get back to a normal soon. But it won't be the same normal, just like we can never go back to before 9/11. 
 
