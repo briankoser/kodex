@@ -1,15 +1,15 @@
 title: Adulthood and Maturity
-slug: adulthood-and-maturity
-date_id: 1
-url: article/2014/03/11/1/adulthood-and-maturity
 description: Brian Koser reflects on adulthood and maturity.
 published: 2014-03-11
-last_updated: 2014-05-21
-excerpt: Chil­dren are al­ways watch­ing their par­ents.
-header_image: 
-is_draft: false
 authors:
   - Brian
+
+last_updated: 2014-05-21
+
+date_id: 1
+excerpt: Chil­dren are al­ways watch­ing their par­ents.
+slug: adulthood-and-maturity
+url: article/2014/03/11/1/adulthood-and-maturity
 ---
 
 Children are always watching their parents. I remember watching my dad as he watched the nightly news on TV. I would sit there and think, “Why would you watch the news when you could watch cartoons? When I’m an adult, I’m going to stay up late and watch cartoons.”
