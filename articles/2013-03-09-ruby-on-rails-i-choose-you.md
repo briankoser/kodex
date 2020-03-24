@@ -3,6 +3,7 @@ description: Brian decides to use Ruby on Rails to build his personal website
 published: 2013-03-09
 authors:
   - Brian
+series: Building koser.us
 
 date_id: 1
 excerpt: I don’t know about you, but the beginning of a programming project is one of my favorite times. And one of my favorite parts of the beginning is choosing the tools.
