@@ -15,7 +15,7 @@ url: article/2014/03/11/1/adulthood-and-maturity
 Children are always watching their parents. I remember watching my dad as he watched the nightly news on TV. I would sit there and think, “Why would you watch the news when you could watch cartoons? When I’m an adult, I’m going to stay up late and watch cartoons.”
 
 <figure>
-    <img alt="Looney Tunes logo" src="http://cdn.koser.us/img/journal/2014-03-11-looney-tunes.png">      <figcaption>Looney Tunes title card</figcaption>  
+    <img alt="Looney Tunes logo" src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2014-03-11-looney-tunes.png">      <figcaption>Looney Tunes title card</figcaption>  
 </figure>
 
 That was many moons ago. The older I get, the more I look back at my past self and realize how immature I was (I Cor. 13:11). But I’ve never thought that I was immature; it’s always past Brian that was immature. Of course, a few years later, I realize that what I thought was mature was still young and immature (this time I really am mature though!).
