@@ -3,10 +3,10 @@ description: Brian discusses the surprising lack of parameter precision in Oracl
 published: 2013-08-22
 authors:
   - Brian
+tags:
+  - programming
 
 # optional
-tags: 
-series: 
 header_image: temp.jpg # CDN is understood
 last_updated: 2014-05-21T18:00:00
 is_draft: true # defaults to false
@@ -14,7 +14,6 @@ is_draft: true # defaults to false
 # can we generate?
 date_id: 1
 excerpt: When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns.
-slug: oracle-parameter-precision
 url: article/2013/08/22/1/oracle-parameter-precision
 ---
 When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns:

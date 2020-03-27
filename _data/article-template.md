@@ -15,6 +15,5 @@ is_draft: true # defaults to false
 # can we generate?
 date_id: 1
 excerpt: 
-slug: 
 url: article/2014/03/11/1/adulthood-and-maturity
 ---

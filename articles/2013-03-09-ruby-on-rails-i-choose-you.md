@@ -4,10 +4,11 @@ published: 2013-03-09
 authors:
   - Brian
 series: Building koser.us
+tags:
+  - programming
 
 date_id: 1
 excerpt: I don’t know about you, but the beginning of a programming project is one of my favorite times. And one of my favorite parts of the beginning is choosing the tools.
-slug: ruby-on-rails-i-choose-you
 url: article/2013/03/09/1/ruby-on-rails-i-choose-you
 ---
 I don’t know about you, but the beginning of a programming project is one of my favorite times. And one of my favorite parts of the beginning is choosing the tools. The possibilities are limitless, and you can easily spend days (or weeks!) browsing Github repositories, reading blogs, trawling through Stack Overflow questions, etc.

@@ -4,9 +4,10 @@ published: 2013-06-25
 authors: 
   - Brian
 series: Building koser.us
+tags:
+  - programming
   
-date_id: 1  
-slug: mvc-my-viewpoint-changes  
+date_id: 1
 url: article/2013/06/25/1/mvc-my-viewpoint-changes  
 excerpt: Last time I wrote about how much I like the beginning of a project. Opening up all the cans of tech and getting a big whiff of that new technology smell…sniff Aaaah. Well, I liked choosing the technologies for my new project so much, that I decided to do it again.
 ---

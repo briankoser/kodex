@@ -2,10 +2,11 @@ title: Loop through Gridview data keys
 description: ASP.NET WebForms Gridview discussion
 published: 2012-08-23  
 authors: 
-  -Brian  
-  
+  - Brian
+tags:
+  - programming
+
 date_id: 1  
-slug: loop-through-gridview-data-keys  
 url: article/2012/08/23/1/loop-through-gridview-data-keys  
 excerpt: Today I was adding an “Export to Excel” option to a Gridview. I wanted to mark each exported record in the database, but it wasn’t immediately apparent how I would do so.  
 ---

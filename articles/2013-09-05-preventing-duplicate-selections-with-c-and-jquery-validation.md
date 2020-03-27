@@ -3,18 +3,13 @@ description: Brian works through a simple validation problem.
 published: 2013-09-05
 authors:
   - Brian
+tags:
+  - programming
 
-# optional
-tags: 
-series: 
-header_image: temp.jpg # CDN is understood
-last_updated: 2014-05-21T18:00:00
-is_draft: true # defaults to false
 
 # can we generate?
 date_id: 1
 excerpt: A few days ago, while working on a web page, I got to write my favorite type of code: validation. Ha ha. Actually I’d rather floss with a brick than write validation.
-slug: preventing-duplicate-selections-with-c-and-jquery-validation
 url: article/2013/09/05/1/preventing-duplicate-selections-with-c-and-jquery-validation
 ---
 A few days ago, while working on a web page, I got to write my favorite type of code: validation.
