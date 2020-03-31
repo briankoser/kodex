@@ -1,5 +1,5 @@
 title: Antonio, a Board Game Geek trading tool
-description: 
+description: Brian details how he programmed a board game API.
 published: 2015-05-30
 authors:
   - Brian
