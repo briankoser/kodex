@@ -33,11 +33,65 @@ So `integers(3)` returns an array containing 1, 2, 3. `table` is an alias for a 
 
 `eventdateoffsets` is the table holding all the event information:
 
-<table>      <thead>          <tr>              <th>eventdateoffsets</th>              <th> </th>          </tr>      </thead>      <tbody>          <tr>              <td>offsetid</td>              <td>Number (PK)</td>          </tr>          <tr>              <td>eventname</td>              <td>Varchar2</td>          </tr>          <tr>              <td>parentoffsetid</td>              <td>Number</td>          </tr>          <tr>              <td>eventoffset</td>              <td>Interval</td>          </tr>      </tbody>  </table>    
+<table>
+  <thead>
+    <tr>
+      <th>eventdateoffsets</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>offsetid</td>
+      <td>Number (PK)</td>
+    </tr>
+    <tr>
+      <td>eventname</td>
+      <td>Varchar2</td>
+    </tr>
+    <tr>
+      <td>parentoffsetid</td>
+      <td>Number</td>
+    </tr>
+    <tr>
+      <td>eventoffset</td>
+      <td>Interval</td>
+    </tr>
+  </tbody>
+</table>    
 
 The parentoffsetid is the offsetid of the date that this date is based on. The eventoffset is how much before or after the parent date that the event takes place. This allows us to set up relations from our business rules like “registration always takes place two days after Labor Day” or “students can cancel courses until one week after classes begin”. The data looks something like this:
 
-<table>      <thead>          <tr>              <th>offsetid</th>              <th>eventname</th>              <th>parentoffsetid</th>              <th>eventoffset</th>          </tr>      </thead>      <tbody>          <tr>              <td>1</td>              <td>Labor Day</td>              <td>null</td>              <td>null</td>          </tr>          <tr>              <td>2</td>              <td>Registration Begins</td>              <td>1</td>              <td>+ 00 08:00</td>          </tr>          <tr>              <td>3</td>              <td>Registration Ends</td>              <td>2</td>              <td>+ 03 14:00</td>          </tr>      </tbody>  </table>
+<table>
+  <thead>
+    <tr>
+      <th>offsetid</th>
+      <th>eventname</th>
+      <th>parentoffsetid</th>
+      <th>eventoffset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Labor Day</td>
+      <td>null</td>
+      <td>null</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Registration Begins</td>
+      <td>1</td>
+      <td>+ 00 08:00</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Registration Ends</td>
+      <td>2</td>
+      <td>+ 03 14:00</td>
+    </tr>
+  </tbody>
+</table>
 
 Here registration begins at 8 <abbr>am</abbr> on Labor Day and ends three days later at 10 <abbr>pm</abbr>. Notice that Labor Day doesn’t have a parent; that will be important later.
 
