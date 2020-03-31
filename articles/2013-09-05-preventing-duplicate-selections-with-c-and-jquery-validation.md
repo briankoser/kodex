@@ -32,7 +32,7 @@ Then I had a “eureka” moment: I could put the values in an array, get the co
 
 This works because I don’t care how many duplicates there are, or which values are duplicated. I just want to know if duplicates exist.
 
-However, it’s not quite complete. If a student registers for only one course, say “History 101”, dropdown list 1 will have the value “HI 101” and dropdowns 2 and 3 will be empty strings. Since <code>"" == ""</code>, I’ll need to allow multiple empty strings.
+However, it’s not quite complete. If a student registers for only one course, say “History 101”, dropdown list 1 will have the value “HI 101” and dropdowns 2 and 3 will be empty strings. Since `"" == ""`, I’ll need to allow multiple empty strings.
 
 <script src="https://gist.github.com/8260138.js?file=PreventingDuplicates2.cs"> </script>    
 
