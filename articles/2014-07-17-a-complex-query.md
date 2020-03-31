@@ -1,5 +1,5 @@
 title: A Complex Query
-description: 
+description: Brian explains the most complex SQL query he has written
 published: 2014-07-17
 authors:
   - Brian
