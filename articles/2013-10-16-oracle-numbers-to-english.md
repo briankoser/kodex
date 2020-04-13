@@ -28,7 +28,7 @@ Caveat: for a number to be converted to a Julian date it will need to be between
 
 Once we have our date, we’ll convert it to the string we want:
 
-## Spelled Out  
+# Spelled Out  
 
 <script src="https://gist.github.com/8260183.js?file=NumberToSpelled.sql"> </script>  
 
@@ -39,7 +39,7 @@ The format specifier, “Jsp”, can be broken down into two parts:
 
 You can also use “JSP” (gives you the string in all caps) and “jsp” (gives you the string in all lower case).
 
-## Ordinal
+# Ordinal
 
 <script src="https://gist.github.com/8260183.js?file=NumberToOrdinal.sql"> </script>  
 
@@ -48,7 +48,7 @@ You can also use “JSP” (gives you the string in all caps) and “jsp” (giv
 - “th” adds the ordinal suffix, so we can get 1st, 2nd, 8th, etc.
   - I assume that “th” is used because most ordinals end in “th”.
 
-## Spelled-Out Ordinals
+# Spelled-Out Ordinals
 
 <script src="https://gist.github.com/8260183.js?file=NumberToSpelledOrdinal.sql"> </script>  
 
