@@ -7,7 +7,7 @@ tags:
   - programming
 
 # can we generate?
-date_id: 1
+date_id: 2
 excerpt: Last month I gave a presentation at work about ES6 (view the slides). Giving yourself two weeks to prepare a talk on a subject you don’t know is a great way to learn. 😀
 url: article/2016/01/15/2/es6-the-future-is-now
 ---
