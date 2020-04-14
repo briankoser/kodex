@@ -1,5 +1,5 @@
 title: Lobotomized Owl
-description: 
+description: Brian links to an article about a CSS selector
 published: 2016-05-22
 authors:
   - Brian
