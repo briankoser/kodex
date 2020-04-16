@@ -3,7 +3,7 @@ description: The equipment Brian and Melissa Koser use to record their podcast, 
 published: 2016-07-23
 authors:
   - Brian
-series: how-to-podcast
+series: podcasting-start-to-finish
 
 # can we generate?
 date_id: 1
