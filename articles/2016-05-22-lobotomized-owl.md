@@ -3,7 +3,8 @@ description: Brian links to an article about a CSS selector
 published: 2016-05-22
 authors:
   - Brian
-tags: programming
+tags: 
+  - programming
 
 # can we generate?
 date_id: 1

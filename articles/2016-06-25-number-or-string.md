@@ -3,7 +3,8 @@ description: Brian litss the times you should store a digit as a string
 published: 2016-06-25
 authors:
   - Brian
-tags: programming
+tags: 
+  - programming
 
 # can we generate?
 date_id: 1

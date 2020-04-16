@@ -3,7 +3,8 @@ description: Brian found the source of John Resig's fame.
 published: 2016-03-15
 authors:
   - Brian
-tags: programming
+tags: 
+  - programming
 
 # can we generate?
 date_id: 1
