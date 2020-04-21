@@ -1,0 +1,6 @@
+.longform p {
+    margin-bottom: 0; }
+  
+.longform p + p {
+    margin-top: 0;
+    text-indent: 1.5em; }
