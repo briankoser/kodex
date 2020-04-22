@@ -5,8 +5,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>{% if title != null %}{{ title }} ·{% endif %} {{ metadata.site_name }}</title>
+    <title>{% if title != null %}{{ title }} ·{% endif %} kodex</title>
     <meta name="description" content="{{ description }}">
+
+    <meta property="og:title" content="kodex" />
+    <meta property="og:description" content="The Koser family website" />
 
     <link rel="stylesheet" href="/css/modern-normalize.css" />
     <link rel="stylesheet" href="/css/base.css" />
@@ -39,7 +42,7 @@
         </a>
         <div class="site-header-block">
             <nav>
-                <span class="site-title">{{ metadata.site_name }}</span>
+                <span class="site-title">kodex</span>
                 <a href="#footerNav" class="footer-nav-link">Menu</a>
             </nav>
         </div>
