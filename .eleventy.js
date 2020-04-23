@@ -10,5 +10,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 
     eleventyConfig.addPassthroughCopy('css');
+    eleventyConfig.addPassthroughCopy('img');
     eleventyConfig.addPassthroughCopy('js');
 };
