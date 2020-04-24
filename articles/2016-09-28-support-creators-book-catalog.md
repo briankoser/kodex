@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Support Creators: Book Catalog"
 description: Brian Koser supports Philip Warner, creator of the Book Catalog app
 published: 2016-09-28
 authors:
   - Brian
-series: support-creators
+series: Support Creators
 
 # can we generate?
 date_id: 1

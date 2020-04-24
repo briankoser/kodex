@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Support Creators: WinSCP"
 description: Brian supports WinSCP
 published: 2016-11-28
 authors:
   - Brian
-series: support-creatores
+series: Support Creators
 
 # can we generate?
 date_id: 1

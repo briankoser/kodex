@@ -1,3 +1,5 @@
+---
+layout: article
 title: Personal Website Manifesto
 description: Why Brian has a personal website.
 published: 2016-11-28

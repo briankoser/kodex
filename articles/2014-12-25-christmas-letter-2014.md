@@ -1,10 +1,12 @@
+---
+layout: article
 title: Christmas Letter 2014
 description: The 2014 Christmas Letter for Brian and Melissa Koser
 published: 2014-12-25
 authors: 
   - Brian
   - Melissa
-series: christmas-letters
+series: Christmas Letters
   
 header_image: 2014-12-25-christmas-2014.jpg
 

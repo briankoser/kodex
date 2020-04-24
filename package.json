@@ -4,6 +4,7 @@
   "description": "Koser family site written in Eleventy",
   "main": "index.js",
   "scripts": {
+    "debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
     "dev": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "npx @11ty/eleventy"
@@ -21,5 +22,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "auto-load": "^3.0.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.12.0"
   }
 }

@@ -1,3 +1,5 @@
+---
+layout: article
 title: Christmas Letter 2015
 description: The 2015 Christmas Letter for Brian, Melissa, and Lydia Koser
 published: 2015-12-25
@@ -6,7 +8,7 @@ authors:
   - Melissa
   - Lydia
 
-series: christmas-letters
+series: Christmas Letters
 header_image: 2015-12-06-christmas-tree.jpg
 
 # can we generate?

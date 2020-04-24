@@ -1,3 +1,5 @@
+---
+layout: article
 title: 
 description: 
 published: 2014-03-11T18:00:00

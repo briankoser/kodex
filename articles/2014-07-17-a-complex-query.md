@@ -1,3 +1,5 @@
+---
+layout: article
 title: A Complex Query
 description: Brian explains the most complex SQL query he has written
 published: 2014-07-17

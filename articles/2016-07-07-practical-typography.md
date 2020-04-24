@@ -1,3 +1,5 @@
+---
+layout: article
 title: Practical Typography
 description: 
 published: 2016-07-07

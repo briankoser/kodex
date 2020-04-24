@@ -1,10 +1,12 @@
+---
+layout: article
 title: "Podcasting, Start to Finish: How to use a mixer"
 description: How Brian and Melissa use a mixer for their podcast, Ten to One, and other audio projects.
 published: 2016-08-16
 authors:
   - Brian
 tags: 
-series: podcasting-start-to-finish
+series: "Podcasting: Start to Finish"
 header_image: 2016-08-16-xenyx-q802-usb-mixer.jpg
 
 # can we generate?

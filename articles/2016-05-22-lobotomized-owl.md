@@ -1,3 +1,5 @@
+---
+layout: article
 title: Lobotomized Owl
 description: Brian links to an article about a CSS selector
 published: 2016-05-22
@@ -8,7 +10,7 @@ tags:
 
 # can we generate?
 date_id: 1
-excerpt: * + *
+excerpt: "* + *"
 url: article/2016/05/22/1/lobotomized-owl
 ---
 `* + * {    }`

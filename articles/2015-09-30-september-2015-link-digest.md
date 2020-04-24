@@ -1,10 +1,12 @@
+---
+layout: article
 title: Link Digest — September 2015
 description: 
 published: 2015-09-30
 authors:
   - Brian
 tags: 
-series: link-digest
+series: Link Digest
 
 # can we generate?
 date_id: 1

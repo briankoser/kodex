@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Support Creators: Dan Carlin"
 description: Brian argues for supporting creators. Dan Carlin is his first example.
 published: 2016-07-29
 authors:
   - Brian
-series: support-creators
+series: Support Creators
 
 # can we generate?
 date_id: 1

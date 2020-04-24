@@ -1,9 +1,11 @@
+---
+layout: article
 title: MVC (My Viewpoint Changes)  
 description:   
 published: 2013-06-25  
 authors: 
   - Brian
-series: Building koser.us
+series: Building kodex
 tags:
   - programming
   

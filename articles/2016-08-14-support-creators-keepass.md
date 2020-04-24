@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Support Creators: KeePass"
 description: Brian supports KeePass and KeePass2Android
 published: 2014-03-11T18:00:00
 authors:
   - Brian
-series: support-creators
+series: Support Creators
 
 # can we generate?
 date_id: 1

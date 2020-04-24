@@ -1,9 +1,11 @@
+---
+layout: article
 title: Top Ten Punctuation Marks
 description: Brian rhapsodizes about his top ten favorite punctuation marks.
 published: 2015-10-24
 authors:
   - Brian
-series: top-tens
+series: Top Tens
 
 # can we generate?
 date_id: 1

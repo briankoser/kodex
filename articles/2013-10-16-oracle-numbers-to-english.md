@@ -1,3 +1,5 @@
+---
+layout: article
 title: Oracle Numbers to English
 description: Brian lists the hacks to convert Oracle numbers to their English equivalents.
 published: 2013-10-16

@@ -1,3 +1,5 @@
+---
+layout: article
 title: Coronavirus Will Change Our Lives
 description: Reflections on the pandemic
 published: 2020-03-18

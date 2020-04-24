@@ -1,3 +1,5 @@
+---
+layout: article
 title: Pinterest-perfect!
 description: A short story by Melissa
 published: 2016-08-15

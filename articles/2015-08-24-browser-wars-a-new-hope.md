@@ -1,3 +1,5 @@
+---
+layout: article
 title: "Browser Wars: A New Hope"
 description: 
 published: 2015-08-24
@@ -5,7 +7,7 @@ authors:
   - Brian
 tags:
   - technology
-series: web-browsers
+series: Web Browsers
 
 # can we generate?
 date_id: 1

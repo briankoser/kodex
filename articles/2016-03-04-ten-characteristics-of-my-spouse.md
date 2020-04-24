@@ -1,10 +1,12 @@
+---
+layout: article
 title: Ten Characteristics of My Spouse
 description: Ten characteristics that Brian and Melissa love about each other
 published: 2016-03-04
 authors:
   - Brian
   - Melissa
-series: top-tens
+series: Top Tens
 
 # can we generate?
 date_id: 1

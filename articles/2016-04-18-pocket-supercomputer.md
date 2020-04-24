@@ -1,3 +1,5 @@
+---
+layout: article
 title: Pocket Supercomputer
 description: Brian Koser lists all the things replaced by smart phones.
 published: 2016-04-18

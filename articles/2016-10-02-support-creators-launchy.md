@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Support Creators: Launchy"
 description: Brian Koser supports Launchy
 published: 2016-10-02
 authors:
   - Brian
-series: support-creators
+series: Support Creators
 
 # can we generate?
 date_id: 1

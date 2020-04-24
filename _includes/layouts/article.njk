@@ -1,0 +1,27 @@
+---
+layout: base
+tags:
+  - article
+cssFiles:
+  - article
+---
+<article class="article">
+    <header>
+        <h1>{{ title }}</h1>
+        <span class="post-header">
+            <span class="post-author">{{ authors }}</span>
+            <span class="post-date">· {{ page.date | readableDate }}</span>
+            {% if last_updated %}<span class="post-update-date">· {{ last_updated }}</span>{% endif %}
+        </span>
+    </header>
+
+    {% if header_image -%}
+    {
+        <img src="{{ header_image }}" class="article-header-image" />
+    }
+    {%- endif %}
+
+    <div class="article-body">
+        {{ content | safe }}
+    </div>
+</article>

@@ -1,13 +1,15 @@
+---
+layout: article
 title: "SILO: Snakes on Sticks"
 description: Brian explains the difference between the Rod of Asclepius and the caduceus
 published: 2016-05-21
 authors:
   - Brian
-series: silo
+series: SILO
 
 # can we generate?
 date_id: 1
-excerpt: I’ve started book­mark­ing the in­ter­est­ing Wikipedia ar­ti­cles I stum­ble on. You’ll see them pop up here with the pre­fix “SILO”: “Stuff I Learned On­line”. En­joy the tid­bits.
+excerpt: "I’ve started book­mark­ing the in­ter­est­ing Wikipedia ar­ti­cles I stum­ble on. You’ll see them pop up here with the pre­fix “SILO”: “Stuff I Learned On­line”. En­joy the tid­bits."
 url: article/2016/05/21/1/silo-snakes-on-sticks
 ---
 I’ve started bookmarking the interesting Wikipedia articles I stumble on. You’ll see them pop up here with the prefix “SILO”: “Stuff I Learned Online”. Enjoy the tidbits.

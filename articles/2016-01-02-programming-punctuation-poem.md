@@ -1,15 +1,11 @@
+---
+layout: article
 title: Programming Punctuation Poem
-description: 
+description: Typographic punctuation by Fred Bremmer and Steve Kroese
 published: 2016-01-02
 authors:
   - Brian
-
-# optional
-tags: 
-series: 
-header_image: temp.jpg # CDN is understood
-last_updated: 2014-05-21T18:00:00
-is_draft: true # defaults to false
+tags: programming
 
 # can we generate?
 date_id: 1

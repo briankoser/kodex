@@ -1,17 +1,13 @@
+---
+layout: article
 title: The Bible on Broccoli
 description: Brian Koser wrote parody Bible verses in which Jesus denigrates broccoli.
 published: 2016-06-11
 authors:
   - Brian
-
-# optional
 tags:
   - fiction
   - humor
-series: 
-header_image: temp.jpg # CDN is understood
-last_updated: 2014-05-21T18:00:00
-is_draft: true # defaults to false
 
 # can we generate?
 date_id: 1

@@ -1,3 +1,5 @@
+---
+layout: article
 title: Preventing Duplicate Selections with C# and jQuery Validation
 description: Brian works through a simple validation problem.
 published: 2013-09-05
@@ -9,7 +11,7 @@ tags:
 
 # can we generate?
 date_id: 1
-excerpt: A few days ago, while working on a web page, I got to write my favorite type of code: validation. Ha ha. Actually I’d rather floss with a brick than write validation.
+excerpt: "A few days ago, while working on a web page, I got to write my favorite type of code: validation. Ha ha. Actually I’d rather floss with a brick than write validation."
 url: article/2013/09/05/1/preventing-duplicate-selections-with-c-and-jquery-validation
 ---
 A few days ago, while working on a web page, I got to write my favorite type of code: validation.

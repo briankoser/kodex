@@ -1,3 +1,5 @@
+---
+layout: article
 title: Loop through Gridview data keys  
 description: ASP.NET WebForms Gridview discussion
 published: 2012-08-23  

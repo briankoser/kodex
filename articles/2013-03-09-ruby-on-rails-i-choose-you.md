@@ -1,9 +1,11 @@
+---
+layout: article
 title: Ruby on Rails, I Choose You!
 description: Brian decides to use Ruby on Rails to build his personal website
 published: 2013-03-09
 authors:
   - Brian
-series: Building koser.us
+series: Building kodex
 tags:
   - programming
 

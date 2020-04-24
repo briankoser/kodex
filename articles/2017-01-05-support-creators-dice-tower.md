@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Support Creators: The Dice Tower"
 description: Brian supports The Dice Tower
 published: 2017-01-05
 authors:
   - Brian
-series: support-creators
+series: Support Creators
 
 # can we generate?
 date_id: 1

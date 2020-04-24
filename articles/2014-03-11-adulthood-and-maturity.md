@@ -1,3 +1,5 @@
+---
+layout: article
 title: Adulthood and Maturity
 description: Brian Koser reflects on adulthood and maturity.
 published: 2014-03-11

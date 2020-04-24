@@ -1,9 +1,11 @@
-title: "Support Creators: My Media Experience
+---
+layout: article
+title: "Support Creators: My Media Experience"
 description: Brian supports My Media Experience
 published: 2017-02-15
 authors:
   - Brian
-series: support-creatores
+series: Support Creators
 
 # can we generate?
 date_id: 1

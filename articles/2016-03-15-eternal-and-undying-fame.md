@@ -1,3 +1,5 @@
+---
+layout: article
 title: Eternal and Undying Fame
 description: Brian found the source of John Resig's fame.
 published: 2016-03-15

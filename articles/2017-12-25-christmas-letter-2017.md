@@ -1,3 +1,5 @@
+---
+layout: article
 title: Christmas Letter 2017
 description: The 2017 Christmas Letter for Brian, Melissa, Lydia, and Amber Koser
 published: 2017-12-25
@@ -6,7 +8,7 @@ authors:
   - Melissa
   - Lydia
   - Amber
-series: christmas-letters
+series: Christmas Letters
 header_image: 2017-12-24-christmas.jpg
 
 # can we generate?

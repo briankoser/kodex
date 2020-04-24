@@ -1,3 +1,5 @@
+---
+layout: article
 title: Number or String?
 description: Brian litss the times you should store a digit as a string
 published: 2016-06-25

@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Support Creators: Inkscape"
 description: Brian supports Inkscape
 published: 2016-10-31
 authors:
   - Brian
-series: support-creators
+series: Support Creators
 
 # can we generate?
 date_id: 1

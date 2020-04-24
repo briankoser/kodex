@@ -1,3 +1,5 @@
+---
+layout: article
 title: The Magic Thread
 description: The Magic Thread cautions about impatience and discontent.
 published: 2016-12-17

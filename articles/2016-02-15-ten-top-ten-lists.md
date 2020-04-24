@@ -1,10 +1,12 @@
+---
+layout: article
 title: Ten Top Ten Lists
 description: Ten Top Ten Lists Brian and Melissa Koser will make.
 published: 2016-02-15
 authors:
   - Brian
   - Melissa
-series: top-tens
+series: Top Tens
 
 # can we generate?
 date_id: 1

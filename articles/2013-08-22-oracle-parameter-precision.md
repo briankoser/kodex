@@ -1,3 +1,5 @@
+---
+layout: article
 title: Oracle Parameter Precision
 description: Brian discusses the surprising lack of parameter precision in Oracle
 published: 2013-08-22
@@ -5,11 +7,6 @@ authors:
   - Brian
 tags:
   - programming
-
-# optional
-header_image: temp.jpg # CDN is understood
-last_updated: 2014-05-21T18:00:00
-is_draft: true # defaults to false
 
 # can we generate?
 date_id: 1

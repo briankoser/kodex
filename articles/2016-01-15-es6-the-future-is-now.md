@@ -1,3 +1,5 @@
+---
+layout: article
 title: "ES6: The Future is Now"
 description: 
 published: 2016-01-15

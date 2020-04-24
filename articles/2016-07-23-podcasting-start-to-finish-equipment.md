@@ -1,9 +1,11 @@
+---
+layout: article
 title: "Podcasting, Start to Finish: Equipment"
 description: The equipment Brian and Melissa Koser use to record their podcast, Ten to One, and other audio projects.
 published: 2016-07-23
 authors:
   - Brian
-series: podcasting-start-to-finish
+series: "Podcasting: Start to Finish"
 
 # can we generate?
 date_id: 1

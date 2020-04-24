@@ -1,3 +1,5 @@
+---
+layout: article
 title: 12 Reasons I Hate SQL Developer
 description: 
 published: 2014-01-02
