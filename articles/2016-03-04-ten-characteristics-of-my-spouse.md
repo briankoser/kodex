@@ -17,7 +17,7 @@ In honor of Valentine’s Day, Melissa chose to do this list of things we love a
 
 # Melissa
 1. Sense of humor
-  - He laughs when I do/say stupid stuff.
+    - He laughs when I do/say stupid stuff.
 2. Respectable
 3. Positive
 4. Hardworking
@@ -27,24 +27,24 @@ In honor of Valentine’s Day, Melissa chose to do this list of things we love a
 8. Fun
 9. Ability to admit when wrong
 10. Prudent
-  - He thinks ahead.
+    - He thinks ahead.
   
 # Brian
 1. Cheerful
-  - 😀
+    - 😀
 2. Forgiving
-  - Good thing for me!
+    - Good thing for me!
 3. Fun
-  - She’s fun to be around.
+    - She’s fun to be around.
 4. Giving
-  - She is always coming up with nice things to do or give to people.
+    - She is always coming up with nice things to do or give to people.
 5. Industrious
-  - 😣
+    - 😣
 6. Kind
 7. Romantic
-  - 😗
+    - 😗
 8. Smart
-  - 🤓
+    - 🤓
 9. Supportive
 10. Thoughtful
-  - She thinks about others.
+    - She thinks about others.

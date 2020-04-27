@@ -9,8 +9,7 @@ series: "Podcasting: Start to Finish"
 
 # can we generate?
 date_id: 1
-excerpt: "Re­cently we started a pod­cast: [Ten to One](http://tto.koser.us)
-, where we make top ten lists about every­thing ([check it out!](http://tto.koser.us))."
+excerpt: "Re­cently we started a pod­cast: Ten to One, where we make top ten lists about every­thing (check it out!)."
 url: article/2016/07/23/1/podcasting-start-to-finish-equipment
 ---
 Recently we started a podcast: [Ten to One](http://tto.koser.us), where we make top ten lists about everything ([check it out!](http://tto.koser.us)). We try for the highest quality possible; for content, of course, but also for the audio quality and editing. In case you want to start a podcast, or just do some intermediate audio recording and editing, I’m going to write a series of articles detailing how we do it. Let’s start with the equipment.

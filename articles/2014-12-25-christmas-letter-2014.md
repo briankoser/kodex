@@ -21,7 +21,7 @@ Greetings to all our dear family and friends! We’ve had quite a full year, mos
 
 <figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2014-04-12-brians-birthday.jpg" alt="Photo from Brian’s birthday party 2014">      <figcaption>Friends at the birthday party</figcaption>  </figure>  
 
-In June we launched a small dream of ours: a recipe website, at [koser.us/?recipes](http://koser.us/recipes)! Currently it only contains Melissa’s recipes, and the design is very basic, but in the coming years we’ll continue to make improvements. In the meantime, feel free to browse for ideas (or just for fun!).
+In June we launched a small dream of ours: a recipe website, at [koser.us/recipes](http://koser.us/recipes)! Currently it only contains Melissa’s recipes, and the design is very basic, but in the coming years we’ll continue to make improvements. In the meantime, feel free to browse for ideas (or just for fun!).
 
 It’s been a pleasure working with such fine folk at PCC, and we do miss the good work atmosphere. Brian enjoyed working in children’s church at PCC, and Melissa misses playing in the church orchestra. We also enjoyed attending a Couples’ Bible Study, taught by Dr. Dale Adkins. Our last day of work at PCC was July 18th, and we moved out the very next day. We praise the Lord for His grace in holding off the rain as we loaded the truck. Huge thanks (again!) for everyone that made it a short move—45 minutes to load the truck, and another 15 minutes to finish cleaning the house. Several of our friends also drove to our new house in Mobile, AL and helped us unload everything into the new apartment.
 

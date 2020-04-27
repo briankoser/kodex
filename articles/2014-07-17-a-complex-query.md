@@ -15,7 +15,34 @@ url: article/2014/07/17/1/a-complex-query
 ---
 I’ve written a lot of SQL, but most of it tends to be pretty simple. Even most of the large queries that I’ve written aren’t complex, they just have a lot of tables and columns to deal with. Probably the most complicated and interesting query I’ve written calculates dates based on a hierarchy of date offsets.
 
-<script src="https://gist.github.com/ca097b7775b95f130a40.js?file=Query-Blog.sql"> </script>
+```sql
+WITH eventdatesrecursive(eventname, displayname, offsetid, parentoffsetid, eventyear, eventdate) AS
+(
+  SELECT eventname, displayname, offsetid, parentoffsetid, eventyear, 
+         (SELECT api.GetSourceDate(eventname, eventyear) FROM dual) AS eventdate
+    FROM (SELECT eventname, displayname, offsetid, parentoffsetid,
+                 EXTRACT(YEAR FROM SYSDATE) + column_value - 2 /*Gets last, this, and next year*/AS eventyear
+            FROM eventdateoffsets
+           CROSS 
+            JOIN table(integers(3))
+           WHERE parentoffsetid IS NULL
+         )
+   UNION ALL
+  SELECT childdates.eventname, childdates.displayname, childdates.offsetid, 
+         childdates.parentoffsetid, eventyear, 
+         (SELECT calendar.api.GetEventDate(eventdatesrecursive.eventdate, childdates.offsetid, childdates.eventoffset, eventyear) FROM dual) AS eventdate
+    FROM calendar.eventdateoffsets childdates
+    JOIN eventdatesrecursive
+      ON childdates.parentoffsetid = eventdatesrecursive.offsetid
+)
+SELECT nvl(overrides.eventname, offsets.eventname) AS eventname, offsets.displayname, 
+       nvl(overrides.eventdate, offsets.eventdate) AS eventdate
+  FROM eventdatesrecursive offsets
+  FULL OUTER
+  JOIN eventdateoverrides overrides
+    ON offsets.eventname = overrides.eventname
+   AND offsets.academicyear = overrides.academicyear;
+```
 
 Recursion, a cross join, a full outer join…there’s a lot of interesting pieces here. Let’s break it down:
 
@@ -29,7 +56,17 @@ WHERE parentoffsetid IS NULL
 
 `integers` is an alias for a simple function that returns a pipelined array of numbers from 1 up to the parameter provided:
 
-<script src="https://gist.github.com/ca097b7775b95f130a40.js?file=integers.sql"> </script>
+```tsql
+create or replace function integers(n in number default null) 
+  return number_array pipelined
+as
+begin
+  for i in 1 .. nvl(n,0) loop
+    pipe row(i);
+  end loop;
+  return;
+end;
+```
 
 So `integers(3)` returns an array containing 1, 2, 3. `table` is an alias for a function that converts the array to an Oracle table, which allows us to join to it. A cross join (aka Cartesian join) matches every row in table A with every row in table B, so no join conditions are necessary.
 
@@ -125,7 +162,23 @@ FROM (SELECT eventname, displayname, offsetid, parentoffsetid,
 
 `api.GetSourceDate()` calculates the date for a source date for a given year. It basically is a giant `CASE` that looks something like:
 
-<script src="https://gist.github.com/ca097b7775b95f130a40.js?file=GetSourceDate.sql"> </script>
+```tsql
+v_StartDate DATE := trunc(to_date(i_Year, 'yyyy'), 'yyyy'); -- First day of the year
+
+CASE p_EventName
+WHEN 'Labor Day' THEN
+  dbms_scheduler.evaluate_calendar_string
+  (
+    calendar_string   => 'FREQ=MONTHLY;BYMONTH=SEP;BYDAY=1MON;',
+    start_date        => v_StartDate,
+    return_date_after => v_StartDate,
+    next_run_date     => v_Date
+);
+…
+END CASE;
+
+RETURN v_Date;
+```
 
 `api.GetSourceAcademicYear()` calculates the academic year (which starts in September when the fall semester begins) for the event.
 
@@ -153,7 +206,28 @@ This the the <abbr>ANSI</abbr>-standard way of doing recursion. You have a query
 
 The `GetEventDate` function basically adds the child date’s offset interval to the parent date’s date to get the child date’s date. It also takes Leap Year into account for dates that are set up to be run on a certain day every year (e.g. Independence Day is always July 4).
 
-<script src="https://gist.github.com/ca097b7775b95f130a40.js?file=GetEventDate.sql"> </script>
+```tsql
+FUNCTION GetEventDate
+(
+  i_ParentDate    IN DATE,
+  i_EventOffsetID IN NUMBER,
+  i_EventOffset   IN INTERVAL DAY TO SECOND,
+  i_EventYear     IN t_Year
+) RETURN DATE
+AS
+  k_NewYearsDayEventOffsetID CONSTANT NUMBER := 3;
+BEGIN
+  RETURN i_ParentDate + i_EventOffset + 
+         -- Case statement handles leap year
+         CASE
+         WHEN api.GetUltimateSource(i_EventOffsetID) = k_NewYearsDayEventOffsetID
+              AND to_char(last_day(to_date('02' || i_EventYear, 'mmyyyy')), 'dd') = '29' /* Is Leap Year? */
+              AND i_EventOffset > NumToDSInterval(58, 'DAY') /* Is after Feb. 28? */
+         THEN 1 
+         ELSE 0 
+         END;
+END GetEventDate;
+```
 
 With the recursion tucked out of the way in a `WITH`, the rest of the query is easy.
 

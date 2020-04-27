@@ -20,7 +20,11 @@ You can also spell numbers out in English, although I’m not sure if that was a
 
 The magic that makes it all happen is the [Julian date](http://en.wikipedia.org/wiki/Julian_calendar).
 
-<script src="https://gist.github.com/8260183.js?file=JulianDate.sql"> </script>    
+```sql
+SELECT to_char(to_date(4321, 'J'), 'J') 
+  FROM dual; 
+-- result: 0004321
+```
 
 This code converts the number to a Julian date (format specifier “J”) then to a string representing the Julian date, which is the number again.
 
@@ -32,8 +36,11 @@ Once we have our date, we’ll convert it to the string we want:
 
 # Spelled Out  
 
-<script src="https://gist.github.com/8260183.js?file=NumberToSpelled.sql"> </script>  
-
+```sql
+SELECT to_char(to_date(4321, 'J'), 'Jsp') 
+  FROM dual;
+-- result: Four Thousand Three Hundred Twenty-One
+```
 The format specifier, “Jsp”, can be broken down into two parts:
 
 - “J” gives us a Julian date
@@ -43,7 +50,11 @@ You can also use “JSP” (gives you the string in all caps) and “jsp” (giv
 
 # Ordinal
 
-<script src="https://gist.github.com/8260183.js?file=NumberToOrdinal.sql"> </script>  
+```sql
+SELECT to_char(to_date(4321, 'J'), 'fmJth') 
+  FROM dual;
+-- result: 4321st
+```
 
 - “fm” removes leading zeroes
 - “J” gives us a Julian date
@@ -52,10 +63,20 @@ You can also use “JSP” (gives you the string in all caps) and “jsp” (giv
 
 # Spelled-Out Ordinals
 
-<script src="https://gist.github.com/8260183.js?file=NumberToSpelledOrdinal.sql"> </script>  
-
+```sql
+SELECT to_char(to_date(4321, 'J'), 'JspTH') 
+  FROM dual; 
+-- Result: Four Thousand Three Hundred Twenty-First
+```
 And if we combine the two, we get spelled-out ordinals.
 
 So get out there and spell some numbers. I’m sure you’re excited to take advantage of your new-found knowledge; if you can’t think of a use for this code, why not add the below to a report?
 
-<script src="https://gist.github.com/8260183.js?file=AprilFools.sql"> </script>
+```sql
+SELECT CASE 
+       WHEN trunc(SYSDATE) = to_date('04-01', 'MM-DD') THEN 
+         to_char(to_date(reportcount, 'J'), 'Jsp') 
+       ELSE reportcount 
+       END AS reportcount 
+  FROM ...
+```

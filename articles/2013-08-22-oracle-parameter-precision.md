@@ -15,16 +15,32 @@ url: article/2013/08/22/1/oracle-parameter-precision
 ---
 When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns:
 
-<script src="https://gist.github.com/8260111.js?file=PLSQLDeclaration1.sql"> </script>
+```sql
+PROCEDURE MyFunction
+(
+  Param1 NUMBER(2),
+  Param2 VARCHAR2(32)
+);
+```
 
 Of course, you get a compile-time error if you try to specify precision for parameters. Instead you have to do:
 
-<script src="https://gist.github.com/8260111.js?file=PLSQLDeclaration2.sql"> </script>    
-
+```sql
+PROCEDURE MyFunction
+(
+  Param1 NUMBER,
+  Param2 VARCHAR2
+);
+```
 Ah, but you can also define parameter types in terms of tables:
 
-<script src="https://gist.github.com/8260111.js?file=PLSQLDeclaration3.sql"> </script>
-
+```sql
+PROCEDURE MyFunction
+(
+  Param1 myschema.mytable.column1%TYPE,
+  Param2 myschema.mytable.column2%TYPE
+);
+```
 And I assumed this enforced the precision of the table’s columns, if it had any.
 
 Never assume.
