@@ -10,7 +10,7 @@ cssFiles:
         <header>
             <h2><a href="{{ article.url }}" class="p-name">{{ article.data.title }}</a></h2>
             <div class="post-header">
-                <span class="post-author">{{ article.data.authors }}</span> ·
+                <span class="post-author">{{ article.data.authors | join(", ") }}</span> ·
                 <time class="post-date" datetime='{{ article.date | machineDate }}'>{{ article.date | readableDate }}</time>
                 <p>{{ article.data.excerpt }}</p>
             </div>
