@@ -21,8 +21,13 @@ module.exports = function(eleventyConfig) {
     // shortcodes
     const autoLoad = require('auto-load');
     const shortcodes = autoLoad('_includes/shortcodes');
-    let addShortcode = (name) => eleventyConfig.addShortcode(name, shortcodes[name].shortcode);
+    let addShortcode = (name) => eleventyConfig.addShortcode(name, shortcodes[name]);
 
     addShortcode('checkbox');
     addShortcode('hr');
+    addShortcode('youtube');
+
+    return {
+        markdownTemplateEngine: "njk"
+    };
 };

@@ -1,4 +1,4 @@
-module.exports = function shortcode (data) {
+module.exports = function (data) {
     return `
 <div class="c-check-field">
     <input type='checkbox' name='${data.for}' id='${data.for}' class='c-check-field__input' value='true' />

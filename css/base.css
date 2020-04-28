@@ -247,8 +247,8 @@ blockquote.quoted p::after {
     content: close-quote; }
   
 figure {
-    margin-left: 0;
-    margin-right: 0; }
+    margin: 1.3rem 0 0 0;
+}
   
 figure.scrolling-table {
     overflow-x: scroll;
