@@ -46,7 +46,7 @@ You can read about and experiment with the other settings, but to start you can 
 - PAN in middle
 - LEVEL at 0 (center)
 - AUX RETURN at -8 (left)
-- TO PHONES/?CTRL ROOM button depressed (up)
+- TO PHONES/CTRL ROOM button depressed (up)
 - TO MAIN MIX button depressed (up)
 - Phantom power (red button) depressed (up)
 - MAIN MIX at 0 (center)

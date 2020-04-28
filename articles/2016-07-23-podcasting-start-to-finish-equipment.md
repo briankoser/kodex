@@ -31,7 +31,7 @@ To prevent plosives (“P” and “B” sounds, which are made with a burst of 
 # Headphones
 Not a necessity, but it does help you know exactly what your mic is picking up. You can plug them directly into the ATR2100.
 
-<hr>
+{% hr %}
 
 The nice thing about the one-person setup is how easy it is to plug everything together:
 

@@ -74,7 +74,7 @@ Where can people find your content online? Facebook? Twitter? Medium? All of the
 ## Consolidate comments
 What makes social media “social”? Comments. And if someone comments about your content on Facebook, you want that on your site as well. Right now the best way to do that seems to be [Bridgy](https://brid.gy/). I haven’t used it yet but I plan to start in 2017.
 
-<hr>
+{% hr %}
 
 # You’ve convinced me. But I’m not technical. Can I have my own site?
 

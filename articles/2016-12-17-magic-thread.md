@@ -13,7 +13,7 @@ url: article/2016/12/17/1/magic-thread
 ---
 Too often, people want what they want (or what they think they want, which is usually "happiness" in one form or another) right now. The irony of their impatience is that only by learning to wait, and by a willingness to accept the bad with the good, do we usually attain those things that are truly worthwhile. "He that can have patience, can have what he will," Benjamin Franklin told us, and this French tale bears him out.
 
-<hr>
+{% hr %}
 
 Once there was a widow who had a son called Peter. He was a strong, able boy, but he did not enjoy going to school and he was forever daydreaming.
 
@@ -109,7 +109,7 @@ His mother laughed and shook her head.
 
 As Peter walked to school with Liese, he noticed what a bright summer morning it was, the kind of morning when it felt good to be alive. Soon he would see his friends and classmates, and even the prospect of lessons didn’t seem so bad. In fact he could hardly wait.
 
-<hr>
+{% hr %}
 
 Written by Anonymous
 

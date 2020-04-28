@@ -14,7 +14,7 @@ url: article/2016/05/21/1/silo-snakes-on-sticks
 ---
 I’ve started bookmarking the interesting Wikipedia articles I stumble on. You’ll see them pop up here with the prefix “SILO”: “Stuff I Learned Online”. Enjoy the tidbits.
 
-<hr>
+{% hr %}
 
 What’s the deal with medical organizations and snakes on sticks? Why is it sometime one snake and sometimes two snakes?
 
@@ -35,7 +35,7 @@ So why is the caduceus used as a medical symbol when it had no connection to med
 
 I keep them straight in my mind by remembering that “ca*duce*us” has a “deuce” in the middle, and it’s the one with two snakes.
 
-<hr>  
+{% hr %}
 
 1. The brass serpent was later called “[Nehushtan](https://www.biblegateway.com/passage/?search=2%20Kings+18:4&amp;version=KJV)”.   
 2. Mercury is the Roman god that corresponded to the Greek god Hermes.

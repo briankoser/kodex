@@ -48,8 +48,7 @@ June saw the launching of our podcast, [Ten to One](http://tto.koser.us)! We wer
 
 July was a busy month! Our church hosted its annual BBQ, Cake, and Pie competition. Melissa won first place for her delicious Baklava Pie, improving on last year’s third place finish. Even now she is planning which new recipes she will use as she continues to mow down the competition. 🏆
 
-<iframe class="video-embed" width="560" height="315" src="https://www.youtube.com/embed/pNFToAqpqL4" frameborder="0" allowfullscreen=""></iframe>
-<p class="video-caption">Crossroads Bake-Off 2016 - News Report on Melissa
+{% youtube {"id":"pNFToAqpqL4", "caption":"Crossroads Bake-Off 2016 - News Report on Melissa"} %}
 
 We also celebrated Cow Appreciation day at Chick-Fil-A! This year Melissa convinced Brian to join her in dressing like a cow. 🐄
 

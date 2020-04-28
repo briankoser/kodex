@@ -14,7 +14,7 @@ url: article/2016/07/29/1/support-creators-dan-carlin
 ---
 I like books, blogs, podcasts, and software. [I’ve](http://tto.koser.us) [created](https://github.com/briankoser) [some](http://briankoser.com/) [myself](http://koser.us) (no books, probably never a book). And I like to support people who create things that I like. Free services are great, but if you made a useful and well-designed app, I’m happy to pay a few dollars for it. We also have a budget item called “Creators”. It’s not a huge amount, but I make sure every month to give back to a creator who’s given me either practical value or just enjoyment. In addition I’m going to start writing about these folks each month as a further “Thank you”.
 
-<hr>
+{% hr %}
 
 # Dan Carlin
 Dan Carlin is one of the most successful professional podcasters. Both of his podcasts, Hardcore History and Common Sense, are quite popular (in the millions of listeners), and deservedly so.
