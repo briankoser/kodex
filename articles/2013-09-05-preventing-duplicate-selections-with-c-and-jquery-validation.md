@@ -16,7 +16,7 @@ url: article/2013/09/05/1/preventing-duplicate-selections-with-c-and-jquery-vali
 ---
 A few days ago, while working on a web page, I got to write my favorite type of code: validation.
 
-<figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2013-09-05-validation.png" alt="jQuery validation" />  </figure>
+{% img {"cdnSrc":"2013-09-05-validation.png", "alt":"jQuery validation"} %}
 
 Ha ha. Actually I’d rather floss with a brick than write validation.
 

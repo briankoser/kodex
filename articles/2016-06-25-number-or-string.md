@@ -15,7 +15,7 @@ url: article/2016/06/25/1/number-or-string
 ---
 If a value contains only numeric digits, when should you store it as a number in the database, and when as a string?
 
-<figure>  <img alt="Flowchart for when to store value as number or string in the database." src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-06-25-number-vs-string.png" />  </figure>  
+{% img {"cdnSrc":"2016-06-25-number-vs-string.png", "alt":"Flowchart for when to store value as number or string in the database."} %}
 
 - Phone numbers, US ZIP codes, and credit card numbers can start with a zero: store them as strings.
 - Product prices can be added (multiple products), subtracted and divided (coupons): store them as numbers.

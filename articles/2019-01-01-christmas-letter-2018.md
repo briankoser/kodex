@@ -20,7 +20,7 @@ Hello again, friends! It’s been a great year in the Koser house, full of activ
 
 Three birthday parties were among the highlights of the year. In February, we hosted a murder mystery escape room for Melissa’s brother Tim’s birthday. Melissa set up the escape room and enjoyed watching everyone try to solve her riddles and clues.
 
-<figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2019-01-01-christmas-letter-escape-room.jpg" alt="Murder Mystery Escape Room characters">      <figcaption>The Murder Mystery suspects</figcaption>    </figure>
+{% img {"cdnSrc":"2019-01-01-christmas-letter-escape-room.jpg", "alt":"Murder Mystery Escape Room characters", "caption":"The Murder Mystery suspects"} %}
 
 Brian’s birthday in April featured a root beer tasting party! We certainly hadn’t realized there are so many distinct kinds of root beer.
 
@@ -28,7 +28,7 @@ Melissa got a surprise birthday party in August where we played The Last Banquet
 
 Maybe our most memorable outing was to the National Shrimp Festival. Brian and Melissa went for the food (fresh shrimp, crab cakes, Brian’s first taste of shark, and fried Oreos), while Lydia really enjoyed getting her face painted for the first time!
 
-<figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2019-01-01-christmas-letter-rainbow-kitty.jpg" alt="Lydia with her Rainbow Kitty face paint">      <figcaption>Rainbow Kitty!</figcaption>    </figure>
+{% img {"cdnSrc":"2019-01-01-christmas-letter-rainbow-kitty.jpg", "alt":"Lydia with her Rainbow Kitty face paint", "caption":"Rainbow Kitty!"} %}
 
 Some other unique experiences from 2018 were petting a kangaroo at the Gulf Coast Zoo, attending a deluxe movie theater (complete with recliners and waiters who bring you fancy food!), and visiting New Orleans with Brian’s sister Megan and her husband Josh to check out the Audubon Aquarium.
 
@@ -36,13 +36,13 @@ By far some of our best memories came from our summer travels. In late May, we w
 
 One week after we returned home, Melissa was able to fly out to Colorado with baby Amber and surprise her sister Melody.
 
-<figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2019-01-01-christmas-letter-union-station.jpg" alt="Union Station, Kansas City, Missouri">      <figcaption>Union Station in Kansas City</figcaption>    </figure>
+{% img {"cdnSrc":"2019-01-01-christmas-letter-union-station.jpg", "alt":"Union Station, Kansas City, Missouri", "caption":"Union Station in Kansas City"} %}
 
 September saw us check an item off our bucket list: we attended a standup special featuring Brian Regan, our favorite comedian! That night may have been the hardest we laughed all year.
 
 The last big event we attended was our first NFL game in November. We met up with Brian’s family in New Orleans and watched the Eagles play the Saints. Since half of the family are Eagles fans and half are Saints fans, only half left the game happy. 🙂
 
-<figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2019-01-01-christmas-letter-eagles-game.jpg" alt="Kosers and Tim at the Eagles-Saints game">      <figcaption>Fly Eagles Fly!</figcaption>    </figure>
+{% img {"cdnSrc":"2019-01-01-christmas-letter-eagles-game.jpg", "alt":"Kosers and Tim at the Eagles-Saints game", "caption":"Fly Eagles Fly!"} %}
 
 Brian also made it to his first NBA game with Tim to see Tim’s Miami Heat beat the New Orleans Pelicans. Tim also finished the year with us, spending the Christmas week playing board games and introducing Brian to some Binzel-favorite Christmas movies.
 

@@ -16,7 +16,7 @@ url: article/2015/08/24/1/browser-wars-a-new-hope
 ---
 Firefox 1.5 is the first browser I specifically remember using (discounting AOL, which was a little more than a browser). Back then Firefox users were hip, the cutting edge. We’ve got tabs, man, so you can visit *multiple web pages in one window!* Eventually Firefox got bloated, taking up too much memory, and my brand loyalty only lasted until about six months after the release of Google Chrome.
 
-<figure>      <img alt="A chubby prairie dog" src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-08-24-bloated.jpg" />      <figcaption>The definition of bloated</figcaption>  </figure>  
+{% img {"cdnSrc":"2015-08-24-bloated.jpg", "alt":"A chubby prairie dog", "caption":"The definition of bloated"} %}
 
 Now Google Chrome is bloated. And ever since Google Reader was dropped, I’ve wondered if it’s wise to have all my eggs in one Google basket.
 
@@ -25,7 +25,7 @@ So I’m open to using another browser, but I do have some prerequisites for swi
 # Evergreen
 This should really go without saying, and all major browsers do fall into this category. Evergreen browsers update frequently & incrementally, instead waiting years in-between releases, and then needing to uninstall the old version and install the new version from scratch. Barbaric.
 
-<figure>      <img alt="An old photograph of two men talking" src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-08-24-versailles.jpg" />      <figcaption>“I installed the latest version of Netscape Navigator last fortnight!”</figcaption>  </figure>
+{% img {"cdnSrc":"2015-08-24-versailles.jpg", "alt":"An old photograph of two men talking", "caption":"“I installed the latest version of Netscape Navigator last fortnight!”"} %}
 
 With as quickly as things move in web land, we need browsers that stay up to date.
 
@@ -47,6 +47,6 @@ My one essential extension. [KeePass](http://keepass.info/) is a password storag
 # Site search from the address bar
 I can’t remember the last time I had to use the old Google trick of prepending "site:" to a search to get results from a specific website. I love being able to search sites from the address bar.
 
-<figure>      <img alt="Searching Amazon.com for Richard Scarry" src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-08-24-amazon-search.png" />      <figcaption>It’s a busy world</figcaption>  </figure>  
+{% img {"cdnSrc":"2015-08-24-amazon-search.png", "alt":"Searching Amazon.com for Richard Scarry", "caption":"It’s a busy world"} %}
 
 I don’t think these are unreasonable requests. I’m willing to give everyone a shot, and see who meets all seven requirements. Except Safari for Windows. Not gonna do it.

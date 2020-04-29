@@ -17,28 +17,28 @@ url: article/2016/08/16/1/podcasting-start-to-finish-mixer
 A mixer (also called a “mixing console” or “mixing board”) is necessary if you record with more than one input, like two microphones or a microphone and an instrument. It can be intimidating to start, so let’s just look at the basics.
 
 # XLR
-<figure><img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-08-16-xenyx-q802-usb-mixer-xlr.jpg" alt="XLR inputs on mixer"></figure>
+{% img {"cdnSrc":"2016-08-16-xenyx-q802-usb-mixer-xlr.jpg", "alt":"XLR inputs on mixer"} %}
 
 The XLR inputs are where you plug in your microphones.
 
 # Gain
-<figure><img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-08-16-xenyx-q802-usb-mixer-gain.jpg" alt="Gain knobs on mixer"></figure>
+{% img {"cdnSrc":"2016-08-16-xenyx-q802-usb-mixer-gain.jpg", "alt":"Gain knobs on mixer"} %}
 
 If you’re interested in a slightly technical discussion, <a href="http://www.offbeatband.com/2009/08/the-difference-between-gain-volume-level-and-loudness/">this is a great article</a> about the difference between gain, volume, and loudness. The oversimplified explanation is: gain is the volume of your audio coming in to the mixer. Adjust it so that the audio signal is loud enough, but stays in the green (20, 0) and doesn’t go into the yellow or red (6, CLIP).
 
-<figure><img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-08-16-xenyx-q802-usb-mixer-signal.png" alt="Signal LED indicator on mixer"></figure>
+{% img {"cdnSrc":"2016-08-16-xenyx-q802-usb-mixer-signal.png", "alt":"Signal LED indicator on mixer"} %}
 
 With this board and the mics listed in the <a href="/podcasting-start-to-finish-equipment">last article</a>, I put the gain almost all the way to maximum.
 
 # Phones
-<figure><img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-08-16-xenyx-q802-usb-mixer-phones.jpg" alt="Phones knob on mixer"></figure>
+{% img {"cdnSrc":"2016-08-16-xenyx-q802-usb-mixer-phones.jpg", "alt":"Phones knob on mixer"} %}
 
 This knob controls the volume coming into the headphones without changing the volume of the audio going into the computer.
 
 # The rest
 You can read about and experiment with the other settings, but to start you can leave everything else at the default:
 
-<figure><img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-08-16-xenyx-q802-usb-mixer-defaults.jpg" alt="Mixer"></figure>
+{% img {"cdnSrc":"2016-08-16-xenyx-q802-usb-mixer-defaults.jpg", "alt":"Mixer"} %}
 
 - COMP at 0 (left)
 - EQ at 0 (center)

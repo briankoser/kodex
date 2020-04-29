@@ -35,7 +35,8 @@ Not a necessity, but it does help you know exactly what your mic is picking up. 
 
 The nice thing about the one-person setup is how easy it is to plug everything together:
 
-<figure>  <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-07-23-podcasting-equipment-one-mic-diagram.png" alt="Diagram showing how to connect one microphone to a computer">  </figure>
+{% img {"cdnSrc":"2015-12-03-scarlet-pimpernel.jpg", "alt":"The Scarlet Pimpernel cast", "caption":"Megan and her boyfriend Josh Hutt, who played the Scarlet Pimpernel"} %}
+{% img {"cdnSrc":"2016-07-23-podcasting-equipment-one-mic-diagram.png", "alt":"Diagram showing how to connect one microphone to a computer"} %}
 
 Just plug the mic into the computer and you’re off to the races.
 
@@ -55,6 +56,6 @@ The [RCA AH216 Stereo headphone adapter](https://www.amazon.com/gp/product/B0000
 
 The new setup looks like this:
 
-<figure>  <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2016-07-23-podcasting-equipment-two-mic-diagram.png" alt="Diagram showing how to connect two microphones to a mixer and computer">  </figure>
+{% img {"cdnSrc":"2016-07-23-podcasting-equipment-two-mic-diagram.png", "alt":"Diagram showing how to connect two microphones to a mixer and computer"} %}
 
 I’ve never used a mixer, so I’ll have to go figure it out before I write part two. 😎

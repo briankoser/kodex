@@ -359,10 +359,7 @@ description: kodex style guide
 <h2>Figures</h2>
 <div class="demo">
     <p>This is a paragraph before the figure, which includes an image and a caption.</p>
-    <figure>
-        <img src="/img/logo.svg" />
-        <figcaption>The kodex site logo</figcaption>
-    </figure>
+    {% img {"src":"logo.svg", "alt":"alternate text", "caption":"The kodex site logo"} %}
     <p>This is a paragraph after the figure, which includes an image and a caption.</p>
 </div>
 

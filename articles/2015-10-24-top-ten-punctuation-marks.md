@@ -40,7 +40,7 @@ So the name “ampersand” comes from when “&” was included at the end of t
 # 6. * Asterisk
 Some refer to the asterisk as the “splat”, which, though lacking respect, is still preferrable to “aster**ick**”. (To those “asterick”-sayers: please note the second “S”. And please note my stern disapproval.) My favorite asterisk is the one in the typeface Source Code Pro: 
 
-<figure> with a picture of the Source Code Pro asterisk <span style="font-family:'Source Code Pro'">*</span> 
+{% img {"cdnSrc":"2015-10-24-source-code-pro-asterisk.png", "alt":"Source Code Pro asterik" %}
 
 I don’t know why, but it makes me smile every time.
 
@@ -56,7 +56,7 @@ It’s a crime that the section sign is not seen in more literature. We’ve sac
 # 2. ¶ Pilcrow
 Ah, the pilcrow; know today chiefly as Microsoft Word’s formatting marks icon. Best named of all punctuation. But mere words will not suffice, so I give to you a montage of pilcrows:
 
-<figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-10-24-pilcrows.png">  </figure>  
+{% img {"cdnSrc":"2015-10-24-pilcrows.png", "alt":"Pilcrows in multiple fonts"} %}
 
 # 1. ? Question mark
 Unlike its workaday brother the period, the question mark does not wear out its welcome with overly-frequent visits. Unlike its melodramatic sister the exclamation mark, it does not stay out all night partying and then bang around the house obnoxiously when arriving home. The question mark is the cat that you almost forget is living with you; it occupies a happy medium, familiar but not constantly present.

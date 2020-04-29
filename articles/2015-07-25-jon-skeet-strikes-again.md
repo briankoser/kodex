@@ -20,6 +20,6 @@ Quick background on [Stack Overflow](http://stackoverflow.com/) and [Jon Skeet](
 
 So I was on Stack Overflow looking up information on C# verbatim string literals when I came across [these answers](http://stackoverflow.com/questions/556133/whats-the-in-front-of-a-string-in-c):
 
-<figure>      <img alt="Stack Overflow question with two answers, the first by Richard Everett and the second by Jon Skeet" src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-07-25-skeet.png" />      <figcaption>Stack Overflow question and answers</figcaption>  </figure>
+{% img {"cdnSrc":"2015-07-25-skeet.png", "alt":"Stack Overflow question with two answers, the first by Richard Everett and the second by Jon Skeet", "caption":"Stack Overflow question and answers"} %}
 
 I thought, *that’s rare to see Jon Skeet as the number two answer on a question, kudos to Richard Everett*. And then I clicked the link in Richard’s answer, and realized it linked to a book. An actual printed book. Authored by Jon Skeet.

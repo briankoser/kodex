@@ -24,21 +24,21 @@ In June we were privileged to host missionaries, the [Jason and Ashley King fami
 
 We spent our summer vacation in Orlando, FL, attending the Dice Tower board gaming convention. For three days we enjoyed playing board games, meeting new people, participating in Dice Tower activities, and just being nerdy among others like us. We even got to play a couple games with one of the founding members of the Dice Tower!
 
-<figure>            <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-06-25-dice-tower-con.jpg" alt="Brian and Melissa at Dice Tower Convention with Sam and David Healey">            <figcaption>Dice Tower Con! With Sam and David Healey!</figcaption>    </figure>      
+{% img {"cdnSrc":"2015-06-25-dice-tower-con.jpg", "alt":"Brian and Melissa at Dice Tower Convention with Sam and David Healey", "caption":"Dice Tower Con! With Sam and David Healey!"} %}
 
 The last night of the convention we attended a pirate dinner show, featuring swashbuckling acrobatics and piratical romance!
 
-<figure>            <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-06-27-pirate-dinner-show.jpg" alt="Brian and Melissa at the Pirate Dinner Show">            <figcaption>Arr!</figcaption>    </figure>      
+{% img {"cdnSrc":"2015-06-27-pirate-dinner-show.jpg", "alt":"Brian and Melissa at the Pirate Dinner Show", "caption":"Arr!"} %}
 
 From June to July we got to spend a whole month with Melissa’s brother Tim before he shipped out to Japan. We had a great time of board games, movies, and just having fun. We also toured the USS Alabama, exploring throughout the entire ship.
 
-<figure>            <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-07-24-uss-mobile.jpg" alt="Melissa and Tim on the USS Mobile">            <figcaption>Tim showing off his Navy knowledge to us lubbers</figcaption>    </figure>      
+{% img {"cdnSrc":"2015-07-24-uss-mobile.jpg", "alt":"Melissa and Tim on the USS Mobile", "caption":"Tim showing off his Navy knowledge to us lubbers"} %}
 
 Around Christmas 2014, we discovered we were going to have a baby! The wonderful ladies of Crossroads Baptist Church threw a baby shower for Melissa in August, and Mom and Megan Koser got to attend. So many wonderful gifts were given, and once again we say thank you!
 
-Our little Lydia was born September 3rd at 7 pm, weighing 7 lbs. 10 oz. and measuring 20 1/2 inches long. Brian was wonderful during labor and delivery, and the staff at Springhill Medical Center were very supportive. The birth went well with no complications, and recovery was swift. Melissa’s parents and sister were present for the birth, and Brian’s family arrived the day after. We also got to see Melissa’s Uncle Leland and Aunt Marty, and a week later her brother Dale and his family visited as well. It was a very exciting time, and we were so glad to see everyone! Many thanks again to everyone who helped us with meals and housework those first few weeks.</p>    
+Our little Lydia was born September 3rd at 7 pm, weighing 7 lbs. 10 oz. and measuring 20 1/2 inches long. Brian was wonderful during labor and delivery, and the staff at Springhill Medical Center were very supportive. The birth went well with no complications, and recovery was swift. Melissa’s parents and sister were present for the birth, and Brian’s family arrived the day after. We also got to see Melissa’s Uncle Leland and Aunt Marty, and a week later her brother Dale and his family visited as well. It was a very exciting time, and we were so glad to see everyone! Many thanks again to everyone who helped us with meals and housework those first few weeks.
 
-<figure>            <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-09-03-lydia.jpg" alt="Lydia newly born">            <figcaption>Lydia on her first day</figcaption>    </figure>      
+{% img {"cdnSrc":"2015-09-03-lydia.jpg", "alt":"Lydia newly born", "caption":"Lydia on her first day"} %}
 
 Just after Lydia was born, Brian switched to a new job. While before he was doing database work in the medical field, now he works for a consulting firm, doing many different projects in many different fields. Although he can no longer walk to work, the new office is close enough to still come home for lunch every day.
 
@@ -48,11 +48,11 @@ We’ve enjoyed getting more involved in our church this year. Melissa is now pl
 
 Brian’s family was able to visit for Thanksgiving again this year, and we enjoyed a hearty meal together. We also got to watch his sister Megan perform in a production of The Scarlet Pimpernel at <abbr title="Pensacola Christian College">PCC</abbr>.
 
-<figure>            <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-12-03-scarlet-pimpernel.jpg" alt="The Scarlet Pimpernel cast">            <figcaption>Megan and her boyfriend Josh Hutt, who played the Scarlet Pimpernel</figcaption>    </figure>
+{% img {"cdnSrc":"2015-12-03-scarlet-pimpernel.jpg", "alt":"The Scarlet Pimpernel cast", "caption":"Megan and her boyfriend Josh Hutt, who played the Scarlet Pimpernel"} %}
 
 Logan Harding took our Christmas photos; hire him to do video or photography at [Shadowpoint Media](http://www.shadowpointmedia.com/). Bekah Haas made Lydia’s scarf and booties; get your own at the [Softly Sweet Facebook page](http://www.facebook.com/softlysweet14/).
 
-<figure>            <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2015-12-06-lydia.jpg" alt="Lydia in her knit hat and scarf">            <figcaption>Our precious girl</figcaption>    </figure>
+{% img {"cdnSrc":"2015-12-06-lydia.jpg", "alt":"Lydia in her knit hat and scarf", "caption":"Our precious girl"} %}
 
 Today is Christmas, and as we post this, we’re enjoying spending Christmas with Brian’s family again, in Louisiana.
 

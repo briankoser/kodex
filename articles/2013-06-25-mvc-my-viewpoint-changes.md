@@ -27,7 +27,7 @@ And, most importantly,
 
 Yes, 1 and 2 are contradictory, thank you for pointing that out. Before you get too smug, let me say that I found what I was looking for.
 
-<figure>      <img src="https://s3.amazonaws.com/cdn.koser.us/img/journal/2013-06-25-mvc4.jpg" alt="ASP.NET MVC" />  </figure>    
+{% img {"cdnSrc":"2013-06-25-mvc4.jpg", "alt":"ASP.NET MVC"} %}
 
 Behold, ASP.NET MVC. Careful, don’t let the sheer power of all those capital letters overwhelm you. For me, ASP.NET MVC is sort of a compromise between learning something completely new, like Rails, and using something I already know, like ASP.NET Webforms.
 
