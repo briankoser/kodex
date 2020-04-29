@@ -1,4 +1,8 @@
 module.exports = function(eleventyConfig) {
+    // metadata
+    const fs = require("fs");
+    const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
+    
     // filters
     const { format, formatISO } = require('date-fns');
 
@@ -10,7 +14,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 
-    // passthrough copies
+    // passthrough copy
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('img');
     eleventyConfig.addPassthroughCopy('js');
@@ -21,10 +25,11 @@ module.exports = function(eleventyConfig) {
     // shortcodes
     const autoLoad = require('auto-load');
     const shortcodes = autoLoad('_includes/shortcodes');
-    let addShortcode = (name) => eleventyConfig.addShortcode(name, shortcodes[name]);
+    let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata));
 
     addShortcode('checkbox');
     addShortcode('hr');
+    addShortcode('img');
     addShortcode('youtube');
 
     return {
