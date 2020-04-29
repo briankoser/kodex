@@ -40,7 +40,7 @@ So the name “ampersand” comes from when “&” was included at the end of t
 # 6. * Asterisk
 Some refer to the asterisk as the “splat”, which, though lacking respect, is still preferrable to “aster**ick**”. (To those “asterick”-sayers: please note the second “S”. And please note my stern disapproval.) My favorite asterisk is the one in the typeface Source Code Pro: 
 
-{% img {"cdnSrc":"2015-10-24-source-code-pro-asterisk.png", "alt":"Source Code Pro asterik" %}
+{% img {"cdnSrc":"2015-10-24-source-code-pro-asterisk.png", "alt":"Source Code Pro asterisk"} %}
 
 I don’t know why, but it makes me smile every time.
 
