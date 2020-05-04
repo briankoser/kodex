@@ -28,6 +28,7 @@ module.exports = function(eleventyConfig) {
     let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata));
 
     addShortcode('checkbox');
+    addShortcode('dialog');
     addShortcode('hr');
     addShortcode('img');
     addShortcode('youtube');
