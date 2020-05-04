@@ -5,8 +5,7 @@ description: "Melissa wrote a poem from the prompt: \"language\"."
 published: 2019-04-01
 authors:
   - Melissa
-tags: 
-  - writing prompts
+series: Writing Prompts
 
 # can we generate?
 date_id: 1

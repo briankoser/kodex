@@ -113,4 +113,4 @@ As Peter walked to school with Liese, he noticed what a bright summer morning it
 
 Written by Anonymous
 
-Excerpted from <i class="work-title">The Book of Virtues</i>.
+Excerpted from <i>The Book of Virtues</i>.

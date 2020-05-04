@@ -7,6 +7,7 @@ authors:
   - Melissa
 tags: 
   - fiction
+series: Writing Prompts
 
 # can we generate?
 date_id: 1

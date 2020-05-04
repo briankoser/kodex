@@ -8,8 +8,8 @@ authors:
   - Melissa
 
 # optional
-tags: 
 series: 
+tags: 
 header_image: temp.jpg # CDN is understood
 last_updated: 2014-05-21T18:00:00
 is_draft: true # defaults to false
