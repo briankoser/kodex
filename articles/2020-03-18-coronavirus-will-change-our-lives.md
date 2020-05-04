@@ -9,7 +9,6 @@ authors:
 date_id: 1
 excerpt: Friday, March 13, 2020 is when I realized that COVID-19 was serious. (Of course it was Friday the 13th.)
 url: article/2020/03/18/1/coronavirus-will-change-our-lives
-slug: coronavirus-will-change-our-lives
 ---
 Friday, March 13, 2020 is when I realized that COVID-19 was serious. (Of course it was Friday the 13th.)
 

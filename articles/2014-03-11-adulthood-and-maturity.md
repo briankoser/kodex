@@ -9,7 +9,6 @@ last_updated: 2014-05-21
 
 date_id: 1
 excerpt: Chil­dren are al­ways watch­ing their par­ents.
-slug: adulthood-and-maturity
 url: article/2014/03/11/1/adulthood-and-maturity
 ---
 
