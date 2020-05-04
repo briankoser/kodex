@@ -5,7 +5,7 @@ module.exports = function (data) {
 <div class="dialog">
 ${data.map(entry => 
     `<p>
-        <b class="speaker ${slugify(entry.speaker)}">${entry.speaker}</b>: 
+        <b class="speaker ${slugify(entry.speaker, {lower: true})}">${entry.speaker}</b>: 
         “${entry.text}”
     </p>`
 ).join('\n')}
