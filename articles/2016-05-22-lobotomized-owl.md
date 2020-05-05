@@ -11,7 +11,6 @@ tags:
 # can we generate?
 date_id: 1
 excerpt: "* + *"
-url: article/2016/05/22/1/lobotomized-owl
 ---
 `* + * {    }`
 

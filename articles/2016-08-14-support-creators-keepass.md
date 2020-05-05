@@ -10,7 +10,6 @@ series: Support Creators
 # can we generate?
 date_id: 1
 excerpt: You should never reuse a pass­word. That means a dif­fer­ent pass­word for every com­puter and web­site ac­count you have. If you’re like me, that means over 100 dif­fer­ent pass­words to keep track of.
-url: article/2016/08/14/1/support-creators-keepass
 ---
 You should never reuse a password. That means a different password for every computer and website account you have. If you’re like me, that means over 100 different passwords to keep track of. There are two solutions to this problem:
 

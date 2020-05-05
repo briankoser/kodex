@@ -12,7 +12,6 @@ series: Writing Prompts
 # can we generate?
 date_id: 1
 excerpt: The bold, brave warrior bellowed his challenge as he charged towards the dragon, cloak streaming behind him and sword held high aloft.
-url: article/2019/09/28/1/the-glory-days
 ---
 *The bold, brave warrior bellowed his challenge as he charged towards the dragon, cloak streaming behind him and sword held high aloft. Unmoved, the great beast roared back its own defiance and swung its mighty tail at the knight, who nimbly rolled under it even as he swung at it with his blade. A great gout of blood gushed forth from the severed stump, and the enraged dragon snarled in pain. As the warrior sprang to his feet, a lash of claws sent him flying backwards, tunic rent and blood spraying. The dragon howled in triumph, while the princess it grasped in its fearsome talons screamed in despair. It lumbered over towards the fallen man and prepared to deliver the death blow. But as its teeth came crashing down, the knight thrust upward with his sword straight into the dragon’s maw. The beast was vanquished, the damsel was saved, and great glory was won!*
 

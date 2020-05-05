@@ -11,7 +11,6 @@ tags:
 
 date_id: 1
 excerpt: I don’t know about you, but the beginning of a programming project is one of my favorite times. And one of my favorite parts of the beginning is choosing the tools.
-url: article/2013/03/09/1/ruby-on-rails-i-choose-you
 ---
 I don’t know about you, but the beginning of a programming project is one of my favorite times. And one of my favorite parts of the beginning is choosing the tools. The possibilities are limitless, and you can easily spend days (or weeks!) browsing Github repositories, reading blogs, trawling through Stack Overflow questions, etc.
 

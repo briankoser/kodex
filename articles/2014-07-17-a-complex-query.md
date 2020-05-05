@@ -11,7 +11,6 @@ tags:
 # can we generate?
 date_id: 1
 excerpt: I’ve written a lot of SQL, but most of it tends to be pretty simple. Even most of the large queries that I’ve written aren’t complex, they just have a lot of tables and columns to deal with. Probably the most complicated and interesting query I’ve written.
-url: article/2014/07/17/1/a-complex-query
 ---
 I’ve written a lot of SQL, but most of it tends to be pretty simple. Even most of the large queries that I’ve written aren’t complex, they just have a lot of tables and columns to deal with. Probably the most complicated and interesting query I’ve written calculates dates based on a hierarchy of date offsets.
 

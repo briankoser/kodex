@@ -9,7 +9,6 @@ authors:
 # can we generate?
 date_id: 1
 excerpt: Now that I have a su­per­com­puter in my pocket (cur­rently a Google Nexus 5), life is less clut­tered.
-url: article/2016/04/18/1/pocket-supercomputer
 ---
 Now that I have a supercomputer in my pocket (currently a [Google Nexus 5](https://en.m.wikipedia.org/wiki/Nexus_5)), life is less cluttered. I no longer need to carry:
 

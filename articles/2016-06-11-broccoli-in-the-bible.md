@@ -11,8 +11,6 @@ tags:
 
 # can we generate?
 date_id: 1
-excerpt: 
-url: article/2016/06/11/1/broccoli-in-the-bible
 ---
 Matthew 14:16-19
 <ol start="16">

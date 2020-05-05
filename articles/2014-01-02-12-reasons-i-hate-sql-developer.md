@@ -13,7 +13,6 @@ last_updated: 2015-07-25
 # can we generate?
 date_id: 1
 excerpt: I don’t like Oracle’s SQL Developer. It’s hard to like a GUI with so many usability problems.
-url: article/2014/01/02/1/12-reasons-i-hate-sql-developer
 ---
 <ins datetime="2015-07-25">I haven’t worked in Oracle for a year now, and I know many of these problems were fixed in later versions. <a href="http://www.thatjeffsmith.com/about/">Jeff Smith</a> sent me a very nice email and offered to help me work through any remaining issues; if I still worked in Oracle I would have taken him up on it.</ins>
 

@@ -14,7 +14,6 @@ last_updated: 2016-08-06
 # can we generate?
 date_id: 1
 excerpt: If you’re into designer board games (you should be!) and you’re online (…you are!), then you’re probably aware of BoardGameGeek, which is the board game website, where aficionados discuss, trade, and celebrate all things board gaming.
-url: article/2015/05/30/1/antonio-a-board-game-geek-trading-tool
 ---
 <ins datetime="2016-08-06">I’ve decommissioned Antonio; it was really only used briefly. You can still access the repository at [Github](http://github.com/briankoser/antonio).</ins>
 

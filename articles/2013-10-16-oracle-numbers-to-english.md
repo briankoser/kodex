@@ -11,7 +11,6 @@ tags:
 # can we generate?
 date_id: 1
 excerpt: Oracle has built-in methods for a lot of things.
-url: article/2013/10/16/1/oracle-numbers-to-english
 ---
 
 Oracle has built-in methods for a lot of things. Converting from Arabic to Roman numerals? [Check](http://docs.oracle.com/cd/E16655_01/server.121/e17209/sql_elements004.htm#r15c1-t61). Generating a byte string containing all valid 1-byte encodings between two given bytes? [Sure](http://docs.oracle.com/cd/E16655_01/appdev.121/e17602/u_raw.htm#ARPLS71430). Generating ASCII-art llamas from the statistics gathered on crossedition triggers? Well, maybe in 13c.

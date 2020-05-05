@@ -10,7 +10,6 @@ tags:
 
 # can we generate?
 date_id: 1
-url: article/2019/03/23/1/friends-poem
 ---
 
 # Rachel

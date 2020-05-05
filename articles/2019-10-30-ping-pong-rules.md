@@ -9,7 +9,6 @@ authors:
 # can we generate?
 date_id: 1
 excerpt: The International Tables Tennis Federation (ITFF) sets the official ruleset for ping pong, "The Laws of Table Tennis".
-url: article/2019/10/30/1/ping-pong-rules
 ---
 
 The International Tables Tennis Federation (ITFF) sets the official ruleset for ping pong, ["The Laws of Table Tennis"](https://www.ittf.com/handbook/). I modified their 2019 handbook by removing rules for doubles and handicapped-player matches, and by rewording rules for clarity.

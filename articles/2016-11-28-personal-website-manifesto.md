@@ -9,7 +9,6 @@ authors:
 # can we generate?
 date_id: 1
 excerpt: I’ve had a per­sonal web­site for years. Back in col­lege I snagged bri­ankoser.com, put up some short pro­gram­ming ar­ti­cles, and ex­per­i­mented with HTML and CSS.
-url: article/2016/11/28/2/personal-website-manifesto
 ---
 I’ve had a personal website for years. Back in college I snagged [briankoser.com](http://briankoser.com), put up some short programming articles, and experimented with HTML and CSS.
 

@@ -10,7 +10,6 @@ series: Support Creators
 # can we generate?
 date_id: 1
 excerpt: Hi, my name is Brian Koser, and I have a prob­lem. I can’t re­sist used book stores, used book sales, flea mar­kets…to be com­pletely hon­est I even browse through the used books at Good­will.
-url: article/2016/09/28/1/support-creators-book-catalog
 ---
 Hi, my name is Brian Koser, and I have a problem. I can’t resist used book stores, used book sales, flea markets…to be completely honest I even browse through the used books at Goodwill. 😳
 

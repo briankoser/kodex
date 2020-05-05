@@ -9,7 +9,6 @@ authors:
 # can we generate?
 date_id: 1
 excerpt: this is lowercase
-url: article/2019/06/19/2/case-by-case
 ---
 - this is lowercase
 - THIS IS UPPERCASE

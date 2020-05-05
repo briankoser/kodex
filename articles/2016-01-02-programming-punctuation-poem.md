@@ -10,7 +10,6 @@ tags: programming
 # can we generate?
 date_id: 1
 excerpt: "I’ve been on somewhat of a punctuation kick lately, and I remembered a poem:"
-url: article/2016/01/02/1/programming-punctuation-poem
 ---
 I’ve been on somewhat of a punctuation kick lately, and I remembered a poem:
 

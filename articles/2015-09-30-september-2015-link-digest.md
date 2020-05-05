@@ -11,7 +11,6 @@ series: Link Digest
 # can we generate?
 date_id: 1
 excerpt: Here are all the interesting links that I found in September 2015 that I deem worthy of being preserved for the future.
-url: article/2015/09/30/1/link-digest-september-2015
 ---
 Here are all the interesting links that I found in September 2015 that I deem worthy of being preserved for the future.
 

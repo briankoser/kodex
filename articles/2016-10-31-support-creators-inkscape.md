@@ -10,7 +10,6 @@ series: Support Creators
 # can we generate?
 date_id: 1
 excerpt: Inkscape is vec­tor-draw­ing soft­ware. Vec­tor graph­ics are dif­fer­ent than the more com­mon raster graph­ics.
-url: article/2016/10/31/1/support-creators-inkscape
 ---
 Inkscape is vector-drawing software. Vector graphics are different than the more common raster graphics. A raster graphic like a JPG says, “The top left pixel is blue. The next pixel to the right is red. The next pixel…” A vector graphic says, “There’s a blue line from the top left to the right of the image. There’s a red circle whose diameter is half the length of the line.”
 

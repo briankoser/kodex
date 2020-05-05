@@ -12,7 +12,6 @@ series: Web Browsers
 # can we generate?
 date_id: 1
 excerpt: Firefox 1.5 is the first browser I specifically remember using (discounting AOL, which was a little more than a browser). Back then Firefox users were hip, the cutting edge. We’ve got tabs, man, so you can visit multiple web pages in one window!
-url: article/2015/08/24/1/browser-wars-a-new-hope
 ---
 Firefox 1.5 is the first browser I specifically remember using (discounting AOL, which was a little more than a browser). Back then Firefox users were hip, the cutting edge. We’ve got tabs, man, so you can visit *multiple web pages in one window!* Eventually Firefox got bloated, taking up too much memory, and my brand loyalty only lasted until about six months after the release of Google Chrome.
 

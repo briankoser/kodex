@@ -12,7 +12,6 @@ series: Christmas Letters
 # can we generate?
 date_id: 1
 excerpt: Merry Christ­mas 2016!
-url: article/2016/12/25/1/christmas-letter-2016
 ---
 Merry Christmas 2016!
 

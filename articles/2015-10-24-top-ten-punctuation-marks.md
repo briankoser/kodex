@@ -10,7 +10,6 @@ series: Top Tens
 # can we generate?
 date_id: 1
 excerpt: I like punc­tu­a­tion marks. Why? Well…maybe be­cause they shape lan­guage so much while go­ing mostly un­no­ticed. Maybe be­cause they’re never spo­ken* and their names are un­known to lay­men, giv­ing them a mys­te­ri­ous air.
-url: article/2015/10/24/1/top-ten-punctuation-marks
 ---
 I like punctuation marks. Why? Well…maybe because they shape language so much while going mostly unnoticed. Maybe because they’re never spoken* and their names are unknown to laymen, giving them a mysterious air. Probably just because they look nice. Here’s my favorite ten, from 10 to 1. 
 

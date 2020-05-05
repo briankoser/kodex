@@ -10,7 +10,6 @@ tags:
 # can we generate?
 date_id: 1
 excerpt: Chik-fil-A has announced a new pilot study, titled "One More Day", at three Mobile, Alabama locations.
-url: article/2019/06/22/2/chik-fil-a-hires-atheists-part-time-in-order-to-open-on-sundays
 ---
 MOBILE, ALABAMA—Chik-fil-A has announced a new pilot study, titled "One More Day", at three Mobile, Alabama locations. The three selected franchises will hire part-time atheist employees to work one day a week, allowing the famously Christian organization to remain open on Sundays.
 

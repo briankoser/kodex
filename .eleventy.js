@@ -4,10 +4,14 @@ module.exports = function(eleventyConfig) {
     const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
     
     // filters
-    const { format, formatISO } = require('date-fns');
+    const { format, formatISO, getDate, getMonth, getYear } = require('date-fns');
 
+    eleventyConfig.addFilter("day", dateObject => getDate(dateObject));
     eleventyConfig.addFilter("machineDate", dateObject => formatISO(dateObject, { representation: "date" }));
+    eleventyConfig.addFilter("month", dateObject => getMonth(dateObject));
+    eleventyConfig.addFilter("padZeroes", (number, zeroes) => number.toString().padStart(zeroes, '0'));
     eleventyConfig.addFilter("readableDate", dateObject => format(dateObject, "MMMM do, yyyy"));
+    eleventyConfig.addFilter("year", dateObject => getYear(dateObject));
 
     // layouts
     eleventyConfig.addLayoutAlias('article', 'layouts/article.njk');

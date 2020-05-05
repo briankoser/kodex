@@ -14,7 +14,6 @@ header_image: 2015-12-06-christmas-tree.jpg
 # can we generate?
 date_id: 1
 excerpt: Merry Christmas 2015!
-url: article/2015/12/25/1/christmas-letter-2015
 ---
 Merry Christmas 2015!
 

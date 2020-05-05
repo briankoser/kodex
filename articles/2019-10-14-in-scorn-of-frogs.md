@@ -12,7 +12,6 @@ series: Writing Prompts
 # can we generate?
 date_id: 1
 excerpt: Bulky and droopy, slimy and gloopy, frogs are a blight to the eye.
-url: article/2019/10/14/1/in-scorn-of-frogs
 ---
 Bulky and droopy, slimy and gloopy, frogs are a blight to the eye.
 

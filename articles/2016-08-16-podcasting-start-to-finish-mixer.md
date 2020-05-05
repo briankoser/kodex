@@ -12,7 +12,6 @@ header_image: 2016-08-16-xenyx-q802-usb-mixer.jpg
 # can we generate?
 date_id: 1
 excerpt: A mixer (also called a “mix­ing con­sole” or “mix­ing board”) is nec­es­sary if you record with more than one in­put, like two mi­cro­phones or a mi­cro­phone and an in­stru­ment. It can be in­tim­i­dat­ing to start, so let’s just look at the ba­sics.
-url: article/2016/08/16/1/podcasting-start-to-finish-mixer
 ---
 A mixer (also called a “mixing console” or “mixing board”) is necessary if you record with more than one input, like two microphones or a microphone and an instrument. It can be intimidating to start, so let’s just look at the basics.
 

@@ -11,7 +11,6 @@ series: Top Tens
 # can we generate?
 date_id: 1
 excerpt: In honor of Valen­tine’s Day, Melissa chose to do this list of things we love about each other. Melissa ranked her list; Brian just al­pha­bet­ized his.
-url: article/2016/03/04/1/ten-characteristics-of-my-spouse
 ---
 In honor of Valentine’s Day, Melissa chose to do this list of things we love about each other. Melissa ranked her list; Brian just alphabetized his.
 

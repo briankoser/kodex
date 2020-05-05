@@ -11,7 +11,6 @@ series: Christmas Letters
 header_image: 2014-12-25-christmas-2014.jpg
 
 date_id: 1
-url: article/2014/12/25/1/christmas-letter-2014
 excerpt: Merry Christmas 2014!
 ---
 Merry Christmas 2014!

@@ -11,7 +11,6 @@ series: Top Tens
 # can we generate?
 date_id: 1
 excerpt: I like mak­ing top ten lists of every­thing. Melissa is­n’t as big on lists (she did­n’t have a fa­vorite color or an­i­mal un­til I made her choose), but I think she’s com­ing around.
-url: article/2016/02/15/1/ten-top-ten-lists
 ---
 I like making top ten lists of everything. Melissa isn’t as big on lists (she didn’t have a favorite color or animal until I made her choose), but I think she’s coming around. 😁 Here are our top ten Top Ten lists we’re going to post here on koser.us.
 

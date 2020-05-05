@@ -11,7 +11,6 @@ tags:
 # can we generate?
 date_id: 1
 excerpt: When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns.
-url: article/2013/08/22/1/oracle-parameter-precision
 ---
 When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns:
 

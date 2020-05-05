@@ -10,7 +10,6 @@ series: Six Degrees
 # can we generate?
 date_id: 3
 excerpt: Are you familiar with the theory of six degrees of separation? It seems that everyone on Earth is within six social connections of everyone else on Earth.
-url: article/2019/10/14/3/six-degrees-of-ioan-gruffud
 ---
 Are you familiar with the theory of [six degrees of separation](https://en.m.wikipedia.org/wiki/Six_degrees_of_separation)? It seems that everyone on Earth is within six social connections of everyone else on Earth. For fun, I'm tracking here the various ways I'm connected to my favorite actor, Ioan Gruffud.
 
