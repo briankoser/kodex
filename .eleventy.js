@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("month", dateObject => getMonth(dateObject));
     eleventyConfig.addFilter("padZeroes", (number, zeroes) => number.toString().padStart(zeroes, '0'));
     eleventyConfig.addFilter("readableDate", dateObject => format(dateObject, "MMMM do, yyyy"));
+    eleventyConfig.addFilter("removeCategoryFromUrl", url => `/${url.split('/').slice(2, -1).join('/')}/`);
     eleventyConfig.addFilter("removeSlugFromUrl", url => `${url.split('/').slice(0, -2).join('/')}/`);
     eleventyConfig.addFilter("year", dateObject => getYear(dateObject));
 
