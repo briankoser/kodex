@@ -1,0 +1,7 @@
+---
+permalink: /_redirects
+---
+
+{%- for article in collections.article -%}
+    {{article.url | removeSlugFromUrl}}    {{article.url}}
+{% endfor %}
