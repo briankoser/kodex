@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("day", dateObject => getDate(dateObject));
     eleventyConfig.addFilter("machineDate", dateObject => formatISO(dateObject, { representation: "date" }));
-    eleventyConfig.addFilter("month", dateObject => getMonth(dateObject));
+    eleventyConfig.addFilter("month", dateObject => getMonth(dateObject) + 1);
     eleventyConfig.addFilter("padZeroes", (number, zeroes) => number.toString().padStart(zeroes, '0'));
     eleventyConfig.addFilter("readableDate", dateObject => format(dateObject, "MMMM do, yyyy"));
     eleventyConfig.addFilter("removeCategoryFromUrl", url => `/${url.split('/').slice(2, -1).join('/')}/`);
