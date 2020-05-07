@@ -1,11 +1,28 @@
 module.exports = function(eleventyConfig) {
+    // libraries
+    const { format, formatISO, getDate, getMonth, getYear } = require('date-fns');
+
     // metadata
     const fs = require("fs");
     const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
-    
-    // filters
-    const { format, formatISO, getDate, getMonth, getYear } = require('date-fns');
 
+    // collections
+    eleventyConfig.addCollection("articlesByYear", function(collection) {
+        let listOfYears = collection.getFilteredByTag("article").map(article => getYear(article.date));
+        let years = [...new Set(listOfYears)];
+        let result = years.reduce( (accumulator, year) => {
+            accumulator.push({
+                "year": year,
+                "articles": collection
+                    .getFilteredByTag("article")
+                    .filter(article => year === getYear(article.date))
+            });
+            return accumulator;
+        }, []);
+        return result;
+    });
+
+    // filters
     eleventyConfig.addFilter("day", dateObject => getDate(dateObject));
     eleventyConfig.addFilter("machineDate", dateObject => formatISO(dateObject, { representation: "date" }));
     eleventyConfig.addFilter("month", dateObject => getMonth(dateObject) + 1);
