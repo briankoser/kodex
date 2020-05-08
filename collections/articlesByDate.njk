@@ -1,0 +1,12 @@
+---
+layout: base
+pagination:
+  data: collections.articlesByDate
+  size: 1
+  alias: dateOfArticles
+permalink: /articles/{{dateOfArticles.urlDate}}/
+---
+<h1>Articles from {{dateOfArticles.displayDate}}</h1>
+
+{% set articles = dateOfArticles.posts %}
+{% include "macros/articles.njk" %}

@@ -7,20 +7,59 @@ module.exports = function(eleventyConfig) {
     const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
 
     // collections
-    eleventyConfig.addCollection("articlesByYear", function(collection) {
-        let listOfYears = collection.getFilteredByTag("article").map(article => getYear(article.date));
-        let years = [...new Set(listOfYears)];
-        let result = years.reduce( (accumulator, year) => {
+    let addDateCollection = (name, tag, dateFormats) => {
+        eleventyConfig.addCollection(name, collection => {
+            let postDates = getPostDates(collection, tag, dateFormats);
+            let uniqueDates = getUniques(postDates);
+            return getUniquePostDates(collection, tag, uniqueDates);
+        });
+    };
+
+    // get every post for a tag by date, in every format provided in dateFormats
+    let getPostDates = (collection, tag, dateFormats) => {
+        let postsByDate = dateFormats
+            .reduce( (accumulator, dateFormat) => {
+                accumulator.push(
+                    collection
+                        .getFilteredByTag(tag)
+                        .map(post => {
+                            return {
+                                "urlDate": format(post.date, dateFormat.url),
+                                "urlFormat": dateFormat.url,
+                                "displayDate": format(post.date, dateFormat.display)
+                            };
+                        })
+                );
+                return accumulator;
+            }, []);
+        return [].concat(...postsByDate); // flatten array; .flat() is in node v11
+    }
+
+    let getUniques = objects => 
+        objects.filter((object, index) => {
+            const objectString = JSON.stringify(object);
+            return index === objects.findIndex(obj => JSON.stringify(obj) === objectString);
+        });
+
+    // get the list of posts for every unique date
+    let getUniquePostDates = (collection, tag, uniqueDates) => {
+        return uniqueDates.reduce( (accumulator, uniqueDate) => {
             accumulator.push({
-                "year": year,
-                "articles": collection
-                    .getFilteredByTag("article")
-                    .filter(article => year === getYear(article.date))
+                "urlDate": uniqueDate.urlDate,
+                "displayDate": uniqueDate.displayDate,
+                "posts": collection
+                    .getFilteredByTag(tag)
+                    .filter(post => uniqueDate.urlDate === format(post.date, uniqueDate.urlFormat))
             });
             return accumulator;
         }, []);
-        return result;
-    });
+    }
+
+    addDateCollection("articlesByDate", "article", [
+        {url: "yyyy", display: "yyyy"},
+        {url: "yyyy/MM", display: "MMMM yyyy"},
+        {url: "yyyy/MM/dd", display: "MMMM do, yyyy"}
+    ]);
 
     // filters
     eleventyConfig.addFilter("day", dateObject => getDate(dateObject));
