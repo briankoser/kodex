@@ -2,16 +2,16 @@
 permalink: /_redirects
 ---
 # Categories are optional
-{% for article in collections.article -%}
+{% for article in collections.publishedArticles -%}
     {{article.url | removeCategoryFromUrl}}    {{article.url}}
 {% endfor %}
 
 # Slugs are optional
-{% for article in collections.article -%}
+{% for article in collections.publishedArticles -%}
     {{article.url | removeSlugFromUrl}}    {{article.url}}
 {% endfor %}
 
 # Categories and slugs are optional
-{% for article in collections.article -%}
+{% for article in collections.publishedArticles -%}
     {{article.url | removeCategoryFromUrl | removeSlugFromUrl}}    {{article.url}}
 {% endfor %}

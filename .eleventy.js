@@ -1,12 +1,22 @@
 module.exports = function(eleventyConfig) {
-    // libraries
+    /*
+        libraries
+    */
     const { format, formatISO, getDate, getMonth, getYear } = require('date-fns');
 
-    // metadata
+
+
+    /*
+        metadata
+    */
     const fs = require("fs");
     const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
 
-    // collections
+
+
+    /*
+        collections
+    */
     let addDateCollection = (name, tag, dateFormats) => {
         eleventyConfig.addCollection(name, collection => {
             let postDates = getPostDates(collection, tag, dateFormats);
@@ -15,13 +25,15 @@ module.exports = function(eleventyConfig) {
         });
     };
 
+    // filter out drafts and unpublished articles
+    let filterPublished = articles => articles.filter(a => a.date <= new Date() && !a.data.is_draft);
+
     // get every post for a tag by date, in every format provided in dateFormats
     let getPostDates = (collection, tag, dateFormats) => {
         let postsByDate = dateFormats
             .reduce( (accumulator, dateFormat) => {
                 accumulator.push(
-                    collection
-                        .getFilteredByTag(tag)
+                    filterPublished(collection.getFilteredByTag(tag))
                         .map(post => {
                             return {
                                 "urlDate": format(post.date, dateFormat.url),
@@ -47,21 +59,28 @@ module.exports = function(eleventyConfig) {
             accumulator.push({
                 "urlDate": uniqueDate.urlDate,
                 "displayDate": uniqueDate.displayDate,
-                "posts": collection
-                    .getFilteredByTag(tag)
+                "posts": filterPublished(collection.getFilteredByTag(tag))
                     .filter(post => uniqueDate.urlDate === format(post.date, uniqueDate.urlFormat))
             });
             return accumulator;
         }, []);
     }
 
+    eleventyConfig.addCollection("publishedArticles", collection =>
+        filterPublished(collection.getFilteredByTag("article"))
+    );
+    
     addDateCollection("articlesByDate", "article", [
         {url: "yyyy", display: "yyyy"},
         {url: "yyyy/MM", display: "MMMM yyyy"},
         {url: "yyyy/MM/dd", display: "MMMM do, yyyy"}
     ]);
 
-    // filters
+
+
+    /*
+        filters
+    */
     eleventyConfig.addFilter("day", dateObject => getDate(dateObject));
     eleventyConfig.addFilter("machineDate", dateObject => formatISO(dateObject, { representation: "date" }));
     eleventyConfig.addFilter("month", dateObject => getMonth(dateObject) + 1);
@@ -71,20 +90,36 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("removeSlugFromUrl", url => `${url.split('/').slice(0, -2).join('/')}/`);
     eleventyConfig.addFilter("year", dateObject => getYear(dateObject));
 
-    // layouts
+
+
+    /*
+        layouts
+    */
     eleventyConfig.addLayoutAlias('article', 'layouts/article.njk');
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 
-    // passthrough copy
+
+
+    /*
+        passthrough copy
+    */
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('img');
     eleventyConfig.addPassthroughCopy('js');
 
-    // settings
+
+
+    /*
+        settings
+    */
     eleventyConfig.setDataDeepMerge(true);
 
-    // shortcodes
+
+
+    /*
+        shortcodes
+    */
     const autoLoad = require('auto-load');
     const shortcodes = autoLoad('_includes/shortcodes');
     let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata));
@@ -95,6 +130,8 @@ module.exports = function(eleventyConfig) {
     addShortcode('img');
     addShortcode('youtube');
 
+
+    
     return {
         markdownTemplateEngine: "njk"
     };
