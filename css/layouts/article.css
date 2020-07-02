@@ -29,7 +29,7 @@ $scale8: ( fontSize: 16rem, line: 1.2777778rem, autoLineCount: 13, autoLineHeigh
   
   .article img {
     height: auto;
-    max-width: 96vw;
+    max-width: 100%;
     width: auto; }
   
   .article .article-body {
