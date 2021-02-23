@@ -108,3 +108,5 @@ dist
 
 # Eleventy
 _site/
+# Local Netlify folder
+.netlify

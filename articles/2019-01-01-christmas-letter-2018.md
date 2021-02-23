@@ -10,9 +10,6 @@ authors:
   - Amber
 series: Christmas Letters
 header_image: 2019-01-01-christmas-letter-christmas-photo.jpg
-
-# can we generate?
-date_id: 1
 excerpt: Hello again, friends! It’s been a great year in the Koser house, full of activities that have brought us closer together as a family.
 ---
 Hello again, friends! It’s been a great year in the Koser house, full of activities that have brought us closer together as a family.

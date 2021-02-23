@@ -7,9 +7,6 @@ authors:
   - Brian
 tags:
   - programming
-
-# can we generate?
-date_id: 1
 excerpt: When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns.
 ---
 When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns:

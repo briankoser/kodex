@@ -6,9 +6,6 @@ published: 2017-02-15
 authors:
   - Brian
 series: Support Creators
-
-# can we generate?
-date_id: 1
 excerpt: I’m in the mid­dle of set­ting up a Home The­atre PC for my liv­ing room.
 ---
 I’m in the middle of setting up a Home Theatre PC for my living room. When I’m done, it will back up files from our other devices, record TV from our antennae and remove commercials, play music and Blu-Ray discs, play Steam games, and a few other tricks.

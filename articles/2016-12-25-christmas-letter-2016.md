@@ -8,9 +8,6 @@ authors:
   - Melissa
   - Lydia
 series: Christmas Letters
-
-# can we generate?
-date_id: 1
 excerpt: Merry Christ­mas 2016!
 ---
 Merry Christmas 2016!

@@ -5,9 +5,6 @@ description: Brian provides a simplified version of the official ITFF ping pong 
 published: 2019-10-30
 authors:
   - Brian
-
-# can we generate?
-date_id: 1
 excerpt: The International Tables Tennis Federation (ITFF) sets the official ruleset for ping pong, "The Laws of Table Tennis".
 ---
 

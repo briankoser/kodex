@@ -7,9 +7,6 @@ authors:
   - Melissa
 tags:
   - fiction
-
-# can we generate?
-date_id: 1
 excerpt: She smiled as the sounds of girl­ish gig­gles and laugh­ter fil­tered through the house. Her daugh­ters were hav­ing friends over for a sleep­over and were thor­oughly en­joy­ing them­selves. She was glad every­thing was go­ing so beau­ti­fully.
 ---
 She smiled as the sounds of girlish giggles and laughter filtered through the house. Her daughters were having friends over for a sleepover and were thoroughly enjoying themselves. She was glad everything was going so beautifully. First, they’d had a princess tea party, complete with costumes, china cups and petit fours. Then they’d watched a movie playing off a bedsheet in the backyard, and shrieked in mock terror at the tires in the yard set to look like alligators (last month’s project). Now they were leaning out of the teepees she had arranged in their bedroom, gazing at the stars on the ceiling and discussing which boy they thought was cutest.

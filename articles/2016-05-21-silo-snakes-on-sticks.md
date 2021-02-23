@@ -6,9 +6,6 @@ published: 2016-05-21
 authors:
   - Brian
 series: SILO
-
-# can we generate?
-date_id: 1
 excerpt: "I’ve started book­mark­ing the in­ter­est­ing Wikipedia ar­ti­cles I stum­ble on. You’ll see them pop up here with the pre­fix “SILO”: “Stuff I Learned On­line”. En­joy the tid­bits."
 ---
 I’ve started bookmarking the interesting Wikipedia articles I stumble on. You’ll see them pop up here with the prefix “SILO”: “Stuff I Learned Online”. Enjoy the tidbits.

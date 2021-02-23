@@ -5,9 +5,6 @@ description:
 published: 2016-07-07
 authors:
   - Brian
-
-# can we generate?
-date_id: 1
 excerpt: If you use Microsoft Word or build websites and have never learned the basics of typography, I’d like you to check out Matthew Butterick’s Practical Typography.
 ---
 If you use Microsoft Word or build websites and have never learned the basics of typography, I’d like you to check out Matthew Butterick’s [Practical Typography](http://practicaltypography.com/)

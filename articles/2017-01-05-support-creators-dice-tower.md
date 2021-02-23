@@ -6,9 +6,6 @@ published: 2017-01-05
 authors:
   - Brian
 series: Support Creators
-
-# can we generate?
-date_id: 1
 excerpt: Melissa and I have been into mod­ern board games for a few years now. We're hov­er­ing at around 100 games in our col­lec­tion, keep­ing about 95% of our pur­chases. The main rea­son for this great suc­cess rate is The Dice Tower.
 ---
 Melissa and I have been into modern board games for a few years now. We’re hovering at around 100 games in our collection, keeping about 95% of our purchases. The main reason for this great success rate is [The Dice Tower](www.dicetower.com).

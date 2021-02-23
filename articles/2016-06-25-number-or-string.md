@@ -7,9 +7,6 @@ authors:
   - Brian
 tags: 
   - programming
-
-# can we generate?
-date_id: 1
 excerpt: If a value contains only numeric digits, when should you store it as a number in the database, and when as a string?
 ---
 If a value contains only numeric digits, when should you store it as a number in the database, and when as a string?

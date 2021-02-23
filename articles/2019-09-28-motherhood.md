@@ -1,14 +1,10 @@
 ---
-layout: article
 title: Motherhood
 description: Melissa's writing from the prompt "motherhood".
-published: 2019-09-28
+published: 2019-09-28T18:00:00
 authors:
   - Melissa
 series: Writing Prompts
-
-# can we generate?
-date_id: 2
 excerpt: "\"I'm tired of being pregnant,\" I thought as I watched my husband eat all the sushi he wanted."
 ---
 "I'm tired of being pregnant," I thought as I watched my husband eat all the sushi he wanted. "Tired of watching what I eat, and watching my husband eat what I can't have but so desperately desire. Maybe we should be done with children after this one."

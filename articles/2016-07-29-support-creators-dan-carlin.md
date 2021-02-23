@@ -6,9 +6,6 @@ published: 2016-07-29
 authors:
   - Brian
 series: Support Creators
-
-# can we generate?
-date_id: 1
 excerpt: I like books, blogs, pod­casts, and soft­ware. I’ve cre­ated some my­self (no books, prob­a­bly never a book). And I like to sup­port peo­ple who cre­ate things that I like.
 ---
 I like books, blogs, podcasts, and software. [I’ve](http://tto.koser.us) [created](https://github.com/briankoser) [some](http://briankoser.com/) [myself](http://koser.us) (no books, probably never a book). And I like to support people who create things that I like. Free services are great, but if you made a useful and well-designed app, I’m happy to pay a few dollars for it. We also have a budget item called “Creators”. It’s not a huge amount, but I make sure every month to give back to a creator who’s given me either practical value or just enjoyment. In addition I’m going to start writing about these folks each month as a further “Thank you”.

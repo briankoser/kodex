@@ -5,11 +5,7 @@ description:
 published: 2015-09-30
 authors:
   - Brian
-tags: 
 series: Link Digest
-
-# can we generate?
-date_id: 1
 excerpt: Here are all the interesting links that I found in September 2015 that I deem worthy of being preserved for the future.
 ---
 Here are all the interesting links that I found in September 2015 that I deem worthy of being preserved for the future.

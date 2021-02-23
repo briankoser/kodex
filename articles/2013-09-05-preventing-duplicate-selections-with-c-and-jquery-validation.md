@@ -7,10 +7,6 @@ authors:
   - Brian
 tags:
   - programming
-
-
-# can we generate?
-date_id: 1
 excerpt: "A few days ago, while working on a web page, I got to write my favorite type of code: validation. Ha ha. Actually I’d rather floss with a brick than write validation."
 ---
 A few days ago, while working on a web page, I got to write my favorite type of code: validation.

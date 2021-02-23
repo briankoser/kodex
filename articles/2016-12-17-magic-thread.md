@@ -5,9 +5,6 @@ description: The Magic Thread cautions about impatience and discontent.
 published: 2016-12-17
 authors:
   - Brian
-
-# can we generate?
-date_id: 1
 excerpt: Too of­ten, peo­ple want what they want (or what they think they want, which is usu­ally "hap­pi­ness" in one form or an­other) right now.
 ---
 Too often, people want what they want (or what they think they want, which is usually "happiness" in one form or another) right now. The irony of their impatience is that only by learning to wait, and by a willingness to accept the bad with the good, do we usually attain those things that are truly worthwhile. "He that can have patience, can have what he will," Benjamin Franklin told us, and this French tale bears him out.

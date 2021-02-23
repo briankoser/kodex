@@ -7,9 +7,6 @@ authors:
   - Melissa
 tags: 
   - poetry
-
-# can we generate?
-date_id: 1
 ---
 
 # Rachel

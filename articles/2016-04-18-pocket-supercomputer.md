@@ -5,9 +5,6 @@ description: Brian Koser lists all the things replaced by smart phones.
 published: 2016-04-18
 authors:
   - Brian
-
-# can we generate?
-date_id: 1
 excerpt: Now that I have a su­per­com­puter in my pocket (cur­rently a Google Nexus 5), life is less clut­tered.
 ---
 Now that I have a supercomputer in my pocket (currently a [Google Nexus 5](https://en.m.wikipedia.org/wiki/Nexus_5)), life is less cluttered. I no longer need to carry:

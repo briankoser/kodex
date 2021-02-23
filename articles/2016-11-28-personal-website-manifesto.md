@@ -1,13 +1,9 @@
 ---
-layout: article
 title: Personal Website Manifesto
 description: Why Brian has a personal website.
-published: 2016-11-28
+published: 2016-11-28T17:00:00
 authors:
   - Brian
-
-# can we generate?
-date_id: 1
 excerpt: I’ve had a per­sonal web­site for years. Back in col­lege I snagged bri­ankoser.com, put up some short pro­gram­ming ar­ti­cles, and ex­per­i­mented with HTML and CSS.
 ---
 I’ve had a personal website for years. Back in college I snagged [briankoser.com](http://briankoser.com), put up some short programming articles, and experimented with HTML and CSS.

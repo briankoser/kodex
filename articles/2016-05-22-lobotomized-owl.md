@@ -7,9 +7,6 @@ authors:
   - Brian
 tags: 
   - programming
-
-# can we generate?
-date_id: 1
 excerpt: "* + *"
 ---
 `* + * {    }`

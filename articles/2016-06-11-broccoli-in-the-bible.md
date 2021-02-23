@@ -8,9 +8,6 @@ authors:
 tags:
   - fiction
   - humor
-
-# can we generate?
-date_id: 1
 ---
 Matthew 14:16-19
 <ol start="16">

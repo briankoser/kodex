@@ -10,9 +10,6 @@ authors:
   - Amber
 series: Christmas Letters
 header_image: 2017-12-24-christmas.jpg
-
-# can we generate?
-date_id: 1
 excerpt: Merry Christ­mas 2017!
 ---
 Merry Christmas 2017!

@@ -6,9 +6,6 @@ published: 2016-01-02
 authors:
   - Brian
 tags: programming
-
-# can we generate?
-date_id: 1
 excerpt: "I’ve been on somewhat of a punctuation kick lately, and I remembered a poem:"
 ---
 I’ve been on somewhat of a punctuation kick lately, and I remembered a poem:

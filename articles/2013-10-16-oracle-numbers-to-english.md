@@ -7,9 +7,6 @@ authors:
   - Brian
 tags:
   - programming
-
-# can we generate?
-date_id: 1
 excerpt: Oracle has built-in methods for a lot of things.
 ---
 

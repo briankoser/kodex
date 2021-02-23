@@ -8,8 +8,6 @@ authors:
 series: Building kodex
 tags:
   - programming
-
-date_id: 1
 excerpt: I don’t know about you, but the beginning of a programming project is one of my favorite times. And one of my favorite parts of the beginning is choosing the tools.
 ---
 I don’t know about you, but the beginning of a programming project is one of my favorite times. And one of my favorite parts of the beginning is choosing the tools. The possibilities are limitless, and you can easily spend days (or weeks!) browsing Github repositories, reading blogs, trawling through Stack Overflow questions, etc.

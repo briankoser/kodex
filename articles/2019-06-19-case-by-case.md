@@ -5,9 +5,6 @@ description: Brian lists the various ways to use casing.
 published: 2019-06-19
 authors:
   - Brian
-
-# can we generate?
-date_id: 1
 excerpt: this is lowercase
 ---
 - this is lowercase

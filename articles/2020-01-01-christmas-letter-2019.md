@@ -11,7 +11,6 @@ authors:
   - Penny
 series: Christmas Letters
 header_image: 2020-01-01-christmas-letter-2019/2019-12-26-family.jpg
-date_id: 1
 
 pictures:
   cruise:

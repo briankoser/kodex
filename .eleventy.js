@@ -15,7 +15,7 @@ module.exports = function(eleventyConfig) {
 
 
     /*
-        collections
+        collection helper functions
     */
     let addDateCollection = (name, tag, dateFormats) => {
         eleventyConfig.addCollection(name, collection => {
@@ -66,10 +66,29 @@ module.exports = function(eleventyConfig) {
         }, []);
     }
 
+
+
+    /*
+        collections
+    */
     eleventyConfig.addCollection("publishedArticles", collection =>
         filterPublished(collection.getFilteredByTag("article"))
     );
-    
+    // todo: generate dateId (I can generate fine, but isn't available in permalink)
+    // eleventyConfig.addCollection("publishedArticles", collection => {
+    //     let formatDate = d => formatISO(d, { representation: "date" });
+    //     let filtered = filterPublished(collection.getFilteredByTag("article"));
+    //     // add dateId (sequential ordered number of all articles from a single day)
+    //     return filtered.map( (article, index, articles) => {
+    //         let dateIndex = articles
+    //             .map(a => a.date)
+    //             .filter(d => formatDate(d) === formatDate(article.date))
+    //             .findIndex(d => d === article.date);
+    //         article.data.dateId = dateIndex + 1;
+    //         return article;
+    //     });
+    // });
+
     addDateCollection("articlesByDate", "article", [
         {url: "yyyy", display: "yyyy"},
         {url: "yyyy/MM", display: "MMMM yyyy"},

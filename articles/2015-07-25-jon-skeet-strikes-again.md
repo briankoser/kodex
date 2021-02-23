@@ -8,9 +8,6 @@ authors:
 tags: 
   - humor
   - programming
-
-# can we generate?
-date_id: 1
 excerpt: "Quick background on Stack Overflow and Jon Skeet: Stack Overflow is a website where you can ask and answer computer programming-related questions. Everyone votes on the questions and answers, and you get points when someone votes for you."
 ---
 Quick background on [Stack Overflow](http://stackoverflow.com/) and [Jon Skeet](http://stackoverflow.com/users/22656/jon-skeet): Stack Overflow is a website where you can ask and answer computer programming-related questions. Everyone votes on the questions and answers, and you get points when someone votes for you. Jon Skeet has the most Stack Overflow points, which means he asks and answers a lot of questions, and he does it well. He’s become a celebrity on the site; you can think of him as the computer programmer’s Chuck Norris:

@@ -7,9 +7,6 @@ authors:
   - Brian
   - Melissa
 series: Top Tens
-
-# can we generate?
-date_id: 1
 excerpt: In honor of Valen­tine’s Day, Melissa chose to do this list of things we love about each other. Melissa ranked her list; Brian just al­pha­bet­ized his.
 ---
 In honor of Valentine’s Day, Melissa chose to do this list of things we love about each other. Melissa ranked her list; Brian just alphabetized his.

@@ -1,16 +1,12 @@
 ---
-layout: article
 title: In Scorn of Frogs
 description: Melissa wrote a poem from the prompt, "frogs".
-published: 2019-10-14
+published: 2019-10-14T17:00:00
 authors:
   - Melissa
 tags: 
   - poetry
 series: Writing Prompts
-
-# can we generate?
-date_id: 1
 excerpt: Bulky and droopy, slimy and gloopy, frogs are a blight to the eye.
 ---
 Bulky and droopy, slimy and gloopy, frogs are a blight to the eye.
