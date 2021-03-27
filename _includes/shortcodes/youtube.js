@@ -1,7 +1,7 @@
 module.exports = function (data) {
     let videoEmbed = '';
     if (data.id == undefined && data.playlistID == undefined) {
-        videoEmbed = '<p>No video available</p>';
+        videoEmbed = '<p>Video unavailable!</p>';
     }
     else if (data.id != undefined) {
         videoEmbed = `
