@@ -126,9 +126,11 @@ module.exports = function(eleventyConfig) {
 
     addShortcode('checkbox');
     addShortcode('dialog');
+    addShortcode('figure');
     addShortcode('hr');
     addShortcode('img');
     addShortcode('youtube');
+    addShortcode('vimeo');
 
 
     
