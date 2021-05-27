@@ -2,22 +2,23 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>{% if title != null %}{{ title }} ·{% endif %} kodex</title>
     <meta name="description" content="{{ description }}">
 
-    <meta property="og:title" content="kodex" />
-    <meta property="og:description" content="The Koser family website" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="koser.us">
+    <meta property="og:type" content="{{ ogtype or "website" }}">
+    <meta property="og:url" content="{{ page.url }}">
+    <meta property="og:title" content="{{ title or "kodex" }}" />
+    <meta property="og:description" content="{{ description or "The Koser family website" }}" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
     <link rel="manifest" href="/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="/img/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
@@ -45,6 +46,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/articles">Articles</a></li>
+            <li><a href="/notes">Notes</a></li>
         </ul>
     </footer>
 </body>
