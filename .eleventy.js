@@ -76,24 +76,28 @@ module.exports = function(eleventyConfig) {
     );
     // todo: generate dateId (I can generate fine, but isn't available in permalink)
     // eleventyConfig.addCollection("publishedArticles", collection => {
-    //     let formatDate = d => formatISO(d, { representation: "date" });
-    //     let filtered = filterPublished(collection.getFilteredByTag("article"));
-    //     // add dateId (sequential ordered number of all articles from a single day)
-    //     return filtered.map( (article, index, articles) => {
-    //         let dateIndex = articles
-    //             .map(a => a.date)
-    //             .filter(d => formatDate(d) === formatDate(article.date))
-    //             .findIndex(d => d === article.date);
-    //         article.data.dateId = dateIndex + 1;
-    //         return article;
-    //     });
-    // });
-
+        //     let formatDate = d => formatISO(d, { representation: "date" });
+        //     let filtered = filterPublished(collection.getFilteredByTag("article"));
+        //     // add dateId (sequential ordered number of all articles from a single day)
+        //     return filtered.map( (article, index, articles) => {
+            //         let dateIndex = articles
+            //             .map(a => a.date)
+            //             .filter(d => formatDate(d) === formatDate(article.date))
+            //             .findIndex(d => d === article.date);
+            //         article.data.dateId = dateIndex + 1;
+            //         return article;
+            //     });
+            // });
+            
     addDateCollection("articlesByDate", "article", [
         {url: "yyyy", display: "yyyy"},
         {url: "yyyy/MM", display: "MMMM yyyy"},
         {url: "yyyy/MM/dd", display: "MMMM do, yyyy"}
     ]);
+
+    eleventyConfig.addCollection("publishedNotes", collection =>
+        filterPublished(collection.getFilteredByTag("note"))
+    );
 
 
 
@@ -107,6 +111,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("readableDate", dateObject => format(dateObject, "MMMM do, yyyy"));
     eleventyConfig.addFilter("removeCategoryFromUrl", url => `/${url.split('/').slice(2, -1).join('/')}/`);
     eleventyConfig.addFilter("removeSlugFromUrl", url => `${url.split('/').slice(0, -2).join('/')}/`);
+    eleventyConfig.addFilter("urlDate", dateObject => format(dateObject, "yyyyMMddHHmmss"));
     eleventyConfig.addFilter("year", dateObject => getYear(dateObject));
 
 
@@ -116,6 +121,7 @@ module.exports = function(eleventyConfig) {
     */
     eleventyConfig.addLayoutAlias('article', 'layouts/article.njk');
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
+    eleventyConfig.addLayoutAlias('note', 'layouts/note.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 
 

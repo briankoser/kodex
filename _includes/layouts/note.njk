@@ -1,0 +1,22 @@
+---
+layout: base
+tags:
+  - note
+cssFiles:
+  - layouts/note
+permalink: "notes/{{page.date | urlDate}}/"
+---
+<article class="note">
+    <header>
+        <span class="post-header">
+            <span class="post-author">{{ author }}</span>
+            <span class="post-date">· {{ page.date | readableDate }}</span>
+            {% if last_updated %}<span class="post-update-date">· Updated {{ last_updated | readableDate }}</span>{% endif %}
+        </span>
+    </header>
+
+    <div class="note-body">
+        <a href="{{ contentUrl }}">{{ contentUrl }}</a>
+        {{ content | safe }}
+    </div>
+</article>

@@ -1,0 +1,18 @@
+{# 
+    `notes` is an array of 11ty posts
+#}
+<div class="note-list">
+{% for note in notes | reverse -%}
+    <article class="h-entry">
+        <header>
+            <div class="post-header">
+                <a href="{{ note.url }}" class="u-url"><time class="dt-published post-date" datetime='{{ note.date | machineDate }}'>{{ note.date | readableDate }}</time></a> ·
+                <span class="p-author post-author">{{ note.data.author }}</span> 
+            </div>
+        </header>
+        <div class="e-content">
+            {{ note.templateContent | safe }}
+        </div>
+    </article>
+{%- endfor %}
+</div>
