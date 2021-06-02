@@ -1,3 +1,5 @@
 {
-    "cdn_url": "https://s3.amazonaws.com/cdn.koser.us/img/journal/"
+    "cdn_url": "https://s3.amazonaws.com/cdn.koser.us/img/",
+    "journal_img_path": "journal/",
+    "notes_img_path": "notes/"
 }

@@ -1,6 +1,6 @@
 module.exports = function (img, metadata) {
     let src = img.cdnSrc != undefined 
-        ? `${metadata.cdn_url}${img.cdnSrc}` 
+        ? `${metadata.cdn_url}${metadata.journal_img_path}${img.cdnSrc}` 
         : `/img/${img.src}`;
 
     let caption = img.caption != undefined 

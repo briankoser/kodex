@@ -19,7 +19,7 @@ permalink: "articles/{{page.date | year}}/{{page.date | month | padZeroes(2)}}/{
     </header>
 
     {% if header_image -%}
-        <img src="{{metadata.cdn_url}}{{ header_image }}" class="article-header-image" />
+        <img src="{{ metadata.cdn_url }}{{ metadata.journal_img_path }}{{ header_image }}" class="article-header-image">
     {%- endif %}
 
     <div class="article-body">

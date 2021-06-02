@@ -16,7 +16,14 @@ permalink: "notes/{{page.date | urlDate}}/"
     </header>
 
     <div class="note-body">
-        <a href="{{ contentUrl }}">{{ contentUrl }}</a>
+        {% if image -%}
+          <img src="{{ metadata.cdn_url }}{{ metadata.notes_img_path }}{{ image }}">
+        {%- endif %}
+        
+        {% if contentUrl -%}
+          <a href="{{ contentUrl }}">{{ contentUrl }}</a>
+        {%- endif %}
+        
         {{ content | safe }}
     </div>
 </article>
