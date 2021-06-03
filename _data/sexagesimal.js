@@ -38,7 +38,7 @@ function sxg_to_num($s) {
     $s = substr($s, 1, $j);
   }
   for ($i=0; $i<$j; $i+=1) { // iterate from first to last char of $s
-    $c = ord($s[$i]); //  put current ASCII of char into $c
+    $c = $s[$i].charCodeAt(0); //  put current ASCII of char into $c
     if ($c>=48 && $c<=57) { $c=$c-48; }
     else if ($c>=65 && $c<=72) { $c-=55; }
     else if ($c===73 || $c===108) { $c=1; } // typo cap I lower l to 1
