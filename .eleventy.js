@@ -154,6 +154,7 @@ module.exports = function(eleventyConfig) {
     addShortcode('figure');
     addShortcode('hr');
     addShortcode('img');
+    addShortcode('quote');
     addShortcode('youtube');
     addShortcode('vimeo');
 

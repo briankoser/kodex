@@ -21,7 +21,7 @@ permalink: "notes/{{page.date | urlDate}}/"
         {%- endif %}
         
         {% if contentUrl -%}
-          <a href="{{ contentUrl }}">{{ contentUrl }}</a>
+          <a href="{{ contentUrl.url }}">{{ contentUrl.name or contentUrl.url }}</a>
         {%- endif %}
         
         {{ content | safe }}
