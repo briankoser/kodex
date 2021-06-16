@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
     */
     const fs = require("fs");
     const metadata = JSON.parse(fs.readFileSync("_data/metadata.json"));
+    const tokens = JSON.parse(fs.readFileSync("_data/tokens.json"));
 
 
 
@@ -147,7 +148,7 @@ module.exports = function(eleventyConfig) {
     */
     const autoLoad = require('auto-load');
     const shortcodes = autoLoad('_includes/shortcodes');
-    let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata));
+    let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata, tokens));
 
     addShortcode('checkbox');
     addShortcode('dialog');

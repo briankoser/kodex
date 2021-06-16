@@ -24,6 +24,7 @@
 
     <link rel="stylesheet" href="/css/modern-normalize.css" />
     <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/theme.css" />
     <link rel="stylesheet" href="/css/boilerform.css" />
     {% for cssFile in cssFiles -%}
         <link rel="stylesheet" href="/css/{{ cssFile }}.css" />
@@ -31,23 +32,27 @@
 </head>
 <body>
     <header class="site-header">
-        <div class="site-header-block">
-            <nav>
-                <span class="site-title">kodex</span>
-                <a href="#footerNav" class="footer-nav-link">Menu</a>
-            </nav>
+        <div class="site-header-title">
+            <span class="site-title">kodex</span>
+        </div>
+        <div class="site-header-nav-link">
+            <a href="#siteNav" class="site-nav-link">Menu</a>
         </div>
     </header>
-    <main class="container body-content">
+    <main class="container site-main">
         {{ content | safe }}
     </main>
-    <footer class="site-footer">
-        <ul id="footerNav" class="footer-nav" role="navigation">
+    <aside class="site-sidebar"><!--Sidebar content--></aside>
+    <nav class="site-nav">
+        <ul id="siteNav" role="navigation">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/articles">Articles</a></li>
             <li><a href="/notes">Notes</a></li>
         </ul>
+    </nav>
+    <footer class="site-footer">
+        Words are © Brian Koser 2021 · Code is MIT Licensed · Good vibes are public domain
     </footer>
 </body>
 </html>

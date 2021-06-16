@@ -252,14 +252,14 @@ h2, .h2 {
 }
 
 h1, .h1 {
-    font-size: var(--s4);
+    font-size: var(--s3);
     margin-top: var(--s2);
     /* margin-bottom: var(--s1); */
     letter-spacing: -0.03em; 
 }
 
 h2, .h2 {
-    font-size: var(--s2);
+    font-size: var(--s1);
     margin-top: var(--s1);
     /* margin-bottom: var(--s1); */
 }
@@ -274,6 +274,19 @@ h6, .h6 {
 h3, .h3,
 h4, .h4 {
     font-size: var(--s1);
+}
+
+@media only screen and (min-width: 800px) {
+    h1, .h1 {
+        font-size: var(--s4);
+        margin-top: var(--s2);
+        letter-spacing: -0.03em; 
+    }
+    
+    h2, .h2 {
+        font-size: var(--s2);
+        margin-top: var(--s1);
+    }    
 }
 
 
@@ -293,13 +306,35 @@ h4, .h4 {
 */
 ul,
 ol {
-  list-style-position: outside; }
+    list-style-position: outside; 
+}
 
 ul ul,
 ol ol,
 ul ol,
 ol ul {
-  margin: 0 0 0 1rem; }
+    margin: 0 0 0 1rem; 
+}
+
+ul li:nth-of-type(5n + 1)::marker {
+    color: var(--colorBrian);
+}
+
+ul li:nth-of-type(5n + 2)::marker {
+    color: var(--colorMelissa);
+}
+
+ul li:nth-of-type(5n + 3)::marker {
+    color: var(--colorLydia);
+}
+
+ul li:nth-of-type(5n + 4)::marker {
+    color: var(--colorAmber);
+}
+
+ul li:nth-of-type(5n + 5)::marker {
+    color: var(--colorPenny);
+}
 
 ul.horizontal li {
   display: inline-block; }
@@ -616,7 +651,17 @@ code {
 /* todo: https://codepen.io/ghepting/pen/tLnHK/ */
 a {
     color: black;
-    white-space: nowrap; }
+    white-space: nowrap; 
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    white-space: initial;
+}
   
 /* todo: practical typography p123  */
 sup,
@@ -662,11 +707,13 @@ kbd kbd {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
     color: #333;
     display: inline-block;
-    font-family: sans-serif;
+    font-family: ui-sans-serif, sans-serif;
+    font-size: 1em;
     margin: 0 0.1em;
     padding: 0.1em 0.6em;
     text-shadow: 0 1px 0 #fff;
-    white-space: nowrap; }
+    white-space: nowrap; 
+}
 
 
 
@@ -676,7 +723,6 @@ kbd kbd {
 /* 
     hr
 */
-
 
 
 
@@ -804,69 +850,81 @@ kbd kbd {
 */
 body {
     display: grid;
-    grid-template-rows: 12vh 1fr 12vh;
-    grid-template-columns: 0.5rem 1fr 0.5rem;
+    grid-template-columns: 1fr;
+    gap: var(--s3);
     grid-template-areas: 
-        "header      header header" 
-        "gutter-left main   gutter-right" 
-        "footer      footer footer";
-    grid-row-gap: 23.4px;
-    row-gap: 1.3rem; }
-  
+        "header" 
+        "main" 
+        "sidebar"    
+        "nav" 
+        "footer";
+}
+
+.site-header,
+.site-main,
+.site-sidebar,
+.site-nav {
+    padding: 0 var(--s1);
+}
+
 .site-header {
-    grid-area: header; }
+    grid-area: header; 
+}
   
-.body-content {
-    grid-area: main; }
-  
+.site-main {
+    grid-area: main; 
+}
+
+.site-sidebar {
+    grid-area: sidebar;
+}
+
+.site-nav {
+    grid-area: nav;
+}
+
 .site-footer {
-    grid-area: footer; }
-  
-@media only screen and (min-width: 1000px) {
-    body {
-        grid-template-columns: 1fr 1fr 1fr; } 
+    grid-area: footer; 
 }
 
 .site-header {
     display: flex;
-    align-items: center; }
+}
 
-.site-header .site-header-block {
-    height: 12vh;
-    width: 100%; }
+.site-header .site-header-title {
+    margin: auto; 
+}
 
-.site-header .site-header-block nav {
-    height: 100%;
-    margin-left: 1vw;
-    display: flex;
-    align-items: center; }
-
-.site-header .site-header-block .site-title {
-    flex-grow: 2;
+.site-header .site-title {
     font-family: ConcourseBlack;
     font-size: var(--s4);
 }
-    
-.site-header .site-header-block .footer-nav-link {
-    flex-grow: 1; }
+
+@media only screen and (min-width: 800px) {
+    body {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: 
+            "header header  header  header  header  header" 
+            "nav    main    main    main    sidebar sidebar" 
+            "footer footer  footer  footer  footer  footer";
+    }
+
+    .site-header .site-header-nav-link {
+        display: none;
+    }
+}
+
+.site-nav li {
+    list-style-type: none; 
+}
 
 .site-footer {
-    color: white; }
+    background-color: black;
+    color: white;
+    padding: var(--s1);
+}
 
 .site-footer a {
     color: white;
-    text-decoration: none; }
-  
-.site-footer {
-    display: flex;
-    align-items: center;
-    background-color: black; }
-
-.site-footer .footer-nav {
-    display: flex;
-    flex-basis: 90%;
-    justify-content: space-around;
-    justify-content: space-evenly; }
-
-.site-footer .footer-nav li {
-    list-style-type: none; }
+    text-decoration: none; 
+}
