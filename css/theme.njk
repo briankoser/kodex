@@ -3,9 +3,23 @@ permalink: "css/theme.css"
 ---
 
 :root {
-  --colorBrian: {{ tokens.colorBrian }};
-  --colorMelissa: {{ tokens.colorMelissa }};
-  --colorLydia: {{ tokens.colorLydia }};
-  --colorAmber: {{ tokens.colorAmber }};
-  --colorPenny: {{ tokens.colorPenny }};
+  {% for author in metadata.authors -%}
+    --color-{{author | lower}}: {{ tokens['color' + author] }};
+  {%- endfor %}
 }
+
+{% for author in metadata.authors %}
+  ul li:nth-of-type(5n + {{loop.index}})::marker {
+    color: var(--color-{{author | lower}});
+  }
+
+  .{{author | lower}} a {
+    text-decoration-color: var(--color-{{author | lower}});
+  }
+{% endfor %}
+
+
+
+
+
+

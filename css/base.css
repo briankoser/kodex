@@ -24,7 +24,13 @@
     --line-height-small: calc(0.7 * var(--ratio));
     --measure: 60ch;
     
-    --color-black: black;
+    --color-black: hsl(33, 100%, 8%);
+    --color-dark-grey: hsl(32, 73%, 17%);
+    --color-grey: hsl(31, 64%, 26%);
+    --color-light-grey: hsl(31, 30%, 59%);
+    --color-white: hsl(32, 100%, 92%);
+
+    --animation-length: 250ms;
 
     font-size: calc(1rem + 0.5vw);
     line-height: var(--ratio);
@@ -116,15 +122,12 @@
     padding: 0;
 }
 
-::-moz-selection {
-    background: black;
-    color: white;
-    text-shadow: none; }
-  
+::-moz-selection, 
 ::selection {
-    background-color: black;
-    color: white;
-    text-shadow: none; }
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-shadow: none; 
+}
 
 
 
@@ -175,6 +178,8 @@ body, .body {
     font-family: var(--font-regular);
     font-variant-ligatures: common-ligatures;
     font-variant-numeric: oldstyle-nums;
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 p + p {
@@ -316,26 +321,6 @@ ol ul {
     margin: 0 0 0 1rem; 
 }
 
-ul li:nth-of-type(5n + 1)::marker {
-    color: var(--colorBrian);
-}
-
-ul li:nth-of-type(5n + 2)::marker {
-    color: var(--colorMelissa);
-}
-
-ul li:nth-of-type(5n + 3)::marker {
-    color: var(--colorLydia);
-}
-
-ul li:nth-of-type(5n + 4)::marker {
-    color: var(--colorAmber);
-}
-
-ul li:nth-of-type(5n + 5)::marker {
-    color: var(--colorPenny);
-}
-
 ul.horizontal li {
   display: inline-block; }
 
@@ -391,7 +376,8 @@ input[type='week'] {
     font-feature-settings: "lnum"; }
   
 form {
-    border-color: black; }
+    border-color: var(--color-black); 
+}
   
 form[class*="-field"] {
     display: inline-block;
@@ -415,7 +401,7 @@ fieldset {
     border: none; }
   
 legend {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color-black);
     font-size: 1.5625rem;
     line-height: 1.95rem;
     margin-bottom: 1.3rem;
@@ -442,8 +428,8 @@ select {
   
 input,
 select {
-    background-color: white;
-    border: 1px solid black;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
     font-size: 1rem;
     line-height: 1.3rem;
     padding: 0.6em 0.8em;
@@ -455,22 +441,24 @@ input {
     display: block; }
   
 button {
-    background: black;
-    border: 1px solid black;
+    background: var(--color-black);
+    border: 1px solid var(--color-black);
     border-radius: 2px;
-    color: white;
+    color: var(--color-white);
     cursor: pointer;
     display: inline-block;
     font-size: 1rem;
     margin: 0;
     padding: 0.5em 1.3em;
     text-decoration: none;
-    text-align: center; }
+    text-align: center; 
+}
   
 button:hover,
 button:focus {
-    background-color: white;
-    color: black; }
+    background-color: var(--color-white);
+    color: var(--color-black); 
+}
   
 select {
     display: block;
@@ -646,12 +634,26 @@ b,
 i,
 small,
 code {
-    line-height: 0; }
+    line-height: 0; 
+}
   
-/* todo: https://codepen.io/ghepting/pen/tLnHK/ */
 a {
-    color: black;
-    white-space: nowrap; 
+    white-space: nowrap;
+    text-decoration-thickness: 0.1em;
+    transition: text-decoration-thickness var(--animation-length) ease-in-out;
+}
+
+a,
+nav a:visited {
+    color: var(--color-black);
+}
+
+a:visited {
+    color: var(--color-dark-grey);
+}
+
+a:hover {
+    text-decoration-thickness: 0.3em;
 }
 
 h1 a,
@@ -919,12 +921,12 @@ body {
 }
 
 .site-footer {
-    background-color: black;
-    color: white;
+    background-color: var(--color-black);
+    color: var(--color-white);
     padding: var(--s1);
 }
 
 .site-footer a {
-    color: white;
+    color: var(--color-white);
     text-decoration: none; 
 }
