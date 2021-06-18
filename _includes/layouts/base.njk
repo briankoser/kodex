@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="/css/{{ cssFile }}.css" />
     {% endfor %}
 </head>
-<body>
+<body class="{{ authors[0] | lower if (authors | length) == 1 }}">
     <header class="site-header">
         <div class="site-header-title">
             <span class="site-title">kodex</span>
