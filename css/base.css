@@ -30,7 +30,9 @@
     --color-light-grey: hsl(31, 30%, 59%);
     --color-white: hsl(32, 100%, 92%);
 
-    --animation-length: 250ms;
+    --animation-length-enter: 150ms;
+    --animation-length-exit: 300ms;
+    --animation-length-move: 500ms;
 
     font-size: calc(1rem + 0.5vw);
     line-height: var(--ratio);
@@ -640,7 +642,7 @@ code {
 a {
     white-space: nowrap;
     text-decoration-thickness: 0.1em;
-    transition: text-decoration-thickness var(--animation-length) ease-in-out;
+    transition: text-decoration-thickness var(--animation-length-exit) ease-in-out;
 }
 
 a,
