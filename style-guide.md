@@ -363,8 +363,5 @@ description: kodex style guide
     <p>This is a paragraph after the figure, which includes an image and a caption.</p>
 </div>
 
-<h2>Longform</h2>
-<!-- todo: typography -->
-
 <h2>Article</h2>
 <!-- todo: typography -->

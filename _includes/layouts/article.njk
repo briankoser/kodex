@@ -3,13 +3,12 @@ layout: base
 tags:
   - article
 cssFiles:
-  - layouts/article
   - components/dialog
   - components/hr
   - components/youtube
 permalink: "articles/{{page.date | year}}/{{page.date | month | padZeroes(2)}}/{{page.date | day | padZeroes(2)}}/{{dateId}}/{{page.fileSlug}}/"
 ---
-<article class="article">
+<article class="article stack">
     <header>
         <h1>{{ title }}</h1>
         <span class="post-header">

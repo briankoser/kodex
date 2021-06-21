@@ -1,0 +1,54 @@
+.constant-line-breaks {
+    width: 21ch; }
+  
+/* add tracking for strings of 3+ digits */
+.digit-string {
+    letter-spacing: 0.05em; }
+  
+.fraction {
+    -webkit-font-feature-settings: "frac" 1;
+    -moz-font-feature-settings: "frac" 1;
+    font-feature-settings: "frac" 1; }
+  
+.small-caps {
+    text-transform: uppercase;
+    -webkit-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
+    -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
+    font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1; }
+  
+.text-glow {
+    text-shadow: 0 0 5px white, 0 0 10px yellow; }
+  
+.uppercase {
+    -webkit-font-feature-settings: 'lnum' 1;
+    -moz-font-feature-settings: 'lnum' 1;
+    font-feature-settings: 'lnum' 1;
+    text-transform: uppercase; }
+  
+/* Hide visually and from screen readers */
+.hidden {
+    display: none !important; }
+  
+/* Hide visually and from screen readers, but maintain layout */
+.invisible {
+    visibility: hidden; }
+  
+/* Hide only visually, but have it available for screen readers */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto; }
