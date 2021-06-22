@@ -20,6 +20,7 @@
     --font-regular: Concourse, var(--font-sans-stack);
     --font-heading: ConcourseLight, var(--font-sans-stack);
     --font-mono: FiraMono, SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+    --font-caption: 'Concourse C4', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --line-height: var(--ratio);
     --line-height-small: calc(0.7 * var(--ratio));
     --measure: 60ch;
@@ -33,6 +34,8 @@
     --animation-length-enter: 150ms;
     --animation-length-exit: 300ms;
     --animation-length-move: 500ms;
+
+    --border-radius: 5px;
 
     font-size: calc(1rem + 0.5vw);
     line-height: var(--line-height);
@@ -184,12 +187,12 @@ body, .body {
     color: var(--color-black);
 }
 
-p + p {
-    margin-top: var(--s0);
+p {
+    margin: var(--s0) 0;
 }
-  
-pre {
-    page-break-inside: avoid; 
+
+p:first-child {
+    margin-top: 0;
 }
   
 pre,
@@ -197,13 +200,16 @@ code,
 samp,
 keyboard {
     font-variant-ligatures: no-common-ligatures;
-    font-variant-numeric: tabular-nums; 
+    font-variant-numeric: tabular-nums;
+}
+
+pre {
+    page-break-inside: avoid;
+    line-height: 1;
 }
   
 blockquote {
-    /* todo: indent from left, italicize or reduce font size */
-    /* todo: align citation right, reduce font size, set off with em dash */
-    margin-left: 1rem;
+    margin-left: 2em;
 }
 
 blockquote.quoted p {
@@ -226,6 +232,10 @@ figure {
 figure.scrolling-table {
     overflow-x: scroll;
     max-width: 100%; 
+}
+
+figcaption {
+
 }
 
 
@@ -261,7 +271,7 @@ h2, .h2 {
 h1, .h1 {
     font-size: var(--s3);
     margin-top: var(--s2);
-    /* margin-bottom: var(--s1); */
+    margin-bottom: var(--s1);
     letter-spacing: -0.03em; 
 }
 
@@ -280,10 +290,13 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
     font-weight: normal;
+    margin-top: var(--s0);
 }
 
 h3, .h3,
-h4, .h4 {
+h4, .h4,
+h5, .h5,
+h6, .h6 {
     font-size: var(--s1);
 }
 
@@ -502,10 +515,14 @@ textarea {
     overflow: auto;
     resize: vertical;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: var(--border-radius);
+    padding: var(--s-2);
+}
   
 textarea:not([rows]) {
-    min-height: 180px; }
+    min-height: var(--s5);
+}
   
 .form-group + .form-group {
     padding-top: 1.3rem; }
@@ -546,9 +563,11 @@ table {
   
 table .numeric-column {
     text-align: right; }
-  
+
+figcaption,
 caption {
-    font-family: 'Concourse C4', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+    font-family: var(--font-caption);
+}
   
 thead,
 tfoot {
@@ -694,13 +713,6 @@ abbr,
     -ms-hyphens: manual;
     -webkit-hyphens: manual;
     hyphens: manual; }
-  
-/* don't use in title-case headings */
-abbr.smallcaps {
-    font-family: 'Concourse C4';
-    /* todo: correct font? */
-    text-transform: lowercase;
-    /* todo: or uppercase? */ }
   
 code,
 var {

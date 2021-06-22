@@ -1,4 +1,4 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
     /*
         libraries
     */
@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
     // get every post for a tag by date, in every format provided in dateFormats
     let getPostDates = (collection, tag, dateFormats) => {
         let postsByDate = dateFormats
-            .reduce( (accumulator, dateFormat) => {
+            .reduce((accumulator, dateFormat) => {
                 accumulator.push(
                     filterPublished(collection.getFilteredByTag(tag))
                         .map(post => {
@@ -48,7 +48,7 @@ module.exports = function(eleventyConfig) {
         return [].concat(...postsByDate); // flatten array; .flat() is in node v11
     }
 
-    let getUniques = objects => 
+    let getUniques = objects =>
         objects.filter((object, index) => {
             const objectString = JSON.stringify(object);
             return index === objects.findIndex(obj => JSON.stringify(obj) === objectString);
@@ -56,7 +56,7 @@ module.exports = function(eleventyConfig) {
 
     // get the list of posts for every unique date
     let getUniquePostDates = (collection, tag, uniqueDates) => {
-        return uniqueDates.reduce( (accumulator, uniqueDate) => {
+        return uniqueDates.reduce((accumulator, uniqueDate) => {
             accumulator.push({
                 "urlDate": uniqueDate.urlDate,
                 "displayDate": uniqueDate.displayDate,
@@ -77,23 +77,23 @@ module.exports = function(eleventyConfig) {
     );
     // todo: generate dateId (I can generate fine, but isn't available in permalink)
     // eleventyConfig.addCollection("publishedArticles", collection => {
-        //     let formatDate = d => formatISO(d, { representation: "date" });
-        //     let filtered = filterPublished(collection.getFilteredByTag("article"));
-        //     // add dateId (sequential ordered number of all articles from a single day)
-        //     return filtered.map( (article, index, articles) => {
-            //         let dateIndex = articles
-            //             .map(a => a.date)
-            //             .filter(d => formatDate(d) === formatDate(article.date))
-            //             .findIndex(d => d === article.date);
-            //         article.data.dateId = dateIndex + 1;
-            //         return article;
-            //     });
-            // });
-            
+    //     let formatDate = d => formatISO(d, { representation: "date" });
+    //     let filtered = filterPublished(collection.getFilteredByTag("article"));
+    //     // add dateId (sequential ordered number of all articles from a single day)
+    //     return filtered.map( (article, index, articles) => {
+    //         let dateIndex = articles
+    //             .map(a => a.date)
+    //             .filter(d => formatDate(d) === formatDate(article.date))
+    //             .findIndex(d => d === article.date);
+    //         article.data.dateId = dateIndex + 1;
+    //         return article;
+    //     });
+    // });
+
     addDateCollection("articlesByDate", "article", [
-        {url: "yyyy", display: "yyyy"},
-        {url: "yyyy/MM", display: "MMMM yyyy"},
-        {url: "yyyy/MM/dd", display: "MMMM do, yyyy"}
+        { url: "yyyy", display: "yyyy" },
+        { url: "yyyy/MM", display: "MMMM yyyy" },
+        { url: "yyyy/MM/dd", display: "MMMM do, yyyy" }
     ]);
 
     eleventyConfig.addCollection("publishedNotes", collection =>
@@ -149,18 +149,21 @@ module.exports = function(eleventyConfig) {
     const autoLoad = require('auto-load');
     const shortcodes = autoLoad('_includes/shortcodes');
     let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata, tokens));
+    let addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (content, data) => shortcodes[name](content, data, metadata, tokens));
 
+    addPairedShortcode('demo');
     addShortcode('checkbox');
     addShortcode('dialog');
     addShortcode('figure');
     addShortcode('hr');
     addShortcode('img');
     addShortcode('quote');
+    addShortcode('swatch');
     addShortcode('youtube');
     addShortcode('vimeo');
 
 
-    
+
     return {
         markdownTemplateEngine: "njk"
     };
