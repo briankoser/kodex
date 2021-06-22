@@ -30,7 +30,7 @@ Caveat: for a number to be converted to a Julian date it will need to be between
 
 Once we have our date, we’ll convert it to the string we want:
 
-# Spelled Out  
+## Spelled Out  
 
 ```sql
 SELECT to_char(to_date(4321, 'J'), 'Jsp') 
@@ -44,7 +44,7 @@ The format specifier, “Jsp”, can be broken down into two parts:
 
 You can also use “JSP” (gives you the string in all caps) and “jsp” (gives you the string in all lower case).
 
-# Ordinal
+## Ordinal
 
 ```sql
 SELECT to_char(to_date(4321, 'J'), 'fmJth') 
@@ -57,7 +57,7 @@ SELECT to_char(to_date(4321, 'J'), 'fmJth')
 - “th” adds the ordinal suffix, so we can get 1st, 2nd, 8th, etc.
   - I assume that “th” is used because most ordinals end in “th”.
 
-# Spelled-Out Ordinals
+## Spelled-Out Ordinals
 
 ```sql
 SELECT to_char(to_date(4321, 'J'), 'JspTH') 

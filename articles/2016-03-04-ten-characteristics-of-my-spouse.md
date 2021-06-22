@@ -11,7 +11,7 @@ excerpt: In honor of Valen­tine’s Day, Melissa chose to do this list of thing
 ---
 In honor of Valentine’s Day, Melissa chose to do this list of things we love about each other. Melissa ranked her list; Brian just alphabetized his.
 
-# Melissa
+## Melissa
 1. Sense of humor
     - He laughs when I do/say stupid stuff.
 2. Respectable
@@ -25,7 +25,7 @@ In honor of Valentine’s Day, Melissa chose to do this list of things we love a
 10. Prudent
     - He thinks ahead.
   
-# Brian
+## Brian
 1. Cheerful
     - 😀
 2. Forgiving

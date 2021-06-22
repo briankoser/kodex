@@ -12,7 +12,7 @@ I like books, blogs, podcasts, and software. [I’ve](http://tto.koser.us) [crea
 
 {% hr %}
 
-# Dan Carlin
+## Dan Carlin
 Dan Carlin is one of the most successful professional podcasters. Both of his podcasts, Hardcore History and Common Sense, are quite popular (in the millions of listeners), and deservedly so.
 
 Hardcore History is basically a series of audiobooks on topics such as the fall of the Roman Republic, World War I, and the Persian Empire. Dan is an excellent story teller with a great radio voice. He’s a self-proclaimed amateur historian, but he does a ton of research and presents a balanced view of history.

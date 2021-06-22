@@ -14,7 +14,7 @@ I’ve started bookmarking the interesting Wikipedia articles I stumble on. You�
 
 What’s the deal with medical organizations and snakes on sticks? Why is it sometime one snake and sometimes two snakes?
 
-# <span class="giga">⚕</span> Rod of Asclepius
+## <span class="giga">⚕</span> Rod of Asclepius
 The [Rod of Asclepius](https://en.m.wikipedia.org/wiki/Rod_of_Asclepius) is a wooden rod with a single snake entwined around it. It’s a common symbol for medicine, used by entities such as the World Health Organization. Asclepius was the Greek god of medicine, son of Apollo. Why did he carry a snake on a stick? Some think it was symbolic; for example, the way snakes shed their skin could symbolize rejuvenation.
 
 Possibly related (although there’s no way to know), the Rod of Asclepius resembles the rod with a bronze serpent (1) that God told Moses to erect in the wilderness. Israelites bitten by poisonous snakes could be healed by just looking at the bronze snake. Fifteen-hundred years later, Jesus said that the snake was a picture of himself:
@@ -23,7 +23,7 @@ Possibly related (although there’s no way to know), the Rod of Asclepius resem
 
 > And I, if I be lifted up from the earth, will draw all men unto me. John 12:32
 
-# <span class="giga">☤</span> Caduceus
+## <span class="giga">☤</span> Caduceus
 The [caduceus](https://en.m.wikipedia.org/wiki/Caduceus) 
 is a rod with two snakes wrapped around the rod and each other. It was given to Hermes (2), god of commerce and the messenger of the gods, by Apollo (3), the father of Asclepius. Why did *he* carry snakes on a stick? The world is full of mysteries. The caduceus is also used by some modern organizations as a symbol of medicine, although the Rod of Asclepius is more common.
 

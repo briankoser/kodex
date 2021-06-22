@@ -11,7 +11,7 @@ excerpt: I like mak­ing top ten lists of every­thing. Melissa is­n’t as big
 ---
 I like making top ten lists of everything. Melissa isn’t as big on lists (she didn’t have a favorite color or animal until I made her choose), but I think she’s coming around. 😁 Here are our top ten Top Ten lists we’re going to post here on koser.us.
 
-# Brian  
+## Brian  
 1. [Animals](https://tto.koser.us/episodes/014-animals/)
 2. Movies
 3. [Hymns](https://tto.koser.us/episodes/018-hymns/)
@@ -23,7 +23,7 @@ I like making top ten lists of everything. Melissa isn’t as big on lists (she 
 9. Fiction Authors
 10. [Top Ten Lists We’ll Never Do](https://tto.koser.us/episodes/013-top-ten-lists-well-never-do/)
 
-# Melissa  
+## Melissa  
 1. [Characteristics I Love About My Spouse](/article/2016/03/04/1/ten-characteristics-of-my-spouse)
 2. [Items On My Bucket List](https://tto.koser.us/episodes/021-bucket-list-experiences/)
 3. Fictional Universes

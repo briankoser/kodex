@@ -12,19 +12,19 @@ Recently we started a podcast: [Ten to One](http://tto.koser.us), where we make 
 
 You can record audio on your smart phone or laptop, but high-quality audio requires better equipment. If you’re just recording one person you should get:
 
-# Microphone
+## Microphone
 We use the [Audio-Technica ATR2100-USB](https://www.amazon.com/gp/product/B004QJOZS4), a cheap but good quality mic.
 
-# Microphone stand
+## Microphone stand
 The ATR2100 does come with a small stand, but we wanted something sturdier that wouldn’t pick up every table bump. The [On Stage Tripod Boom Microphone Stand (MS7701B)](https://www.amazon.com/gp/product/B000978D58) is a floor-standing tripod that works with our mic, although it requires a:
 
-# Microphone clip
+## Microphone clip
 The [On Stage Microphone Clip (MY325)](https://www.amazon.com/gp/product/B0002ZO60I) attaches to the stand and actually holds the mic.
 
-# Pop filter
+## Pop filter
 To prevent plosives (“P” and “B” sounds, which are made with a burst of air from the mouth) from making a popping sound when they hit the mic. The [Dragonpad USA Pop filter](https://www.amazon.com/gp/product/B008AOH1O6) is big and cheap and works.
 
-# Headphones
+## Headphones
 Not a necessity, but it does help you know exactly what your mic is picking up. You can plug them directly into the ATR2100.
 
 {% hr %}
@@ -38,16 +38,16 @@ Just plug the mic into the computer and you’re off to the races.
 
 However, with two people it’s a little awkward recording into one mic. The downside to adding a mic is that you can’t just plug it in to a second USB port. It’s important that the audio from both mics goes in simultaneously, but USB does not transfer at consistent speeds. You’ll need to plug the mics into a mixer which will combine the audio and send it to the computer. Our new setup includes the existing equipment plus:
 
-# An additional mic, stand, clip, and pop filter
+## An additional mic, stand, clip, and pop filter
 Same models.
 
-# Mixer
+## Mixer
 We use the [Behringer Xenyx Q802USB](http://www.sweetwater.com/store/detail/Q802USB). The mixer will take the audio from both mics and pipe it into your computer through USB.
 
-# 1/4″ to 1/8″ cable
+## 1/4″ to 1/8″ cable
 Like the [Hosa 1/8″ TRS to Two Mono 1/4″ Cable](https://www.amazon.com/gp/product/B000068O3C). We use this to connect audio from our laptop to the mixing board. This allows us to record Skype conversations or other audio played from the computer.
 
-# Headphone adapter
+## Headphone adapter
 The [RCA AH216 Stereo headphone adapter](https://www.amazon.com/gp/product/B00005T3GH) allows you to plug your headphones into the mixer.
 
 The new setup looks like this:

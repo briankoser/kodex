@@ -10,7 +10,7 @@ excerpt: Are you familiar with the theory of six degrees of separation? It seems
 ---
 Are you familiar with the theory of [six degrees of separation](https://en.m.wikipedia.org/wiki/Six_degrees_of_separation)? It seems that everyone on Earth is within six social connections of everyone else on Earth. For fun, I'm tracking here the various ways I'm connected to my favorite actor, Ioan Gruffud.
 
-# 5 degrees
+## 5 degrees
 1. My former coworker Bryan has a
 2. girlfriend who worked as a personal assistant at conventions for
 3. [Ron Perlman](https://www.imdb.com/name/nm0000579), who appeared in <i>Pottersville</i> with
@@ -23,7 +23,7 @@ Are you familiar with the theory of [six degrees of separation](https://en.m.wik
 4) [Jonathan Breck](https://www.imdb.com/name/nm0106534), who appeared in <i>W.</i> with
 5) [Ioan Gruffud](https://www.imdb.com/name/nm0344435).
 
-# 4 degrees
+## 4 degrees
 1. My podcast friends [Matt Anderson and Ben De Bono](https://www.imdb.com/name/nm1795989) are podcast friends with
 2. [Jayce O'Neil](https://www.imdb.com/name/nm2671766), who appeared in <i>Sudden Death</i> with
 3. [Doug Jones](https://www.imdb.com/name/nm0427964), who appeared in <i>Fantastic Four: Rise of the Silver Surfer</i> with
