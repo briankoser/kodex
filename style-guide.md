@@ -11,8 +11,12 @@ exampleString: "ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>!@@#
 card2:
     title: Card with Title
 card3:
-    title: Card with Author
     author: Brian
+    date: 2021-06-01
+card4:
+    title: Example Title
+    author: Melissa
+    date: 2021-06-01
 ---
 
 <div class="stack">
@@ -426,10 +430,14 @@ card3:
     {% card card2 %}This is an example card with a title.{% endcard %}
 {% enddemo %}
 
-{% demo "Card with Author" %}
-    {% card card3 %}This is an example card with an author.{% endcard %}
+
+{% demo "Card with Author and Date, no Title" %}
+    {% card card3 %}This is an example card with an author and date.{% endcard %}
 {% enddemo %}
 
+{% demo "Fully-Feature Card" %}
+    {% card card4 %}This is an example card with an author, date, and title.{% endcard %}
+{% enddemo %}
 
 
 </div>
