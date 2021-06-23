@@ -22,7 +22,7 @@ permalink: "articles/{{page.date | year}}/{{page.date | month | padZeroes(2)}}/{
         <img src="{{ metadata.cdn_url }}{{ metadata.journal_img_path }}{{ header_image }}" class="article-header-image">
     {%- endif %}
 
-    <div class="article-body">
+    <div class="article-body stack-small">
         {{ content | safe }}
     </div>
 </article>

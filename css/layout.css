@@ -84,21 +84,55 @@ body {
 
 
 
+/* Box */
+.box {
+    padding: var(--s1);
+    border: var(--border-thick) solid var(--color-black);
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+
+.box * {
+    color: inherit;
+}
+
+.box.invert {
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+
+.card {
+    box-shadow: 0 var(--shadow-thickness) var(--color-black);
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+
+
 /* Stack */
-.stack {
-    --space: var(--s1);
+[class^='stack'] {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
   
-.stack > * {
+[class^='stack'] > * {
     margin-top: 0;
     margin-bottom: 0;
 } 
   
-.stack > * + * {
+[class^='stack'] > * + * {
     margin-top: var(--space);
+}
+
+.stack {
+    --space: var(--s1);
+}
+
+.stack-small {
+    --space: var(--s0);
 }
 
 

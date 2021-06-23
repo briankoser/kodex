@@ -8,6 +8,11 @@ cssFiles:
   - components/hr
   - components/youtube
 exampleString: "ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>!@@#$%^&*()[]{}<>;:'\",./?"
+card2:
+    title: Card with Title
+card3:
+    title: Card with Author
+    author: Brian
 ---
 
 <div class="stack">
@@ -403,5 +408,28 @@ exampleString: "ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>!@@#
     {% img {"src":"logo.svg", "alt":"alternate text", "caption":"The kodex site logo"} %}
     <p>This is a paragraph after the figure, which includes an image and a caption.</p>
 {% enddemo %}
+
+
+
+{% demo "Box" %}
+<div class="box">This is an example box.</div>
+{% enddemo %}
+
+
+
+## Cards
+{% demo "Card without Title" %}
+    {% card %}This is an example card without a title.{% endcard %}
+{% enddemo %}
+
+{% demo "Card with Title" %}
+    {% card card2 %}This is an example card with a title.{% endcard %}
+{% enddemo %}
+
+{% demo "Card with Author" %}
+    {% card card3 %}This is an example card with an author.{% endcard %}
+{% enddemo %}
+
+
 
 </div>

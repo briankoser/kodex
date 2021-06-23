@@ -151,6 +151,7 @@ module.exports = function (eleventyConfig) {
     let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata, tokens));
     let addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (content, data) => shortcodes[name](content, data, metadata, tokens));
 
+    addPairedShortcode('card');
     addPairedShortcode('demo');
     addShortcode('checkbox');
     addShortcode('dialog');

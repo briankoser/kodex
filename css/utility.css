@@ -12,7 +12,7 @@
 
 /* Don't use in title-case headings */
 .small-caps {
-    font-family: 'Concourse C4';
+    font-family: var(--font-caption);
     text-transform: uppercase;
     -webkit-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
     -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
