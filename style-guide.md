@@ -435,7 +435,7 @@ card4:
     {% card card3 %}This is an example card with an author and date.{% endcard %}
 {% enddemo %}
 
-{% demo "Fully-Feature Card" %}
+{% demo "Fully-Featured Card" %}
     {% card card4 %}This is an example card with an author, date, and title.{% endcard %}
 {% enddemo %}
 

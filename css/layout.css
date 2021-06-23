@@ -123,6 +123,10 @@ body {
     --space: var(--s1);
 }
 
+.stack.cards {
+    --space: var(--s4);
+}
+
 .stack-small {
     --space: var(--s0);
 }
@@ -168,6 +172,7 @@ body {
     transform: rotate(270deg) translateY(-1em);
     font-size: var(--s1);
     line-height: 2;
+    height: 2em;
     width: 4em;
 }
 
@@ -212,10 +217,6 @@ body {
 
 
 /* Note */
-.notes.stack {
-    --space: var(--s4);
-}
-
 .card.note {
     grid-template-areas: 
         "date   body" 

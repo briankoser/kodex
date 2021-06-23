@@ -1,18 +1,8 @@
 {# 
     `notes` is an array of 11ty posts
 #}
-<div class="notes stack">
+<div class="stack cards notes">
 {% for note in notes | reverse -%}
-    <article class="h-entry">
-        <header>
-            <div class="post-header">
-                <a href="{{ note.url }}" class="u-url"><time class="dt-published post-date" datetime='{{ note.date | machineDate }}'>{{ note.date | readableDate }}</time></a> ·
-                <span class="p-author post-author">{{ note.data.author }}</span> 
-            </div>
-        </header>
-        <div class="e-content">
-            {{ note.templateContent | safe }}
-        </div>
-    </article>
+    {% card note %}{{ note.templateContent | safe }}{% endcard %}
 {%- endfor %}
 </div>
