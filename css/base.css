@@ -16,7 +16,7 @@
     --s5: calc(var(--s4) * var(--ratio));
 
     /* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
-    --font-sans-stack: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-sans-stack: 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     --font-regular: Concourse, var(--font-sans-stack);
     --font-heading: ConcourseLight, var(--font-sans-stack);
     --font-mono: FiraMono, SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
