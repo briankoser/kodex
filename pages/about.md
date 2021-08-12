@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/index.html
 ---
 Christian. Husband. Father. Reader. Writer. Programmer. **Brian** jug­gles many hats. When he’s not mix­ing metaphors, you might find him play­ing a mod­ern board game, ex­plain­ing why you’re wrong, or writ­ing in the third per­son.
 

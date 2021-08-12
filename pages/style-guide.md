@@ -2,11 +2,14 @@
 layout: page
 title: Style Guide
 description: kodex style guide
+permalink: /style-guide/index.html
+
 cssFiles:
   - components/demo
   - components/dialog
   - components/hr
   - components/youtube
+
 exampleString: "ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>!@@#$%^&*()[]{}<>;:'\",./?"
 card2:
     title: Card with Title

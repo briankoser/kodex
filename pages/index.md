@@ -2,6 +2,7 @@
 layout: base
 title: Home
 description: kodex, the Koser family website
+permalink: /index.html
 ---
 Hi, I'm Brian. This is where I, Melissa, Lydia, Amber, and Penny keep our digital stuff. Everything still looks the same, but behind the scenes I just put in place Version 3, which will let me quickly improve the site in ways we've planned for years.
 
