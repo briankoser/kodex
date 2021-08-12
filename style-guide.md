@@ -17,6 +17,9 @@ card4:
     title: Example Title
     author: Melissa
     date: 2021-06-01
+    contentUrl: 
+        name: Harding’s Pompous Phrases
+        url: https://presidentialhistory.com/2011/08/hardings-pompous-phrases.html
 ---
 
 <div class="stack">
@@ -436,7 +439,7 @@ card4:
 {% enddemo %}
 
 {% demo "Fully-Featured Card" %}
-    {% card card4 %}This is an example card with an author, date, and title.{% endcard %}
+    {% card card4 %}This is an example card with an author, date, url, and title.{% endcard %}
 {% enddemo %}
 
 
