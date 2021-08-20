@@ -19,13 +19,15 @@
     "url": "https://github.com/briankoser/kodex/issues"
   },
   "homepage": "https://github.com/briankoser/kodex#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "auto-load": "^3.0.4"
   },
   "dependencies": {
     "date-fns": "^2.23.0",
-    "fs": "0.0.1-security",
-    "netlify-cli": "^2.67.2"
+    "fs": "0.0.1-security"
   }
 }
