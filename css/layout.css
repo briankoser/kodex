@@ -154,6 +154,10 @@ body {
     margin-bottom: 0;
 }
 
+.card a {
+    white-space: initial;
+}
+
 .card-date {
     width: 5ch;
     line-height: 1;
