@@ -12,7 +12,7 @@ This month is my 8-year anniversary with [static site generators](https://github
 
 The static site [hotness](https://css-tricks.com/a-look-at-building-with-astro/) right now is [Astro](https://astro.build/blog/introducing-astro), and it deserves the attention. The progression from 11ty et al. is big enough to warrant a "3.0" moniker (writing HTML manually would be 1.0 and Jekyll until now is 2.0). I predict React and Vue at least will develop similar offerings (although maybe they think Next/Nuxt is close enough).
 
-To learn Astro, I returned to my favorite technology learning method: create a deadline, create a project. The deadline was a Lunch and Learn at work, the project a fantasy football stats report demo. Check out the resulting [slide deck](https://slides.com/bkoser/deck-08fbdf/) and [code](https://github.com/briankoser/fantasy-football-report).
+To learn Astro, I returned to my favorite technology learning method: create a deadline, create a project. The deadline was a Lunch and Learn at work, the project a fantasy football stats report demo. Check out the resulting [slide deck](https://slides.com/bkoser/deck-08fbdf/) and [code](https://github.com/briankoser/fantasy-football-report-astro).
 
 ## Astro is good
 
