@@ -72,6 +72,9 @@ module.exports = function (eleventyConfig) {
     /*
         collections
     */
+    // let dbShelfIds = await queryShelfIdsAsync(goodreadsShelfIds);
+    // eleventyConfig.addCollection("bookReviews", collection => )
+    
     eleventyConfig.addCollection("publishedArticles", collection =>
         filterPublished(collection.getFilteredByTag("article"))
     );
@@ -153,12 +156,14 @@ module.exports = function (eleventyConfig) {
 
     addPairedShortcode('card');
     addPairedShortcode('demo');
+    addShortcode('bookReviewCard');
     addShortcode('checkbox');
     addShortcode('dialog');
     addShortcode('figure');
     addShortcode('hr');
     addShortcode('img');
     addShortcode('quote');
+    addShortcode('stars');
     addShortcode('swatch');
     addShortcode('youtube');
     addShortcode('vimeo');
