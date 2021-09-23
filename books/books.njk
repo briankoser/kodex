@@ -1,0 +1,52 @@
+---
+layout: page
+pagination:
+   data: books
+   size: 1
+   alias: book
+permalink: "books/{{ book.slug}}/"
+---
+
+<h1>{{book.title}}</h1>
+
+{% if imageurl -%}
+  <img src="{{book.imageurl}}">
+{%- endif %}
+
+<table>
+  <tbody>
+    <tr>
+      <th>Author</th>
+      <td>{{book.author}}</td>
+    </tr>
+    <tr>
+      <th>Published</th>
+      <td>{{book.publicationyear}}</td>
+    </tr>
+    <tr>
+      <th>Pages</th>
+      <td>{{book.pagecount}}</td>
+    </tr>
+    <tr>
+      <th>ISBN</th>
+      <td>{{book.isbn13}}</td>
+    </tr>
+    <tr>
+      <th>Links</th>
+      <td><a href="{{book.goodreadsbookurl}}">Goodreads</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="stack cards">
+{% for review in book.reviews -%}
+    {# todo: convert to card #}
+    <article class="box">
+      <h2>{{review.f2}}</h2>
+      {# todo: handle empty dates #}
+      {# <span class="book-date">{{ review.f7 | readableDate }}–{{ review.f6 | readableDate }}</span> #}
+      <p>{% stars review.f9 %}</p>
+      <p>{{ review.f4 | safe }}</p>
+    </article>
+{%- endfor %}
+</div>
