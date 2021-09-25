@@ -43,8 +43,7 @@ permalink: "books/{{ book.slug}}/"
     {# todo: convert to card #}
     <article class="box">
       <h2>{{review.f2}}</h2>
-      {# todo: handle empty dates #}
-      {# <span class="book-date">{{ review.f7 | readableDate }}–{{ review.f6 | readableDate }}</span> #}
+      <span class="book-date">{% if review.f7 %}{{ review.f7 | parseDate | readableDate }}–{% endif %}{% if review.f6 %}{{ review.f6 | parseDate | readableDate }}{% endif %}</span>
       <p>{% stars review.f9 %}</p>
       <p>{{ review.f4 | safe }}</p>
     </article>
