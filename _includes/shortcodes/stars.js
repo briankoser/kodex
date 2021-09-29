@@ -1,4 +1,6 @@
 module.exports = function (rating) {
+    const star = '★';
+
     if (typeof(rating) === 'string' || rating < 0 || rating > 10) {
         return rating;
     }
@@ -7,12 +9,8 @@ module.exports = function (rating) {
         return '0';
     }
 
-    if (rating % 2 === 0) {
-        return ''.padStart(rating, '🟊'); // we're halving (10 -> 5 stars) because the character 🟊 is two bytes
-    }
-    else {
-        return `${''.padStart(rating - 1, '🟊')}½`; // we're halving (10 -> 5 stars) because the character 🟊 is two bytes
-    }
+    let starNumber = rating / 2;
+    let starFloor = Math.floor(starNumber);
 
-    return stars;
+    return `<span class="stars">${''.padStart(starFloor, star)}${starNumber === starFloor ? '' : '½'}</span>`;
 }
