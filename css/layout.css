@@ -67,10 +67,6 @@ body {
     }
 }
 
-.site-nav li {
-    list-style-type: none; 
-}
-
 .site-footer {
     background-color: var(--color-black);
     color: var(--color-white);
@@ -225,4 +221,19 @@ body {
     grid-template-areas: 
         "date   body" 
         "author body";
+}
+
+
+
+/* Pagination */
+.pagination ol {
+    display: flex;
+}
+
+.pagination li {
+    width: 2em;
+}
+
+.pagination .current-page {
+    text-decoration: none;
 }

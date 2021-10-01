@@ -18,7 +18,22 @@
     -moz-font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
     font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1; 
 }
-  
+
+/* Modified from Bootstrap .stretched-link */
+.stretched-link-container {
+    position: relative;
+}
+
+.stretched-link-container a::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
 .text-glow {
     text-shadow: 0 0 5px white, 0 0 10px yellow; }
   
@@ -27,7 +42,9 @@
     -moz-font-feature-settings: 'lnum' 1;
     font-feature-settings: 'lnum' 1;
     text-transform: uppercase; }
-  
+
+    
+
 /* Hide visually and from screen readers */
 .hidden {
     display: none !important; }

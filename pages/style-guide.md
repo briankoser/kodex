@@ -446,4 +446,17 @@ card4:
 {% enddemo %}
 
 
+## Stars
+{% demo "0/10" %}{% stars 0 %}{% enddemo %}
+{% demo "1/10" %}{% stars 1 %}{% enddemo %}
+{% demo "2/10" %}{% stars 2 %}{% enddemo %}
+{% demo "3/10" %}{% stars 3 %}{% enddemo %}
+{% demo "4/10" %}{% stars 4 %}{% enddemo %}
+{% demo "5/10" %}{% stars 5 %}{% enddemo %}
+{% demo "6/10" %}{% stars 6 %}{% enddemo %}
+{% demo "7/10" %}{% stars 7 %}{% enddemo %}
+{% demo "8/10" %}{% stars 8 %}{% enddemo %}
+{% demo "9/10" %}{% stars 9 %}{% enddemo %}
+{% demo "10/10" %}{% stars 10 %}{% enddemo %}
+
 </div>
