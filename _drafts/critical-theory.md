@@ -21,3 +21,5 @@ But neither is a non-literate culture morally superior. The written word is impo
 Osheta believes that Western society is too individualistic. I agree! We should talk about how to fix that.
 
 Western culture is not totally good or totally bad; it's complicated. We should keep the good and discard the bad. And those are the strengths of both sides: conservatives want to keep, liberals want to progress. Deciding what is good and what is bad is difficult. We'll never agree completely. Talking past each other with hashtags won't help. Real discussion will help: speaking with grit and grace, and listening. We'll realize that we agree on a lot and that disagreement is possible between rational people.
+
+https://www.newsweek.com/math-suffers-white-supremacy-according-bill-gates-funded-course-1571511
