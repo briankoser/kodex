@@ -6,6 +6,7 @@ published:
 authors:
   - Brian
 excerpt: 
+is_draft: true
 ---
 Without "grit" you will let your children run wild, your family and friends repeat lies they read on Facebook, your clients give you bad software specifications that everyone will regret later (just me?); to avoid hurting feelings or making waves.
 
