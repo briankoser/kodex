@@ -2,7 +2,7 @@ module.exports = function (eleventyConfig) {
     /*
         libraries
     */
-    const { format, formatISO, getDate, getMonth, getYear } = require('date-fns');
+    const { format, formatISO, getDate, getMonth, getYear, parseISO } = require('date-fns');
 
 
 
@@ -112,6 +112,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("machineDate", dateObject => formatISO(dateObject, { representation: "date" }));
     eleventyConfig.addFilter("month", dateObject => getMonth(dateObject) + 1);
     eleventyConfig.addFilter("padZeroes", (number, zeroes) => number.toString().padStart(zeroes, '0'));
+    eleventyConfig.addFilter("parseDate", dateString => parseISO(dateString));
     eleventyConfig.addFilter("readableDate", dateObject => format(dateObject, "MMMM do, yyyy"));
     eleventyConfig.addFilter("removeCategoryFromUrl", url => `/${url.split('/').slice(2, -1).join('/')}/`);
     eleventyConfig.addFilter("removeSlugFromUrl", url => `${url.split('/').slice(0, -2).join('/')}/`);
@@ -167,8 +168,6 @@ module.exports = function (eleventyConfig) {
     addShortcode('swatch');
     addShortcode('youtube');
     addShortcode('vimeo');
-
-
 
     return {
         markdownTemplateEngine: "njk"
