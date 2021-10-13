@@ -1,21 +1,20 @@
 ---
-title: 
-description: 
-published: 2014-03-11T18:00:00
+title: Surprised by Pope Response
+description: Brian's thoughts on The Sci-Fi Christian's podcast episode about Catholicism and Protestantism.
+published: 2021-10-13T18:00:00
 authors:
   - Brian
-  - Melissa
 
-# optional
-dateId: 2 # defaults to 1
-series: 
+series: surprised-by-pope
 tags: 
-  - 
+  - response
 excerpt: 
-header_image: temp.jpg # CDN is understood
-last_updated: 2014-05-21T18:00:00
 is_draft: true # defaults to false
 ---
+
+My thoughts on The Sci-Fi Christian's podcast [Episode 944: Surprised By Pope](http://thescifichristian.com/2021/07/episode-944-surprised-by-pope/):
+
+
 
 Catholics say salvation comes from grace through the sacraments. Protestants say salvation comes from grace through a sinner's prayer.
 
@@ -31,4 +30,14 @@ Papal infallibility - are there more than Immaculate Conception and Assumption o
 The Sixth General Council excommunicated Pope Honorius I for heresy
 
 Long time periods are a good argument for Catholicism. Counter: acceleration of history
+
+Sola scriptura: what do you do with the hundreds of years before the canon was formed?
+
+Side note: Moses didn't write Genesis and the Bible doesn't say he did (it says he wrote the law and at least a portion of Deut)
+
+Deuterocanon
+
+If the Holy Spirit preserves doctrine through apostolic succession / councils, now we know what's true 
+
+Catholic doctrine is usually negative theology, ruling things out
 
