@@ -14,9 +14,10 @@ is_draft: true # defaults to false
 
 My thoughts on The Sci-Fi Christian's podcast [Episode 944: Surprised By Pope](http://thescifichristian.com/2021/07/episode-944-surprised-by-pope/):
 
+The way I learn best is discussion and debate. These are my current thoughts. I do sometimes change my mind.
 
+# 
 
-Catholics say salvation comes from grace through the sacraments. Protestants say salvation comes from grace through a sinner's prayer.
 
 Curation: choosing your influence
 Protestants overestimate their ability to make decisions independently. Protestants are also submitting to the tradition of family, denonimation, church, pastors and thinkers. The Bible is not the only authority. We are not tabula rasas.
@@ -25,7 +26,7 @@ Submitting to a curated list doesn't mean pretending to like everything, but you
 
 We are the church. The ideal is to start with a curated list and move beyond: start by accepting the 
 
-Papal infallibility - are there more than Immaculate Conception and Assumption of Mary? Papal infallibility is a tautology: if it is later determined to be heretical, then it was not ex cathedra. 
+Papal infallibility - are there more than Immaculate Conception and Assumption of Mary? Papal infallibility is a tautology: if it is later determined to be heretical, then it was not ex cathedra. If it's not a big deal, 
 
 The Sixth General Council excommunicated Pope Honorius I for heresy
 
