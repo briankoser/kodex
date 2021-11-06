@@ -120,7 +120,7 @@ body {
 }
 
 .stack.cards {
-    --space: var(--s4);
+    --space: var(--s3);
 }
 
 .stack-small {
@@ -128,56 +128,43 @@ body {
 }
 
 
+/* Icon */
+.icon {
+    width: 0.75em;
+    width: 1cap;
+    height: 0.75em;
+    height: 1cap;
+}
+
+
 
 /* Card */
 .card {
     display: grid;
-    grid-template-columns: 15% 85%;
-    gap: var(--s1);
+    grid-template-columns: 1fr 7em;
+    column-gap: var(--s1);
     grid-template-areas: 
-        "date   title" 
-        "author body";
+        "body   sidebar";
     box-shadow: 0 var(--shadow-thickness) var(--color-black);
-    max-width: 60ch;
 }
 
-.card-date { grid-area: date; }
-.card-author { grid-area: author; }
-.card-title { grid-area: title; }
 .card-body { grid-area: body; }
-
-.card p {
-    margin-bottom: 0;
-}
+.card-sidebar { grid-area: sidebar; }
 
 .card a {
     white-space: initial;
 }
 
-.card-date {
-    width: 5ch;
-    line-height: 1;
-    text-align: center;
+.card-sidebar {
+    font-variant-numeric: lining-nums;
 }
 
-.card-date::first-line {
-    font-size: var(--s2);
+.card-sidebar a {
+    text-decoration: none;
+}
+
+.card .review-work {
     font-weight: bold;
-    line-height: 0;
-}
-
-.card-author {
-    background-color: var(--color-black);
-    text-align: center;
-    transform: rotate(270deg) translateY(-1em);
-    font-size: var(--s1);
-    line-height: 2;
-    height: 2em;
-    width: 4em;
-}
-
-.card-title h2 {
-    margin: 0;
 }
 
 

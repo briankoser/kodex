@@ -1,19 +1,16 @@
-const { format, formatISO } = require('date-fns');
+const contentCard = require('./contentcard.js');
 const starsShortcode = require('./stars.js');
-// const cardShortcode = require('./card.js');
-// todo: convert card to generic card
 
 module.exports = function (data) {
-    let humanDate = `${format(data.dateended, "dd")} <span class="small-caps">${format(data.dateended, "MMM")}</span> ${format(data.dateended, "yyyy")}`;
-    let machineDate = formatISO(data.dateended, { representation: "date" });
-
-    return `<article class="book-review stretched-link-container ${data.username.toLowerCase()} h-entry">
-    <header>
-        <h2 class="p-name">${data.title}</h2>
-        <span>${data.username}</span> ·
-        <time class="dt-published" datetime='${machineDate}'>${humanDate}</time> ·
-        ${starsShortcode(data.rating)} ·
-        <a href="/books/${data.slug}">Review...</a>
-    </header>
-</article>`;
+    let url = `/books/${data.slug}`;
+    let bookReview = `<div class="review-work">${data.title}</div>
+    <div>by ${data.author}</div>
+    <div class="review-rating">${starsShortcode(data.rating)} <a href="${data.url}">Review...</a></div>`;
+    
+    data.author = data.username;
+    data.cardType = "bookreview";
+    data.date = data.dateended;
+    data.url = url;
+    
+    return contentCard(bookReview, data);
 };

@@ -11,18 +11,28 @@ cssFiles:
   - components/youtube
 
 exampleString: "ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>!@@#$%^&*()[]{}<>;:'\",./?"
-card2:
-    title: Card with Title
-card3:
-    author: Brian
-    date: 2021-06-01
-card4:
-    title: Example Title
+
+contentCard:
     author: Melissa
-    date: 2021-06-01
+    date: 2021-11-05
+    url: example
+
+noteCard:
+    author: Lydia
+    cardType: note
     contentUrl: 
         name: Harding’s Pompous Phrases
         url: https://presidentialhistory.com/2011/08/hardings-pompous-phrases.html
+    date: 2021-10-05
+    url: example
+
+bookReviewCard:
+    author: Brian
+    cardType: bookReview
+    date: 2021-11-05
+    rating: 9
+    title: Truckin' Through Time
+    url: example
 ---
 
 <div class="stack">
@@ -428,22 +438,35 @@ card4:
 
 
 ## Cards
-{% demo "Card without Title" %}
-    {% card %}This is an example card without a title.{% endcard %}
+{% demo "Card" %}
+    {% card %}This is a card with no type. Should an untyped card be used?{% endcard %}
 {% enddemo %}
 
-{% demo "Card with Title" %}
-    {% card card2 %}This is an example card with a title.{% endcard %}
+{% demo "Content Card" %}
+    {% contentcard contentCard %}This is a content card. This should only be used by typed card shortcodes, not directly.{% endcontentcard %}
 {% enddemo %}
 
-
-{% demo "Card with Author and Date, no Title" %}
-    {% card card3 %}This is an example card with an author and date.{% endcard %}
+{% demo "Note Card with Body" %}
+    {% notecard contentCard %}This is a note card with a body.{% endnotecard %}
 {% enddemo %}
 
-{% demo "Fully-Featured Card" %}
-    {% card card4 %}This is an example card with an author, date, url, and title.{% endcard %}
+{% demo "Note Card with External Link" %}
+    {% notecard noteCard %}{% endnotecard %}
 {% enddemo %}
+
+{% demo "Note Card with External Link and Body" %}
+    {% notecard noteCard %}This is a note card with an external link and a body.{% endnotecard %}
+{% enddemo %}
+
+{% demo "Book Review Card" %}
+    {% bookreviewcard bookReviewCard %}
+{% enddemo %}
+
+{# 
+{% demo "Article Card" %}
+    {% articleCard articleCard %}
+{% enddemo %}
+#}
 
 
 ## Stars

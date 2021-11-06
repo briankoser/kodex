@@ -156,12 +156,15 @@ module.exports = function (eleventyConfig) {
     let addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (content, data) => shortcodes[name](content, data, metadata, tokens));
 
     addPairedShortcode('card');
+    addPairedShortcode('contentcard');
     addPairedShortcode('demo');
-    addShortcode('bookReviewCard');
+    addPairedShortcode('notecard');
+    addShortcode('bookreviewcard');
     addShortcode('checkbox');
     addShortcode('dialog');
     addShortcode('figure');
     addShortcode('hr');
+    addShortcode('icon');
     addShortcode('img');
     addShortcode('quote');
     addShortcode('stars');

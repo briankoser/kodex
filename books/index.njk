@@ -6,9 +6,9 @@ pagination:
    size: 50
 ---
 {# todo: paginate by year #}
-<div class="stack">
+<div class="stack cards">
 {%- for item in pagination.items %}
-  {% bookReviewCard item %}
+  {% bookreviewcard item %}
 {% endfor -%}
 </div>
 

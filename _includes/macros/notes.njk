@@ -3,6 +3,6 @@
 #}
 <div class="stack cards notes">
 {% for note in notes | reverse -%}
-    {% card note %}{{ note.templateContent | safe }}{% endcard %}
+    {% notecard note %}{{ note.templateContent | safe }}{% endnotecard %}
 {%- endfor %}
 </div>

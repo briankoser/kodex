@@ -19,18 +19,14 @@ permalink: "css/theme.css"
 
   .{{author | lower}} input {
     accent-color: var(--color-{{author | lower}});
+  }
 
   .{{author | lower}} .stars {
     color: var(--color-{{author | lower}});
   }
 
-  {# .card.{{author | lower}} {
+  .card.{{author | lower}} {
     box-shadow: 0 var(--shadow-thickness) var(--color-{{author | lower}});
-  } #}
-
-  .card.{{author | lower}} .card-author {
-    background-color: var(--color-{{author | lower}});
-    color: var(--color-white);
   }
 {% endfor %}
 
