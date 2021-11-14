@@ -162,6 +162,7 @@ module.exports = function (eleventyConfig) {
     addShortcode('bookreviewcard');
     addShortcode('checkbox');
     addShortcode('dialog');
+    addShortcode('feedbincard');
     addShortcode('figure');
     addShortcode('hr');
     addShortcode('icon');

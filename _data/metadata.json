@@ -1,6 +1,6 @@
 {
+    "authors": ["Brian", "Melissa", "Lydia", "Amber", "Penny"],
     "cdn_url": "https://s3.amazonaws.com/cdn.koser.us/img/",
     "journal_img_path": "journal/",
-    "notes_img_path": "notes/",
-    "authors": ["Brian", "Melissa", "Lydia", "Amber", "Penny"]
+    "notes_img_path": "notes/"
 }

@@ -1,0 +1,9 @@
+---
+layout: page
+title: Feedbin
+---
+<div class="stack cards notes">
+{% for entry in feedbin | reverse -%}
+    {% feedbincard entry %}
+{%- endfor %}
+</div>
