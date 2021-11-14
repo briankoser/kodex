@@ -19,7 +19,7 @@ module.exports = function (content, data) {
 <div class="card-sidebar">
     <div class="card-author">${icon(`${gender}-user`)} ${author}</div>
     ${data.date == undefined ? '' : date}
-    <div class="card-url">${url}</div>
+    <div class="card-url small-caps">${url}</div>
 </div>
 `;
 
