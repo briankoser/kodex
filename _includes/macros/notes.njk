@@ -1,8 +1,0 @@
-{# 
-    `notes` is an array of 11ty posts
-#}
-<div class="stack cards notes">
-{% for note in notes | reverse -%}
-    {% notecard note %}{{ note.templateContent | safe }}{% endnotecard %}
-{%- endfor %}
-</div>

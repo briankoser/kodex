@@ -38,5 +38,19 @@ module.exports = async function() {
     starred.push(starredPage);
   }
 
-  return starred.flat().sort((a, b) => parseISO(a.created_at) - parseISO(b.created_at));
+  let flat = starred.flat();
+  let notes = flat.map(f => {
+    f.date = parseISO(f.created_at);
+    
+    f.externalUrl = f.url;
+    delete f.url;
+    
+    f.externalAuthor = f.author;
+    let author = f.externalAuthor == undefined ? '' : `${f.externalAuthor}: `;
+    f.note = `<div>${author}<a href="${f.externalUrl}">${f.title}</a></div>`;
+    
+    return f;
+  });
+
+  return notes;
 };

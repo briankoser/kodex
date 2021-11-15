@@ -103,6 +103,12 @@ module.exports = function (eleventyConfig) {
         filterPublished(collection.getFilteredByTag("note"))
     );
 
+    eleventyConfig.addCollection("publishedNotesFeedbin", collection => {
+        let notes = filterPublished(collection.getFilteredByTag("note"));
+        let feedbin = collection.items[0].data.feedbin;
+        return [...notes, ...feedbin].sort((a, b) => a.date - b.date);
+    });
+
 
 
     /*

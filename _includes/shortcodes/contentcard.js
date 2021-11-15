@@ -1,7 +1,3 @@
-// formats:
-//      content card:
-//          article: title, body
-
 const { format, formatISO } = require('date-fns');
 const card = require('./card.js');
 const icon = require('./icon.js');

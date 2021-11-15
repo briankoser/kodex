@@ -2,5 +2,12 @@
 layout: page
 title: Notes
 ---
-{% set notes = collections.publishedNotes %}
-{% include "macros/notes.njk" %}
+<div class="stack cards notes">
+{% for note in collections.publishedNotesFeedbin | reverse -%}
+    {% if note.cardType === "feedbin" %}
+    {% feedbincard note %}
+    {% else %}
+    {% notecard note %}{{ note.templateContent | safe }}{% endnotecard %}
+    {% endif %}
+{%- endfor %}
+</div>
