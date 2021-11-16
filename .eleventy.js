@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
         libraries
     */
     const { format, formatISO, getDate, getMonth, getYear, parseISO } = require('date-fns');
+    const autoLoad = require('auto-load');
 
 
 
@@ -114,6 +115,11 @@ module.exports = function (eleventyConfig) {
     /*
         filters
     */
+    const functions = autoLoad('_includes/functions');
+    const addFilter = (name) => eleventyConfig.addFilter(name, (...args) => functions[name](...args));
+
+    addFilter("urlDate");
+
     eleventyConfig.addFilter("day", dateObject => getDate(dateObject));
     eleventyConfig.addFilter("machineDate", dateObject => formatISO(dateObject, { representation: "date" }));
     eleventyConfig.addFilter("month", dateObject => getMonth(dateObject) + 1);
@@ -122,7 +128,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("readableDate", dateObject => format(dateObject, "MMMM do, yyyy"));
     eleventyConfig.addFilter("removeCategoryFromUrl", url => `/${url.split('/').slice(2, -1).join('/')}/`);
     eleventyConfig.addFilter("removeSlugFromUrl", url => `${url.split('/').slice(0, -2).join('/')}/`);
-    eleventyConfig.addFilter("urlDate", dateObject => format(dateObject, "yyyyMMddHHmmss"));
+    //eleventyConfig.addFilter("urlDate", dateObject => format(dateObject, "yyyyMMddHHmmss"));
     eleventyConfig.addFilter("year", dateObject => getYear(dateObject));
 
 
@@ -156,10 +162,9 @@ module.exports = function (eleventyConfig) {
     /*
         shortcodes
     */
-    const autoLoad = require('auto-load');
     const shortcodes = autoLoad('_includes/shortcodes');
-    let addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata, tokens));
-    let addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (content, data) => shortcodes[name](content, data, metadata, tokens));
+    const addShortcode = (name) => eleventyConfig.addShortcode(name, (data) => shortcodes[name](data, metadata, tokens));
+    const addPairedShortcode = (name) => eleventyConfig.addPairedShortcode(name, (content, data) => shortcodes[name](content, data, metadata, tokens));
 
     addPairedShortcode('card');
     addPairedShortcode('contentcard');

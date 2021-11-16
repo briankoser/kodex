@@ -1,14 +1,18 @@
 const Cache = require("@11ty/eleventy-cache-assets");
-const { parseISO } = require('date-fns');
+
+// uncomment for local dev
+//const dotenv = require('dotenv')
+//dotenv.config();
+
+const FEEDBIN_USER = process.env.FEEDBIN_USER;
+const FEEDBIN_PASSWORD = process.env.FEEDBIN_PASSWORD;
 
 module.exports = async function() {
   const CORS = `https://cors-anywhere.herokuapp.com/`;
   const URL_FEEDBIN_STARRED_ENTRIES = `https://api.feedbin.com/v2/starred_entries.json`;
   const URL_FEEDBIN_ENTRIES = `https://api.feedbin.com/v2/entries.json`;
-  let username = 'brianmkoser@gmail.com';
-  let password = 'cVY5f3r3PgbvvPh942DHf2WXejsMMQUj';
   let options = {
-    headers: {'Authorization': `Basic ${Buffer.from(`${username}:${password}`).toString('base64')}`}
+    headers: {'Authorization': `Basic ${Buffer.from(`${FEEDBIN_USER}:${FEEDBIN_PASSWORD}`).toString('base64')}`}
   };
   
   console.log("Fetching Feedbin starred articles…");
@@ -38,19 +42,5 @@ module.exports = async function() {
     starred.push(starredPage);
   }
 
-  let flat = starred.flat();
-  let notes = flat.map(f => {
-    f.date = parseISO(f.created_at);
-    
-    f.externalUrl = f.url;
-    delete f.url;
-    
-    f.externalAuthor = f.author;
-    let author = f.externalAuthor == undefined ? '' : `${f.externalAuthor}: `;
-    f.note = `<div>${author}<a href="${f.externalUrl}">${f.title}</a></div>`;
-    
-    return f;
-  });
-
-  return notes;
+  return starred.flat();
 };

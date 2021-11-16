@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Feedbin
+pagination:
+   data: feedbin
+   size: 1
+   alias: entry
+permalink: "/notes/{{entry.created_at | urlDate}}/"
 ---
-<div class="stack cards notes">
-{% for entry in feedbin | reverse -%}
-    {% feedbincard entry %}
-{%- endfor %}
-</div>
+
+{% feedbincard entry %}

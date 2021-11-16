@@ -4,7 +4,7 @@ title: Notes
 ---
 <div class="stack cards notes">
 {% for note in collections.publishedNotesFeedbin | reverse -%}
-    {% if note.cardType === "feedbin" %}
+    {% if note.feed_id != undefined %}
     {% feedbincard note %}
     {% else %}
     {% notecard note %}{{ note.templateContent | safe }}{% endnotecard %}
