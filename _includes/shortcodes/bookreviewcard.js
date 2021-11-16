@@ -5,7 +5,7 @@ module.exports = function (data) {
     let url = `/books/${data.slug}`;
     let bookReview = `<div class="review-work">${data.title}</div>
     <div>by ${data.author}</div>
-    <div class="review-rating">${starsShortcode(data.rating)} <a href="${data.url}">Review...</a></div>`;
+    <div class="review-rating">${starsShortcode(data.rating)} <a href="${url}">Review...</a></div>`;
     
     data.author = data.username;
     data.cardType = "bookreview";
