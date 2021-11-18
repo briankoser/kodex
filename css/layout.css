@@ -13,31 +13,17 @@ body {
         "footer";
 }
 
+.site-header { grid-area: header; }
+.site-main { grid-area: main; }
+.site-sidebar { grid-area: sidebar; }
+.site-nav { grid-area: nav; }
+.site-footer { grid-area: footer; }
+
 .site-header,
 .site-main,
 .site-sidebar,
 .site-nav {
     padding: 0 var(--s1);
-}
-
-.site-header {
-    grid-area: header; 
-}
-  
-.site-main {
-    grid-area: main; 
-}
-
-.site-sidebar {
-    grid-area: sidebar;
-}
-
-.site-nav {
-    grid-area: nav;
-}
-
-.site-footer {
-    grid-area: footer; 
 }
 
 .site-header {
@@ -55,15 +41,22 @@ body {
 
 @media only screen and (min-width: 800px) {
     body {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(6, minmax(0, 1fr));
         grid-template-areas: 
             "header header  header  header  header  header" 
             "nav    main    main    main    sidebar sidebar" 
             "footer footer  footer  footer  footer  footer";
+        row-gap: var(--s1);
     }
 
     .site-header .site-header-nav-link {
         display: none;
+    }
+
+    .site-header,
+    .site-main,
+    .site-sidebar {
+        padding: 0;
     }
 }
 
@@ -144,12 +137,12 @@ body {
     grid-template-columns: 1fr 7em;
     column-gap: var(--s1);
     grid-template-areas: 
-        "body   sidebar";
+        "cardbody   cardsidebar";
     box-shadow: 0 var(--shadow-thickness) var(--color-black);
 }
 
-.card-body { grid-area: body; }
-.card-sidebar { grid-area: sidebar; }
+.card-body { grid-area: cardbody; }
+.card-sidebar { grid-area: cardsidebar; }
 
 .card a {
     white-space: initial;
