@@ -1,14 +1,15 @@
+const { parseISO } = require('date-fns');
 const Cache = require("@11ty/eleventy-cache-assets");
+const urlDate = require('../_includes/functions/urlDate.js');
 
 // uncomment for local dev
-//const dotenv = require('dotenv')
-//dotenv.config();
+// const dotenv = require('dotenv')
+// dotenv.config();
 
 const FEEDBIN_USER = process.env.FEEDBIN_USER;
 const FEEDBIN_PASSWORD = process.env.FEEDBIN_PASSWORD;
 
 module.exports = async function() {
-  const CORS = `https://cors-anywhere.herokuapp.com/`;
   const URL_FEEDBIN_STARRED_ENTRIES = `https://api.feedbin.com/v2/starred_entries.json`;
   const URL_FEEDBIN_ENTRIES = `https://api.feedbin.com/v2/entries.json`;
   let options = {
@@ -42,5 +43,14 @@ module.exports = async function() {
     starred.push(starredPage);
   }
 
-  return starred.flat();
+  return starred.flat().map(e => {
+    let entry = Object.assign({}, e);
+    entry.author = 'Brian';
+    entry.cardType = "feedbin";
+    entry.date = parseISO(e.created_at);
+    entry.externalAuthor = e.author;
+    entry.externalUrl = e.url;
+    entry.url = `${urlDate(e.created_at)}/`;
+    return entry;
+  });
 };

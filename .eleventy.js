@@ -107,7 +107,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("publishedNotesFeedbin", collection => {
         let notes = filterPublished(collection.getFilteredByTag("note"));
         let feedbin = collection.items[0].data.feedbin;
-        return [...notes, ...feedbin].sort((a, b) => a.date - b.date);
+        return [...feedbin, ...notes].sort((a, b) => a.date - b.date);
+    });
+
+    eleventyConfig.addCollection("all", collection => {
+        let bookReviews = collection.items[0].data.bookReviews;
+        let feedbin = collection.items[0].data.feedbin;
+        let notes = filterPublished(collection.getFilteredByTag("note"));
+        let podcasts = collection.items[0].data.tto;
+
+        return [...bookReviews, ...feedbin, ...podcasts, ...notes].sort((a, b) => b.date - a.date);
     });
 
 
@@ -178,6 +187,7 @@ module.exports = function (eleventyConfig) {
     addShortcode('hr');
     addShortcode('icon');
     addShortcode('img');
+    addShortcode('podcastcard');
     addShortcode('quote');
     addShortcode('stars');
     addShortcode('swatch');

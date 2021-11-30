@@ -1,0 +1,23 @@
+---
+layout: page
+title: Podcasts
+pagination:
+   data: tto
+   size: 50
+---
+{# todo: paginate by year #}
+<div class="stack cards">
+{% for item in pagination.items -%}
+    {% podcastcard item %}
+{%- endfor %}
+</div>
+
+{# todo: move pagination into a macro to reduce duplication #}
+<nav class="pagination" aria-labelledby="my-pagination">
+  <h3 id="my-pagination">Pages</h3>
+  <ol>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" class="current-page" {% endif %}>{{ loop.index }}</a></li>
+{%- endfor %}
+  </ol>
+</nav>

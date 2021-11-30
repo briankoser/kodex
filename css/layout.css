@@ -39,13 +39,28 @@ body {
     font-size: var(--s4);
 }
 
+.site-nav {
+    font-family: var(--font-caption);
+}
+
+.site-footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: var(--s1);
+}
+
+.site-footer a {
+    color: var(--color-white);
+    text-decoration: none; 
+}
+
 @media only screen and (min-width: 800px) {
     body {
-        grid-template-columns: repeat(6, minmax(0, 1fr));
+        grid-template-columns: repeat(8, minmax(0, 1fr));
         grid-template-areas: 
-            "header header  header  header  header  header" 
-            "nav    main    main    main    sidebar sidebar" 
-            "footer footer  footer  footer  footer  footer";
+            "header header  header  header  header  header  header  header" 
+            "nav    nav     main    main    main    main    sidebar sidebar" 
+            "footer footer  footer  footer  footer  footer  footer  footer";
         row-gap: var(--s1);
     }
 
@@ -58,17 +73,6 @@ body {
     .site-sidebar {
         padding: 0;
     }
-}
-
-.site-footer {
-    background-color: var(--color-black);
-    color: var(--color-white);
-    padding: var(--s1);
-}
-
-.site-footer a {
-    color: var(--color-white);
-    text-decoration: none; 
 }
 
 
@@ -158,6 +162,10 @@ body {
 
 .card .review-work {
     font-weight: bold;
+}
+
+.card img {
+    max-width: 100%;
 }
 
 

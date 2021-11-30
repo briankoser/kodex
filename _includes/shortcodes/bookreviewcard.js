@@ -8,7 +8,6 @@ module.exports = function (data) {
     <div class="review-rating">${starsShortcode(data.rating)} <a href="${url}">Review...</a></div>`;
     
     data.author = data.username;
-    data.cardType = "bookreview";
     data.date = data.dateended;
     data.url = url;
     

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/index.html
+title: About Us
+permalink: /about-us/index.html
 ---
 Christian. Husband. Father. Reader. Writer. Programmer. Podcaster. **Brian** jug­gles many hats. When he’s not mix­ing metaphors, you might find him making lists, exploiting the power of three, or writ­ing in the third per­son.
 

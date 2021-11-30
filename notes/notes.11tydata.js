@@ -1,3 +1,4 @@
 module.exports = {
-    layout: 'note'
+    layout: 'note',
+    cardType: 'note'
 };
