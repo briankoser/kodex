@@ -35,7 +35,7 @@
     stroke-linejoin="round" stroke-width="2" d="M26 56V38H8m18 0L2 62" style="stroke:var(--stroke, #2e4369)"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="property-1">
-    <title>Property</title>
+    <title>Home</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <path data-name="layer4"
     fill="#e8ddc9" d="M10 29v32h14V41h16v20h14V28.769L32 11 10 29z" style="fill:var(--layer4, #e8ddc9)"></path>
@@ -60,7 +60,7 @@
     stroke-linejoin="round" style="stroke:var(--stroke, #2e4369)"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="healthcare-1">
-    <title>Healthcare</title>
+    <title>Us</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <path data-name="layer3"
     d="M35.282 44.29a7.781 7.781 0 0 0 2.287-3.354A1.976 1.976 0 0 0 39 39a2.014 2.014 0 0 0-.961-1.734C37.835 33.192 35.886 30 31 30s-6.835 3.192-7.039 7.266A2.014 2.014 0 0 0 23 39a1.976 1.976 0 0 0 1.431 1.936 7.781 7.781 0 0 0 2.287 3.354A10.022 10.022 0 0 0 21 53.308V56h20v-2.692a10.022 10.022 0 0 0-5.718-9.018z"
@@ -94,7 +94,7 @@
     stroke-linejoin="round" style="stroke:var(--stroke, #2e4369)"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="invoice-1">
-    <title>Invoice</title>
+    <title>Note</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <path data-name="layer1"
     fill="#e0eafc" d="M53 8l-6.1-6L41 6l-6-4-6 4-6-4-6 4-6-4v54.1l6.1 5.9 5.9-4 6 4 6-4 6 4 6-4 6 4V8z"
@@ -150,7 +150,7 @@
     style="stroke:var(--stroke, #2e4369)"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="male-user-1">
-    <title>Male User</title>
+    <title>Brian</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <path data-name="layer2"
     d="M62 32a30 30 0 1 0-48.9 23.3 10.7 10.7 0 0 1 4.1-1.6c8.1-1.5 7.9-4.1 7.9-5.7v-1c-1-1.7-3.2-4.2-4-7.1h.1c-2.5 0-3-5.1-3-5.9s-.1-3.8 2.4-3.8c-1.6-6.5-1.3-13 3.2-13 10.7-7.5 24.9-1.6 19.6 13 2.5 0 2.4 3.1 2.4 3.8s-.6 5.9-3 5.9h-.3a14.6 14.6 0 0 1-4.4 7.1v1c0 1.6.2 4.1 8.3 5.7a12.7 12.7 0 0 1 4.4 1.7A30 30 0 0 0 62 32z"
@@ -168,7 +168,7 @@
     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--stroke, #2e4369)"></circle>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="female-user-1">
-    <title>Female User</title>
+    <title>Melissa</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <path data-name="layer2"
     d="M37.9 46.3V46a57.1 57.1 0 0 0 12.2-2c-3.4-3.3-6.1-4.9-6.1-18.8S29.9 14 29.9 14c-10 0-10 10.8-10 10.8 0 13.9-2.6 15.8-5.9 19.2a55.2 55.2 0 0 0 11.8 2v.3c0 1.6-.4 5.9-8.5 7.4a11.7 11.7 0 0 0-4.3 1.6 30 30 0 0 0 37.8 0 12.5 12.5 0 0 0-4.4-1.7c-8-1.5-8.5-5.7-8.5-7.3z"
@@ -186,7 +186,7 @@
     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--stroke, #2e4369)"></circle>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="cinema-projector-1">
-    <title>Cinema Projector</title>
+    <title>Movie Projector</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <rect data-name="layer3"
     x="10" y="22" width="36" height="20" rx="2" ry="2" fill="#7b8baf" style="fill:var(--layer3, #7b8baf)"></rect>
@@ -359,7 +359,7 @@
     stroke-width="2" stroke-linejoin="round" style="stroke:var(--stroke, #2e4369)"></path>
   </symbol>
   <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="royal-1">
-    <title>Royal</title>
+    <title>Game</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <circle fill="#fc6"
     r="5" cy="13.999" cx="30.998" data-name="layer1" style="fill:var(--layer1, #fc6)"></circle>
@@ -425,7 +425,7 @@
     stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--stroke, #2e4369)"></circle>
   </symbol>
   <symbol viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" id="dish-radio-antenna-1">
-    <title>Dish Radio Antenna</title>
+    <title>Antenna</title>
     <desc>A color styled icon from Orion Icon Library.</desc>
     <path fill="#8ca0c8"
     d="M52.582 44.334A26.263 26.263 0 0 1 15.441 7.192z" data-name="layer1"
@@ -440,5 +440,53 @@
     <path d="M27.514 51.29L32.869 62H5l9.689-18.451m20.295-16.814l8.735-8.734m0-8.001a8 8 0 0 1 8 8m-8-16a16 16 0 0 1 16 16"
     stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke="#2e4369"
     fill="none" data-name="stroke" stroke-linejoin="round" style="stroke:var(--stroke, #2e4369)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="people-1">
+    <title>Others</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer3"
+    cx="32" cy="23" r="5" fill="#3dd1fe" style="fill:var(--layer3, #3dd1fe)"></circle>
+    <path data-name="layer3" d="M40.4 32H23.6a1.6 1.6 0 0 0-1.6 1.6v10.8a1.6 1.6 0 0 0 1.6 1.6H26v12.4a1.6 1.6 0 0 0 1.6 1.6h8.8a1.6 1.6 0 0 0 1.6-1.6V46h2.4a1.6 1.6 0 0 0 1.6-1.6V33.6a1.6 1.6 0 0 0-1.6-1.6z"
+    fill="#3dd1fe" style="fill:var(--layer3, #3dd1fe)"></path>
+    <circle data-name="layer2" cx="10" cy="8" r="4" fill="#78d1f4"
+    style="fill:var(--layer2, #78d1f4)"></circle>
+    <path data-name="layer2" d="M16.4 16H3.6A1.6 1.6 0 0 0 2 17.6v8.8A1.6 1.6 0 0 0 3.6 28H6v10.4A1.6 1.6 0 0 0 7.6 40h4.8a1.6 1.6 0 0 0 1.6-1.6V28h2.4a1.6 1.6 0 0 0 1.6-1.6v-8.8a1.6 1.6 0 0 0-1.6-1.6z"
+    fill="#78d1f4" style="fill:var(--layer2, #78d1f4)"></path>
+    <circle data-name="layer1" cx="54" cy="8" r="4" fill="#a5d0ec"
+    style="fill:var(--layer1, #a5d0ec)"></circle>
+    <path data-name="layer1" d="M60.4 16H47.6a1.6 1.6 0 0 0-1.6 1.6v8.8a1.6 1.6 0 0 0 1.6 1.6H50v10.4a1.6 1.6 0 0 0 1.6 1.6h4.8a1.6 1.6 0 0 0 1.6-1.6V28h2.4a1.6 1.6 0 0 0 1.6-1.6v-8.8a1.6 1.6 0 0 0-1.6-1.6z"
+    fill="#a5d0ec" style="fill:var(--layer1, #a5d0ec)"></path>
+    <path d="M32 28l1.5-.3a5 5 0 0 1 0-9.5L32 18a5 5 0 0 0 0 10zm-3 30.4V46h-2.4a1.6 1.6 0 0 1-1.6-1.6V33.6a1.6 1.6 0 0 1 1.6-1.6h-3a1.6 1.6 0 0 0-1.6 1.6v10.8a1.6 1.6 0 0 0 1.6 1.6H26v12.4a1.6 1.6 0 0 0 1.6 1.6h3a1.6 1.6 0 0 1-1.6-1.6zM10 12a4 4 0 0 0 1.5-.3 4 4 0 0 1 0-7.4A4 4 0 1 0 10 12zM9 38.4V28H6.6A1.6 1.6 0 0 1 5 26.4v-8.8A1.6 1.6 0 0 1 6.6 16h-3A1.6 1.6 0 0 0 2 17.6v8.8A1.6 1.6 0 0 0 3.6 28H6v10.4A1.6 1.6 0 0 0 7.6 40h3A1.6 1.6 0 0 1 9 38.4zM54 12a4 4 0 0 0 1.5-.3 4 4 0 0 1 0-7.4A4 4 0 1 0 54 12zm-1 26.4V28h-2.4a1.6 1.6 0 0 1-1.6-1.6v-8.8a1.6 1.6 0 0 1 1.6-1.6h-3a1.6 1.6 0 0 0-1.6 1.6v8.8a1.6 1.6 0 0 0 1.6 1.6H50v10.4a1.6 1.6 0 0 0 1.6 1.6h3a1.6 1.6 0 0 1-1.6-1.6z"
+    fill="#000064" data-name="opacity" opacity=".15"></path>
+    <circle data-name="stroke" cx="32" cy="23" r="5" fill="none" stroke="#2e4369"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--stroke, #2e4369)"></circle>
+    <path data-name="stroke" d="M40.4 32H23.6a1.6 1.6 0 0 0-1.6 1.6v10.8a1.6 1.6 0 0 0 1.6 1.6H26v12.4a1.6 1.6 0 0 0 1.6 1.6h8.8a1.6 1.6 0 0 0 1.6-1.6V46h2.4a1.6 1.6 0 0 0 1.6-1.6V33.6a1.6 1.6 0 0 0-1.6-1.6z"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2" style="stroke:var(--stroke, #2e4369)"></path>
+    <circle data-name="stroke" cx="10" cy="8" r="4" fill="none" stroke="#2e4369"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--stroke, #2e4369)"></circle>
+    <path data-name="stroke" d="M16.4 16H3.6A1.6 1.6 0 0 0 2 17.6v8.8A1.6 1.6 0 0 0 3.6 28H6v10.4A1.6 1.6 0 0 0 7.6 40h4.8a1.6 1.6 0 0 0 1.6-1.6V28h2.4a1.6 1.6 0 0 0 1.6-1.6v-8.8a1.6 1.6 0 0 0-1.6-1.6z"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2" style="stroke:var(--stroke, #2e4369)"></path>
+    <circle data-name="stroke" cx="54" cy="8" r="4" fill="none" stroke="#2e4369"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--stroke, #2e4369)"></circle>
+    <path data-name="stroke" d="M60.4 16H47.6a1.6 1.6 0 0 0-1.6 1.6v8.8a1.6 1.6 0 0 0 1.6 1.6H50v10.4a1.6 1.6 0 0 0 1.6 1.6h4.8a1.6 1.6 0 0 0 1.6-1.6V28h2.4a1.6 1.6 0 0 0 1.6-1.6v-8.8a1.6 1.6 0 0 0-1.6-1.6z"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2" style="stroke:var(--stroke, #2e4369)"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="dollar-sign-1">
+    <title>Support</title>
+    <desc>A color styled icon from Orion Icon Library.</desc>
+    <circle data-name="layer1"
+    cx="32" cy="32" r="30" fill="#fc6" style="fill:var(--layer1, #fc6)"></circle>
+    <path data-name="opacity" d="M34 60A30 30 0 0 1 11.8 9.8a30 30 0 1 0 42.4 42.4A29.9 29.9 0 0 1 34 60z"
+    fill="#000064" opacity=".15"></path>
+    <path data-name="opacity" d="M32 2A29.9 29.9 0 0 0 8.9 12.9a30 30 0 0 1 42.2 42.2A30 30 0 0 0 32 2z"
+    fill="#fff" opacity=".2"></path>
+    <path data-name="stroke" d="M39.9 24a8 8 0 0 0-7.9-6.7c-4.4 0-8 2.9-8 7.3s4 6.4 8 7.3m-8 6.8a8 8 0 0 0 8 8c4.4 0 8-2.9 8-7.3s-4-6.4-8-7.3m0-14.8V12m0 40v-5.3"
+    fill="none" stroke="#2e4369" stroke-linecap="round" stroke-linejoin="round"
+    stroke-width="2" style="stroke:var(--stroke, #2e4369)"></path>
+    <circle data-name="stroke" cx="32" cy="32" r="30" fill="none" stroke="#2e4369"
+    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="stroke:var(--stroke, #2e4369)"></circle>
   </symbol>
 </svg>

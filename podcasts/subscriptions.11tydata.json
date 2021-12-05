@@ -1,0 +1,238 @@
+{
+    "subscriptions": {
+        "active": [{
+            "title": "The Sci-Fi Christian",
+            "image": "the-sci-fi-christian.jpg",
+            "url": "http://thescifichristian.com/",
+            "hosts": "Matt Anderson and Ben De Bono",
+            "description": "Theology and Genre Fiction (and Literature and Everything Else)",
+            "comments": "Our favorite podcast. Check out Brian's fan site at https://sfc.blue",
+            "listen": {
+                "brian": true,
+                "melissa": true
+            }
+        }, {
+            "title": "The Sci-Fi Christian Extra",
+            "image": "the-sci-fi-christian-extra.png",
+            "url": "https://www.patreon.com/thescifichristian",
+            "hosts": "Matt Anderson and Ben De Bono",
+            "description": "Patreon tiers for SFC Extra, Sports, and Uncensored episodes",
+            "patreon": true,
+            "listen": {
+                "brian": true,
+                "melissa": true
+            }
+        }, {
+            "title": "Hugos There",
+            "image": "hugos-there.jpg",
+            "url": "https://hugospodcast.com/",
+            "hosts": "Seth Heasley",
+            "description": "Seth Heasley discusses Hugo Award winners with a guest host",
+            "comments": "Here's my problem with this podcast: it keeps convincing me to read books, and my \"to read\" list is already too long.",
+            "patreon": true,
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "372 Pages We'll Never Get Back",
+            "image": "372-pages.png",
+            "url": "http://372pages.com/",
+            "hosts": "Conor Lastowka and Michael J. Nelson",
+            "description": "Conor Lastowka and Michael J. Nelson are reading books they're pretty sure they're going to hate",
+            "patreon": true,
+            "listen": {
+                "brian": true,
+                "melissa": true
+            }
+        }, {
+            "title": "Like Trees Walking",
+            "image": "like-trees-walking.jpg",
+            "url": "https://liketreeswalkingpod.com/",
+            "hosts": "David Berge and Michael J. Nelson",
+            "description": "David Berge and Michael J. Nelson discuss today's topics from a Christian perspective",
+            "comments": "Also Mike sometimes makes Dave eat weird tinned fish",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Dan Carlin's Hardcore History",
+            "image": "hardcore-history.png",
+            "url": "https://www.dancarlin.com/hardcore-history-series/",
+            "hosts": "Dan Carlin",
+            "description": "An amateur historian's masterful narration of war and other historical high points",
+            "comments": "High quality audio books",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Common Sense with Dan Carlin",
+            "image": "common-sense.png",
+            "url": "https://www.dancarlin.com/product-category/common-sense-with-dan-carlin/current-common-sense/",
+            "hosts": "Dan Carlin",
+            "description": "An independent look at politics and current events",
+            "listen": {
+                "brian": true,
+                "melissa": true
+            }
+        }, {
+            "title": "Consortium Podcast",
+            "image": "consortium.png",
+            "url": "https://consortiumpodcast.podbean.com/",
+            "hosts": "Scott Postma and Joffre Swait",
+            "description": "Engaging academic conversations with teachers, authors, and professors engaged in Classical Christian Education",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "The Everlasting Education",
+            "image": "everlasting-education.jpg",
+            "url": "https://theeverlastingeducation.podbean.com/",
+            "hosts": "Scott Postma and Joffre Swait",
+            "description": "Helping families achieve the best of education through a gentle contempt for education",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Digressio Podcast",
+            "image": "digressio.png",
+            "url": "https://romanroadsmedia.com/digressio/digressio-podcast/",
+            "hosts": "Daniel Foucachon",
+            "description": "Discussion of our shared inheritance, the humanities",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "New Humanists",
+            "image": "new-humanists.jpg",
+            "url": "https://newhumanists.buzzsprout.com/",
+            "hosts": "Jonathan Roberts and Ryan Hammill",
+            "description": "Discovering what a renewed humanism looks like for the modern world",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Lore",
+            "image": "lore.png",
+            "url": "https://www.lorepodcast.com/",
+            "hosts": "Aaron Mahnke",
+            "description": "Sometimes the truth is more frightening than fiction",
+            "listen": {
+                "melissa": true
+            }
+        }],
+        "retired": [{
+            "title": "Flip the Table",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": "",
+            "patreon": true,
+            "listen": {
+                "brian": true,
+                "melissa": true
+            }
+        }, {
+            "title": "Question of the Day",
+            "image": "",
+            "url": "http://www.earwolf.com/show/question-of-the-day/",
+            "hosts": "",
+            "description": "",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Not Another Philly Sports Talk Show",
+            "image": "",
+            "url": "https://podcasts.apple.com/us/podcast/not-another-philly-sports-talk-show/id498359591?mt=2",
+            "hosts": "David Murphy and Mike Sielski",
+            "description": "Discussion of the Eagles, Phillies, Flyers, and Sixers",
+            "listen": {
+                "brian": true
+            }
+        }],
+        "interested": [{
+            "title": "The Literary Life Podcast",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "The Well Read Poem",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "The New Thinkery",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "The History of Literature",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "Literature and History",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "The Martyrmade Podcast",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "Rivals",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "Ghostrunners",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "Irreverend",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }, {
+            "title": "Passages",
+            "image": "",
+            "url": "",
+            "hosts": "",
+            "description": ""
+        }],
+        "unsubscribed": [{
+            "title": "Stuff You Missed in History Class"
+        }, {
+            "title": "Freakonomics"
+        }, {
+            "title": "The History of Rome"
+        }, {
+            "title": "I Don't Even Own a Television"
+        }, {
+            "title": "The Way I Heard It"
+        }, {
+            "title": "The Dice Tower"
+        }, {
+            "title": "Ludology"
+        }, {
+            "title": "The Dice Steeple"
+        }, {
+            "title": "Cold-Case Christianity"
+        }, {
+            "title": "Reasonable Faith"
+        }, {
+            "title": "Unbelievable?"
+        }]
+    }
+}

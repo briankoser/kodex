@@ -721,8 +721,8 @@ sub {
     bottom: -0.25em; }
   
 small {
-    font-size: 0.889em;
-    line-height: 1.3em; }
+    font-size: 0.889em; 
+}
   
 abbr,
 .proper-name {

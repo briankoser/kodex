@@ -124,6 +124,10 @@ body {
     --space: var(--s0);
 }
 
+.stack-large {
+    --space: var(--s3);
+}
+
 
 /* Icon */
 .icon {
@@ -209,6 +213,34 @@ body {
     grid-template-areas: 
         "date   body" 
         "author body";
+}
+
+
+
+/* Podcast Subscriptions */
+.podcast-subscriptions article {
+    display: grid;
+    grid-template-areas: 
+        "album body"
+        "meta  body";
+    grid-template-columns: 6em 1fr;
+    column-gap: 1em;
+}
+
+.podcast-subscriptions .album { grid-area: album; }
+.podcast-subscriptions .meta { grid-area: meta; }
+.podcast-subscriptions .body { grid-area: body; }
+
+.podcast-subscriptions img {
+    max-width: 100%;
+}
+
+.podcast-subscriptions h3 {
+    margin-top: 0;
+}
+
+.podcast-subscriptions .comments {
+    font-style: italic;
 }
 
 
