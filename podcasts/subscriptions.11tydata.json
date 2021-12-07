@@ -122,10 +122,11 @@
         }],
         "retired": [{
             "title": "Flip the Table",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": "",
+            "image": "flip-the-table.png",
+            "url": "https://tableflipsyou.blogspot.com/",
+            "hosts": "Chris Michaud, Flip Florey, Jared Hunnefeld, Chris Barter",
+            "description": "Four friends play cheesy, weird, and obscure board games, review them, then play a game show.",
+            "comments": "Best edited amateur podcast. Timeless, go check this one out.",
             "patreon": true,
             "listen": {
                 "brian": true,
@@ -133,22 +134,47 @@
             }
         }, {
             "title": "Question of the Day",
-            "image": "",
+            "image": "question-of-the-day.png",
             "url": "http://www.earwolf.com/show/question-of-the-day/",
-            "hosts": "",
-            "description": "",
+            "hosts": "Stephen Dubner and James Altucher",
+            "description": "Quick answer to a new question thrice weekly",
+            "comments": "Fun and quick. No need to revisit.",
             "listen": {
                 "brian": true
             }
         }, {
             "title": "Not Another Philly Sports Talk Show",
-            "image": "",
+            "image": "not-another-philly-sports-talkshow.png",
             "url": "https://podcasts.apple.com/us/podcast/not-another-philly-sports-talk-show/id498359591?mt=2",
             "hosts": "David Murphy and Mike Sielski",
             "description": "Discussion of the Eagles, Phillies, Flyers, and Sixers",
+            "comments": "Reasonable sports takes. Stopped right before the Eagles won the Super Bowl. I would make the trade 100 times out of 100.",
             "listen": {
                 "brian": true
             }
+        }],
+        "unsubscribed": [{
+            "title": "Stuff You Missed in History Class"
+        }, {
+            "title": "Freakonomics"
+        }, {
+            "title": "The History of Rome"
+        }, {
+            "title": "I Don't Even Own a Television"
+        }, {
+            "title": "The Way I Heard It"
+        }, {
+            "title": "The Dice Tower"
+        }, {
+            "title": "Ludology"
+        }, {
+            "title": "The Dice Steeple"
+        }, {
+            "title": "Cold-Case Christianity"
+        }, {
+            "title": "Reasonable Faith"
+        }, {
+            "title": "Unbelievable?"
         }],
         "interested": [{
             "title": "The Literary Life Podcast",
@@ -210,29 +236,6 @@
             "url": "",
             "hosts": "",
             "description": ""
-        }],
-        "unsubscribed": [{
-            "title": "Stuff You Missed in History Class"
-        }, {
-            "title": "Freakonomics"
-        }, {
-            "title": "The History of Rome"
-        }, {
-            "title": "I Don't Even Own a Television"
-        }, {
-            "title": "The Way I Heard It"
-        }, {
-            "title": "The Dice Tower"
-        }, {
-            "title": "Ludology"
-        }, {
-            "title": "The Dice Steeple"
-        }, {
-            "title": "Cold-Case Christianity"
-        }, {
-            "title": "Reasonable Faith"
-        }, {
-            "title": "Unbelievable?"
         }]
     }
 }
