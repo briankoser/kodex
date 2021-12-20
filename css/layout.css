@@ -141,27 +141,11 @@ body {
 
 /* Card */
 .card {
-    display: grid;
-    grid-template-columns: 1fr 7em;
-    column-gap: var(--s1);
-    grid-template-areas: 
-        "cardbody   cardsidebar";
     box-shadow: 0 var(--shadow-thickness) var(--color-black);
 }
 
-.card-body { grid-area: cardbody; }
-.card-sidebar { grid-area: cardsidebar; }
-
 .card a {
     white-space: initial;
-}
-
-.card-sidebar {
-    font-variant-numeric: lining-nums;
-}
-
-.card-sidebar a {
-    text-decoration: none;
 }
 
 .card .review-work {
@@ -171,6 +155,26 @@ body {
 .card img {
     max-width: 100%;
 }
+
+.sidebar-card {
+    display: grid;
+    grid-template-columns: 1fr 7em;
+    column-gap: var(--s1);
+    grid-template-areas: 
+        "cardbody   cardsidebar";
+}
+
+.card-body { grid-area: cardbody; }
+.card-sidebar { grid-area: cardsidebar; }
+
+.card-sidebar {
+    font-variant-numeric: lining-nums;
+}
+
+.card-sidebar a {
+    text-decoration: none;
+}
+
 
 
 

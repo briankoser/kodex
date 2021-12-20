@@ -127,6 +127,7 @@ module.exports = function (eleventyConfig) {
     const functions = autoLoad('_includes/functions');
     const addFilter = (name) => eleventyConfig.addFilter(name, (...args) => functions[name](...args));
 
+    addFilter("distinct");
     addFilter("urlDate");
 
     eleventyConfig.addFilter("day", dateObject => getDate(dateObject));
@@ -180,6 +181,7 @@ module.exports = function (eleventyConfig) {
     addPairedShortcode('demo');
     addPairedShortcode('notecard');
     addShortcode('bookreviewcard');
+    addShortcode('bookreviewpreviewcard');
     addShortcode('checkbox');
     addShortcode('dialog');
     addShortcode('feedbincard');
