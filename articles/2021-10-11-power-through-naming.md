@@ -1,6 +1,5 @@
 ---
 title: Power through Naming
-description: 
 published: 2021-10-11T20:45:00
 authors:
   - Melissa
