@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
     "auto-load": "^3.0.4",
     "pg": "^8.7.1"
   },

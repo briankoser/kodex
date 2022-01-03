@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
     */
     const { format, formatISO, getDate, getMonth, getYear, parseISO } = require('date-fns');
     const autoLoad = require('auto-load');
+    const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 
 
@@ -196,6 +197,15 @@ module.exports = function (eleventyConfig) {
     addShortcode('youtube');
     addShortcode('vimeo');
 
+
+
+    /*
+        plugins
+    */
+    eleventyConfig.addPlugin(pluginRss);
+
+
+    
     return {
         markdownTemplateEngine: "njk"
     };
