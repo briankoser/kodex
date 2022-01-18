@@ -13,8 +13,20 @@
 
 [[headers]]
   for = "/feed.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
   for = "/articles/feed.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
   for = "/books/feed.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
   for = "/notes/feed.xml"
   [headers.values]
     Content-Type = "application/xml; charset=utf-8"
