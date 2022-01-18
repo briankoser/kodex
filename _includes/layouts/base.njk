@@ -31,6 +31,11 @@
     {% for cssFile in cssFiles -%}
         <link rel="stylesheet" href="/css/{{ cssFile }}.css" />
     {% endfor %}
+
+    <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="All RSS">
+    <link rel="alternate" type="application/rss+xml" href="/articles/feed.xml" title="Articles RSS">
+    <link rel="alternate" type="application/rss+xml" href="/books/feed.xml" title="Book Reviews RSS">
+    <link rel="alternate" type="application/rss+xml" href="/notes/feed.xml" title="Notes RSS">
 </head>
 <body class="{{ authors[0] | lower if (authors | length) == 1 }}">
     <header class="site-header">
@@ -44,7 +49,12 @@
     <main class="container site-main">
         {{ content | safe }}
     </main>
-    <aside class="site-sidebar"><!--Sidebar content--></aside>
+    <aside class="site-sidebar">
+        {% if feed %}
+        <h1 class="h3">Follow</h1>
+        {% icon 'rss' %} <a href="{{feed}}">RSS Feed</a>
+        {% endif %}
+    </aside>
     <nav class="site-nav">
         <ul id="siteNav" role="navigation">
             <li>{% icon "property" %} <a href="/">Home</a></li>
@@ -55,6 +65,7 @@
                 <li>{% icon "book" %} <a href="/books">Books</a></li>
                 <li>{% icon "invoice" %} <a href="/notes">Notes</a></li>
                 <li>{% icon "microphone" %} <a href="/podcasts">Podcasts</a></li>
+                <li>{% icon "rss" %} <a href="/feeds">Follow</a></li>
             </ul></li>
             <li>{% icon "people" %} Others</li>
             <li><ul role="navigation">

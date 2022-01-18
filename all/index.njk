@@ -4,21 +4,24 @@ title: All
 pagination:
    data: collections.all
    size: 50
+feed: /feed.xml
 ---
 
 {# todo: paginate by year #}
 <div class="stack cards">
 {% for item in pagination.items -%}
-    {% if item.cardType == 'bookreview' %}
+    {% if item.data.cardType == 'article' %}
+    {% articlecard item %}
+    {% elif item.cardType == 'bookreview' %}
     {% bookreviewcard item %}
     {% elif item.cardType == 'feedbin' %}
     {% feedbincard item %}
     {% elif item.cardType == 'note' %}
-    {% notecard item %}{{ item.templateContent | safe }}{% endnotecard %} note!
+    {% notecard item %}{{ item.templateContent | safe }}{% endnotecard %}
     {% elif item.cardType == 'podcast' %}
     {% podcastcard item %}
     {% else %}
-    {{item}}
+    {{ item.data.cardType or 'none' }}
     {% endif %}
 {%- endfor %}
 </div>

@@ -1,11 +1,11 @@
 ---
-permalink: articles/feed.xml
+permalink: books/feed.xml
 eleventyExcludeFromCollections: true
 metadata:
-    title: kodex Articles
-    subtitle: Essays by Brian and Melissa Koser
+    title: kodex Book Reviews
+    subtitle: Book Reviews by Brian and Melissa Koser
     url: https://koser.us/
-    feedUrl: https://koser.us/feeds/articles.xml
+    feedUrl: https://koser.us/feeds/book-reviews.xml
     author:
         name: Brian Koser
         email: brian@koser.us
@@ -17,13 +17,13 @@ metadata:
   <subtitle>{{ metadata.subtitle }}</subtitle>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.publishedArticles | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ bookReviews | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.publishedArticles | reverse %}
+  {%- for post in bookReviews %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>

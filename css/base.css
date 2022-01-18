@@ -246,6 +246,7 @@ figure.scrolling-table {
 
 figcaption {
     font-family: var(--font-caption);
+    text-align: right;
 }
 
 

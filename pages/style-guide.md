@@ -17,6 +17,16 @@ contentCard:
     date: 2021-11-05
     url: example
 
+articleCard:
+    date: 2021-11-05
+    url: example
+    title: The Article Title
+    data:
+        authors: 
+            - Penny
+            - Susanna
+        excerpt: The first line of the article.
+
 noteCard:
     author: Lydia
     cardType: note
@@ -462,11 +472,10 @@ bookReviewCard:
     {% bookreviewcard bookReviewCard %}
 {% enddemo %}
 
-{# 
 {% demo "Article Card" %}
-    {% articleCard articleCard %}
+    {% articlecard articleCard %}
 {% enddemo %}
-#}
+
 
 
 ## Stars

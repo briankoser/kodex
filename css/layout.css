@@ -144,6 +144,13 @@ body {
     box-shadow: 0 var(--shadow-thickness) var(--color-black);
 }
 
+.card h1,
+.card h2,
+.card h3,
+.card h4 {
+    margin-top: 0;
+}
+
 .card a {
     white-space: initial;
 }
