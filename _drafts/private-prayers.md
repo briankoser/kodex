@@ -27,9 +27,21 @@ And Thou, my Saviour Christ, Christ my Saviour, Saviour of sinners, of whom I am
 And Thou, all-holy, good and life-giving Spirit, despise me not, Thy breath, despise not Thine own holy things; but turn thee again, O Lord, at the last, and be gracious unto Thy servant.
 
 
-### Commendation
+### Confession
+Blessed art Thou, O Lord our God, the God of our fathers, who turnest the shadow of death into the morning, and renewest the face of the earth; who separatest darkness from the face of the light (Gen. 1.4), and banishest night and bringest back the day; who lightenest mine eyes that I sleep not in death; who deliverest me from the terror by night, from the pestilence that walketh in darkness; who drivest sleep from mine eyes and slumber from mine eyelids; who makest the out-goings of the morning and evening to praise Thee; because I laid me down and slept and rose up again, for the Lord sustained me; because I waked and beheld, and my sleep was sweet unto me. 
+
+Blot out as a thick cloud my transgressions, and as a cloud my sins; grant me to be a child of light, a child of the day, to walk soberly, holily, honestly, as in the day. Vouchsafe to keep me this day without sin. Thou who upholdest the falling and liftest the fallen, let me not harden my heart in provocation, or temptation, or in deceitfulness of any sin. Moreover, deliver me to-day from the snare of the hunter, and from the noisome pestilence; from the arrow that flieth by day, from the sickness that destroyeth in the noonday. Defend this day against my evil, against the evil of this day defend Thou me. Let not my days be spent in vanity nor my years in sorrow. 
+
+O let me hear Thy loving-kindness betimes in the morning, for in Thee is my trust; show Thou me the way that I should walk in, for I lift up my soul unto Thee. Deliver me, O Lord, from mine enemies, for I flee unto Thee. Teach me to do the thing that pleaseth Thee, for Thou art my God; let Thy loving Spirit lead me forth into the land of righteousness. Quicken me, O Lord, for Thy name's sake, and for Thy righteousness' sake bring my soul out of trouble. Remove from me foolish imaginations, inspire those which are good and pleasing in Thy sight. Turn away mine eyes lest they behold vanity; let mine eyes look right on; and let mine eyelids look straight before me. Hedge up mine ears with thorns, lest they incline to undisciplined words. Give me early the ear to hear, and open mine eyes to the instructions of Thy oracles (Isa. 50.4). Set a watch, O Lord, before my mouth, and keep the door of my lips. Let my word be seasoned with salt, that it may minister grace to the hearers. Let no deed be grief unto me nor offence of heart. Let me do some deed for which Thou wilt remember me, Lord, for good, and spare me according to the greatness of Thy mercy. 
+
+Into Thine hands I commend my spirit, soul and body, which Thou hast created, redeemed, regenerated, O Lord, Thou God of truth; and together with me all mine, and all that belongs to me. Thou hast vouchsafed them to me, O Lord, in Thy goodness. Guard us from all evil. Guard our souls, I beseech Thee, O Lord. Guard us without falling and place us faultless in the presence of Thy glory in that day. Guard my going out and my coming in henceforth and for ever. Prosper, I pray Thee, Thy servant this day, and grant him mercy in the sight of those who meet him.
+
+O God, make speed to save me; O Lord, make haste to help me. O turn Thee then unto me, and have mercy upon me; give Thy strength unto Thy servant, and help the son of Thine handmaid. Show some token upon me for good, that they who hate me may see it and be ashamed, because Thou, Lord, hast holpen me and comforted me.
 
 ## Evening Prayer
+
+### Commendation
+### Confession
 
 ## Sunday Prayer
 ## Monday Prayer
