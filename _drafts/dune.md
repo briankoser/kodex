@@ -1,0 +1,1 @@
+The gom jabar tests humanity: if you can bear pain for a future purpose, you are human. The Fremen are human: they bear the pain of Arrakis for the future purpose of Paradise. Paul brings Paradise, but makes the Fremen less human. Leto II is more human than Paul (willing to do the Golden Path), and his plan seems to be to restore the humanity to the Fremen.
