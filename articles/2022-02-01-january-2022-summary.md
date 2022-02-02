@@ -13,7 +13,7 @@ I'm also going to try sharing highlights for each month here.
 
 # Personal
 - Started bullet journaling
-- Fourth daughter was born! Susanna Carol Koser, named for her grandmothers. Guess I need a new site logo.
+- Fourth daughter was born! Susanna Carol Koser, named for her grandmothers.
 
 # Projects
 - Started a project related to Lancelot Andrewes's daily prayers. Step one is to get a transcript.
