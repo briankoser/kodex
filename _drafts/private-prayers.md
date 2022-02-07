@@ -39,6 +39,16 @@ Into Thine hands I commend my spirit, soul and body, which Thou hast created, re
 O God, make speed to save me; O Lord, make haste to help me. O turn Thee then unto me, and have mercy upon me; give Thy strength unto Thy servant, and help the son of Thine handmaid. Show some token upon me for good, that they who hate me may see it and be ashamed, because Thou, Lord, hast holpen me and comforted me.
 
 ## Evening Prayer
+The day is gone, and I give Thee thanks, O Lord. Evening is at hand, furnish it with brightness. As day has its evening so also has life; the even of life is age, age has overtaken me, furnish it with brightness. Cast me not away in the time of age; forsake me not when my strength faileth me. Even to my old age be Thou He, and even to hoar hairs carry me; do Thou make, do Thou bear, do Thou carry and deliver me (Isa. 46.4). Abide with me, Lord, for it is toward evening, and the day is far spent of this fretful life. Let Thy strength be made perfect in my weakness. 
+
+Day is fled and gone, life too is going, this lifeless life. Night cometh and cometh death, the deathless death. Near as is the end of day, so too is the end of life; we then also remembering it, beseech of Thee for the close of our life, that Thou wouldest direct it in peace, Christian, acceptable, sinless, shameless, and, if it please Thee, painless, Lord, our Lord, gathering us together under the feet of Thine elect, when Thou wilt and as Thou wilt, only without shame and sins. 
+
+Remember we the days of darkness, for they shall be many, lest we be cast into outer darkness. Remember we to outstrip the night, doing some good thing. Near is judgment; a good and acceptable answer at the dreadful and fearful judgment seat of Jesus Christ, vouchsafe to us, O Lord. 
+
+By night I lift up my hands in the sanctuary and praise the Lord. The Lord hath granted His loving kindness in the day time; in the night season did I sing of Him, and made my prayer unto the God of my life. As long as I live will I magnify Thee on this manner, and lift up my hands in Thy name. Lord let my prayer be set forth in Thy sight as the incense, and let the lifting up of my hands be an evening sacrifice. 
+
+Blessed art Thou, O Lord our God, the God of our fathers, who hast created the changes of days and nights, who givest songs in the night, who has delivered us from the evil of this day, who hast not cut off like a weaver my life, nor from day even to night made an end of me. 
+
 
 ### Commendation
 ### Confession
