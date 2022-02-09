@@ -49,9 +49,11 @@ By night I lift up my hands in the sanctuary and praise the Lord. The Lord hath 
 
 Blessed art Thou, O Lord our God, the God of our fathers, who hast created the changes of days and nights, who givest songs in the night, who has delivered us from the evil of this day, who hast not cut off like a weaver my life, nor from day even to night made an end of me. 
 
+### Confession
+Lord, as we add day to day, so sin to sin. The just falleth seven times a day (Prov. 24.16); and I, an exceeding sinner, seventy times seven; a wonderful, a horrible thing, O Lord. But I turn with groans from my evil ways, and I return into my heart, and with all my heart I turn to Thee, O God of penitents and Saviour of sinners; and evening by evening will return in the innermost marrow of my soul; and my soul crieth out of the deep unto Thee. I have sinned, O Lord, against Thee, heavily against Thee; alas, alas, woe is me for my misery! I repent, O me, I repent; spare me, O Lord; repent, O me, I repent, help Thou me my impenitence. Be appeased, spare me, O Lord; be appeased, have mercy on me: I said, Lord, have mercy upon me, heal my soul, for I have sinned against Thee. Have mercy upon me, O Lord, after Thy great goodness, according to the multitude of Thy mercies do away mine offences. Remit the guilt, heal the wound, blot out the stains, clear away the shame, rescue from the tyranny, and make me not a public example. O bring me out of my trouble, cleanse Thou me from secret faults, keep Thy servant also from presumptuous sins. My wanderings of mind and idle talking lay not to my charge. Remove the dark and muddy flood of foul and wicked thoughts. O Lord, I have destroyed myself; whatever I have done amiss, pardon mercifully. Deal not with us after our sins, neither reward us after our iniquities. Look mercifully upon our infirmities; and for the glory of Thy all-holy name, turn from us all those ills and miseries, which by our sins, and by us through them, are most righteously and worthily deserved.
 
 ### Commendation
-### Confession
+
 
 ## Sunday Prayer
 ## Monday Prayer
