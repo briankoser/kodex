@@ -62,6 +62,25 @@ Grant to me light sleep, rid of all imaginations fleshly and satanical. Lord, Th
 Into Thy hands, O Lord, I commend myself, my spirit, soul and body: Thou didst make and didst redeem them. And together with me, all my friends and all that belongs to me. Thou hast vouchsafed them to me, Lord, in Thy goodness. Guard my lying down and my rising up from henceforth and for ever. Let me remember Thee on my bed and search out my spirit; let me wake up and be present with Thee. Let me lay me down in peace and take my rest: for it is Thou, Lord, only, that makest me dwell in safety.
 
 ## Sunday Prayer
+Through the tender mercies of our God the dayspring from on high hath visited us. 
+
+Glory be to Thee, O Lord, glory to Thee, Creator of the light and enlightener of the world,—of the visible light, the sun's ray, a flame of fire, day and night, evening and morning;—of the light invisible, the revelation of God, writings of the Law, oracles of prophets, music of psalms, instruction of proverbs, experience of histories; a light which never sets. 
+
+O by Thy Resurrection raise us up into newness of life, supplying to us frames of repentance. The God of peace, who did bring again from the dead the great Shepherd of the sheep, through the blood of the everlasting covenant, our Lord Jesus Christ, perfect us in every good work to do His will, working in us what is acceptable before Him, through Jesus Christ, to whom be glory for ever. 
+
+Thou who didst send down on Thy disciples on this day Thy thrice-holy Spirit, withdraw not Thou the gift, O Lord, from us, but renew it in us, day by day, who ask Thee for it. 
+
+I commend to Thee, my Lord, my impulses and my startings, my intentions and my attempts, my going out and my coming in, my sitting down and my rising up.
+
+
+### Confession
+### Prayer for Grace
+### The Hedge of the Law; i.e., Precautions
+### Preparation for Public Worship
+### Confession of Faith
+### Intercession
+### Praise
+
 ## Monday Prayer
 ## Tuesday Prayer
 ## Wednesday Prayer
