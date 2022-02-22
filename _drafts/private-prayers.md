@@ -87,6 +87,8 @@ For the tender yearnings of the Father, the bloody wounds of the Son, the unutte
 O Lord, rebuke me not in Thine indignation neither chasten me in Thy displeasure. I said, I will confess my sins unto the Lord, and so Thou forgavest the wickedness of my sin. Lord, Thou knowest all my desire and my groaning is not hid from Thee. Have mercy upon me, 0 God, after Thy great goodness, according to the multitude of Thy mercies do away mine offences. Thou shalt arise and have mercy on me, O Lord, for it is time that Thou have mercy upon me, yea, the time is come. If Thou, Lord, shouldest mark iniquities, O Lord, who shall stand? Enter not into judgment with Thy servant, O Lord, for in Thy sight shall no man living be justified. 
 
 ### Prayer for Grace
+My hands will I lift up unto Thy commandments which I have loved. Open mine eyes that I may see, incline my heart that I may desire, order my steps that I may follow, the way of Thy commandments. O Lord God, be Thou to me a God, and beside Thee none else, none else, nought else, with Thee. Vouchsafe to me to worship Thee and serve Thee in truth of spirit, in reverence of body, in blessing of lips, in private and in public; to pay honour to them that have the rule over me, by obedience and submission; to show affection to my own, by carefulness and providence; to overcome evil with good; to possess my vessel in sanctification and honour; to have my converse without covetousness; content with what I have; to speak the truth in love; to be desirous not to lust, not to lust passionately, not to go after lusts.
+
 ### The Hedge of the Law; i.e., Precautions
 ### Preparation for Public Worship
 ### Confession of Faith
