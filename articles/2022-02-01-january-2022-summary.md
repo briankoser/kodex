@@ -5,6 +5,8 @@ description: What Brian read, thought, and did in January 2022
 published: 2022-02-01
 authors:
   - Brian
+tags:
+  - month-summary
 ---
 
 I'm giving bullet journaling another try. After one month, I think it's going to stick. I don't miss the digital benefits like I did 10 or so years ago.
