@@ -90,6 +90,8 @@ O Lord, rebuke me not in Thine indignation neither chasten me in Thy displeasure
 My hands will I lift up unto Thy commandments which I have loved. Open mine eyes that I may see, incline my heart that I may desire, order my steps that I may follow, the way of Thy commandments. O Lord God, be Thou to me a God, and beside Thee none else, none else, nought else, with Thee. Vouchsafe to me to worship Thee and serve Thee in truth of spirit, in reverence of body, in blessing of lips, in private and in public; to pay honour to them that have the rule over me, by obedience and submission; to show affection to my own, by carefulness and providence; to overcome evil with good; to possess my vessel in sanctification and honour; to have my converse without covetousness; content with what I have; to speak the truth in love; to be desirous not to lust, not to lust passionately, not to go after lusts.
 
 ### The Hedge of the Law; i.e., Precautions
+Give me grace, O Lord, to bruise the serpent's head (Gen. 3.15); to remember my latter end (Deut. 32.39); to cut off opportunities (II Cor. 11:12); to be sober (I Peter 5.8); not to sit idle (Matt. 20.6); to shun the wicked (Ps. 26.5); to cleave to the good (Rom. 12.9); to make a covenant with the eyes (Job 31.1); to bring my body into subjection (I Cor. 9.27); to give myself unto prayer (I Cor. 7.5); to betake myself to penitence (II Peter 3.9). Hedge up my way with thorns, that I find not the path for following vanity. Hold Thou me in with bit and bridle lest I fall from Thee. O Lord, compel me to come in to Thee.
+
 ### Preparation for Public Worship
 ### Confession of Faith
 ### Intercession
