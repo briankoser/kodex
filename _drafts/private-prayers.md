@@ -93,6 +93,16 @@ My hands will I lift up unto Thy commandments which I have loved. Open mine eyes
 Give me grace, O Lord, to bruise the serpent's head (Gen. 3.15); to remember my latter end (Deut. 32.39); to cut off opportunities (II Cor. 11:12); to be sober (I Peter 5.8); not to sit idle (Matt. 20.6); to shun the wicked (Ps. 26.5); to cleave to the good (Rom. 12.9); to make a covenant with the eyes (Job 31.1); to bring my body into subjection (I Cor. 9.27); to give myself unto prayer (I Cor. 7.5); to betake myself to penitence (II Peter 3.9). Hedge up my way with thorns, that I find not the path for following vanity. Hold Thou me in with bit and bridle lest I fall from Thee. O Lord, compel me to come in to Thee.
 
 ### Preparation for Public Worship
+Thou that hearest the prayer, unto Thee shall all flesh come; my flesh also shall come. My misdeeds prevail against me, O be Thou merciful unto our sins. 
+
+Thou shalt open my lips, O Lord, and my mouth shall shew forth Thy praise. As for me, I will come into Thy house even upon the multitude of Thy mercy, and in Thy fear will I worship toward Thy holy temple. Hear the voice of my humble petitions when I cry unto Thee; when I hold up my hands towards the mercy seat of Thy holy temple. 
+
+We wait for Thy loving kindness, O God, in the midst of Thy temple. Remember, O Lord, our brethren that are around us, and praying with us at this holy hour, for their zeal and earnestness' sake; remember also those who on reasonable causes are absent, and have mercy on them and on us, according to the multitude of Thy mercies. 
+
+Lord, I have loved the habitation of Thy house and the place where Thine honour dwelleth: that I may show the voice of thanksgiving and tell of all Thy wondrous works. One thing have I desired of the Lord, which I will require, even that I may dwell in the house of the Lord all the days of my life, to behold the fair beauty of the Lord, and to visit His temple. 
+
+My heart hath talked of Thee, Seek ye my face; Thy face, Lord, will I seek. Open to me the gates of righteousness; that I may go into them and give thanks unto the Lord. Let Thine eyes be open, and let Thine ears be attent, to hearken unto the prayer which Thy servant prayeth toward this place, whereof Thou hast said that Thou wouldest put Thy name there.
+
 ### Confession of Faith
 ### Intercession
 ### Praise
