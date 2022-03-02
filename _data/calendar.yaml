@@ -1,0 +1,33 @@
+days:
+  - name: New Year's Day
+    slug: new-years-day
+    month: 1
+    day: 1
+  - name: Feast of the Confession of St. Peter
+    slug: feast-of-the-confession-of-st-peter
+    month: 1
+    day: 18
+  - name: Feast of the Conversion of St. Paul the Apostle
+    slug: feast-of-the-conversion-of-st-paul-the-apostle
+    month: 1
+    day: 25
+  - name: Candlemas
+    slug: candlemas
+    month: 2
+    day: 2
+  - name: All Koser's Eve
+    slug: all-kosers-eve
+    month: 6
+    firstDayOfMonth: Saturday
+  - name: Koserstag
+    slug: koserstag
+    month: 6
+    anchor: all-kosers-eve
+    daysAfter: 1
+  - name: Reformation Day
+  - name: All Hallow's Eve
+  - name: All Saint's Day
+  - name: All Souls' Day
+  - name: Michaelmas
+  - name: Epiphany
+  - name: Theophany
