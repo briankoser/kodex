@@ -1,6 +1,7 @@
 const { Pool } = require('pg')
-// const dotenv = require('dotenv')
-// dotenv.config();
+// uncomment for local dev
+const dotenv = require('dotenv')
+dotenv.config();
 
 const DB_HOST = process.env.DB_HOST;
 const DB_USER = process.env.DB_USER;

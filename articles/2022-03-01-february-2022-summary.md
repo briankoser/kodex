@@ -19,6 +19,7 @@ tags:
 - Tom Brady retired
 - Washington Commanders lol
 - Simmons, Curry, Drummond for Harden
+- Russia attacked Ukraine
 
 # Words and Phrases
 - Preposterous: with the hinder part before (Pre- Latin)
