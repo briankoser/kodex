@@ -22,7 +22,7 @@ tags:
 - Russia attacked Ukraine
 
 ## Words and Phrases
-- Preposterous: with the hinder part before (Pre- Latin)
+- Preposterous: with the hinder part before (Latin)
 - Much of a muchness: similar (British)
 - Snickersnee: large knife
 - Solemn: marked with religious rites and pomps
