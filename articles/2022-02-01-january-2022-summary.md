@@ -13,15 +13,15 @@ I'm giving bullet journaling another try. After one month, I think it's going to
 
 I'm also going to try sharing highlights for each month here.
 
-# Personal
+## Personal
 - Started bullet journaling
 - Fourth daughter was born! Susanna Carol Koser, named for her grandmothers.
 
-# Projects
+## Projects
 - Started a project related to Lancelot Andrewes's daily prayers. Step one is to get a transcript.
 - Started learning to juggle. Best to date is 3 balls for 10 seconds.
 
-# Notes
+## Notes
 - Experts have narrow knowledge. Generalists have broad knowledge. Leaders should be generalists. (Haywood)
 - Modern man is too abstract, always imagining what they look like on camera. (Jason Farley)
 - Be incarnational (Swait)

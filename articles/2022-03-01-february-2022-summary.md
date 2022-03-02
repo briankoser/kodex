@@ -9,29 +9,30 @@ tags:
   - month-summary
 ---
 
-# Personal
+## Personal
 - I'm all in on Bullet Journaling. Still exporting from Google Calendar, Trello, and Bear notes.
 - Taught Lydia the rules of chess.
 - First hike with Suzie. All six of us went up and down Rainbow Mountain for a couple hours.
 - Continued juggling. Already met 2022 goal by juggling 3 balls for 1 min 6 sec.
 
-# News
+## News
 - Tom Brady retired
 - Washington Commanders lol
 - Simmons, Curry, Drummond for Harden
+- Russia attacked Ukraine
 
-# Words and Phrases
+## Words and Phrases
 - Preposterous: with the hinder part before (Pre- Latin)
 - Much of a muchness: similar (British)
 - Snickersnee: large knife
 - Solemn: marked with religious rites and pomps
 
-# Ideas
+## Ideas
 - Determine which environment to deploy to with a pachinko machine.
 - SSA: It's Ass Backwards™
 - How is a key like a thundercloud? They both shoot bolts.
 
-# Notes
+## Notes
 - The two major fairy tale plot structures (separation and reunion of husband/wife or parent/child) are present in the Gospel: the Father is reunited with His children, the Bride is reunited with Christ. (Literary Life podcast)
 - Medievals didn't become Greek or Roman, they synthesized and expanded. (Online Great Books podcast #148)
 - Constraints are enabling: cars, art, marriage.
