@@ -104,6 +104,12 @@ Lord, I have loved the habitation of Thy house and the place where Thine honour 
 My heart hath talked of Thee, Seek ye my face; Thy face, Lord, will I seek. Open to me the gates of righteousness; that I may go into them and give thanks unto the Lord. Let Thine eyes be open, and let Thine ears be attent, to hearken unto the prayer which Thy servant prayeth toward this place, whereof Thou hast said that Thou wouldest put Thy name there.
 
 ### Confession of Faith
+I believe, O Lord, in Thee, Father, Word, Spirit, One God; that by Thy fatherly love and power all things were created; that by Thy goodness and love to man all things have begun anew in Thy Word; who for us men and for our salvation was made flesh, was conceived and born, suffered and was crucified, died and was buried, descended and rose again, ascended and sat down, will return and will repay; that by the shining forth and working of Thy Holy Spirit hath been called out of the whole world a peculiar people into a polity, in belief of the truth and sanctity of living; that in it we are par-takers of the communion of saints and forgiveness of sins in this world; that in it we are waiting for resur-rection of the flesh and life everlasting in the world to come. This most holy faith which was once delivered to the saints, I believe, O Lord; help Thou mine unbelief, and vouchsafe to me to love the Father for His fatherly love, to reverence the Almighty for His power, as a faithful Creator to commit my soul to Him in well doing. 
+
+Vouchsafe to me to partake from Jesus of salvation, from Christ of anointing, from the Only-begotten of adoption. To worship the Lord for His conception, in faith; for His birth, in humility; for His sufferings, in patience and hatred of sin; for His Cross, to crucify occasions of sin; for His death, to mortify the flesh; for His burial, to bury evil thoughts in good works; for His descent, to meditate upon hell; for His resurrection, upon newness of life; for His ascension, to mind things above; for His sitting on high, to mind the good things on His right; for His return, to fear His second appearance; for His judgment, to judge myself ere I be judged. 
+
+From the Spirit vouchsafe to me the breath of salutary grace. In the holy and catholic Church to have my own calling, and holiness, and portion, and a fellowship of her sacred rites, prayers, fastings, groans, vigils, tears and sufferings, for assurance of remission of sins, for hope of resurrection and translation to eternal life.
+
 ### Intercession
 ### Praise
 
