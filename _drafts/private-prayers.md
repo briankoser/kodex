@@ -133,8 +133,58 @@ I commend to Thee, O Lord, my soul and my body, my mind and my thoughts, my pray
 Up with our hearts; we lift them up unto the Lord. O how very meet and right and fitting and due, in all and for all, at all times, places, manners, in every season, every spot, everywhere, always, altogether, to remember Thee, to worship Thee, to confess to Thee, to praise Thee, to bless Thee, to hymn Thee, to give thanks to Thee, maker, nourisher, guardian, governor, preserver, worker, perfecter of all, Lord and Father, king and God, fountain of life and immortality, treasure of everlasting goods; whom the heavens hymn, and the heaven of heavens, the angels and all the heavenly powers, one to another crying continually—and we the while, weak and unworthy, under their feet—Holy, Holy, Holy, Lord the God of hosts; full is the whole heaven and the whole earth of the majesty of Thy glory. Blessed be the glory of the Lord out of His place (Ezek. 3.12), for His Godhead, His mysteriousness, His height, His sovereignty, His almightiness, His eternity, His providence. The Lord is my strength, my stony rock, and my defence, my deliverer, my succour, my buckler, the horn also of my salvation and my refuge. 
 
 ## Monday Prayer
+My voice shalt Thou hear betimes, O Lord; early in the morning will I direct my prayer unto Thee and will look up. 
+
+Blessed art Thou, O Lord, who didst create the firmament of heaven, the heaven and the heaven of heavens, the heavenly powers, angels, archangels, cherubim, seraphim; waters above the heavens, mists and exhala-tions, for showers, dew, hail, snow as wool, hoar frost as ashes, ice as morsels, clouds from the ends of the earth; lightnings, thunders, winds out of Thy treasures, storms; waters beneath the heavens, for drinking and for bathing. 
+
+### Confession
+I will confess my sins and the sins of my fathers, for I have transgressed and neglected Thee, O Lord, and walked perversely before Thee. Set not, O Lord, set not my misdeeds before Thee, nor my life in the light of Thy countenance, but pardon the iniquity of Thy servant according to Thy great mercy; as Thou hast been merciful to him from a child, even so now. 
+
+I have sinned, but what shall I do unto Thee, O Thou preserver of men? Why hast Thou set me as a mark against Thee, so that I am a burden to myself? O pardon my transgression and take away mine iniquity. Deliver me from going down into the pit, for Thou hast found a ransom. Have mercy on me, Son of David; Lord, help me. Yea, Lord, even the dogs eat of the crumbs which fall from their master's table. Have patience with me, Lord, yet I have not wherewith to pay, I confess to Thee; forgive me the whole debt, I beseech Thee. 
+
+How long wilt Thou forget me, O Lord? for ever? How long wilt Thou hide Thy face from me? How long shall I seek counsel in my soul, and be vexed in my heart day and night? How long shall mine enemies triumph over me? Consider and hear me, O Lord my God; lighten mine eyes that I sleep not in death, lest mine enemy say, I have prevailed against him, for if I be cast down, they that trouble me will rejoice at it. But my trust is in Thy mercy.
+
+### Prayer for Grace
+### Confession of Faith
+### Intercession
+### Praise
+
 ## Tuesday Prayer
+
+### Confession
+### Prayer for Grace
+### Confession of Faith
+### Intercession
+### Praise
+
 ## Wednesday Prayer
+
+### Confession
+### Prayer for Grace
+### Confession of Faith
+### Intercession
+### Praise
+
 ## Thursday Prayer
+
+### Confession
+### Prayer for Grace
+### Confession of Faith
+### Intercession
+### Praise
+
 ## Friday Prayer
+
+### Confession
+### Prayer for Grace
+### Confession of Faith
+### Intercession
+### Praise
+
 ## Saturday Prayer
+
+### Confession
+### Prayer for Grace
+### Confession of Faith
+### Intercession
+### Praise
