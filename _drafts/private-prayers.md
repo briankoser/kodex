@@ -145,6 +145,8 @@ I have sinned, but what shall I do unto Thee, O Thou preserver of men? Why hast 
 How long wilt Thou forget me, O Lord? for ever? How long wilt Thou hide Thy face from me? How long shall I seek counsel in my soul, and be vexed in my heart day and night? How long shall mine enemies triumph over me? Consider and hear me, O Lord my God; lighten mine eyes that I sleep not in death, lest mine enemy say, I have prevailed against him, for if I be cast down, they that trouble me will rejoice at it. But my trust is in Thy mercy.
 
 ### Prayer for Grace
+Remove far from me: all iniquity and profaneness, superstition and hypocrisy; worship of idols and of individuals; rash oath and curse; neglect or indecency of worship; haughtiness and recklessness; strife and wrath; passion and corruption; indolence and fraud; lying and injuriousness; every evil notion, every impure thought, every base desire, every unseemly thought. Grant to me: to be religious and pious; to worship and serve; to bless and swear truly; to confess meetly in the congregation; affection and obedience; patience and good temper; purity and soberness; contentedness and goodness; truth and incorruptness; good thoughts, perserverance to the end.
+
 ### Confession of Faith
 ### Intercession
 ### Praise
