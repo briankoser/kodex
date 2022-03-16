@@ -153,7 +153,30 @@ I believe in God, the Father almighty, maker of heaven and earth; and in Jesus C
 And now, Lord, what is my hope? Truly my hope is even in Thee; in Thee, O Lord, have I trusted--let me never be confounded.
 
 ### Intercession
+Let us pray God, for the whole creation; for the supply of seasons, healthy, fruitful, peaceful: 
+
+for the whole race of mankind; for those who are not Christians; for the conversion of atheists, the ungodly, Gentiles, Turks and Jews: 
+
+for all Christians; for the restoration of all who languish in faults and sins; for confirmation of all who have been granted truth and grace: 
+
+for the succour and comfort of all who are dispirited, infirm, distressed, unsettled, both men and women; for thankfulness and sobriety in all who are hearty, healthy, prosperous, quiet men and women: 
+
+for the catholic Church, its establishment and increase; for the Eastern, its deliverance and union; for the Western, its adjustment and peace; for the British, the supply of what is wanting in it, the strengthening of what remains in it; for the episcopate, presbytery, Christian people; for the states of the inhabited world, for Christian states, far off, near at hand, for our own: 
+
+for all in rule; for our divinely-guarded king, the queen and the prince; for those who have place in the court; for parliament and judicature, for army and police, commons and their leaders, farmer, graziers, fishers, traders and mechanics, down to mean workmen and the poor: 
+
+for the rising generation; for the good nurture of the royal family, of the young ones of the nobility; for all in universities, in law colleges, in town and country, in apprenticeships: 
+
+for those who have a claim on me from relationship, for my brothers and sisters, that God's blessing may be on them and on their children; or from benefits conferred, that Thy recompence may be on all who have benefited me, who have ministered to me in carnal things; or from trust placed in me, for all whom I have educated, for all whom I have ordained; for my college, my parish, Southwell, St. Paul's, Westminster, dioceses of Chichester, Ely, and my present, clergy, peoples, helps, governments, the deanery in the Chapel Royal, the Almonry, the colleges committed to me as visitor: 
+
+or from natural kindness, for all who love me though I know them not; or from Christian love, for those who hate me without cause, some, too, even on account of truth and righteousness; or from neighbourhood, for all who dwell near me peaceably and harmlessly; or from promise, for all whom I have promised to remember in my prayers; or from mutual offices, for all who remember me in their prayers and ask of me the same: 
+
+for all who for sufficient reasons fail to call upon Thee, from stress of engagements, for all who have no intercessor in their own behalf; for all who at present are in agony of extreme necessity or deep affliction; for all who are attempting any good work which will bring glory to the name of God, or some great good to the Church; for all who act nobly either towards things sacred or towards the poor; for all who have ever been offended by me either in word or in deed. 
+
+God have mercy on me and bless me; God show the light of his countenance upon me and pity me; God bless me, even our God. God bless me and receive my prayer. O direct my life towards Thy commandments, hallow my soul, purify my body, direct my thoughts, cleanse my desires, soul and body, mind and spirit, heart and reins. Renew me thoroughly, O God, for if Thou wilt Thou canst.
+
 ### Praise
+The Lord, the Lord God, merciful and pitiful, long-suffering and full of pity, and true, keeping pity for thousands, taking away iniquities and unrighteousnesses and sins, not clearing the guilty one, bringing sins of fathers upon children. I will bless the Lord at all times. His praise shall ever be in my mouth. Glory to God in the highest, and on earth peace, goodwill towards men. 
 
 ## Tuesday Prayer
 
