@@ -179,9 +179,22 @@ God have mercy on me and bless me; God show the light of his countenance upon me
 The Lord, the Lord God, merciful and pitiful, long-suffering and full of pity, and true, keeping pity for thousands, taking away iniquities and unrighteousnesses and sins, not clearing the guilty one, bringing sins of fathers upon children. I will bless the Lord at all times. His praise shall ever be in my mouth. Glory to God in the highest, and on earth peace, goodwill towards men. 
 
 ## Tuesday Prayer
+O God, Thou art my God, early will I seek Thee. 
+
+Blessed art Thou, O Lord, who gatheredst the waters into the sea, and broughtest to sight the earth, and madest to sprout herb and fruit-tree. There are the depths and the sea as on an heap, lakes, rivers, springs; earth, continent and isles, mountains, hills and valleys; glebe, meadows, glades, green pasture, corn and hay, herb and flowers for food, enjoyment, medicine; fruit-trees bearing wine, oil and spices, and trees for wood; and things beneath the earth, stones, metals, minerals, coal, blood and fire and vapour of smoke. 
 
 ### Confession
+Who can understand his errors? Cleanse Thou me from secret faults. Keep back Thy servant also from presumptuous sins, lest they have the dominion over me. For Thy name's sake be merciful unto my sin, for it is great. My iniquities have taken such hold upon me that I am not able to look up; yea, they are more in number than the hairs of my head, and my heart hath failed me. Be pleased, O Lord, to deliver me; make haste, O Lord, to help me. Magnify Thy mercies upon me, O Thou who savest them that trust in Thee. I said, Lord, have mercy upon me, heal my soul, for I have sinned against Thee. 
+
+I have sinned, but I am confounded, and I turn from my evil ways, and I turn unto mine own heart and with my whole heart I turn unto Thee; and I seek Thy face, and I beseech Thee, saying, I have sinned, I have committed iniquity, I have done unjustly. I know, O Lord, the plague of my heart, and, lo, I turn to Thee with all my heart and with all my strength. And Thou, O Lord, now from Thy dwelling place, and from the glorious throne of Thy kingdom in heaven, O hear the prayer and the supplication of Thy servant; and be propitious towards Thy servant and heal his soul. 
+
+O God, be merciful to me a sinner, be merciful to me the chief of sinners. Father, I have sinned against heaven and against Thee, and am no more worthy to be called Thy son, make me one of Thy hired servants: make me one, or even the last, or the least among all. 
+
+What profit is there in my blood, when I go down to the pit? Shall the dust give thanks unto Thee? or shall it declare Thy truth? Hear, O Lord, and have mercy upon me; Lord, be Thou my helper; turn my heaviness into joy, my dreamings into earnestness, my falls into clearings of myself, my guilt, my offence into indignation, my sin into fear, my transgression into vehement desire, my unrighteousness into strictness, my pollution into revenge. 
+
 ### Prayer for Grace
+Hosanna in the highest. Remember me, O Lord, with the favour that Thou bearest unto Thy people. O visit me with Thy salvation; that I may see the felicity of Thy chosen, and rejoice in the gladness of Thy people, and give thanks with Thine inheritance. There is a glory 
+
 ### Confession of Faith
 ### Intercession
 ### Praise
