@@ -193,10 +193,22 @@ O God, be merciful to me a sinner, be merciful to me the chief of sinners. Fathe
 What profit is there in my blood, when I go down to the pit? Shall the dust give thanks unto Thee? or shall it declare Thy truth? Hear, O Lord, and have mercy upon me; Lord, be Thou my helper; turn my heaviness into joy, my dreamings into earnestness, my falls into clearings of myself, my guilt, my offence into indignation, my sin into fear, my transgression into vehement desire, my unrighteousness into strictness, my pollution into revenge. 
 
 ### Prayer for Grace
-Hosanna in the highest. Remember me, O Lord, with the favour that Thou bearest unto Thy people. O visit me with Thy salvation; that I may see the felicity of Thy chosen, and rejoice in the gladness of Thy people, and give thanks with Thine inheritance. There is a glory 
+Hosanna in the highest. Remember me, O Lord, with the favour that Thou bearest unto Thy people. O visit me with Thy salvation; that I may see the felicity of Thy chosen, and rejoice in the gladness of Thy people, and give thanks with Thine inheritance. There is a glory which shall be revealed; for when the Judge cometh, some shall see Thy face cheerful, and shall be placed on the right, and shall hear the welcome words. Come, ye blessed. They shall be caught up in clouds to meet the Lord; they shall enter into gladness, they shall enjoy the sight of Him, they shall be ever with Him. These alone, only these are blessed among the sons of men. O to me the meanest grant the meanest place there under their feet; under the feet of Thine elect, of the meanest among them. 
+
+And that this may be, let me find grace in Thy sight to have grace so as to serve Thee acceptably with reverence and godly fear. Let me find that second grace, not to receive in vain the first grace, not to come short of it; yea, not to neglect it, so as to fall from it; but to stir it up, so as to increase in it, yea, to abide in it till the end of my life. And O, perfect for me what is lacking of Thy gifts; of faith, help Thou mine unbelief; of hope, establish my trembling hope; of love, kindle its smoking flax.
+
+Shed abroad Thy love in my heart, so that I may love Thee, my friend in Thee, my enemy for Thee. O Thou who givest grace to the humble-minded, also give me grace to be humble-minded. O Thou who never failest those who fear Thee, my Fear and my Hope, let me fear one thing only, the fearing aught more than Thee. 
+
+As I would that men should do to me, so may I do to them; not to think of myself more highly than I ought to think, but to think soberly.
+
+Shine on those who sit in darkness and the shadow of death; guide our feet into the way of peace, that we may have the same thoughts one with another, rightly to divide, rightly to walk, to edify, with one accord, with one voice, to glorify God, and, if in anything we be otherwise minded, may walk by the same rule whereto we have already attained; to maintain order, decency and steadfastness. 
 
 ### Confession of Faith
+Godhead; paternal power, providence. Salvation: anointing, adoption, lordship; conception, birth, passion, cross, death, burial, descent, resurrection, sitting, return, judgment. Breath: holiness, calling, hallowing, communion of saints and of saintly things, resurrection, life eternal. 
+
 ### Intercession
+Hosanna upon the earth. Remember, O Lord, to crown the year with Thy goodness; for the eyes of all look towards Thee, and Thou givest them their food in due season. Thou openest Thine hand, and fillest all things living with plenteousness. And on us, O Lord, vouchsafe the blessings of heaven and the dew above, blessings of fountains and the deep beneath, courses of sun, conjunctions of moons, summits of eastern mountains, of the everlasting hills, fulness of the earth and produce thereof. Good seasons, wholesome weather, full crops, plenteous fruits, health of body, peaceful times, mild government, kind laws, wise councils, equal judgments, loyal obedience, vigorous justice, fertility in resources, fruitfulness 
+
 ### Praise
 
 ## Wednesday Prayer
