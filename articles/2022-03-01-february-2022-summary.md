@@ -12,7 +12,7 @@ tags:
 ## Personal
 - I'm all in on Bullet Journaling. Still exporting from Google Calendar, Trello, and Bear notes.
 - Taught Lydia the rules of chess.
-- First hike with Suzie. All six of us went up and down Rainbow Mountain for a couple hours.
+- First hike with Suzy. All six of us went up and down Rainbow Mountain for a couple hours.
 - Continued juggling. Already met 2022 goal by juggling 3 balls for 1 min 6 sec.
 
 ## News
@@ -36,7 +36,7 @@ tags:
 - The two major fairy tale plot structures (separation and reunion of husband/wife or parent/child) are present in the Gospel: the Father is reunited with His children, the Bride is reunited with Christ. (Literary Life podcast)
 - Medievals didn't become Greek or Roman, they synthesized and expanded. (Online Great Books podcast #148)
 - Constraints are enabling: cars, art, marriage.
-- Documentaries and textbooks are secondary sources. (Schole Sisters podcast)
+- Documentaries and textbooks are secondary sources. (Scholé Sisters podcast)
 - Language has historically been and should be the center of education, not history. (Angelina Stanford)
 - History is not beautiful. Language is beautiful. (Stanford)
 - Myths, fables, fairy tales, Bible stories are the gateway to the Great Books. (Stanford)
@@ -44,3 +44,23 @@ tags:
 - If we are just cause and effect machines, reason is an illusion. (New Humanists #8)
 - Plutarch and Herodotus made some distinction between myth and reality (e.g. Plutarch wrote there was no proof Lycurgus existed)
 - Hammurabi's and Draco's law codes prescribed death for every crime. The Mosaic Law was more lenient toward petty crimes.
+
+## Writing, Links, Podcasts
+
+<div class="stack cards">
+{% for item in collections.all | byDate("2022-02", "yyyy-MM") -%}
+  {% if item.data.cardType == 'article' %}
+  {% articlecard item %}
+  {% elif item.cardType == 'bookreview' %}
+  {% bookreviewcard item %}
+  {% elif item.cardType == 'feedbin' %}
+  {% feedbincard item %}
+  {% elif item.cardType == 'note' %}
+  {% notecard item %}{{ item.templateContent | safe }}{% endnotecard %}
+  {% elif item.cardType == 'podcast' %}
+  {% podcastcard item %}
+  {% else %}
+  {{ item.data.cardType or 'none' }}
+  {% endif %}
+{%- endfor %}
+</div>
