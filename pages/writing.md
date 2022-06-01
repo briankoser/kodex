@@ -5,7 +5,7 @@ description: Notes from books on how to write.
 permalink: /writing/index.html
 ---
 
-# Zen in the Art of Writing by Ray Bradbury
+## Zen in the Art of Writing by Ray Bradbury
 - Write 1000-2000 words every day. Quantity precedes quality.
 - Write with zest.
 - Write about what you love or hate. Find a character and follow as fast as you can.
@@ -17,7 +17,7 @@ permalink: /writing/index.html
 - "The artist learns what to leave out."
 - Don't plot ahead. Let your characters do.
 
-# The Elements of Style
+## The Elements of Style
 - 13. Make the paragraph the unit of composition (one topic)
 - 14. Use active voice, but use passive for emphasis ("Pumpkins are not eaten in spring" vs "People don't eat pumpkins in spring")
 - 17. Use definite, specific, concrete language
