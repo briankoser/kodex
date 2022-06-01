@@ -5,18 +5,6 @@ description: Notes from books on how to write.
 permalink: /writing/index.html
 ---
 
-## Zen in the Art of Writing by Ray Bradbury
-- Write 1000-2000 words every day. Quantity precedes quality.
-- Write with zest.
-- Write about what you love or hate. Find a character and follow as fast as you can.
-- Editing will be work, so enjoy the first draft.
-- Make a list of evocative nouns for story prompts.
-- Feed your muse with everything. Poetry that makes your arm hair stand up. Essays about everything from every time. Writing about the senses.
-- Read authors who think like you and write the way you want to; read authors that don't.
-- You learn from bad as well as good. Good quality can be mysterious; it's easy to pinpoint what not to do from bad.
-- "The artist learns what to leave out."
-- Don't plot ahead. Let your characters do.
-
 ## The Elements of Style
 - 13. Make the paragraph the unit of composition (one topic)
 - 14. Use active voice, but use passive for emphasis ("Pumpkins are not eaten in spring" vs "People don't eat pumpkins in spring")
@@ -94,6 +82,18 @@ permalink: /writing/index.html
     - Use explanatory verbs and adverbs sparingly in dialog. "They do this, apparently, in the belief that the word *said* is always in need of support, or because they have been told to do it by experts in the art of bad writing."
     - Don't share opinion if not requested.
     - Use similes and metaphors sparingly.
+
+## Zen in the Art of Writing by Ray Bradbury
+- Write 1000-2000 words every day. Quantity precedes quality.
+- Write with zest.
+- Write about what you love or hate. Find a character and follow as fast as you can.
+- Editing will be work, so enjoy the first draft.
+- Make a list of evocative nouns for story prompts.
+- Feed your muse with everything. Poetry that makes your arm hair stand up. Essays about everything from every time. Writing about the senses.
+- Read authors who think like you and write the way you want to; read authors that don't.
+- You learn from bad as well as good. Good quality can be mysterious; it's easy to pinpoint what not to do from bad.
+- "The artist learns what to leave out."
+- Don't plot ahead. Let your characters do.
 
 # Other
 
