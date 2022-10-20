@@ -23,6 +23,26 @@
                 "melissa": true
             }
         }, {
+            "title": "The Literary Life Podcast",
+            "image": "the-literary-life-podcast.png",
+            "url": "https://www.patreon.com/theliterarylife",
+            "hosts": "Angelina Stanford, Thomas Banks, Cindy Rollins",
+            "description": "Conversation about the skill and art of reading well and the lost intellectual tradition",
+            "comments": "Easily the best books podcast",
+            "patreon": true,
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "The Well Read Poem",
+            "image": "the-well-read-poem.png",
+            "url": "https://www.patreon.com/theliterarylife",
+            "hosts": "Thomas Banks",
+            "description": "Poetry readings with brief background and explication",
+            "listen": {
+                "brian": true
+            }
+        }, {
             "title": "Hugos There",
             "image": "hugos-there.jpg",
             "url": "https://hugospodcast.com/",
@@ -32,17 +52,6 @@
             "patreon": true,
             "listen": {
                 "brian": true
-            }
-        }, {
-            "title": "372 Pages We'll Never Get Back",
-            "image": "372-pages.png",
-            "url": "http://372pages.com/",
-            "hosts": "Conor Lastowka and Michael J. Nelson",
-            "description": "Conor Lastowka and Michael J. Nelson are reading books they're pretty sure they're going to hate",
-            "patreon": true,
-            "listen": {
-                "brian": true,
-                "melissa": true
             }
         }, {
             "title": "Like Trees Walking",
@@ -93,11 +102,20 @@
                 "brian": true
             }
         }, {
-            "title": "Digressio Podcast",
-            "image": "digressio.png",
-            "url": "https://romanroadsmedia.com/digressio/digressio-podcast/",
-            "hosts": "Daniel Foucachon",
-            "description": "Discussion of our shared inheritance, the humanities",
+            "title": "Scholé Sisters",
+            "image": "schole-sisters.jpg",
+            "url": "https://www.scholesisters.com/",
+            "hosts": "Brandy Vencel, Mystie Winckler, Abby Wahl, and Pam Barnhill",
+            "description": "Discussion of classical education principles for homeschool moms",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Online Great Books Podcast",
+            "image": "online-great-books-podcast.jpg",
+            "url": "https://onlinegreatbooks.libsyn.com/",
+            "hosts": "Karl Schudt and Scott Hambrick",
+            "description": "Discussion of the great books, the great ideas, and the process of liberal education",
             "listen": {
                 "brian": true
             }
@@ -153,89 +171,58 @@
                 "brian": true
             }
         }],
-        "unsubscribed": [{
-            "title": "Stuff You Missed in History Class"
-        }, {
-            "title": "Freakonomics"
-        }, {
-            "title": "The History of Rome"
-        }, {
-            "title": "I Don't Even Own a Television"
-        }, {
-            "title": "The Way I Heard It"
-        }, {
-            "title": "The Dice Tower"
-        }, {
-            "title": "Ludology"
-        }, {
-            "title": "The Dice Steeple"
-        }, {
-            "title": "Cold-Case Christianity"
-        }, {
-            "title": "Reasonable Faith"
-        }, {
-            "title": "Unbelievable?"
-        }],
-        "interested": [{
-            "title": "The Literary Life Podcast",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "The Well Read Poem",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "The New Thinkery",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "The History of Literature",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "Literature and History",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "The Martyrmade Podcast",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "Rivals",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "Ghostrunners",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "Irreverend",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }, {
-            "title": "Passages",
-            "image": "",
-            "url": "",
-            "hosts": "",
-            "description": ""
-        }]
+        "unsubscribed": [
+            {
+                "title": "372 Pages We'll Never Get Back",
+                "image": "372-pages.png",
+                "url": "http://372pages.com/",
+                "hosts": "Conor Lastowka and Michael J. Nelson",
+                "description": "Conor Lastowka and Michael J. Nelson are reading books they're pretty sure they're going to hate",
+                "patreon": true,
+                "listen": {
+                    "brian": true,
+                    "melissa": true
+                }
+            },
+            {"title": "Cold-Case Christianity"}, 
+            {
+                "title": "Digressio Podcast",
+                "image": "digressio.png",
+                "url": "https://romanroadsmedia.com/digressio/digressio-podcast/",
+                "hosts": "Daniel Foucachon",
+                "description": "Discussion of our shared inheritance, the humanities",
+                "listen": {
+                    "brian": true
+                }
+            },
+            {"title": "Freakonomics"}, 
+            {"title": "I Don't Even Own a Television"}, 
+            {"title": "Literature and History"}, 
+            {"title": "Ludology"}, 
+            {"title": "Reasonable Faith"}, 
+            {"title": "Stuff You Missed in History Class"}, 
+            {"title": "Talkin' Baseball"}, 
+            {"title": "The Dice Steeple"}, 
+            {"title": "The Dice Tower"}, 
+            {"title": "The History of Literature"}, 
+            {"title": "The History of Rome"}, 
+            {"title": "The New Thinkery"}, 
+            {"title": "The Way I Heard It"}, 
+            {"title": "Unbelievable?"}
+        ],
+        "interested": [
+            {"title": "Ad Fontes"}, 
+            {"title": "In a Certain Kingdom"}, 
+            {"title": "Irreverend"}, 
+            {"title": "Lord of Spirits"},
+            {"title": "Music and Ideas"},
+            {"title": "Passages"},
+            {"title": "Proverbial"}, 
+            {"title": "The Hutchmoot Podcast"},
+            {"title": "The Martyrmade Podcast"}, 
+            {"title": "The Plutarch Podcast"}, 
+            {"title": "The Slightly Foxed Podcast"},
+            {"title": "The Symbolic World"}
+        ]
     }
 }
