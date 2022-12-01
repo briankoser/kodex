@@ -13,7 +13,7 @@ is_draft: true
 - Shopping in a physical store is more human than shopping online.
 - Mechanical and quartz watches are more human than smart watches.
 - Ovens and grills are more human than microwaves.
-- Paper notebooks are more human than note apps.
+- Writing on paper is more human than typing.
 - Maps are more human than GPS.
 - Push lawn mowers are more human than riding lawn mowers. Mowing your lawn with a riding mower is more human than paying someone else to mow your lawn.
 - Analog music is more human than digital music.
@@ -25,9 +25,12 @@ is_draft: true
 - Sunlight is more human than electric light.
 - Driving with the windows down is more human than driving with the windows up.
 - Physical media is more human than online streaming.
-- Being occasionally bord is more human than never being bored.
+- Being occasionally bored is more human than never being bored.
 - Running outside is more human than running on a treadmill.
-- Worshipping in a church is more human than worshipping on your couch watching a church on TV.
+- Worshipping in a church is more human than watching a church service on TV.
 - Face-to-face relationships are more human than internet relationships.
 - Dating is more human than online dating.
 - Asking a machine to do something you understand how to do is more human than asking a machine to do something you don't understand.
+- Having an experience is more human than taking a picture or video of an experience.
+- Growing food is more human than buying food. 
+- Preparing food is more human than buying prepared food.
