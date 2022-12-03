@@ -3,16 +3,28 @@ layout: page
 title: Butlerian Handbook
 description: Practical steps to take to avoid the Butlerian Jihad
 permalink: /butlerian-handbook/index.html
+cssFiles:
+  - components/hr
+quotes:
+  dune:
+    text: Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.
+    author: Frank Herbert
+    cite: Dune
+  berry:
+    text: Do something every day that does not compute.
+    author: Wendell Berry
 ---
 
-> Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.
-― Frank Herbert, Dune
+{% quote quotes.dune %}
 
-> If we reach a point where the choice is all or nothing, we must choose nothing.
-― Ben De Bono, [The Sci-Fi Christian, № 1071 The Butlerian Manifesto](http://thescifichristian.com/2022/11/episode-1071-seein-with-iain-the-butlerian-manifesto/)
+<figure class="quote">
+  <blockquote>If we reach a point where the choice is all or nothing, we must choose nothing.</blockquote>
+  <figcaption>― Ben De Bono, <a href="http://thescifichristian.com/2022/11/episode-1071-seein-with-iain-the-butlerian-manifesto/">The Sci-Fi Christian, № 1071 The Butlerian Manifesto</a></figcaption>
+</figure>
 
-> Do something every day that does not compute.
-― Wendell Berry
+{% quote quotes.berry %}
+
+{% hr %}
 
 This is not a list of virtues and vices. I'm not arguing that all the "less human" actions are bad; many of them I do, and plan to continue doing. But it's time to examine how we live with technology, and what is the aggregate result of all the small changes we've accepted.
 

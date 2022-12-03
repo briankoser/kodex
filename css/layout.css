@@ -226,6 +226,10 @@ body {
         "author body";
 }
 
+.card .note-body figure {
+    margin: 0;
+}
+
 
 
 /* Podcast Subscriptions */

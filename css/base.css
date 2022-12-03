@@ -220,23 +220,20 @@ pre {
   
 blockquote {
     margin-left: 2em;
-}
-
-blockquote.quoted p {
     quotes: '“' '”' '‘' '’'; 
 }
 
-blockquote.quoted p::before {
+blockquote::before {
     content: open-quote;
     margin-left: -0.83ch;
 }
 
-blockquote.quoted p::after {
+blockquote::after {
     content: close-quote; 
 }
   
 figure {
-    margin: calc(var(--ratio) * 1rem) 0;
+    margin: calc(var(--ratio) * 3rem) 0;
 }
   
 figure.scrolling-table {
@@ -246,6 +243,7 @@ figure.scrolling-table {
 
 figcaption {
     font-family: var(--font-caption);
+    font-size: 80%;
     text-align: right;
 }
 
@@ -286,7 +284,8 @@ h1, .h1 {
     letter-spacing: -0.03em; 
 }
 
-main h1 {
+main h1,
+main h1 + * {
     margin-top: 0;
 }
 
