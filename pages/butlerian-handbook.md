@@ -34,7 +34,7 @@ This is not a list of virtues and vices. I'm not arguing that all the "less huma
 - Sunlight is more human than electric light.
 - Growing food is more human than buying food.
 - Preparing food is more human than buying prepared food.
-- Driving with the windows down is more human than driving with the windows up.
+- Driving a car with the windows down is more human than driving a car with the windows up.
 - Worshipping in a church is more human than watching a church service on TV.
 - Experiencing an event is more human than taking a picture or video of an event.
 - Single-tasking is more human than multi-tasking.
