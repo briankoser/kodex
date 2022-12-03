@@ -4,11 +4,11 @@ title: Home
 description: kodex, the Koser family website
 permalink: /index.html
 ---
-Hi, I'm Brian. This is where I, Melissa, Lydia, Amber, and Penny keep our digital stuff. Everything still looks the same, but behind the scenes I just put in place Version 3, which will let me quickly improve the site in ways we've planned for years.
+Hi, I'm Brian. This is where I, Melissa, Lydia, Amber, Penny, and Suzy keep our digital stuff. I'm slowly re-working this website into my image.
 
-We're going to start writing again: see everything on the [articles page](/articles).
+See most of our writing on the [articles page](/articles). I've also recently written a [Butlerian Handbook](/butlerian-handbook).
 
-The podcast is still at the newly-redesigned [Ten to One site](https://tto.koser.us), although soon you'll see new episodes pop up here as well.
+The podcast is still at the [Ten to One site](https://tto.koser.us), but you can also see new episodes pop up on the [podcasts page](/podcasts).
 
-Later,<br>
+Thanks for reading,<br>
 Brian 🖖🤘
