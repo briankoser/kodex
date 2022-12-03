@@ -9,7 +9,7 @@ permalink: /butlerian-handbook/index.html
 ― Frank Herbert, Dune
 
 > If we reach a point where the choice is all or nothing, we must choose nothing.
-― Ben De Bono, [The Sci-Fi Christian, Episode 1071: The Butlerian Manifesto](http://thescifichristian.com/2022/11/episode-1071-seein-with-iain-the-butlerian-manifesto/)
+― Ben De Bono, [The Sci-Fi Christian, № 1071 The Butlerian Manifesto](http://thescifichristian.com/2022/11/episode-1071-seein-with-iain-the-butlerian-manifesto/)
 
 > Do something every day that does not compute.
 ― Wendell Berry
