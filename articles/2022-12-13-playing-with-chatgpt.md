@@ -25,7 +25,7 @@ Panicked, the birds took flight, but the giraffe was too quick. It lunged forwar
 
 The giraffe savored the taste of the bird, its gothic soul delighting in the darkness of the act. It continued to stalk and hunt the birds, reveling in its newfound power and hunger. The giraffe had become a creature of the night, a gothic predator feeding on the innocent and unsuspecting.
 
-
+{% hr %}
 
 *Write a poem in the style of robert louis stevenson about a sock*
 
@@ -49,7 +49,7 @@ It may have just gone on an adventure, to a land that is new
 A land where socks are happy, and they never have to be alone
 A land where they can be themselves, and they never have to be shown.
 
-
+{% hr %}
 
 *Write a haiku about an agoraphobic manatee*
 
@@ -57,13 +57,13 @@ Agoraphobic manatee
 Trapped within its watery home
 Afraid to venture out
 
-
+{% hr %}
 
 *Write the intro for the podcast ten to one, the podcast where we make top ten lists about everything*
 
 Welcome to Ten to One, the podcast where we make top ten lists about everything! In each episode, we'll countdown our picks for the top ten best, worst, most interesting, and strangest things in a wide range of categories. From the top ten most beautiful cities in the world to the top ten worst excuses for being late to work, we'll cover it all. So join us as we count down the best of the best and the worst of the worst on Ten to One!
 
-
+{% hr %}
 
 *Tell a joke about Herman Melville*
 
