@@ -26,10 +26,13 @@ quotes:
 
 {% hr %}
 
-This is not a list of virtues and vices. I'm not arguing that all the "less human" actions are bad; many of them I do, and plan to continue doing. But it's time to examine how we live with technology, and what is the aggregate result of all the small changes we've accepted.
+This is not a list of virtues and vices. I'm not arguing that all the "less human" actions are bad; many of them I do, and plan to continue doing. 
+
+It's not an argument for returning to a supposed Golden Age. We cannot go back the 1950s, the 1850s, or the 1350s, and should not if we could.
+
+But it's time to examine how we live with technology. What is the aggregate result of all the small changes we've accepted? We cannot accept a priori every technological advancement as good. We may need to pump the brakes.
 
 - Stationary computers are more human than carryable computers. Carryable computers are more human than wearable computers. Wearable computers are more human than implanted computers.
-- Mechanical and quartz watches are more human than smart watches.
 - Shopping in a physical store is more human than shopping online. Buying from a person is more human than buying from a machine.
 - Watching a movie recommended by a friend is more human than watching a movie recommended by an algorithm.
 - Meeting in person is more human than meeting virtually.
@@ -51,4 +54,3 @@ This is not a list of virtues and vices. I'm not arguing that all the "less huma
 - Experiencing an event is more human than taking a picture or video of an event.
 - Single-tasking is more human than multi-tasking.
 - Being occasionally bored is more human than always being occupied.
-- Suffering is more human than being comfortable.
