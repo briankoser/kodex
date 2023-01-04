@@ -96,7 +96,7 @@ tags:
   - Tolkien and Lewis stopped talking literary theory in abstract and started writing stories. 1st gen. Inkling scholars focused on apologetics, 2nd on fictions. No one (except Angelina) is studying their literary theory.
   - T. S. Eliot declined to publish a C. S. Lewis article on his neo-Aristotelian literary theory in his magazine.
 - Preston Sprinkle: of all the passages for Origen to read literally, he read literally the passage in Matthew about becoming a eunuch for the kingdom.
-- Seth S: Eastern Orthodox church venerates icons because of the incarnation. It's not worship, it's respect, like the Japanese bowing to their elders.
+- Seth Studer: Eastern Orthodox church venerates icons because of the incarnation. It's not worship, it's respect, like the Japanese bowing to their elders.
 - "Detached Thoughts on Books and Reading", fun Charles Lamb essay
 - Sam Holbrook, who umpired in the 2022 World Series, played for Cindy Rollins's dad.
 - About 50 years after Shakespeare's death, women started playing the women's parts. Susanna Mountfort legendarily went mad after a love affair ended, escaped her keepers and lept onto a stage performance of "Hamlet", playing Ophelia spectacularly.
