@@ -47,7 +47,6 @@ But it's time to examine how we live with technology. What is the aggregate resu
 - A warm house in the summer and a cold house in the winter are more human than a house perpetually set to 72° F.
 - Running outside is more human than running on a treadmill.
 - Sunlight is more human than electric light.
-- Growing food is more human than buying food.
 - Preparing food is more human than buying prepared food.
 - Driving a car with the windows down is more human than driving a car with the windows up.
 - Worshipping in a church is more human than watching a church service on TV.
