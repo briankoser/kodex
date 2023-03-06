@@ -139,6 +139,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("padZeroes", (number, zeroes) => number.toString().padStart(zeroes, '0'));
     eleventyConfig.addFilter("parseDate", dateString => parseISO(dateString));
     eleventyConfig.addFilter("readableDate", dateObject => format(dateObject, "MMMM do, yyyy"));
+    eleventyConfig.addFilter("readableMonth", dateObject => format(dateObject, "MMMM yyyy"));
     eleventyConfig.addFilter("removeCategoryFromUrl", url => `/${url.split('/').slice(2, -1).join('/')}/`);
     eleventyConfig.addFilter("removeSlugFromUrl", url => `${url.split('/').slice(0, -2).join('/')}/`);
     //eleventyConfig.addFilter("urlDate", dateObject => format(dateObject, "yyyyMMddHHmmss"));
@@ -151,6 +152,7 @@ module.exports = function (eleventyConfig) {
     */
     eleventyConfig.addLayoutAlias('article', 'layouts/article.njk');
     eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
+    eleventyConfig.addLayoutAlias('monthSummary', 'layouts/monthSummary.njk');
     eleventyConfig.addLayoutAlias('note', 'layouts/note.njk');
     eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
 

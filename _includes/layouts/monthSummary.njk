@@ -1,0 +1,104 @@
+---
+layout: base
+tags:
+  - monthSummary
+description: Monthly summary of what Brian read, thought, and did
+---
+<article class="article stack monthSummary">
+    <header>
+        <h1>{{page.date | readableMonth}} Summary</h1>
+    </header>
+
+    {{ content | safe }}
+
+    {% if personal %}
+    <h2>Personal</h2>
+    <ul class="personal">
+    {% for item in personal %}
+        <li>{{item}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if thoughts %}
+    <h2>My Thoughts</h2>
+    <ul class="thoughts">
+    {% for thought in thoughts %}
+        <li>{{thought}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if projects %}
+    <h2>Projects</h2>
+    <ul class="projects">
+    {% for project in projects %}
+        <li>{{project}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    
+    {% if notes %}
+    <h2>Notes</h2>
+    <ul class="ms-notes">
+    {% for note in notes %}
+        <li>{{note}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    
+    {% if news %}
+    <h2>News</h2>
+    <ul class="news">
+    {% for item in news %}
+        <li>{{item}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    
+    {% if words %}
+    <h2>Words and Phrases</h2>
+    <ul class="words">
+    {% for word in words %}
+        <li>{{word}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    
+    {% if ideas %}
+    <h2>Ideas</h2>
+    <ul class="ideas">
+    {% for idea in ideas %}
+        <li>{{idea}}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    
+    {% if quotes %}
+    <h2>Quotes</h2>
+    <ul class="quotes">
+    {% for item in quotes %}
+        <li>{% quote item %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2>Writing, Links, Podcasts</h2>
+    <div class="stack cards">
+    {% for item in collections.all | byDate(month, "yyyy-MM") -%}
+      {% if item.data.cardType == 'article' %}
+      {% articlecard item %}
+      {% elif item.cardType == 'bookreview' %}
+      {% bookreviewcard item %}
+      {% elif item.cardType == 'feedbin' %}
+      {% feedbincard item %}
+      {% elif item.cardType == 'note' %}
+      {% notecard item %}{{ item.templateContent | safe }}{% endnotecard %}
+      {% elif item.cardType == 'podcast' %}
+      {% podcastcard item %}
+      {% else %}
+      {{ item.data.cardType or 'none' }}
+      {% endif %}
+    {%- endfor %}
+    </div>
+</article>
