@@ -74,9 +74,6 @@ module.exports = function (eleventyConfig) {
     /*
         collections
     */
-    // let dbShelfIds = await queryShelfIdsAsync(goodreadsShelfIds);
-    // eleventyConfig.addCollection("bookReviews", collection => )
-    
     eleventyConfig.addCollection("publishedArticles", collection =>
         filterPublished(collection.getFilteredByTag("article"))
     );
@@ -113,12 +110,11 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addCollection("all", collection => {
         let articles = filterPublished(collection.getFilteredByTag("article"));
-        let bookReviews = collection.items[0].data.bookReviews;
         let feedbin = collection.items[0].data.feedbin;
         let notes = filterPublished(collection.getFilteredByTag("note"));
         let podcasts = collection.items[0].data.tto;
 
-        return [...articles, ...bookReviews, ...feedbin, ...podcasts, ...notes].sort((a, b) => b.date - a.date);
+        return [...articles, ...feedbin, ...podcasts, ...notes].sort((a, b) => b.date - a.date);
     });
 
 
