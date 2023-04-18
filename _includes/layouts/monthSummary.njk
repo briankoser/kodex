@@ -88,8 +88,6 @@ description: Monthly summary of what Brian read, thought, and did
     {% for item in collections.all | byDate(month, "yyyy-MM") -%}
       {% if item.data.cardType == 'article' %}
       {% articlecard item %}
-      {% elif item.cardType == 'bookreview' %}
-      {% bookreviewcard item %}
       {% elif item.cardType == 'feedbin' %}
       {% feedbincard item %}
       {% elif item.cardType == 'note' %}

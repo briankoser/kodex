@@ -35,14 +35,6 @@ noteCard:
         url: https://presidentialhistory.com/2011/08/hardings-pompous-phrases.html
     date: 2021-10-05
     url: example
-
-bookReviewCard:
-    author: Brian
-    cardType: bookReview
-    date: 2021-11-05
-    rating: 9
-    title: Truckin' Through Time
-    url: example
 ---
 
 <div class="stack">
@@ -466,10 +458,6 @@ bookReviewCard:
 
 {% demo "Note Card with External Link and Body" %}
     {% notecard noteCard %}This is a note card with an external link and a body.{% endnotecard %}
-{% enddemo %}
-
-{% demo "Book Review Card" %}
-    {% bookreviewcard bookReviewCard %}
 {% enddemo %}
 
 {% demo "Article Card" %}
