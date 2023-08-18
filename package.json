@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
-    "dev": "npx @11ty/eleventy --serve",
+    "dev": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prod": "npx @11ty/eleventy"
+    "prod": "eleventy"
   },
   "repository": {
     "type": "git",
