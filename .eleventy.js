@@ -188,6 +188,7 @@ module.exports = function (eleventyConfig) {
     addShortcode('dialog');
     addShortcode('feedbincard');
     addShortcode('figure');
+    addShortcode('goodreadsbook');
     addShortcode('hr');
     addShortcode('icon');
     addShortcode('img');

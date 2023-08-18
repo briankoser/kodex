@@ -216,6 +216,15 @@ body {
     width: 100%;
     height: 100%; 
 }
+
+
+
+/* Books */
+.bookshelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
+    grid-gap: 2em;
+}
   
 
 

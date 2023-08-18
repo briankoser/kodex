@@ -4,7 +4,7 @@
   "description": "Koser family site written in Eleventy",
   "main": "index.js",
   "scripts": {
-    "debug": "set DEBUG=Eleventy* & npx @11ty/eleventy",
+    "debug": "set DEBUG=Eleventy* & eleventy",
     "dev": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "eleventy"
@@ -33,6 +33,7 @@
     "date-fns": "^2.23.0",
     "dotenv": "^10.0.0",
     "fs": "0.0.1-security",
+    "rss-parser": "^3.13.0",
     "xml2js": "^0.5.0"
   }
 }
