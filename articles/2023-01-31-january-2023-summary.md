@@ -22,8 +22,6 @@ tags:
 {% for item in collections.all | byDate("2023-01", "yyyy-MM") -%}
   {% if item.data.cardType == 'article' %}
   {% articlecard item %}
-  {% elif item.cardType == 'bookreview' %}
-  {% bookreviewcard item %}
   {% elif item.cardType == 'feedbin' %}
   {% feedbincard item %}
   {% elif item.cardType == 'note' %}

@@ -183,7 +183,6 @@ module.exports = function (eleventyConfig) {
     addPairedShortcode('notecard');
     addShortcode('articlecard');
     addShortcode('articlesbydate');
-    addShortcode('bookreviewpreviewcard');
     addShortcode('checkbox');
     addShortcode('descriptionList');
     addShortcode('dialog');
