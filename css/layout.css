@@ -232,6 +232,13 @@ body {
 
 
 
+/* Poems */
+.poem {
+    font-style: italic;
+}
+
+
+
 /* Podcast Subscriptions */
 .podcast-subscriptions article {
     display: grid;
