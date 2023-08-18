@@ -32,9 +32,10 @@ module.exports = async function() {
         link: i.guid,
         review: i.user_review,
         rating: i.user_rating,
-        read_at: i.user_read_at == '' ? '' : new Date(i.user_read_at)
+        read_at: i.user_read_at == '' ? '' : new Date(i.user_read_at),
+        started: i.user_date_added == '' ? '' : new Date(i.user_date_added)
     }
   }).sort((a,b) => {
-      return a.read_at - b.read_at;
+      return a.started - b.started
   });
 }
