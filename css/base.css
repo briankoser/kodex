@@ -357,6 +357,15 @@ nav li {
 ul.horizontal li {
   display: inline-block; }
 
+dl {
+    border-left: solid var(--color-black) 0.1em;
+    margin-left: -1em;
+    padding-left: 1em;
+}
+
+dd + dt {
+  margin-top: 1rem;
+}
 
 
 
