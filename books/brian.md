@@ -17,3 +17,11 @@ permalink: /books/brian/index.html
     {% goodreadsbook book %}
 {%- endfor %}
 </div>
+
+## Gift Suggestions
+Randomly selected from my "to read" list
+<div class="bookshelf">
+{% for book in goodreadsBrianGiftSuggestions -%}
+    {% goodreadsbook book %}
+{%- endfor %}
+</div>

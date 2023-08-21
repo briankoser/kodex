@@ -15,9 +15,9 @@ module.exports = async function() {
       item: ['book_image_url','book_small_image_url','book_medium_image_url','book_large_image_url', 'book_description','book','author_name','isbn','book_published','user_read_at','user_review','user_rating','user_shelves']
     }
   });
-  let currentlyReading = await parser.parseString(rss);
+  let favorites = await parser.parseString(rss);
 
-  return currentlyReading.items.map(i => {
+  return favorites.items.map(i => {
     return {
         title: i.title,
         images: {
