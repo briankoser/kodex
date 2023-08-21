@@ -10,3 +10,10 @@ permalink: /books/brian/index.html
     {% goodreadsbook book %}
 {%- endfor %}
 </div>
+
+## Favorites
+<div class="bookshelf">
+{% for book in goodreadsBrianFavorites -%}
+    {% goodreadsbook book %}
+{%- endfor %}
+</div>
