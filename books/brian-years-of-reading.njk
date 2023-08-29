@@ -1,0 +1,22 @@
+---
+layout: page
+title: Brian's Years of Reading
+permalink: /books/brian/years/index.html
+---
+
+{% set currentYear = 'year' | today %}
+<sl-tab-group>
+{%- for year in range(metadata.goodreads_first_reread_year, currentYear + 1) | reverse -%}
+{%- if year == currentYear %}
+<sl-tab slot="nav" panel="books-read-{{ year }}" active>{{ year }}</sl-tab>
+{%- else %}
+<sl-tab slot="nav" panel="books-read-{{ year }}">{{ year }}</sl-tab>
+{%- endif %}
+<sl-tab-panel name="books-read-{{ year }}">Books I read in {{ year }}</sl-tab-panel>
+{%- endfor %}
+
+{%- for year in range(metadata.goodreads_first_year, metadata.goodreads_first_reread_year) | reverse -%}
+<sl-tab slot="nav" panel="books-read-{{ year }}">{{ year }}</sl-tab>
+<sl-tab-panel name="books-read-{{ year }}">Books I read in {{ year }}</sl-tab-panel>
+{%- endfor %}
+</sl-tab-group>

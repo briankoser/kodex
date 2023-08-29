@@ -18,10 +18,6 @@ permalink: /books/brian/index.html
 {%- endfor %}
 </div>
 
-## Gift Suggestions
-Randomly selected from [my "to read" list](https://www.goodreads.com/review/list/4812558-brian-koser?ref=nav_mybooks&shelf=to-read)
-<div class="bookshelf">
-{% for book in goodreadsBrianGiftSuggestions -%}
-    {% goodreadsbook book %}
-{%- endfor %}
-</div>
+## Links
+- [Years of Reading](/books/brian/years)
+- [Gift Suggestions](/books/brian/gift-suggestions)

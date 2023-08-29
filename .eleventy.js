@@ -138,6 +138,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("readableMonth", dateObject => format(dateObject, "MMMM yyyy"));
     eleventyConfig.addFilter("removeCategoryFromUrl", url => `/${url.split('/').slice(2, -1).join('/')}/`);
     eleventyConfig.addFilter("removeSlugFromUrl", url => `${url.split('/').slice(0, -2).join('/')}/`);
+    eleventyConfig.addFilter("today", option => option === "year" ? new Date().getFullYear() : new Date());
     //eleventyConfig.addFilter("urlDate", dateObject => format(dateObject, "yyyyMMddHHmmss"));
     eleventyConfig.addFilter("year", dateObject => getYear(dateObject));
 
