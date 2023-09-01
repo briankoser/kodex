@@ -12,11 +12,16 @@ permalink: /books/brian/years/index.html
 {%- else %}
 <sl-tab slot="nav" panel="books-read-{{ year }}">{{ year }}</sl-tab>
 {%- endif %}
-<sl-tab-panel name="books-read-{{ year }}">Books I read in {{ year }}</sl-tab-panel>
 {%- endfor %}
 
-{%- for year in range(metadata.goodreads_first_year, metadata.goodreads_first_reread_year) | reverse -%}
-<sl-tab slot="nav" panel="books-read-{{ year }}">{{ year }}</sl-tab>
-<sl-tab-panel name="books-read-{{ year }}">Books I read in {{ year }}</sl-tab-panel>
+{% for yearShelf in goodreadsBrianYearsRead -%}
+    <sl-tab-panel name="books-read-{{ yearShelf.year }}">
+        <div class="bookshelf">
+        {% for book in yearShelf -%}
+            {% goodreadsbook book %}
+        {%- endfor %}
+        </div>
+    </sl-tab-panel>
 {%- endfor %}
+
 </sl-tab-group>
