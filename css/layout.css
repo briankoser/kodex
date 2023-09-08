@@ -220,6 +220,18 @@ body {
 
 
 /* Books */
+.books-nav {
+    font-family: var(--font-caption);
+}
+
+.books-nav li {
+    display: inline;
+}
+  
+.books-nav li + li::before {
+    content: " · ";
+}  
+
 .bookshelf {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
