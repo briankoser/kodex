@@ -217,6 +217,19 @@ body {
     height: 100%; 
 }
 
+.article-footer {
+    margin: var(--s2) -1em 0 -1em;
+    font-size: 0.889em;
+}
+
+.article-footer .previous {
+    float: left;
+}
+
+.article-footer .next {
+    float: right;
+}
+
 
 
 /* Books */
