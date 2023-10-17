@@ -192,7 +192,7 @@ module.exports = function (eleventyConfig) {
     addShortcode('figure');
     addShortcode('goodreadsbook');
     addShortcode('hr');
-    addShortcode('icon');
+    eleventyConfig.addShortcode("icon", (name, title) => shortcodes["icon"](name, title));
     addShortcode('img');
     addShortcode('podcastcard');
     addShortcode('quote');
