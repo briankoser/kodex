@@ -13,7 +13,7 @@ module.exports = async function() {
     
     let parser = new Parser({
       customFields: {
-        item: ['letterboxd:watchedDate','letterboxd:rewatch','letterboxd:filmTitle','letterboxd:filmYear','tmdb:movieId']
+        item: ['description','letterboxd:watchedDate','letterboxd:rewatch','letterboxd:filmTitle','letterboxd:filmYear','tmdb:movieId']
       }
     });
     let films = await parser.parseString(rss);
