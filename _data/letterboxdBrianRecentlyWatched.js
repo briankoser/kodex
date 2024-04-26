@@ -29,7 +29,9 @@ module.exports = async function() {
         filmYear: i['letterboxd:filmYear'],
         posterUrl: posterUrlRegex.exec(i.description)
       }
-    }).sort((a,b) => {
+    })
+    .filter(film => !(film.filmTitle == undefined))
+    .sort((a,b) => {
       return b.watchedDate - a.watchedDate
     });
   }
