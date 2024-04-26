@@ -43,13 +43,38 @@
                 "brian": true
             }
         }, {
-            "title": "Hugos There",
-            "image": "hugos-there.jpg",
-            "url": "https://hugospodcast.com/",
-            "hosts": "Seth Heasley",
-            "description": "Seth Heasley discusses Hugo Award winners with a guest host",
-            "comments": "Here's my problem with this podcast: it keeps convincing me to read books, and my \"to read\" list is already too long.",
-            "patreon": true,
+            "title": "The New Mason Jar Podcast",
+            "image": "the-new-mason-jar-podcast.jpg",
+            "url": "https://thenewmasonjar.com/",
+            "hosts": "Cindy Rollins, Dawn Duran",
+            "description": "Dialogs about Charlotte Mason's education philosophy",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "The Whole Counsel of God",
+            "image": "the-whole-counsel-of-god.jpg",
+            "url": "https://www.ancientfaith.com/podcasts/wholecounsel",
+            "hosts": "Fr. Stephen De Young",
+            "description": "An Eastern Orthodox priest teaches verse-by-verse through the Bible",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Lord of Spirits",
+            "image": "lord-of-spirits.jpg",
+            "url": "https://www.ancientfaith.com/podcasts/lordofspirits",
+            "hosts": "Fr. Stephen De Young, Fr. Andrew Stephen Damick",
+            "description": "The Seen and Unseen World in Orthodox Christian Tradition",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "The Symbolic World",
+            "image": "the-symbolic-world.png",
+            "url": "https://thesymbolicworld.com/content-categories/media",
+            "hosts": "Jonathan Pageau",
+            "description": "How symbolism starts in sacred stories and images, and how it shapes our modern world",
             "listen": {
                 "brian": true
             }
@@ -60,6 +85,16 @@
             "hosts": "David Berge and Michael J. Nelson",
             "description": "David Berge and Michael J. Nelson discuss today's topics from a Christian perspective",
             "comments": "Also Mike sometimes makes Dave eat weird tinned fish",
+            "listen": {
+                "brian": true
+            }
+        }, {
+            "title": "Hugos There",
+            "image": "hugos-there.jpg",
+            "url": "https://hugospodcast.com/",
+            "hosts": "Seth Heasley",
+            "description": "Seth Heasley discusses Hugo Award winners with a guest host",
+            "comments": "Here's my problem with this podcast: it keeps convincing me to read books, and my \"to read\" list is already too long.",
             "listen": {
                 "brian": true
             }
@@ -81,60 +116,6 @@
             "description": "An independent look at politics and current events",
             "listen": {
                 "brian": true,
-                "melissa": true
-            }
-        }, {
-            "title": "Consortium Podcast",
-            "image": "consortium.png",
-            "url": "https://consortiumpodcast.podbean.com/",
-            "hosts": "Scott Postma and Joffre Swait",
-            "description": "Engaging academic conversations with teachers, authors, and professors engaged in Classical Christian Education",
-            "listen": {
-                "brian": true
-            }
-        }, {
-            "title": "The Everlasting Education",
-            "image": "everlasting-education.jpg",
-            "url": "https://theeverlastingeducation.podbean.com/",
-            "hosts": "Scott Postma and Joffre Swait",
-            "description": "Helping families achieve the best of education through a gentle contempt for education",
-            "listen": {
-                "brian": true
-            }
-        }, {
-            "title": "Scholé Sisters",
-            "image": "schole-sisters.jpg",
-            "url": "https://www.scholesisters.com/",
-            "hosts": "Brandy Vencel, Mystie Winckler, Abby Wahl, and Pam Barnhill",
-            "description": "Discussion of classical education principles for homeschool moms",
-            "listen": {
-                "brian": true
-            }
-        }, {
-            "title": "Online Great Books Podcast",
-            "image": "online-great-books-podcast.jpg",
-            "url": "https://onlinegreatbooks.libsyn.com/",
-            "hosts": "Karl Schudt and Scott Hambrick",
-            "description": "Discussion of the great books, the great ideas, and the process of liberal education",
-            "listen": {
-                "brian": true
-            }
-        }, {
-            "title": "New Humanists",
-            "image": "new-humanists.jpg",
-            "url": "https://newhumanists.buzzsprout.com/",
-            "hosts": "Jonathan Roberts and Ryan Hammill",
-            "description": "Discovering what a renewed humanism looks like for the modern world",
-            "listen": {
-                "brian": true
-            }
-        }, {
-            "title": "Lore",
-            "image": "lore.png",
-            "url": "https://www.lorepodcast.com/",
-            "hosts": "Aaron Mahnke",
-            "description": "Sometimes the truth is more frightening than fiction",
-            "listen": {
                 "melissa": true
             }
         }],
@@ -184,6 +165,7 @@
                     "melissa": true
                 }
             },
+            {"title": "Ad Fontes"},
             {"title": "Cold-Case Christianity"}, 
             {
                 "title": "Digressio Podcast",
@@ -195,11 +177,71 @@
                     "brian": true
                 }
             },
+            {
+                "title": "Consortium Podcast",
+                "image": "consortium.png",
+                "url": "https://consortiumpodcast.podbean.com/",
+                "hosts": "Scott Postma and Joffre Swait",
+                "description": "Engaging academic conversations with teachers, authors, and professors engaged in Classical Christian Education",
+                "listen": {
+                    "brian": true
+                }
+            },
+            {
+                "title": "The Everlasting Education",
+                "image": "everlasting-education.jpg",
+                "url": "https://theeverlastingeducation.podbean.com/",
+                "hosts": "Scott Postma and Joffre Swait",
+                "description": "Helping families achieve the best of education through a gentle contempt for education",
+                "listen": {
+                    "brian": true
+                }
+            },
             {"title": "Freakonomics"}, 
             {"title": "I Don't Even Own a Television"}, 
             {"title": "Literature and History"}, 
+            {
+                "title": "Lore",
+                "image": "lore.png",
+                "url": "https://www.lorepodcast.com/",
+                "hosts": "Aaron Mahnke",
+                "description": "Sometimes the truth is more frightening than fiction",
+                "listen": {
+                    "melissa": true
+                }
+            },
             {"title": "Ludology"}, 
+            {
+                "title": "New Humanists",
+                "image": "new-humanists.jpg",
+                "url": "https://newhumanists.buzzsprout.com/",
+                "hosts": "Jonathan Roberts and Ryan Hammill",
+                "description": "Discovering what a renewed humanism looks like for the modern world",
+                "listen": {
+                    "brian": true
+                }
+            },
+            {
+                "title": "Online Great Books Podcast",
+                "image": "online-great-books-podcast.jpg",
+                "url": "https://onlinegreatbooks.libsyn.com/",
+                "hosts": "Karl Schudt and Scott Hambrick",
+                "description": "Discussion of the great books, the great ideas, and the process of liberal education",
+                "listen": {
+                    "brian": true
+                }
+            },
             {"title": "Reasonable Faith"}, 
+            {
+                "title": "Scholé Sisters",
+                "image": "schole-sisters.jpg",
+                "url": "https://www.scholesisters.com/",
+                "hosts": "Brandy Vencel, Mystie Winckler, Abby Wahl, and Pam Barnhill",
+                "description": "Discussion of classical education principles for homeschool moms",
+                "listen": {
+                    "brian": true
+                }
+            },
             {"title": "Stuff You Missed in History Class"}, 
             {"title": "Talkin' Baseball"}, 
             {"title": "The Dice Steeple"}, 
@@ -211,18 +253,19 @@
             {"title": "Unbelievable?"}
         ],
         "interested": [
-            {"title": "Ad Fontes"}, 
+            {"title": "Amon Sul"}, 
+            {"title": "Beef and Dairy Network Podcast"}, 
+            {"title": "Centuries of Sound"}, 
+            {"title": "History of English Podcast"}, 
             {"title": "In a Certain Kingdom"}, 
             {"title": "Irreverend"}, 
-            {"title": "Lord of Spirits"},
-            {"title": "Music and Ideas"},
-            {"title": "Passages"},
-            {"title": "Proverbial"}, 
-            {"title": "The Hutchmoot Podcast"},
-            {"title": "The Martyrmade Podcast"}, 
+            {"title": "The Naked Bible Podcast"}, 
             {"title": "The Plutarch Podcast"}, 
-            {"title": "The Slightly Foxed Podcast"},
-            {"title": "The Symbolic World"}
+            {"title": "The Rest Is History"},
+            {"title": "The Tolkien Professor"},
+            {"title": "Romance of the Three Kingdoms Podcasts"},
+            {"title": "St Elwick's Neighbourhood Association Newsletter Podcast"},
+            {"title": "Ship Hits the Fan"}
         ]
     }
 }
