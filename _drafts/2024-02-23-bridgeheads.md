@@ -5,6 +5,7 @@ description: Brian collects all he knows about bridgeheads in books.
 published: 2024-02-23
 authors:
   - Brian
+is_draft: true
 ---
 
 https://groups.google.com/g/standardebooks/search?q=bridgehead
