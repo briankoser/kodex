@@ -713,6 +713,11 @@ a:hover {
     text-decoration-thickness: 0.3em;
 }
 
+a:focus {
+    outline: 2px solid;
+    outline-offset: .1em;
+}
+
 h1 a,
 h2 a,
 h3 a,
