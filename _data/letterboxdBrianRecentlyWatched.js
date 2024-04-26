@@ -27,7 +27,7 @@ module.exports = async function() {
         isRewatch: i['letterboxd:rewatch'],
         filmTitle: i['letterboxd:filmTitle'],
         filmYear: i['letterboxd:filmYear'],
-        posterUrl: posterUrlRegex.exec(i.description)[1]
+        posterUrl: i.description == undefined ? undefined : posterUrlRegex.exec(i.description)[1]
       }
     })
     .filter(film => !(film.filmTitle == undefined))
