@@ -194,6 +194,7 @@ module.exports = function (eleventyConfig) {
     addShortcode('hr');
     eleventyConfig.addShortcode("icon", (name, title) => shortcodes["icon"](name, title));
     addShortcode('img');
+    addShortcode('letterboxdfilm');
     addShortcode('podcastcard');
     addShortcode('quote');
     addShortcode('stars');
