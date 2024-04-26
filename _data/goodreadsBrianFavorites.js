@@ -5,7 +5,6 @@ module.exports = async function() {
   console.log("Fetching Goodreads Brian favorites…");
 
   try {
-
     const URL_GOODREADS_BRIAN_FAVORITES = `https://www.goodreads.com/review/list_rss/4812558?key=Iu1W8E_OaZK1MDo5zpn3CYRBY78RlHrQIGswdyIFN9g3TIYT&shelf=favorites`;
     let rss = await Cache(URL_GOODREADS_BRIAN_FAVORITES, {
       duration: "1d",
