@@ -29,7 +29,7 @@ module.exports = async function() {
         isRewatch: i['letterboxd:rewatch'],
         filmTitle: i['letterboxd:filmTitle'],
         filmYear: i['letterboxd:filmYear'],
-        posterUrl: posterUrlRegex.exec(i.description) == null ? posterUrlRegex.exec(i.description)[1] : i.description
+        posterUrl: posterUrlRegex.exec(i.description) == null ? posterUrlRegex.exec(i.description)[1] : ""
       }
     })
     .sort((a,b) => {
