@@ -46,6 +46,7 @@ body {
 .site-footer {
     background-color: var(--color-black);
     color: var(--color-white);
+    font-size: var(--s-1); 
     padding: var(--s1);
 }
 
