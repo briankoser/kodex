@@ -19,7 +19,9 @@ module.exports = async function() {
     let films = await parser.parseString(rss);
     const posterUrlRegex = /src=\"([A-Za-z0-9:/.\-\?=]+)/g;
 
-    return films.items.map(i => {
+    return films.items
+    .filter(film => !(film['letterboxd:filmTitle'] == undefined))
+    .map(i => {
       return {
         description: i.description, 
         link: i.link,
@@ -27,10 +29,9 @@ module.exports = async function() {
         isRewatch: i['letterboxd:rewatch'],
         filmTitle: i['letterboxd:filmTitle'],
         filmYear: i['letterboxd:filmYear'],
-        posterUrl: i.description == undefined ? undefined : (posterUrlRegex.exec(i.description).length > 1 ? posterUrlRegex.exec(i.description)[1] : i.description)
+        posterUrl: posterUrlRegex.exec(i.description) == null ? posterUrlRegex.exec(i.description)[1] : i.description
       }
     })
-    .filter(film => !(film.filmTitle == undefined))
     .sort((a,b) => {
       return b.watchedDate - a.watchedDate
     });
