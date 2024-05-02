@@ -1,13 +1,12 @@
+/*
+    libraries
+*/
+const { format, formatISO, getDate, getMonth, getYear, parseISO } = require('date-fns');
+const autoLoad = require('auto-load');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+const typesetPlugin = require('eleventy-plugin-typeset');
+
 module.exports = function (eleventyConfig) {
-    /*
-        libraries
-    */
-    const { format, formatISO, getDate, getMonth, getYear, parseISO } = require('date-fns');
-    const autoLoad = require('auto-load');
-    const pluginRss = require("@11ty/eleventy-plugin-rss");
-
-
-
     /*
         metadata
     */
@@ -208,6 +207,9 @@ module.exports = function (eleventyConfig) {
         plugins
     */
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(typesetPlugin({
+        only: '.site-main'
+    }));
 
 
     
