@@ -1,33 +1,96 @@
 days:
   - name: New Year's Day
     slug: new-years-day
+    category: american
     month: 1
     day: 1
-  - name: Feast of the Confession of St. Peter
-    slug: feast-of-the-confession-of-st-peter
+  - name: Birthday of Martin Luther King Jr.
+    slug: mlk-day
+    category: american
     month: 1
-    day: 18
-  - name: Feast of the Conversion of St. Paul the Apostle
-    slug: feast-of-the-conversion-of-st-paul-the-apostle
+    day: 15
+  - name: Washington's Birthday
+    slug: washingtons-birthday
+    category: american
+    month: 2
+    day: 22
+  - name: May Day
+    slug: may-day
+    category: american
+    month: 5
+    day: 1
+  - name: Juneteenth
+    slug: juneteenth
+    month: 6
+    day: 19
+  - name: Independence Day
+    slug: independence-day
+    category: american
+    month: 7
+    day: 4
+  - name: Columbus Day
+    slug: columbus-day
+    category: american
+    month: 10
+    day: 12
+  - name: Veteran's Day
+    slug: veterans-day
+    category: american
+    month: 11
+    day: 11
+  
+  - name: Thanksgiving
+  - name: Twelfth Night
+    slug: twelfth-night
+    category: christian
     month: 1
-    day: 25
+    day: 5
+  - name: Epiphany
+    slug: epiphany
+    category: christian
+    month: 1
+    day: 6
   - name: Candlemas
     slug: candlemas
+    category: christian
     month: 2
     day: 2
+  - name: Roodmas
+    slug: roodmas
+    category: christian
+    month: 9
+    day: 14
+    
   - name: All Koser's Eve
     slug: all-kosers-eve
+    category: family
     month: 6
     firstDayOfMonth: Saturday
   - name: Koserstag
     slug: koserstag
+    category: family
     month: 6
     anchor: all-kosers-eve
-    daysAfter: 1
-  - name: Reformation Day
+    daysFrom: 1
+    
+  - name: Baptism of the Lord (Sunday after Epiphany)
+  - name: Transfiguration Sunday (6 weeks after Baptism of the Lord)
+  - name: Ash Wednesday
+  - name: First Day of Lent etc.
+  - name: Lazarus Saturday
+  - name: Palm Sunday
+  - name: Holy Monday
+  - name: Holy Tuesday
+  - name: Spy Wednesday
+  - name: Maundy Thursday
+  - name: Good Friday
+  - name: Holy Saturday
+  - name: Easter Sunday
+  - name: Second Day of Eastertide etc
+  - name: Ascension of the Lord
+  - name: Pentecost
+  - name: Trinity Sunday
   - name: All Hallow's Eve
   - name: All Saint's Day
   - name: All Souls' Day
   - name: Michaelmas
-  - name: Epiphany
-  - name: Theophany
