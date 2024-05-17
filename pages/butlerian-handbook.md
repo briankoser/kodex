@@ -24,13 +24,13 @@ quotes:
 
 {% quote quotes.berry %}
 
-{% hr %}
-
 This is not a list of virtues and vices. I'm not arguing that all the "less human" actions are bad; many of them I do, and plan to continue doing. 
 
 It's not an argument for returning to a supposed Golden Age. We cannot go back the 1950s, the 1850s, or the 1350s, and should not if we could.
 
 But it's time to examine how we live with technology. What is the aggregate result of all the small changes we've accepted? We cannot accept a priori every technological advancement as good. We may need to pump the brakes.
+
+## Handbook
 
 - Stationary computers are more human than carryable computers. Carryable computers are more human than wearable computers. Wearable computers are more human than implanted computers.
 - Shopping in a physical store is more human than shopping online. Buying from a person is more human than buying from a machine.
