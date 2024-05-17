@@ -28,7 +28,7 @@ module.exports = async function() {
       number,
       albumImageUrl,
       title: i.title[0],
-      url: `${i.link[0]}/episodes/${slug}`,
+      url: `${i.link[0]}episodes/${slug}`,
       date: new Date(i.pubDate[0]),
       description: i.description[0],
       cardType: 'podcast'
