@@ -1,5 +1,4 @@
 ---
-layout: article
 title: February 2022 Summary
 description: What Brian read, thought, and did in February 2022
 published: 2022-03-01

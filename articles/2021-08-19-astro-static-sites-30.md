@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Astro: Static Sites 3.0"
 description: Brian shares his experience building a demo with Astro.
 published: 2021-08-19

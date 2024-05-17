@@ -1,5 +1,4 @@
 ---
-layout: article
 title: January 2023 Summary
 description: Summary of what Brian read, thought, and did in January 2023
 published: 2023-01-31

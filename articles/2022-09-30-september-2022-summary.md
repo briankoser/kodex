@@ -1,5 +1,4 @@
 ---
-layout: article
 title: September 2022 Summary
 description: Summary of what Brian read, thought, and did in September 2022
 published: 2022-09-30

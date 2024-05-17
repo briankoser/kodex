@@ -1,5 +1,4 @@
 ---
-layout: article
 title: What's the Name, Please
 description: Brian shares the name pronunciations he found in an old book
 published: 2023-07-19

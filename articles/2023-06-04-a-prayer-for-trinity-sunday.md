@@ -1,5 +1,4 @@
 ---
-layout: article
 title: A Prayer for Trinity Sunday
 description: A prayer for Trinity Sunday, the first Sunday after Pentecost
 published: 2023-06-04

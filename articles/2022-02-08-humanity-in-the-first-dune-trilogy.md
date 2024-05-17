@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Humanity in the First Dune Trilogy
 description: Brian's interpretation of the theme of humanity in Dune, Dune Messiah, and Children of Dune.
 published: 2022-02-08

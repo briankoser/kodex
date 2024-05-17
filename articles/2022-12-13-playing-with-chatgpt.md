@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Playing with ChatGPT
 description: Playing around with ChatGPT, the chatbot.
 published: 2022-12-13

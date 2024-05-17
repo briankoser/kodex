@@ -1,5 +1,4 @@
 ---
-layout: article
 title: February 2023 Summary
 description: Summary of what Brian read, thought, and did in February 2023
 published: 2023-02-28

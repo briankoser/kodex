@@ -1,5 +1,4 @@
 ---
-layout: article
 title: “Fulfilled” Motherhood
 description: Reflections on motherhood
 published: 2021-04-16

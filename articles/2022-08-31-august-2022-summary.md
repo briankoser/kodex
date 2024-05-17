@@ -1,5 +1,4 @@
 ---
-layout: article
 title: August 2022 Summary
 description: Summary of what Brian read, thought, and did in August 2022
 published: 2022-08-31

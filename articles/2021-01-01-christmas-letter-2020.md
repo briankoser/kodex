@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Christmas Letter 2020
 description: The 2020 Christmas Letter from Brian, Melissa, Lydia, Amber, and Penny Koser
 published: 2021-01-01

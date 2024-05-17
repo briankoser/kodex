@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Mathematics for the Nonmathemetician - Chapter 1
 description: Chapter summaries from Morris Kline's Mathematics for the Nonmathemetician
 published: 2022-03-18
