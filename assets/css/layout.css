@@ -183,6 +183,24 @@ body {
     text-decoration: none;
 }
 
+.card-argument {
+    font-variant-emoji: text;
+    margin-bottom: var(--s1);
+}
+  
+.card-argument h1 {
+    font-size: var(--s1);
+    margin-bottom: var(--s-1);
+}
+  
+.card-argument h2 {
+    font-size: var(--s0);
+    margin-bottom: var(--s-1);
+}
+
+.card-argument .author {
+    font-style: italic;
+}
 
 
 
