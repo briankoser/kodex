@@ -3,6 +3,7 @@ layout: article
 title: For the Sake of Arguments
 description: Brian collects all he knows about arguments in books and provides examples of bulleted arguments.
 published: 2024-05-22
+lastUpdated: 2024-06-12
 authors:
   - Brian
 
@@ -56,13 +57,13 @@ arguments:
 
 ## Chapter 1. Discovery
 
-Terry Pratchett wrote thirty-two Discworld books without chapters. "I just never got into the habit of chapters." His plots zip along and don't suffer for the lack of regular breaks, but this difference stands out among modern novels.
+Terry Pratchett wrote thirty-two Discworld books without chapters. "I just never got into the habit of chapters." His plots zip along and don't suffer for the lack of formal breaks, but it is a noticeably unique trait among modern novels.
 
-Terry Pratchett's thirty-third Discworld book does have chapters. But again he breaks with most of his peers. After two prologues (The Nine-Thousand-Year Prologue and the One-Month Prologue), here's how the first chapter starts:
+Terry Pratchett's thirty-third Discworld book *does* have chapters. But again he breaks with his peers. After two prologues (The Nine-Thousand-Year Prologue and the One-Month Prologue), here's how the first chapter starts:
 
 {% argument arguments.goingPostal %}
 
-The effect here is old-timey and interest-piquing. I've since found this technique used in other modern books, usually again for amusing effect. In older works where spoilers are not a concern, I've seen them used to orient the reader.
+The effect here is old-timey and interest-piquing. I've since found this technique used in other modern books, usually also to amusing effect. In older works where spoilers are not a concern, I've seen them used to orient the reader.
 
 ## Chapter 2. Names
 
