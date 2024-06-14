@@ -5,6 +5,7 @@ description: Brian's attempt to distinguish between body, soul, and spirit. And 
 published: 2024-06-11
 authors:
   - Brian
+is_draft: true
 ---
 
 Plato
