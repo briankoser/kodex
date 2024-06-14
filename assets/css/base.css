@@ -23,7 +23,7 @@
     --font-caption: ConcourseCaps, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --line-height: var(--ratio);
     --line-height-small: calc(0.7 * var(--ratio));
-    --measure: 60ch;
+    --measure: 32rem;
     
     --color-black: hsl(33, 100%, 8%);
     --color-dark-grey: hsl(32, 73%, 17%);
