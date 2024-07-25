@@ -34,6 +34,7 @@
     "dotenv": "^10.0.0",
     "eleventy-plugin-typeset": "github:arcades-studio/eleventy-plugin-typeset-again",
     "fs": "0.0.1-security",
+    "js-yaml": "^4.1.0",
     "rss-parser": "^3.13.0",
     "xml2js": "^0.5.0"
   }

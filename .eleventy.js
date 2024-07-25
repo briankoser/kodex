@@ -5,6 +5,7 @@ const { format, formatISO, getDate, getMonth, getYear, parseISO } = require('dat
 const autoLoad = require('auto-load');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const typesetPlugin = require('eleventy-plugin-typeset');
+const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
     /*
@@ -119,6 +120,13 @@ module.exports = function (eleventyConfig) {
 
 
     /*
+        data extensions
+    */
+    eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+
+
+
+    /*
         filters
     */
     const functions = autoLoad('_includes/functions');
@@ -188,6 +196,7 @@ module.exports = function (eleventyConfig) {
     addShortcode('checkbox');
     addShortcode('descriptionList');
     addShortcode('dialog');
+    addShortcode('dictionaryEntry');
     addShortcode('feedbincard');
     addShortcode('figure');
     addShortcode('goodreadsbook');

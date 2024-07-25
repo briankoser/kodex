@@ -1,0 +1,442 @@
+words:
+  - word: Crepuscular
+    def: At twilight
+  - word: Ossuary
+    def: Chest to hold multiple skeletal remains
+  - word: Sortilege
+    def: Divination by lots (item drawn randomly from a collection)
+  - word: Protean
+    def: Ever-changing
+    origin: From Proteus, a Greek sea god given the power to shapeshift by Poseidon
+  - word: Orts
+    def: Scraps
+  - word: Cope
+    defs: 
+      - A cover for the head
+      - An ancient tribute due to the king or lord of the soil, out of the lead mines in some part of Derbyshire
+      - To pare the beak or talons of a hawk
+      - To equal in combat
+  - word: Copeman
+    def: Chapman
+  - word: Chapman
+    def: A cheapener, one that offers to purchase; a seller
+  - word: Copesmate
+    def: Friend
+  - word: Humblebee
+    def: Bumblebee
+    comments: "Humble used to mean \"hum\""
+  - word: Orotund
+    def: Pompous and bombastic, sonorous
+    origin: "Latin \"round mouth\""
+  - word: Sempiternal
+    def: Eternal
+    comments: "Surprisingly, does not share a Latin root with \"eternal\""
+  - word: Thalassic
+    def: Related to seas or oceans
+  - word: Bruin
+    def: Brown
+    origin: Dutch
+    comments: "Name of the bear in the Reynard the Fox fables, through which it came to also mean \"bear\""
+  - word: Brawn
+    def: Muscular
+    comments: "Came to mean \"muscular\" in the 19th c; previously meant \"boar's flesh\" (13th c)"
+  - word: Crural
+    def: Related to the leg
+  - word: Farrago
+    def: Hodgepodge
+  - word: Palmy
+    def: Flourishing
+    comments: "\"Palm\" meant \"victory\" in Chaucer's time"
+  - word: Peloton
+    def: Main body of riders in a bicycle race
+    comments: "Related to \"platoon\""
+  - word: Daedal
+    def: Skillful, artistic, intricate
+  - word: Fret
+    def: Eat or gnaw into, esp. of small animals
+  - word: Farraginous
+    def: Consisting of a confused mixture
+  - word: Nostrum
+    def: Panacea
+  - word: Panglossian
+    def: Characterized by the view that this is the best of all possible worlds
+    origin: "Dr. Pangloss (\"all tongue\") from Candide held this view"
+  - word: Tonsorial
+    def: Related to barbers
+  - word: Anent
+    def: About
+    comments: Survives in Scottish English
+  - word: Turophile
+    def: Lover of cheese
+    origin: "Greek \"tyros\" for cheese"
+  - word: Conventicle
+    def: Irregular or unlawful assembly, esp. for religious worship
+  - word: Verboten
+    def: Forbidden
+    comments: "Not etymologically related to \"verb\""
+  - word: Roister
+    def: Carouse, revel noisily
+  - word: Roisterer
+    def: One who roisters
+  - word: Antitype
+    def: A thing prefigured
+    origin: "Anti \"against\" + type \"stamp\"; paper against a stamp receives a stamp mark"
+  - word: Pinchbeck
+    defs: 
+      - Allow of copper and zinc used as artificial gold for jewelry
+      - Counterfeit item
+    comments: The alloy invented by Christopher Pinchbeck
+  - word: Callow
+    def: Immature
+  - word: Splenetic
+    defs: 
+      - Related to the spleen
+      - Spiteful, malevolent
+  - word: Lorn
+    def: Forsaken
+  - word: Caprice
+    def: Whim
+    origin: "Italian capo \"head\" + riccio \"hedgehog\""
+    comments: "\"Hedgehog head\" because your hair is standing up like a hedgehog's spikes"
+  - word: Cavil
+    def: To raise frivolous objection
+  - word: Raillery
+    def: Banter
+  - word: Cavalier
+    defs:
+      - Gentleman trained in arms and horsemanship
+      - Offhand, disdainful dismissal of important matters
+  - word: Belvedere
+    def: Structure such as a cupola designed to command a view
+  - word: Cupola
+    def: Dome
+  - word: Pluvial
+    def: Related to rain
+  - word: Welkin
+    def: Firmament
+    comments: "\"Hark! The herald angels sing\" originally started \"Hark, how all the welkin ring\""
+  - word: Rodomont
+    def: A vain boaster
+    origin: Rodomonte, a fierce and boastful king in Orlando Innamorato and Orlando Furioso
+  - word: Astragalomancy
+    def: Divination by dice
+  - word: Epigram
+    def: Brief, interesting statement
+  - word: Acrophony
+    def: Naming letters of an alphabet so that a letter's name begins with the letter itself
+  - word: Costermonger
+    def: Street seller of fruits and vegetables
+    origin: Costards were an apple variety from medieval England
+  - word: Argument
+    def: An abstract summary of a book, or the heads of the subjects
+  - word: Brand
+    defs:
+      - A burning piece of wood
+      - A sword
+      - A thunderbolt
+    comments: A sword because it gleams like fire, either because it's metallic or from brandishing
+  - word: Catspaw
+    def: A dupe
+  - word: Clew
+    defs: 
+      - A ball of thread
+      - The thread that forms a ball
+      - Thread used to guide a person in a labyrinth
+      - Anything that guides in an intricate case
+  - word: Cobble
+    defs:
+      - To make or mend coarsely, as shoes
+      - To make or do clumsily or unhandily
+      - A stone rounded by water
+  - word: Connive
+    defs:
+      - To wink
+      - To ignore an act, pretend ignorance
+    origin: "Latin \"to wink\""
+  - word: Coronet
+    def: An inferior crown worn by a nobleman
+    comments: Webster says a duke's coronet is adorned with strawberry leaves, a marquis's with leaves and pearls interposed, an earl's with pearls above leaves, a viscount's surrounded with pearls, a baron's with four pearls
+  - word: Eftsoons
+    def: Soon afterwards
+  - word: Eldest
+    def: Oldest
+    comments: Usually used for people, occasionally animals, rarely for things
+  - word: Fructiferous
+    def: Bearing or producing fruit
+  - word: Fructify
+    defs: 
+      - To bear fruit
+      - To make fruitful
+  - word: Fustian
+    def: An inflated style of writing
+  - word: Genial
+    defs:
+      - Contributing to propagation
+      - Gay, merry
+    comments: Webster says the pagan's genial gods presided over generation (earth, air, fire, water)
+  - word: Grandiloquence
+    def: Lofty speaking
+  - word: Nervous
+    def: Pertaining to the nerves
+    comments: Originally meant strong and vigorous of body or mind
+  - word: Poetaster
+    def: A petty poet, someone who pretends to be a poet
+    origin: "Latin poet + aster \"expressing incomplete resemblance\""
+    comments: Many other words follow the pattern, such as Latin \"patraster\" for a father-in-law or stepfather
+  - word: Pilaster
+    def: A column that appears to give support but is merely decorative
+    origin: "Latin pila \"pillar\" + aster \"expressing incomplete resemblance\""
+  - word: Ruth
+    def: Mercy, pity, tenderness
+  - word: Scroyle
+    def: A mean fellow, a wretch
+  - word: Scuttle
+    defs:
+      - A broad, shallow basket
+      - A small hatchway in the deck of a ship
+      - A square hole in the roof of a house, with a lid
+      - A short run
+      - To cut large holes through the bottom or sides of a ship
+  - word: Umbrage
+    defs: 
+      - A shade, like a screen of trees
+      - Shadow
+      - Suspicion of injury; resentment
+    origin: "Latin umbra, \"a shade\""
+  - word: Verger
+    defs: 
+      - The man who carries the mace before a bishop, dean, etc.
+      - An officer who carries a white wand before the justices in England
+  - word: Preposterous
+    def: With the hinder part before
+    origin: "Latin pre \"before\" + posterus \"coming after\""
+    comments: Pre and post in the same word
+  - word: Much of a muchness
+    def: Similar
+    origin: British
+  - word: Snickersnee
+    def: Large knife
+  - word: Solemn
+    def: Marked with religious rites and pomps
+  - word: Lemniscate
+    def: Figure-eight shape
+  - word: Tintamar
+    def: Uproar
+  - word: Knickknackatory
+    def: Collection of knickknacks
+  - word: Apotheosis
+    def: Deification, glorification, exaltation
+  - word: Atavism
+    def: Resemblance to remote rather than near ancestors
+  - word: Badinage
+    def: Banter
+  - word: Deasil
+    def: Clockwise
+    comments: From before clocks existed
+  - word: Enormous
+    def: Exceeding the usual rule, norm, or measure; out of due proportion; inordinate; abnormal
+    origin: "Latin ex + norma \"out of normal\" or \"out of rule\""
+  - word: Groat
+    def: Old English silver coin
+  - word: March
+    def: Borderland
+  - word: Marquis
+    def: Sentinel and defender of a march
+  - word: Massif
+    def: Dominant part of a mountain range
+  - word: Scarp
+    def: Slope of the ditch nearest the parapet
+  - word: Tawdry
+    defs: 
+      - Bought at the festival of St. Audrey
+      - Very fine and showy in colors without tast or elegance; cheap and gaudy
+  - word: Widdershins
+    def: Counter-clockwise
+  - word: Amble
+    def: Horse gait where both legs on side move at the same time
+  - word: Avuncular
+    def: Related to an uncle
+  - word: Bilious
+    defs: 
+      - Related to bile
+      - Disordered in bile; choleric, irascible, irritable, angry
+  - word: Cantle
+    def: To cut in pieces
+  - word: Grabass
+    def: Horseplay
+  - word: Hassock
+    def: Stuffed cushion or footstool
+  - word: Humor
+    defs: 
+      - Moisture
+      - "One of the four ancient humors: blood, phlegm, black bile, yellow bile"
+  - word: Sanguine
+    defs: 
+      - Having the color of blood, red
+      - Characterized by abundant and active blood, warm, ardent
+  - word: Ardent
+    defs:
+      - Hot, burning
+      - Fierce
+      - Zealous
+  - word: Melancholy
+    def: Gloomy, depressed
+    origin: "Greek melan \"black\" + chole \"bile\""
+    comments: Formerly thought to be caused by an excess of black bile
+  - word: Phlegmatic
+    defs:
+      - Abounding in phlegm
+      - Watery
+      - Cold, dull, sluggish
+      - Indifferent, not easily excited
+  - word: Choleric
+    defs:
+      - Abounding with choler (yellow bile)
+      - Easily irritated, irascible
+      - Angry
+  - word: Marmoreal
+    def: Related to marble
+  - word: Nadir
+    def: Lowest point, opposite of zenith
+  - word: Patrimony
+    def: Right or estate inherited from father or ancestor
+  - word: Riparian
+    def: Related to a river
+  - word: Spangle
+    def: Small metal ornamental plate; therefore, any little thing that sparkles
+  - word: Tussock
+    def: Dense tuft of grass
+  - word: Yawl
+    defs: 
+      - Small ship's boat
+      - To howl
+  - word: Anthology
+    defs: 
+      - Garland or bouquet
+      - Collection of beautiful passages (flowers of literature)
+    origin: "Greek anthos \"flower\" + logos \"gather\""
+  - word: Chancellor
+    def: Director of chancery
+    comments: "Originally a Roman emperor's chief scribe or secretary. The position gained judicial power and became a bishop's chief judge, then a high officer of a European state, \"the keeper of the great seal of the kingdom\"."
+  - word: Chancery
+    defs: 
+      - English highest court next to Parliament, with jurisdiction mostly over equity
+      - US court of equity
+  - word: Goosecap
+    def: Silly person
+  - word: Scholé
+    def: Leisurely, creative work, not done for profit
+  - word: Sebaceous
+    def: Related to fat
+  - word: Vizard
+    def: Visor
+  - word: Brown study
+    defs: 
+      - State of deep thought
+      - Melancholy with deep thought
+      - Mental abstraction or serious reverie
+  - word: Den
+    defs: 
+      - Cave used for concealment, shelter, protection
+      - Lair of a wild animal
+      - Secluded room for study or relaxation
+  - word: Fuligin
+    def: A color darker than black
+    origin: "Italian soot; coined in Wolfe's \"Shadow of the Torturer\""
+  - word: Ham-handed
+    def: 
+      - Having large hands
+      - Clumsy
+      - Tactless
+  - word: Hamfisted
+    def: Clumsy-handed
+  - word: Lector
+    def: Reader
+    origin: Latin
+  - word: Mountebank
+    def: One who mounts a public bench selling fake healing elixirs
+  - word: Paramount
+    defs: 
+      - Superior to all others
+      - Possessing the highest title, as lord paramount
+  - word: Quillon
+    def: Arm of a sword's cross-hilt
+  - word: Sumpter
+    def: Pack-horse
+  - word: Lambaste
+    def: Beat severely
+  - word: Addle
+    defs: 
+      - Putrid
+      - Barren
+    origin: "Hebrew \"to fail\""
+  - word: Arrant
+    def: Complete
+  - word: Bewilder
+    def: To lose in pathless places
+    origin: "Archaic English wilder \"wander\" (related to \"wild\")"
+  - word: Bourn
+    def: Border
+  - word: Garret
+    defs: 
+      - Attic
+      - Turret
+      - Watchtower
+  - word: Garreteer
+    defs: 
+      - Inhabitant of a garret
+      - A poor author
+  - word: John-a-dreams
+    def: A sleepy idler
+  - word: Orthodox
+    def: Sound in the Christian faith, as opposed to heretical
+    origin: "Greek ortho \"right\" + dox \"opinion\""
+  - word: Pith
+    defs: 
+      - Soft center of plants
+      - Spinal marrow of animals
+      - Energy, importance, quintessence
+  - word: Quintessence
+    defs: 
+      - In alchemy, the fifth and highest essence of power
+      - Extract which contains the virtue, the most essential part
+  - word: Winkle
+    defs: 
+      - Gleam intermittently
+      - Displace (e.g. "winkle out an answer")
+  - word: Bathos
+    def: The art of poetic sinking, ludicrous descent from the elevated to the low, anticlimax
+    comments: "Rob Cantor's \"Shia LeBeouf\" is peak bathos"
+  - word: Dabble
+    defs: 
+      - Play in water
+      - Do any thing in a slight or superficial manner
+      - Tamper
+    origin: "Hebrew \"dip\""
+  - word: Farrier
+    def: Smith who shoes horses
+  - word: Fettle
+    def: Order, repair
+    comments: "\"In fine fettle\" is \"in good spirits\""
+  - word: Fluvial
+    def: Related to rivers
+  - word: Lethe
+    defs: 
+      - Oblivion
+      - A draught of oblivion
+  - word: Parasol
+    def: Small ladies umbrella for rain or sun 
+    origin: "Italian para \"to shield\" + sole \"sun\""
+  - word: Umbrella
+    def: Shade, carried by hand to shelter the person from sun, rain, or snow
+    origin: "Latin umbra \"shade, shadow\""
+  - word: Wanderjahr
+    def: Year spent by an apprentice travelling and practicing before entering the profession of his trade
+  - word: Brick
+    def: A generous, helpful, reliable person
+  - word: Dun
+    def: Dark, gloomy
+  - word: Mercer
+    def: A silk dealer
+  - word: Perspicuous
+    def: Clearly expressed
