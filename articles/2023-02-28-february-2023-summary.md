@@ -55,6 +55,3 @@ tags:
 
 ## Quotes
 - "It is in Apple's DNA that technology alone is not enough--it's technology married with liberal arts, married with the humanities, that yields us the results that make our hear sing." --Steve Jobs
-
-## Words
-- Brick: a generous, helpful, reliable person
