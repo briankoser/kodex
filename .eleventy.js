@@ -208,8 +208,9 @@ module.exports = function (eleventyConfig) {
     addShortcode('quote');
     addShortcode('stars');
     addShortcode('swatch');
-    addShortcode('youtube');
     addShortcode('vimeo');
+    addShortcode('wordOfTheDay');
+    addShortcode('youtube');
 
 
 

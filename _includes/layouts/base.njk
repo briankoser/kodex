@@ -49,8 +49,11 @@
         {{ content | safe }}
     </main>
     <aside class="site-sidebar">
+        <h2 class="h3">Word of the Day</h2>
+        {% wordOfTheDay dictionary %}
+        
         {% if feed %}
-        <h1 class="h3">Follow</h1>
+        <h2 class="h3">Follow</h2>
         {% icon 'rss' %} <a href="{{feed}}">RSS Feed</a>
         {% endif %}
     </aside>
