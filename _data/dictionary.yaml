@@ -440,3 +440,15 @@ words:
     def: A silk dealer
   - word: Perspicuous
     def: Clearly expressed
+  - word: Muliebrity
+    def: Femininity
+    comments: The counterpart of virility
+  - word: Xanthic
+    def: Yellow
+    origin: "Greek xanthos \"yellow\""
+  - word: Bissextus
+    def: Leap day
+    origin: "Latin bis \"twice\" + sextus \"sixth\""
+    comments: We add six hours per year, every fourth year
+  - word: Bissextile
+    def: Related to a leap year
