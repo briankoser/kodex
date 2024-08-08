@@ -452,3 +452,32 @@ words:
     comments: We add six hours per year, every fourth year
   - word: Bissextile
     def: Related to a leap year
+  - word: Pelagic
+    def: Related to the open sea
+  - word: Stigma
+    defs:
+      - A mark of disgrace
+      - The upper part of a flower's pistil, which receives the pollen in fertilization
+    origin: "Latin stigma \"brand, mark\", Greek stizein \"to tattoo\""
+    comments: The plural "stigmata" almost always refers to wounds such as Christ received on the cross
+  - word: Deuce
+    def: The two in dice or cards
+    comments: Became a mild oath in the 18th c, probably both as a euphemism for Deus and because it was a low score
+  - word: Demotic
+    def: Common, popular
+    comments: Demotic Greek is the modern Greek that is the official language of Greece
+  - word: Archipelago
+    def: A sea studded with islands
+    origin: "Italian arcipelago \"the Aegean Sea\", Latin archi \"chief, principal\" + pelago \"pool, abyss\""
+  - word: Foist
+    defs: 
+      - To force another to accept, especially by stealth or deceit
+      - To insert surreptitiously or without warrant
+      - A light and fast sailing ship
+    comments: Etymologically related to "fist"
+  - word: Undertaker
+    defs:
+      - One who manages funerals
+      - One who undertakes a business
+    comments: Originally there were many undertakers, with funeral-undertakers eventually taking primacy
+    
