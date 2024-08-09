@@ -58,9 +58,7 @@ module.exports = async function() {
     .filter(book => !book.user_shelves.includes('own'))
     
     // shuffle
-    .map(value => ({ value, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ value }) => value)
+    .sort( () => Math.random() - 0.5)
     
     // return LIMIT number of suggestions (index is LIMIT - 1)
     .slice(0, LIMIT);
