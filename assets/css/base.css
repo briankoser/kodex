@@ -206,6 +206,10 @@ body, .body {
     color: var(--color-black);
 }
 
+nav {
+    font-variant-numeric: lining-nums;
+}
+
 p {
     margin: var(--s0) 0;
 }
