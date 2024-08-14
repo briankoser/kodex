@@ -67,19 +67,26 @@
             <li role="menuitem">{% icon "invoice" %} <a href="/notes">Notes</a></li>
             <li role="menuitem">{% icon "microphone" %} <a href="/podcasts/subscriptions">Podcasts</a></li>
             <li role="menuitem"><img src="/img/tto.png" alt="TTO" class="icon"> <a href="/podcasts">Ten to One</a></li>
-            <li>{% icon "people" %} Pages</li>
+            <li>{% icon "certificate" %} Pages</li>
             <li>
                 <ul role="menu">
-                    <li role="menuitem">{% icon "pen" %} <a href="/butlerian-handbook">Butlerian Handbook</a></li>
-                    <li role="menuitem">{% icon "book" %} <a href="/dictionary">Dictionary</a></li>
-                    <li role="menuitem">{% icon "pen" %} <a href="/writing">Writing</a></li>
+                    <li role="menuitem">{% icon "favorite-book" %} <a href="/butlerian-handbook">Butlerian Handbook</a></li>
+                    <li role="menuitem">{% icon "reference-book" %} <a href="/dictionary">Dictionary</a></li>
+                    <li role="menuitem">{% icon "feather" %} <a href="/writing">Writing Tips</a></li>
+                </ul>
+            </li>
+            <li>{% icon "external-link" %} Sub Sites</li>
+            <li>
+                <ul role="menu">
+                    <li role="menuitem">{% icon "videogame-controller" %} <a href="https://372.koser.us">372 Adventure</a></li>
+                    <li role="menuitem">{% icon "library" %} <a href="https://incipit.koser.us">Incipit</a></li>
                 </ul>
             </li>
             <li role="menuitem">{% icon "rss" %} <a href="/feeds">Follow</a></li>
         </ul>
     </nav>
     <footer class="site-footer">
-        Words are © Brian &amp; Melissa Koser {{ 'year' | today }} · Code is MIT Licensed · Good vibes are public domain · Phase of the moon in North America is {{ moon.phaseToday().emoji }} · Terms of venery are commutative
+        Words are © Brian &amp; Melissa Koser {{ 'year' | today }} · Code is MIT Licensed · Good vibes are public domain · Phase of the moon in North America is {{ moon.phaseToday().emoji }} · Terms of venery are commutative 🦉
     </footer>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/themes/light.css" />
