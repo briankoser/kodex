@@ -24,7 +24,7 @@ words:
     def: Friend
   - word: Humblebee
     def: Bumblebee
-    comments: "Humble used to mean \"hum\""
+    comments: Humble used to mean "hum"
   - word: Orotund
     def: Pompous and bombastic, sonorous
     origin: "Latin \"round mouth\""
@@ -487,3 +487,128 @@ words:
     def: Smoothly blend into a single whole
     origin: Melt + weld
     comment: Only coined in the 1930s
+  - word: Pediculous
+    def: Infested with lice; lousy
+    origin: Latin pediculus "louse"
+  - word: Runagate
+    def: Renegade, fugitive, apostate, vagabond
+  - word: Renegade
+    defs:
+      - A vagabond
+      - One who deserts to an enemy
+      - An apostate (originally, a Christian turned Muslim)
+  - word: Vagabond
+    def: A vagrant
+  - word: Marplot
+    def: A meddler who interferes with an undertaking
+  - word: Bearherd
+    def: A man who tends a bear
+
+# - word: Avid
+# - word: Canon
+# - word: Codex
+# - word: Disciple
+# - word: Miracle
+# - word: Sleight
+# - word: Akimbo
+# - word: Almost
+# - word: Aplomb
+# - word: Archetype
+# - word: Arimithea
+# - word: Avalon
+# - word: Behest
+# - word: Bestiary
+# - word: Bonhomie
+# - word: Caper
+# - word: Chancellor
+# - word: Clime
+# - word: Codswallop
+# - word: Circumspect
+# - word: Crook
+# - word: Dabble
+# - word: Dandy
+# - word: Daresay
+# - word: Droll
+# - word: Donnybrook
+# - word: Druthers
+# - word: Edge
+# - word: Eftsoons
+# - word: Elan
+# - word: Ephemeron
+# - word: Esdraelon
+# - word: Extraordinaire
+# - word: Fastidious
+# - word: Festoon
+# - word: Figment
+# - word: Forlorn
+# - word: Gallant
+# - word: Galoot
+# - word: Gambol
+# - word: Gentile
+# - word: Goosecap
+# - word: Gravitas
+# - word: Gung Ho
+# - word: Hmm
+# - word: Implore
+# - word: Indelible
+# - word: Jericho
+# - word: Jerusalem
+# - word: Jovial
+# - word: Kerioth
+# - word: Legend
+# - word: Legerdomain
+# - word: Macron
+# - word: Marchpane
+# - word: Megatobrica
+# - word: Mirth
+# - word: Motif
+# - word: Nestor
+# - word: Nimbus
+# - word: Orchard
+# - word: Panache
+# - word: Pantheon
+# - word: Pilgrim
+# - word: Pique
+# - word: Plenilune
+# - word: Plume
+# - word: Presage
+# - word: Prolly
+# - word: Prophet
+# - word: Purport
+# - word: Quadrillion
+# - word: Quaint
+# - word: Quicklime
+# - word: Rambler
+# - word: Redolent
+# - word: Risible
+# - word: Rodomontade
+# - word: Rollick
+# - word: Rote
+# - word: Salamander
+# - word: Slake
+# - word: Scamander
+# - word: Scoundrel
+# - word: Seldom
+# - word: Sidereal
+# - word: Sleuth
+# - word: Slew
+# - word: Spruce
+# - word: Tatterdemalion
+# - word: Teal
+# - word: Tendency
+# - word: Thick as Thieves
+# - word: Together
+# - word: Twiddle
+# - word: Terse
+# - word: Underbelly (Implies an overbelly?)
+# - word: Urbane
+# - word: Utmost
+# - word: Uttermost
+# - word: Verve
+# - word: Volcano
+# - word: Widdershins
+# - word: Wilderness
+# - word: Wotteth
+# - word: Yarn
+# - word: Yester
+# - word: Incipit
