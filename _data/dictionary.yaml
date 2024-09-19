@@ -503,19 +503,108 @@ words:
     def: A meddler who interferes with an undertaking
   - word: Bearherd
     def: A man who tends a bear
+  - word: Pridian
+    def: Related to yesterday or a previous day
+  - word: Avid
+    defs: 
+      - Eager
+      - Greedy
+    comment: Related to "avarice"
+  - word: Canon
+    defs: 
+      - A religious law
+      - Any law or rule
+      - The books of the Holy Scriptures
+      - A dignitary of the church
+      - A rulebook for a monastic order
+      - A catalog of Roman Catholic saints
+      - The secret words of the mass from the preface to the Pater
+      - A method for determining the intervals of notes, invented by Ptolemy
+      - In music, a perpetual fugue
+      - A rule for the solution of geometry or algebra cases (every last step of an equation)
+      - A rule for compounding medicines
+      - A surgical instrument for sewing up wounds
+  - word: Codex
+    defs: 
+      - A book or manuscript
+      - A collection of laws
+      - An ancient manuscript of Holy Scripture, particularly of the New Testament
+  - word: Morganatic marriage
+    def: A marriage between people of unequal social rank
+    origin: Latin matrimonium ad morganaticam "marriage with a morning-gift", a property dower for the wife's security in widowhood; in a morganatic marriage the wife and her children receive no other inheritance, including titles
+    comments: Also called a left-handed marriage
+  - word: Disciple
+    defs:
+      - A follower
+      - A learner
+      - A scholar
+  - word: Miracle
+    def: 
+      - A wonder
+      - An event contrary to the course of nature
+  - word: Miracle-monger
+    def: An impostor who pretends to work miracles
+    origin: Latin miraculum
+    comments: Old English had wundorweorc "wonder work" and wundortacen (wonder token). "Miracle" in English Bibles is a translation of the Greek words semeion "sign" (Latin signum) teras "wonder" (Latin prodigium) and dynamis "power" (Latin virtus).
+  - word: Moue
+    def: A small grimace or pout
+  - word: Foliage
+    defs:
+      - A cluster of leaves, flowers, and branches
+      - A collection of leaves
+      - A representation of leaves, flower, or branches for architectural ornamentation
+    comments: In Middle English, "foil" meant "leaf".
+  - word: Inchmeal
+    def: Little by little
+    comments: -meal is related to German mal "time"
+    quote: 
+      text: All the infections that the sun sucks up / From bogs, fens, flats, on Prosper fall, and make him / By inch-meal a disease!
+      source: Caliban, The Tempest
+  - word: Milieu
+    def: Environment where something occurs or develops
+    origin: French mi "middle" + lieu "place"
+  - word: Gloze
+    defs: 
+      - To give a deceptively attractive appearance to
+      - To deal with a problem too lightly
+    origin: Middle English glose "flattery", "plausible pretext", "explanation of a difficult word"
+    comments: Surely the origin of the character name "Lord Glozelle" from Prince Caspian
+  - word: Ensky
+    def: To exalt
+    comments: Literally, to put in the sky
+    quote: 
+      text: I hold you as a thing enskied and sainted.
+      source: Lucio, Measure for Measure
+  - word: Enthrone
+    def: To put on a throne
+  - word: Enisle
+    defs:
+      - To put on an island
+      - To isolate
+  - word: Enwomb
+    def: To shut up, as if in a womb
+  - word: Sleight
+    defs:
+      - An artful trick
+      - Sly artifice
+      - Dexterity
+    origin: Old Norse sloegr "sly, cunning"
+  - word: Akimbo
+    defs:
+      - With the hands on the hips and the elbows bent outward at sharp angles
+      - In a bent position
+    origin: Possibly Middle English in keen bow "in sharp arch"
+  - word: Aplomb
+    def: Assurance from self-confidence
+    origin: French aplomb "self-possession", literally "perpendicularity" (on the plumb line)
+  - word: Archetype
+    defs:
+      - Original pattern or model
+    origin: Greek arkhe "origin" + typos "model"
+    comments: In Platonism, the archetypal world existed in the idea of God before creation
+ 
 
-# - word: Avid
-# - word: Canon
-# - word: Codex
-# - word: Disciple
-# - word: Miracle
-# - word: Sleight
-# - word: Akimbo
-# - word: Almost
-# - word: Aplomb
-# - word: Archetype
-# - word: Arimithea
-# - word: Avalon
+
 # - word: Behest
 # - word: Bestiary
 # - word: Bonhomie
