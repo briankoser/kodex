@@ -21,6 +21,7 @@ days:
     day: 1
   - name: Juneteenth
     slug: juneteenth
+    category: american
     month: 6
     day: 19
   - name: Independence Day
@@ -28,6 +29,11 @@ days:
     category: american
     month: 7
     day: 4
+  - name: Patriot Day
+    slug: patriot-day
+    category: american
+    month: 9
+    day: 11
   - name: Columbus Day
     slug: columbus-day
     category: american
@@ -38,7 +44,14 @@ days:
     category: american
     month: 11
     day: 11
-  
+  - name: Battle of Vienna
+    slug: battle-of-vienna
+    month: 9
+    day: 12
+    traditions:
+      - Listen to Sabaton's Winged Hussars
+    comments: https://www.sabaton.net/historical-facts/battle-of-vienna/
+
   - name: Thanksgiving
   - name: Twelfth Night
     slug: twelfth-night
@@ -50,6 +63,10 @@ days:
     category: christian
     month: 1
     day: 6
+    traditions:
+      - King Cake
+    comments:
+      - King Cake recipe in Hallelujah
   - name: Candlemas
     slug: candlemas
     category: christian
@@ -60,6 +77,18 @@ days:
     category: christian
     month: 9
     day: 14
+    traditions:
+      - Read "Of the Invention of the Holy Cross" from The Golden Legend
+      - Read The Dream of the Rood
+    comments:
+      - Also called Holy Cross Day
+  - name: Feast of St. Eustace
+    slug: feast-of-st-eustace
+    category: christian
+    month: 9
+    day: 20
+    traditions:
+      - Drink Jägermeister
     
   - name: All Koser's Eve
     slug: all-kosers-eve
@@ -94,3 +123,13 @@ days:
   - name: All Saint's Day
   - name: All Souls' Day
   - name: Michaelmas
+
+  # Revised Common Lectionary
+  # O Come, O Come Emmanuel
+  # Be Thou My Vision
+  # Book of Common Prayer?
+  # Cindy Rollins's Hallelujah
+  # Guite's sonnets
+  # Swait's thanksgiving poems
+  # Psalter
+  # Every Moment Holy
