@@ -602,7 +602,12 @@ words:
       - Original pattern or model
     origin: Greek arkhe "origin" + typos "model"
     comments: In Platonism, the archetypal world existed in the idea of God before creation
- 
+  - name: Gibbous
+    defs:
+      - Swelling, convex
+      - Hunched, hump-backed, crook-backed
+    origin: Latin gibbosus "humpbacked", gibbus "hump"
+    
 
 
 # - word: Behest
