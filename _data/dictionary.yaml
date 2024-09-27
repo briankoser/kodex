@@ -602,11 +602,26 @@ words:
       - Original pattern or model
     origin: Greek arkhe "origin" + typos "model"
     comments: In Platonism, the archetypal world existed in the idea of God before creation
-  - name: Gibbous
+  - word: Gibbous
     defs:
       - Swelling, convex
       - Hunched, hump-backed, crook-backed
     origin: Latin gibbosus "humpbacked", gibbus "hump"
+  - word: Petrichor
+    def: The earthy scent produced when rain falls on dry soil
+    origin: Greek petra "stone" + ichor "the blood of the Greek gods"
+  - word: Ichor
+    defs:
+      - The liquid that flowed in the veins of the Greek gods
+      - Any bloodlike fluid
+  - word: Ken
+    defs:
+      - Sight, view
+      - Range of perception or understanding
+      - The distance bounding the range of ordinary vision at sea (about 20 miles)
+    quote: 
+      text: Tis double death to drown in ken of shore.
+      source: William Shakespeare, The Rape of Lucrece
     
 
 
