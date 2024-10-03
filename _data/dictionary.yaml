@@ -622,10 +622,31 @@ words:
     quote: 
       text: Tis double death to drown in ken of shore.
       source: William Shakespeare, The Rape of Lucrece
-    
+  - word: Helicopter
+    def: An aircraft whose lift is provided by rotating blades rather than fixed wings
+    origin: Greek heliko "spiral" + pteron "wing"
+  - word: Martinet
+    defs: 
+      - A strict disciplinarian
+      - A person with a rigid adherence to detailed forms and methods
+    origin: Lieutenant Colonel Jean Martinet, King Louis XIV's appointment to inspector general of the infantry
+  - word: Bucolic
+    defs:
+      - Related to shepherds; pastoral
+      - Related to rural life
+      - Idyllic
+    origin: Latin bucolicus "shepherd", Greek boukolos "cowherd"
+  - word: Intestine
+    defs:
+      - A digestive system organ
+      - Internal
+  - word: Hustings
+    def: A place where political campaign speeches are made
+    origin: Anglo-Saxon hustings "judicial assemblies where the king holds council", Old Norse hūsthing "house assembly"
+  - word: Behest
+    def: Command
 
 
-# - word: Behest
 # - word: Bestiary
 # - word: Bonhomie
 # - word: Caper
