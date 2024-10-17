@@ -645,9 +645,22 @@ words:
     origin: Anglo-Saxon hustings "judicial assemblies where the king holds council", Old Norse hūsthing "house assembly"
   - word: Behest
     def: Command
+  - word: Frenetic
+    def: Frantic, insane, furious, distracted
+    origin: Middle English frenetik "insane", Latin phreneticus "delirium"
+  - word: Vestige
+    defs: 
+      - A mark left by something that existed before
+      - A small remaining amount
+      - A footprint
+    origin: Latin vestigium "footstep, footprint, track"
+  - word: Mot juste
+    def: The exactly right word or phrasing
+  - word: Quip
+    def: A clever remark, often sarcastic or taunting
+ - word: Bestiary
+   def: A book consisting of a collection descriptions of animals, often including a moral or allegorical interpretation of each
 
-
-# - word: Bestiary
 # - word: Bonhomie
 # - word: Caper
 # - word: Chancellor
