@@ -658,10 +658,15 @@ words:
     def: The exactly right word or phrasing
   - word: Quip
     def: A clever remark, often sarcastic or taunting
- - word: Bestiary
-   def: A book consisting of a collection descriptions of animals, often including a moral or allegorical interpretation of each
+  - word: Bestiary
+    def: A book consisting of a collection descriptions of animals, often including a moral or allegorical interpretation of each
+  - word: Mortgage
+    def: The grant of an estate in fee as security for the payment of money. If the money is paid, the estate returns to the mortgager.
+    origin: Old French mort "dead" + gage "pledge"
+  - word: Bonhomie
+    def: Frank and simple good nature
+    origin: From French bonhomme "goodman", bon "good" + homme "man"
 
-# - word: Bonhomie
 # - word: Caper
 # - word: Chancellor
 # - word: Clime
