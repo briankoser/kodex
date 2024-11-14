@@ -26,8 +26,10 @@ words:
     def: Bumblebee
     comments: Humble used to mean "hum"
   - word: Orotund
-    def: Pompous and bombastic, sonorous
-    origin: "Latin \"round mouth\""
+    defs: 
+      - Pompous and bombastic
+      - Sonorous
+    origin: Latin or "mouth" + rotundus "round"
   - word: Sempiternal
     def: Eternal
     comments: "Surprisingly, does not share a Latin root with \"eternal\""
@@ -666,7 +668,70 @@ words:
   - word: Bonhomie
     def: Frank and simple good nature
     origin: From French bonhomme "goodman", bon "good" + homme "man"
+  - word: Profane
+    defs:
+      - Irreverent to anything sacred
+      - Polluted, impure
+    origin: Latin pro "forward" + fanum "temple" (outside the temple)
+  - word: Ignis fatuus
+    defs:
+      - Light that hovers over swamps at night
+      - An illusion
+    origin: Latin ignis "fire" + fatuus "foolish"
+    comments: Also known as will o' the wisp and jack o' lantern, for mysterious folk characters Will and Jack that are said to carry a lantern at night
+  - word: Sepulchre
+    defs:
+      - A tomb
+      - A receptacle for religious relics, especially an altar
+  - word: Sepulture
+    defs:
+      - A sepulchre
+      - A burial
+  - word: Vulpine
+    defs: 
+      - Related to foxes
+      - Crafty
+  - word: Node
+    defs:
+      - An intersection point
+      - A knot
+    origin: Latin nodus "knot"
+  - word: Longanimity
+    def: Forbearance, bearing injuries patiently
+    origin: Latin longus "long" + animus "soul"
+  - word: Nychthemeron
+    def: Twenty-four consecutive hours
+    comments: Use when "day" is ambiguous ("day" can mean "twenty-four hours", "twenty-four hours from midnight to midnight", "twelve hours of approximate daylight", or "sunrise to sunset")
+  - word: Smithereens
+    def: Small broken pieces
+    origin: Irish smidiríní "little bits"
+  - word: Hypaethral
+    defs:
+      - Having a roofless central space
+      - Open to the sky
+    origin: Greek hypo "under" + aither "air", "heaven"
+  - word: Lymphatic
+    defs:
+      - Related to lymph
+      - Sluggish
+    origin: Latin lympha "water", "water goddess"
+  - word: Poltergeist
+    def: A noisy, usually mischievous, ghost
+    origin: German poltern "knock", "rattle" + geist "ghost"
+  - word: Suffrage
+    defs:
+      - A short intercessory prayer
+      - The right of voting
+    origin: Latin suffragium "vote", "support", "prayer"
+  - word: Kibitzer
+    def: One who watches and offers unwanted comment
+    origin: Yiddish kibitser, German kiebitzen "to watch a card game"
+  - word: Circadian
+    def: Related to 24-hour cycles
+    origin: Latin circa "about" + dies "day"
 
+
+# - word: Palimpsest
 # - word: Caper
 # - word: Chancellor
 # - word: Clime
