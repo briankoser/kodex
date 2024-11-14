@@ -193,6 +193,8 @@ module.exports = function (eleventyConfig) {
     addShortcode('argument');
     addShortcode('articlecard');
     addShortcode('articlesbydate');
+    addShortcode('calendarBrief');
+    addShortcode('calendarDay');
     addShortcode('checkbox');
     addShortcode('descriptionList');
     addShortcode('dialog');

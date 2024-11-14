@@ -49,6 +49,9 @@
         {{ content | safe }}
     </main>
     <aside class="site-sidebar">
+        <h2 class="h3">Today</h2>
+        {% calendarBrief calendar.today %}
+
         <h2 class="h3">Word of the Day</h2>
         {% wordOfTheDay dictionary %}
         

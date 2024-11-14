@@ -276,6 +276,18 @@ body {
 
 
 
+/* Calendar */
+.calendar ol {
+    list-style-position: inside;
+    margin: var(--s0) 0;
+}
+
+.calendar .comments {
+    font-style: italic;
+}
+
+
+
 /* Dictionary */
 .dictionary ol {
     list-style-position: inside;
