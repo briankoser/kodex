@@ -729,6 +729,10 @@ words:
   - word: Circadian
     def: Related to 24-hour cycles
     origin: Latin circa "about" + dies "day"
+  - word: Drumble
+    defs:
+      - Dawdle
+      - Drone
 
 
 # - word: Palimpsest
