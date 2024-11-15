@@ -3,7 +3,7 @@ const slugify = require('slugify');
 
 module.exports = function (data) {
     let traditions = `<ol class="traditions">${(data.traditions || []).map(t => `<li>${t}</li>`).join('')}</ol>`;
-    let comments = `<p class="comments">Comments: ${data.comments}</p>`;
+    let comments = `<p class="comments">${data.comments}</p>`;
 
     return `
 <article>

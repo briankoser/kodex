@@ -4,7 +4,7 @@ module.exports = function (data) {
     let definition = `<p class="definition">》${data.def}</p>`;
     let definitions = `<ol class="definitions">${(data.defs || []).map(d => `<li>${d}</li>`).join('')}</ol>`;
     let origin = `<p class="origin">Origin: ${data.origin}</p>`;
-    let comments = `<p class="comments">Comments: ${data.comments}</p>`;
+    let comments = `<p class="comments">${data.comments}</p>`;
 
     return `
 <article>
