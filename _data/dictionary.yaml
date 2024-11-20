@@ -733,6 +733,17 @@ words:
     defs:
       - Dawdle
       - Drone
+  - word: Galdercraft
+    def: Enchantment
+    origin: Old English galdor "enchantment" + cræft "art"
+  - word: Yestereve
+    def: The previous evening
+  - word: Ereyesterday
+    def: The day before yesterday
+  - word: Overmorrow
+    def: The day after tomorrow
+  - word: Stonelime
+    def: Cement
 
 
 # - word: Palimpsest
@@ -829,3 +840,4 @@ words:
 # - word: Yarn
 # - word: Yester
 # - word: Incipit
+# Dictionary of Untold Sorrows
