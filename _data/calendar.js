@@ -65,6 +65,11 @@ module.exports = function () {
         return new Date(year, n - 1, p + 1);
     }
 
+    let getDaysFromEaster = function (year, daysAfter) {
+        let easter = getEaster(year);
+        return addDays(easter, daysAfter);
+    }
+
     let getThanksgiving = function (year) {
         return addWeeks(getFirstOccurence(new Date(year, 10), 4), 3);
     }
@@ -82,36 +87,41 @@ module.exports = function () {
         {
             name: "Birthday of Martin Luther King Jr.",
             category: 'american',
+            aka: ['Martin Luther King Jr. Day', 'MLK Day'],
             month: 1,
             day: 15
         },
         {
             name: "Washington's Birthday",
             category: 'american',
+            aka: ["Presidents' Day"],
             month: 2,
             day: 22
         },
         {
             name: "May Day",
-            category: 'american',
+            category: 'world',
             month: 5,
             day: 1
         },
         {
             name: "Juneteenth",
             category: 'american',
+            aka: ['Juneteenth National Independence Day'],
             month: 6,
             day: 19
         },
         {
             name: "Independence Day",
             category: 'american',
+            aka: ['Fourth of July'],
             month: 7,
             day: 4
         },
         {
             name: "Patriot Day",
             category: 'american',
+            aka: ['9/11'],
             month: 9,
             day: 11
         },
@@ -124,12 +134,13 @@ module.exports = function () {
         {
             name: "Veteran's Day",
             category: 'american',
+            aka: ['Armistice Day'],
             month: 11,
             day: 11
         },
         {
             name: "Battle of Vienna",
-            category: 'history',
+            category: 'world',
             month: 9,
             day: 12,
             traditions: [
@@ -147,12 +158,14 @@ module.exports = function () {
         {
             name: "New Year's Eve",
             category: 'american',
+            aka: ["Old Year's Day"],
             month: 12,
             day: 31
         },
         {
-            name: "Eighth Day of Christmas",
+            name: "Feast of the Circumcision",
             category: 'christian',
+            aka: ['Octave', 'Eighth Day of Christmas'],
             month: 1,
             day: 1
         },
@@ -177,12 +190,14 @@ module.exports = function () {
         {
             name: "Twelfth Night",
             category: 'christian',
+            aka: ['Twelfth Day of Christmas', 'Epiphany Eve'],
             month: 1,
             day: 5
         },
         {
             name: "Epiphany",
             category: 'christian',
+            aka: ["Three Kings's Day"],
             month: 1,
             day: 6,
             traditions: [
@@ -191,8 +206,27 @@ module.exports = function () {
             comments: "King Cake recipe in Hallelujah"
         },
         {
+            name: "Theophany",
+            category: 'christian',
+            aka: ['Feast of the Baptism of the Lord', 'Plough Sunday'],
+            get calculation() {
+                return getNextOccurence(new Date(year, 0, 6), 0);
+            }
+        },
+        {
+            name: "Plough Monday",
+            category: 'christian',
+            traditions: [
+                "Start School Term 2"
+            ],
+            get calculation() {
+                return getNextOccurence(new Date(year, 0, 6), 1);
+            }
+        },
+        {
             name: "Candlemas",
             category: 'christian',
+            aka: ['Feast of the Presentation of Jesus Christ', 'Feast of the Purification of the Blessed Virgin Mary', 'Feast of the Holy Encounter'],
             month: 2,
             day: 2,
             traditions: [
@@ -200,22 +234,160 @@ module.exports = function () {
             ]
         },
         {
+            name: "Transfiguration Sunday",
+            category: 'christian',
+            get calculation() {
+                return addDays(getNextOccurence(new Date(year, 0, 6), 0), 42);
+            }
+        },
+        {
+            name: "Shrove Saturday",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -50);
+            }
+        },
+        {
+            name: "Quinquagesima",
+            category: 'christian',
+            aka: ['Shrove Sunday'],
+            get calculation() {
+                return getDaysFromEaster(year, -49);
+            }
+        },
+        {
+            name: "Shrove Monday",
+            category: 'christian',
+            aka: ['Collopy Monday'],
+            get calculation() {
+                return getDaysFromEaster(year, -48);
+            }
+        },
+        {
+            name: "Shrove Tuesday",
+            category: 'christian',
+            aka: ['Mardis Gras', 'Pancake Day'],
+            get calculation() {
+                return getDaysFromEaster(year, -47);
+            }
+        },
+        {
+            name: "Ash Wednesday",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -46);
+            }
+        },
+        {
+            name: "Lazarus Saturday",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -8);
+            }
+        },
+        {
+            name: "Palm Sunday",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -7);
+            }
+        },
+        {
+            name: "Holy Monday",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -6);
+            }
+        },
+        {
+            name: "Fig Tuesday",
+            category: 'christian',
+            aka: ["Holy Tuesday"],
+            get calculation() {
+                return getDaysFromEaster(year, -5);
+            }
+        },
+        {
+            name: "Spy Wednesday",
+            category: 'christian',
+            aka: ['Holy Wednesday', 'Good Wednesday'],
+            get calculation() {
+                return getDaysFromEaster(year, -4);
+            }
+        },
+        {
+            name: "Maundy Thursday",
+            category: 'christian',
+            aka: ['Holy Thursday'],
+            get calculation() {
+                return getDaysFromEaster(year, -3);
+            }
+        },
+        {
+            name: "Good Friday",
+            category: 'christian',
+            aka: ['Holy Friday', 'Black Friday'],
+            get calculation() {
+                return getDaysFromEaster(year, -2);
+            }
+        },
+        {
+            name: "Holy Saturday",
+            category: 'christian',
+            aka: ['Low Saturday', 'Great Sabbath', 'Black Saturday', 'Easter Eve'],
+            get calculation() {
+                return getDaysFromEaster(year, -1);
+            }
+        },
+        {
             name: "Easter",
             category: 'christian',
+            aka: ['Pascha', 'Resurrection Sunday'],
             get calculation() {
                 return getEaster(year);
             }
         },
         {
+            name: "Ascension Day",
+            category: 'christian',
+            aka: ['Feast of the Ascension'],
+            get calculation() {
+                return getDaysFromEaster(year, 40);
+            }
+        },
+        {
+            name: "Pentecost",
+            category: 'christian',
+            aka: ['Whitsun', 'Whitsunday'],
+            get calculation() {
+                return getDaysFromEaster(year, 49);
+            }
+        },
+        {
+            name: "Whit Monday",
+            category: 'christian',
+            aka: ['Pentecost Monday', 'Monday of the Holy Spirit'],
+            get calculation() {
+                return getDaysFromEaster(year, 50);
+            }
+        },
+        {
+            name: "Trinity Sunday",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, 56);
+            }
+        },
+        {
             name: "Roodmas",
             category: 'christian',
+            aka: ['Feast of the Holy Cross', 'Holy Cross Day', 'Holy Rood Day', 'Crouchmas'],
             month: 9,
             day: 14,
             traditions: [
                 "Read \"Of the Invention of the Holy Cross\" from The Golden Legend",
                 "Read The Dream of the Rood"
-            ],
-            comments: "Also called Holy Cross Day"
+            ]
         },
         {
             name: "Feast of St. Eustace",
@@ -230,12 +402,14 @@ module.exports = function () {
         {
             name: "Michaelmas",
             category: 'christian',
+            aka: ['Feast of the Archangels'],
             month: 9,
             day: 29
         },
         {
             name: "All Hallow's Eve",
             category: 'christian',
+            aka: ["Hallowe'en", "All Saints' Eve"],
             month: 10,
             day: 31,
             traditions: [
@@ -244,8 +418,9 @@ module.exports = function () {
             ]
         },
         {
-            name: "All Saint's Day",
+            name: "All Hallows' Day",
             category: 'christian',
+            aka: ["All Saints' Day", 'Hallowmas'],
             month: 11,
             day: 1,
             traditions: [
@@ -255,17 +430,55 @@ module.exports = function () {
         {
             name: "All Souls' Day",
             category: 'christian',
+            aka: ['The Commemoration of All the Faithful Departed'],
             month: 11,
             day: 2
         },
         {
             name: "Martinmas",
             category: 'christian',
+            aka: ["Saint Martin's Day", 'Martlemas', 'Old Halloween', 'Old Hallowmas Eve'],
             month: 11,
             day: 11,
             traditions: [
                 "Read St. Martin's story"
             ]
+        },
+        {
+            name: "Christ the King Sunday",
+            category: 'christian',
+            aka: ['Reign of Christ Sunday', 'Stir-up Sunday'],
+            get calculation() {
+                return addDays(getNextOccurence(new Date(year, 11, 25), 0), -35);
+            }
+        },
+        {
+            name: "Advent Sunday",
+            category: 'christian',
+            get calculation() {
+                return addDays(getNextOccurence(new Date(year, 11, 25), 0), -28);
+            }
+        },
+        {
+            name: "Second Sunday of Advent",
+            category: 'christian',
+            get calculation() {
+                return addDays(getNextOccurence(new Date(year, 11, 25), 0), -21);
+            }
+        },
+        {
+            name: "Third Sunday of Advent",
+            category: 'christian',
+            get calculation() {
+                return addDays(getNextOccurence(new Date(year, 11, 25), 0), -14);
+            }
+        },
+        {
+            name: "Fourth Sunday of Advent",
+            category: 'christian',
+            get calculation() {
+                return addDays(getNextOccurence(new Date(year, 11, 25), 0), -7);
+            }
         },
         {
             name: "Christmas Eve",
@@ -286,8 +499,9 @@ module.exports = function () {
             ]
         },
         {
-            name: "Second Day of Christmas",
+            name: "Saint Stephen's Day",
             category: 'christian',
+            aka: ['Second Day of Christmas'],
             month: 12,
             day: 26
         },
@@ -298,8 +512,9 @@ module.exports = function () {
             day: 27
         },
         {
-            name: "Fourth Day of Christmas",
+            name: 'Childermas',
             category: 'christian',
+            aka: ["Holy Innocents' Day", 'Fourth Day of Christmas'],
             month: 12,
             day: 28
         },
@@ -322,61 +537,45 @@ module.exports = function () {
             day: 31
         }
     ];
-    let currentYear = holidays.map(h => Object.assign({}, h, {"date": h.calculation || new Date(year, h.month - 1, h.day)}));
+    let currentYear = holidays
+        .map(h => Object.assign({}, h, {"date": h.calculation || new Date(year, h.month - 1, h.day)}))
+        .sort((a,b) => {
+            return a.date - b.date
+        });
     let today = currentYear.filter(h => h.date.toDateString() == (new Date()).toDateString());
-
-
+    let futureHolidays = currentYear.filter(h => h.date > new Date());
+    let nextHoliday = today.length == 0 && futureHolidays.length > 0 ? futureHolidays[0] : {};
 
     return {
         currentYear,
+        nextHoliday,
         today
 	};
 }
 
-
-
     
 //   - name: All Koser's Eve
 //     slug: all-kosers-eve
-//     category: family
+//     category: koser
 //     month: 6
 //     firstDayOfMonth: Saturday
 //   - name: Koserstag
 //     slug: koserstag
-//     category: family
+//     category: koser
 //     month: 6
 //     anchor: all-kosers-eve
 //     daysFrom: 1
-    
-//   - name: Baptism of the Lord (Sunday after Epiphany)
-//   - name: Transfiguration Sunday (6 weeks after Baptism of the Lord)
-//   - name: Ash Wednesday
-//   - name: Lazarus Saturday
-//   - name: Palm Sunday
-//   - name: Holy Monday
-//   - name: Holy Tuesday
-//   - name: Spy Wednesday
-//   - name: Maundy Thursday
-//   - name: Good Friday
-//   - name: Holy Saturday
-//   - name: Easter Sunday
-//   - name: Ascension of the Lord
-//   - name: Pentecost
-//   - name: Trinity Sunday
-//   - name: First Sunday of Advent (fourth Sunday before Christmas)
-//   - name: Second Sunday of Advent (third Sunday before Christmas)
-//   - name: Third Sunday of Advent (second Sunday before Christmas)
-//   - name: Fourth Sunday of Advent (Sunday before Christmas)
 
 // todo: check for traditions in:
-//   # Revised Common Lectionary
-//   # O Come, O Come Emmanuel
-//   # Be Thou My Vision
-//   # Book of Common Prayer?
-//   # Cindy Rollins's Hallelujah
-//   # Guite's sonnets
-//   # Swait's thanksgiving poems
-//   # Psalter
-//   # Every Moment Holy
-// todo: display season: Advent, Christmastide, Epiphanytide, Lent, Eastertide, Ordinary Time
+//   Revised Common Lectionary
+//   O Come, O Come Emmanuel
+//   Be Thou My Vision
+//   Book of Common Prayer?
+//   Cindy Rollins's Hallelujah
+//   Guite's sonnets
+//   Swait's thanksgiving poems
+//   Psalter
+//   Every Moment Holy
+//   KeepingAdvent.com
+// todo: display season: Advent, Christmastide, Epiphanytide, Lent, Eastertide, Ascensiontide, Ordinary Time, Kingdomtide
 // todo: use liturgical colors

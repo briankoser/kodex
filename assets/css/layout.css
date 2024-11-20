@@ -277,12 +277,35 @@ body {
 
 
 /* Calendar */
+.calendar h2::before {
+    position: absolute;
+    margin-left: -1.25em;
+}
+
+.calendar h2.american::before {
+    content: "🦅";
+    margin-left: -1.5em;
+}
+
+.calendar h2.christian::before {
+    content: "✞";
+}
+
+.calendar h2.koser::before {
+    content: "🎉";
+}
+
+.calendar h2.world::before {
+    content: "🌍";
+    margin-left: -1.5em;
+}
+
 .calendar ol {
     list-style-position: inside;
     margin: var(--s0) 0;
 }
 
-.calendar .comments {
+.calendar .aka {
     font-style: italic;
 }
 
