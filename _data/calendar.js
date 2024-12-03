@@ -241,6 +241,20 @@ module.exports = function () {
             }
         },
         {
+            name: "Septuagesima",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -63);
+            }
+        },
+        {
+            name: "Sexagesima",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -56);
+            }
+        },
+        {
             name: "Shrove Saturday",
             category: 'christian',
             get calculation() {
@@ -277,6 +291,14 @@ module.exports = function () {
             get calculation() {
                 return getDaysFromEaster(year, -46);
             }
+        },
+        {
+            name: "Quadragesima Sunday",
+            category: 'christian',
+            get calculation() {
+                return getDaysFromEaster(year, -42);
+            },
+            comments: 'Wednesday, Friday, and Saturday are Ember Days'
         },
         {
             name: "Lazarus Saturday",
@@ -361,7 +383,18 @@ module.exports = function () {
             aka: ['Whitsun', 'Whitsunday'],
             get calculation() {
                 return getDaysFromEaster(year, 49);
-            }
+            },
+            comments: 'Wednesday, Friday, and Saturday are Ember Days'
+        },
+        {
+            name: "Saint George's Day",
+            category: 'christian',
+            month: 4,
+            day: 23,
+            traditions: [
+                "Read \"St. George and the Dragon\""
+            ],
+            comments: "Also the death and estimated birth day of William Shakespeare"
         },
         {
             name: "Whit Monday",
@@ -387,7 +420,8 @@ module.exports = function () {
             traditions: [
                 "Read \"Of the Invention of the Holy Cross\" from The Golden Legend",
                 "Read The Dream of the Rood"
-            ]
+            ],
+            comments: 'Wednesday, Friday, and Saturday are Ember Days'
         },
         {
             name: "Feast of St. Eustace",
@@ -455,6 +489,11 @@ module.exports = function () {
         {
             name: "Advent Sunday",
             category: 'christian',
+            traditions: [
+                "Light first Advent candle",
+                "Start Advent devotional, like Jonathan Gibson's \"O Come, O Come Emmanuel\"",
+                "Start Advent calendar"
+            ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -28);
             }
@@ -472,6 +511,14 @@ module.exports = function () {
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -14);
             }
+        },
+        {
+            name: "Saint Lucy's Day",
+            category: 'christian',
+            aka: ['Feast of Saint Lucy'],
+            month: 12,
+            day: 13,
+            comments: 'Wednesday, Friday, and Saturday are Ember Days'
         },
         {
             name: "Fourth Sunday of Advent",
@@ -535,7 +582,29 @@ module.exports = function () {
             category: 'christian',
             month: 12,
             day: 31
-        }
+        },
+        {
+            name: "All Koser's Eve",
+            category: 'koser',
+            get calculation() {
+                return addDays(getNextOccurence(new Date(year, 5, 1), 6), -1);
+            }
+        },
+        {
+            name: "Koserstag",
+            category: 'koser',
+            aka: ["Saint Kosers' Day"],
+            get calculation() {
+                return getNextOccurence(new Date(year, 5, 1), 6);
+            }
+        },
+        {
+            name: "Hobbit Day",
+            category: 'literary',
+            month: 9,
+            day: 22,
+            comments: "The birthday of Bilbo Baggins and Frodo Baggins"
+        },
     ];
     let currentYear = holidays
         .map(h => Object.assign({}, h, {"date": h.calculation || new Date(year, h.month - 1, h.day)}))
@@ -553,29 +622,13 @@ module.exports = function () {
 	};
 }
 
-    
-//   - name: All Koser's Eve
-//     slug: all-kosers-eve
-//     category: koser
-//     month: 6
-//     firstDayOfMonth: Saturday
-//   - name: Koserstag
-//     slug: koserstag
-//     category: koser
-//     month: 6
-//     anchor: all-kosers-eve
-//     daysFrom: 1
 
 // todo: check for traditions in:
-//   Revised Common Lectionary
-//   O Come, O Come Emmanuel
-//   Be Thou My Vision
-//   Book of Common Prayer?
 //   Cindy Rollins's Hallelujah
 //   Guite's sonnets
 //   Swait's thanksgiving poems
 //   Psalter
 //   Every Moment Holy
 //   KeepingAdvent.com
-// todo: display season: Advent, Christmastide, Epiphanytide, Lent, Eastertide, Ascensiontide, Ordinary Time, Kingdomtide
-// todo: use liturgical colors
+
+//   Book of Common Prayer

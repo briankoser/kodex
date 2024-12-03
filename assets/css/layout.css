@@ -279,25 +279,28 @@ body {
 /* Calendar */
 .calendar h2::before {
     position: absolute;
-    margin-left: -1.25em;
+    margin-left: -1.5em;
 }
 
 .calendar h2.american::before {
     content: "🦅";
-    margin-left: -1.5em;
 }
 
 .calendar h2.christian::before {
     content: "✞";
+    margin-left: -1.25em;
 }
 
 .calendar h2.koser::before {
     content: "🎉";
 }
 
+.calendar h2.literary::before {
+    content: "📚";
+}
+
 .calendar h2.world::before {
     content: "🌍";
-    margin-left: -1.5em;
 }
 
 .calendar ol {

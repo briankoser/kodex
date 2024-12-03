@@ -4,7 +4,7 @@ const slugify = require('slugify');
 module.exports = function (data) {
     let aka = `<p class="aka">${(data.aka || []).join(', ')}</p>`;
     let comments = `<p class="comments">${data.comments}</p>`;
-    let traditions = `<ol class="traditions">${(data.traditions || []).map(t => `<li>${t}</li>`).join('')}</ol>`;
+    let traditions = `<ul class="traditions">${(data.traditions || []).map(t => `<li>${t}</li>`).join('')}</ul>`;
 
     return `
 <article>
