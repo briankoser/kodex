@@ -167,7 +167,10 @@ module.exports = function () {
             category: 'christian',
             aka: ['Octave', 'Eighth Day of Christmas'],
             month: 1,
-            day: 1
+            day: 1,
+            traditions: [
+                "Read Malcolm Guite's poem \"New Year's Day: Church bells\" (Sounding the Seasons p. 18)"
+            ]
         },
         {
             name: "Ninth Day of Christmas",
@@ -201,7 +204,8 @@ module.exports = function () {
             month: 1,
             day: 6,
             traditions: [
-                "King Cake"
+                "King Cake",
+                "Read Malcolm Guite's poem \"The magi\" (Sounding the Seasons p. 19)"
             ],
             comments: "King Cake recipe in Hallelujah"
         },
@@ -209,6 +213,9 @@ module.exports = function () {
             name: "Theophany",
             category: 'christian',
             aka: ['Feast of the Baptism of the Lord', 'Plough Sunday'],
+            traditions: [
+                "Read Malcolm Guite's poem \"The baptism of Christ\" (Sounding the Seasons p. 20)"
+            ],
             get calculation() {
                 return getNextOccurence(new Date(year, 0, 6), 0);
             }
@@ -230,8 +237,19 @@ module.exports = function () {
             month: 2,
             day: 2,
             traditions: [
-                "Watch Groundhog Day"
+                "Watch Groundhog Day",
+                "Read Malcolm Guite's poem \"Candlemas\" (Sounding the Seasons p. 25)"
             ]
+        },
+        {
+            name: "Feast of the Annunciation",
+            category: 'christian',
+            aka: ['Lady Day', 'Feast of the Incarnation', 'Conceptio Christi'],
+            month: 3,
+            day: 25,
+            traditions: [
+                "Read Malcolm Guite's poem \"The Annunciation\" (Sounding the Seasons p. 31)"
+            ],
         },
         {
             name: "Transfiguration Sunday",
@@ -288,6 +306,9 @@ module.exports = function () {
         {
             name: "Ash Wednesday",
             category: 'christian',
+            traditions: [
+                "Read Malcolm Guite's poem \"Ash Wednesday\" (Sounding the Seasons p. 26)"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, -46);
             }
@@ -491,8 +512,9 @@ module.exports = function () {
             category: 'christian',
             traditions: [
                 "Light first Advent candle",
-                "Start Advent devotional, like Jonathan Gibson's \"O Come, O Come Emmanuel\"",
-                "Start Advent calendar"
+                "Start Advent devotional, like Jonathan Gibson's \"O Come, O Come Emmanuel\" or Cindy Rollins's \"Hallelujah\"",
+                "Start Advent calendar",
+                "Read \"A Christmas Carol\""
             ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -28);
@@ -504,6 +526,13 @@ module.exports = function () {
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -21);
             }
+        },
+        {
+            name: "Saint Nicholas's Day",
+            category: 'christian',
+            aka: ['Feast of Saint Nicholas'],
+            month: 12,
+            day: 6
         },
         {
             name: "Third Sunday of Advent",
@@ -533,7 +562,8 @@ module.exports = function () {
             month: 12,
             day: 24,
             traditions: [
-                "Candlelight church service"
+                "Candlelight church service",
+                "Crockpot Wassail from Cindy Rollins's Hallelujah p. 128"
             ]
         },
         {
@@ -542,15 +572,19 @@ module.exports = function () {
             month: 12,
             day: 25,
             traditions: [
-                "Read the Christmas story"
+                "Read the Christmas story",
+                "Read Malcolm Guite's poems \"Mary\", \"On the edge\" (Sounding the Seasons p. 14-15)"
             ]
         },
         {
             name: "Saint Stephen's Day",
             category: 'christian',
-            aka: ['Second Day of Christmas'],
+            aka: ['Boxing Day', 'Second Day of Christmas'],
             month: 12,
-            day: 26
+            day: 26,
+            traditions: [
+                "Read Malcolm Guite's poem \"St Stephen\" (Sounding the Seasons p. 17)"
+            ]
         },
         {
             name: "Third Day of Christmas",
@@ -581,7 +615,10 @@ module.exports = function () {
             name: "Seventh Day of Christmas",
             category: 'christian',
             month: 12,
-            day: 31
+            day: 31,
+            traditions: [
+                "Read Charles Dickens's \"The Chimes\""
+            ]
         },
         {
             name: "All Koser's Eve",
@@ -624,11 +661,10 @@ module.exports = function () {
 
 
 // todo: check for traditions in:
-//   Cindy Rollins's Hallelujah
 //   Guite's sonnets
 //   Swait's thanksgiving poems
+//   Other poetry books
 //   Psalter
 //   Every Moment Holy
-//   KeepingAdvent.com
 
 //   Book of Common Prayer
