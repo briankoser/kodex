@@ -1,12 +1,12 @@
 ---
 title: Christmas Letter 2024
 description: The 2020 Christmas Letter from Brian, Melissa, Lydia, Amber, Penny, Susanna, and Verity Koser
-published: 2024-12-31
+published: 2024-12-14
 authors:
   - Brian
   - Melissa
 series: Christmas Letters
-header_image: 2021-01-01-christmas-letter-2020/2020-12-27-family.jpg
+#header_image: 2021-01-01-christmas-letter-2020/2020-12-27-family.jpg
 ---
 
 Merry Christmas everyone! You're likely reading this at the end of Advent or during the Twelve Days of Christmas. Amidst the waiting and celebrating of the season, we've taken a few minutes to reflect on the year as it draws to an end.
