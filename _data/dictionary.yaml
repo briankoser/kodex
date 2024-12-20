@@ -426,6 +426,7 @@ words:
     defs: 
       - Oblivion
       - A draught of oblivion
+    origin: In Greek myth, Lethe was the River of Unmindfulness or the River of Forgetfulness
   - word: Parasol
     def: Small ladies umbrella for rain or sun 
     origin: "Italian para \"to shield\" + sole \"sun\""
@@ -744,12 +745,76 @@ words:
     def: The day after tomorrow
   - word: Stonelime
     def: Cement
+  - word: Lexicon
+    def: A dictionary
+  - word: Xylophone
+    def: An instrument made of a series of strips of wood or glass graduated in length to the musical scale, resting on belts of straw, and struck with two small hammers. 
+    origin: Greek xylo "wood" + phone "sound"
+    comments: Common among the Russians, Poles, and Tartars. Called in Germany strohfiedel, or straw fiddle. 
+  - word: Palimpsest
+    defs: 
+      - A manuscript that has been erased or scraped clean for reuse
+      - Anything bearing the traces of an earlier, erased form
+      - Monumental brasses that have been reused by engraving of the blank back side
+      - Lunar craters that have been obliterated by later volcanic activity
+      - Geological features created from underground effects
+      - Computer memory that has been erased and re-written
+  - word: Lethargic
+    defs: 
+      - Lacking energy, sluggish
+      - Apathetic, indifferent
+    origin: Greek lethe "forgetfulness"
+  - word: Malaprop
+    def: A misused or distorted word or phrase, usually humorous
+    origin: Mrs. Malaprop from the play "The Rivals" is known for her verbal blunders. She was named after the French phrase mal a propos "inappropriate".
+    comments: For example, Yogi Berra said, "Texas has a lot of electrical votes."
+  - word: Caper
+    defs:
+      - A leap, skip, or spring
+      - Gay or light-hearted recreational activity
+      - A crime, especially a robbery
+      - Pickled flower buds used as a relish in a dish or sauce
+  - word: Calends
+    def: The first day of every month
+    origin: Latin kalendae, first day of every month on the Roman calendar
+    comments: The origin of "calendar"
+  - word: Jeopardy
+    defs:
+      - Exposure to death, loss, or injury
+      - The danger the accused is subjected to when on trial for a criminal offense
+      - The risks associated with alternative moves in chess
+    origin: Old French jeu parti "an alternative, lit. a divided game"
+  - word: Rime
+    defs:
+      - Hoar frost
+      - Alternate spelling of "rhyme"
+  - word: Clime
+    def: A climate, a tract or region of the earth
+  - word: Mogul
+    def: A powerful person
+    origin: The Great Moguls, the rulers of the Muslim Mogul dynasty of India
+  - word: Métier
+    defs:
+      - A vocation, a calling for which one is well fitted
+      - Forte, an area in which a person excels
+  - word: Jejune
+    defs:
+      - Devoid of significance or interest, dull
+      - Juvenile, puerile
+      - Lacking nutrients
+    origin: Latin jejunus "empty of food, meager, hungry"
+  - word: Meager
+    def: Thin, lean, poor, barren
+  - word: Livelong
+    def: Whole, entire
+    origin: Middle English lef "dear, beloved" + long
+    comments: Previously spelled "lieflong"
+  - word: Legerity
+    def: Alert quickness of mind or body, light on one's feet
+    origin: Middle French legereté "lightness"
 
 
-# - word: Palimpsest
-# - word: Caper
-# - word: Chancellor
-# - word: Clime
+
 # - word: Codswallop
 # - word: Circumspect
 # - word: Crook
