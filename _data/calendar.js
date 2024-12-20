@@ -82,7 +82,10 @@ module.exports = function () {
             name: "New Year's Day",
             category: 'american',
             month: 1,
-            day: 1
+            day: 1,
+            traditions: [
+                "Pray \"For the New Year\" (Every Moment Holy Vol. III p. 359)"
+            ],
         },
         {
             name: "Birthday of Martin Luther King Jr.",
@@ -151,6 +154,11 @@ module.exports = function () {
         {
             name: "Thanksgiving",
             category: 'american',
+            traditions: [
+                "Read Malcolm Guite's poem \"Thanksgiving\" (Sounding the Seasons p. 60)",
+                "Read Joffre Swait's poem \"Thanks For Ever\" (Well Met: Poems of Companionship p. 73)",
+                "Read Joffre Swait's poem \"The God of Pumpkin Pie\" (Well Met: Poems of Companionship p. 71)"
+            ],
             get calculation() {
                 return getThanksgiving(year);
             }
@@ -254,6 +262,9 @@ module.exports = function () {
         {
             name: "Transfiguration Sunday",
             category: 'christian',
+            traditions: [
+                "Read Malcolm Guite's poem \"Transfiguration\" (Sounding the Seasons p. 56)"
+            ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 0, 6), 0), 42);
             }
@@ -299,6 +310,9 @@ module.exports = function () {
             name: "Shrove Tuesday",
             category: 'christian',
             aka: ['Mardis Gras', 'Pancake Day'],
+            traditions: [
+                "Start Malcolm Guite's The Word in the Wilderness: A Poem a Day for Lent and Easter"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, -47);
             }
@@ -331,6 +345,9 @@ module.exports = function () {
         {
             name: "Palm Sunday",
             category: 'christian',
+            traditions: [
+                "Read Malcolm Guite's poem \"Palm Sunday\" (Sounding the Seasons p. 32)"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, -7);
             }
@@ -362,6 +379,9 @@ module.exports = function () {
             name: "Maundy Thursday",
             category: 'christian',
             aka: ['Holy Thursday'],
+            traditions: [
+                "Read Malcolm Guite's poem \"Maundy Thursday\" (Sounding the Seasons p. 36)"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, -3);
             }
@@ -370,6 +390,9 @@ module.exports = function () {
             name: "Good Friday",
             category: 'christian',
             aka: ['Holy Friday', 'Black Friday'],
+            traditions: [
+                "Read Malcolm Guite's The Stations of the Cross poems (Sounding the Seasons p. 37-43)"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, -2);
             }
@@ -386,6 +409,9 @@ module.exports = function () {
             name: "Easter",
             category: 'christian',
             aka: ['Pascha', 'Resurrection Sunday'],
+            traditions: [
+                "Read Malcolm Guite's poem \"Easter dawn\" (Sounding the Seasons p. 44)"
+            ],
             get calculation() {
                 return getEaster(year);
             }
@@ -394,6 +420,9 @@ module.exports = function () {
             name: "Ascension Day",
             category: 'christian',
             aka: ['Feast of the Ascension'],
+            traditions: [
+                "Read Malcolm Guite's poem \"Ascension day\" (Sounding the Seasons p. 45)"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, 40);
             }
@@ -402,20 +431,13 @@ module.exports = function () {
             name: "Pentecost",
             category: 'christian',
             aka: ['Whitsun', 'Whitsunday'],
+            traditions: [
+                "Read Malcolm Guite's poem \"Pentecost\" (Sounding the Seasons p. 47)"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, 49);
             },
             comments: 'Wednesday, Friday, and Saturday are Ember Days'
-        },
-        {
-            name: "Saint George's Day",
-            category: 'christian',
-            month: 4,
-            day: 23,
-            traditions: [
-                "Read \"St. George and the Dragon\""
-            ],
-            comments: "Also the death and estimated birth day of William Shakespeare"
         },
         {
             name: "Whit Monday",
@@ -428,9 +450,38 @@ module.exports = function () {
         {
             name: "Trinity Sunday",
             category: 'christian',
+            traditions: [
+                "Read Malcolm Guite's poem \"Trinity Sunday\" (Sounding the Seasons p. 48)"
+            ],
             get calculation() {
                 return getDaysFromEaster(year, 56);
             }
+        },
+        {
+            name: "Saint George's Day",
+            category: 'christian',
+            month: 4,
+            day: 23,
+            traditions: [
+                "Read \"St. George and the Dragon\""
+            ],
+            comments: "Also the death and estimated birth day of William Shakespeare"
+        },
+        {
+            name: "Saint John's Eve",
+            category: 'christian',
+            month: 6,
+            day: 23,
+            traditions: [
+                "Read Malcolm Guite's poem \"St John's eve\" (Sounding the Seasons p. 51)"
+            ],
+        },
+        {
+            name: "Johnmas",
+            category: 'christian',
+            aka: ['Nativity of John the Baptist', 'Birth fo John the Baptist', 'Nativity of the Forerunner', "St. John's Day"],
+            month: 6,
+            day: 24
         },
         {
             name: "Roodmas",
@@ -459,7 +510,10 @@ module.exports = function () {
             category: 'christian',
             aka: ['Feast of the Archangels'],
             month: 9,
-            day: 29
+            day: 29,
+            traditions: [
+                "Read Malcolm Guite's poem \"St Michael and All Angels\" (Sounding the Seasons p. 57)"
+            ],
         },
         {
             name: "All Hallow's Eve",
@@ -479,7 +533,8 @@ module.exports = function () {
             month: 11,
             day: 1,
             traditions: [
-                "Read a new saint story"
+                "Read a new saint story",
+                "Read Malcolm Guite's poem \"The gathered glories\" (Sounding the Seasons p. 58)"
             ]
         },
         {
@@ -487,7 +542,10 @@ module.exports = function () {
             category: 'christian',
             aka: ['The Commemoration of All the Faithful Departed'],
             month: 11,
-            day: 2
+            day: 2,
+            traditions: [
+                "Read Malcolm Guite's poem \"A last beatitude\" (Sounding the Seasons p. 59)"
+            ]
         },
         {
             name: "Martinmas",
@@ -503,18 +561,69 @@ module.exports = function () {
             name: "Christ the King Sunday",
             category: 'christian',
             aka: ['Reign of Christ Sunday', 'Stir-up Sunday'],
+            traditions: [
+                "Read Malcolm Guite's poem \"The Feast of Christ the King\" (Sounding the Seasons p. 62)"
+            ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -35);
             }
         },
         {
+            name: "Saint Nicholas's Eve",
+            category: 'christian',
+            month: 12,
+            day: 5,
+            aka: ['Feast of Saint Nicholas'],
+            traditions: [
+                "Leave shoes out for Saint Nicholas"
+            ]
+        },
+        {
+            name: "Saint Nicholas's Day",
+            category: 'christian',
+            aka: ['Feast of Saint Nicholas'],
+            month: 12,
+            day: 6,
+            traditions: [
+                "Put oranges and chocolate coins in the shoes"
+            ]
+        },
+        {
+            name: "Saint Lucy's Eve",
+            category: 'christian',
+            month: 12,
+            day: 12,
+            traditions: [
+                "Make scones",
+                "Eat dinner by candlelight"
+            ],
+            comments: 'Wednesday, Friday, and Saturday are Ember Days'
+        },
+        {
+            name: "Saint Lucy's Day",
+            category: 'christian',
+            aka: ['Feast of Saint Lucy'],
+            month: 12,
+            day: 13,
+            traditions: [
+                "Procession with candles",
+                "Children make breakfast in bed for parents with scones and coffee",
+                "Listen to Santa Lucia song",
+                "Read John Donne's \"A Nocturnal Upon S. Lucy's Day, Being the Shortest Day\""
+            ],
+            comments: 'Wednesday, Friday, and Saturday are Ember Days'
+        },
+        {
             name: "Advent Sunday",
             category: 'christian',
             traditions: [
-                "Light first Advent candle",
+                "Light hope Advent candle",
                 "Start Advent devotional, like Jonathan Gibson's \"O Come, O Come Emmanuel\" or Cindy Rollins's \"Hallelujah\"",
                 "Start Advent calendar",
-                "Read \"A Christmas Carol\""
+                "Read about the Old Testament patriarchs who were Christ's ancestors",
+                "Start reading \"A Christmas Carol\"",
+                "Pray \"To Mark the Start of the Christmas Season\" (Every Moment Holy Vol I p. 121)",
+                "Pray \"For Setting Up a Christmas Tree\" (Every Moment Holy Vol I p. 123)"
             ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -28);
@@ -523,35 +632,35 @@ module.exports = function () {
         {
             name: "Second Sunday of Advent",
             category: 'christian',
+            traditions: [
+                "Light Bethlehem Advent candle",
+                "Read prophecies of Christ's birth"
+            ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -21);
             }
         },
         {
-            name: "Saint Nicholas's Day",
+            name: "Gaudete Sunday",
             category: 'christian',
-            aka: ['Feast of Saint Nicholas'],
-            month: 12,
-            day: 6
-        },
-        {
-            name: "Third Sunday of Advent",
-            category: 'christian',
+            aka: ['Third Sunday of Advent'],
+            traditions: [
+                "Light joy Advent candle (rose-colored)",
+                "Read about John the Baptist",
+                "Listen to the Christmas carol \"Gaudete\""
+            ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -14);
             }
         },
         {
-            name: "Saint Lucy's Day",
-            category: 'christian',
-            aka: ['Feast of Saint Lucy'],
-            month: 12,
-            day: 13,
-            comments: 'Wednesday, Friday, and Saturday are Ember Days'
-        },
-        {
             name: "Fourth Sunday of Advent",
             category: 'christian',
+            traditions: [
+                "Light angel's Advent candle",
+                "Read about the Annunciation, the Magnificat",
+                "Listen to the Christmas carol \"Gaudete\""
+            ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -7);
             }
@@ -563,6 +672,7 @@ module.exports = function () {
             day: 24,
             traditions: [
                 "Candlelight church service",
+                "Light Christ (last) Advent candle",
                 "Crockpot Wassail from Cindy Rollins's Hallelujah p. 128"
             ]
         },
@@ -661,10 +771,4 @@ module.exports = function () {
 
 
 // todo: check for traditions in:
-//   Guite's sonnets
-//   Swait's thanksgiving poems
-//   Other poetry books
-//   Psalter
-//   Every Moment Holy
-
 //   Book of Common Prayer
