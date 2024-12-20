@@ -34,13 +34,13 @@ permalink: "articles/{{page.date | year}}/{{page.date | month | padZeroes(2)}}/{
     <nav>
 {% if previousPost %}
 <div class="previous">
-    <span class="{{author | lower}}-color">🠨</span> <a href="{{previousPost.url}}">{{previousPost.data.title}}</a>
+    <span class="{{author | lower}}-color">←</span> <a href="{{previousPost.url}}">{{previousPost.data.title}}</a>
 </div>
 {% endif %}
 
 {% if nextPost %}
 <div class="next">
-    <a href="{{nextPost.url}}">{{nextPost.data.title}}</a> <span class="{{author | lower}}-color">🠪</span>
+    <a href="{{nextPost.url}}">{{nextPost.data.title}}</a> <span class="{{author | lower}}-color">→</span>
 </div>
 {% endif %}
     </nav>
