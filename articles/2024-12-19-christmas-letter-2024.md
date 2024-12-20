@@ -1,12 +1,12 @@
 ---
 title: Christmas Letter 2024
 description: The 2024 Christmas Letter from Brian, Melissa, Lydia, Amber, Penny, Susanna, and Verity Koser
-published: 2024-12-18
+published: 2024-12-19
 authors:
   - Brian
   - Melissa
 series: Christmas Letters
-#header_image: 2021-01-01-christmas-letter-2020/2020-12-27-family.jpg
+header_image: 2024-12-31-christmas-letter-2024/2024-12-02-family.jpg
 
 # pictures:
 #   esther:
@@ -39,7 +39,7 @@ Verity had some early struggles with gaining weight and with her neck, but has b
 
 Brian got four weeks of paternity leave and took on most of the household chores and the homeschooling. Melissa focused on Verity and her own recovery.
 
-In May, we decided to turn the play room into a bedroom for Lydia and Amber. With the space separate from the younger sisters came a later bed time and extra bedtime stories. Lydia's favorite of the year was ???; Amber enjoyed ??? the most.
+In May, we decided to turn the play room into a bedroom for Lydia and Amber. With the space separate from the younger sisters came a later bed time and extra bedtime stories. One of Lydia's favorites of the year was *Aeneas: Virgil's Epic Retold for Younger Readers*; Amber really enjoyed *Harry Potter and the Philosopher's Stone*.
 
 In June, we again travelled to Mobile and Pensacola, this time to introduce baby Verity to the family. Unlike the previous summer, Brian continued running through the heat and completed his first trail runs.
 
