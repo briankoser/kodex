@@ -812,11 +812,23 @@ words:
   - word: Legerity
     def: Alert quickness of mind or body, light on one's feet
     origin: Middle French legereté "lightness"
+  - word: Hotchpotch
+    def: A hodgepodge, farrago
+  - word: Codswallop
+    def: Nonsensical talk or writing
+  - word: Lyric
+    defs:
+      - Suitable for singing to the lyre
+      - Related to opera, operatic
+      - Expressing intense emotion
+      - Exuberant, rhapsodic
+      - In opera, having a light voice and melodic style
+      - The line of a song
+ - word: Circumspect
+   def: Prudent, cautious, examining carefully all the circumstances
+   origin: Latin circum "around" + spectus "to look"
 
 
-
-# - word: Codswallop
-# - word: Circumspect
 # - word: Crook
 # - word: Dabble
 # - word: Dandy
