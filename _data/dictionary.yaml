@@ -824,12 +824,21 @@ words:
       - Exuberant, rhapsodic
       - In opera, having a light voice and melodic style
       - The line of a song
- - word: Circumspect
-   def: Prudent, cautious, examining carefully all the circumstances
-   origin: Latin circum "around" + spectus "to look"
+  - word: Circumspect
+    def: Prudent, cautious, examining carefully all the circumstances
+    origin: Latin circum "around" + spectus "to look"
+  - word: Coeval
+    def: Of the same age, antiquity, or duration
+    origin: Latin coaevus "of the same age"
+  - word: Crook
+    defs:
+      - A bend, turn, or curve
+      - A shepherd's staff
+      - A gibbet
+      - An artifice or trick
+      - A criminal
 
 
-# - word: Crook
 # - word: Dabble
 # - word: Dandy
 # - word: Daresay
