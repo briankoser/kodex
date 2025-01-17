@@ -837,10 +837,32 @@ words:
       - A gibbet
       - An artifice or trick
       - A criminal
+  - word: Torrid
+    defs:
+      - Parched with heat especially of the sun
+      - Hot
+      - Ardent, passionate
+      - Displaying unusual luck or fortune (hot, on fire)
+    origin: Latin torrēre "to burn"
+    comments: Related to "toast", "torrent"
+  - word: Dabble
+    defs:
+      - To dip a little or often
+      - To play in water
+      - To do anything in a slight or superficial manner
+      - To meddle
+  - word: Dandy
+    defs:
+      - A man overly concerned with his dress and appearance
+      - Very good
+    comments: 
+  - word: Inflammable
+    defs:
+      - Flammable, able to catch fire
+      - Irascible, easily angered or inflamed
+    comments: Flammable and inflammable are synonyms in the same way flame and inflame are not opposites
 
 
-# - word: Dabble
-# - word: Dandy
 # - word: Daresay
 # - word: Droll
 # - word: Donnybrook
