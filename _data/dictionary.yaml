@@ -861,9 +861,18 @@ words:
       - Flammable, able to catch fire
       - Irascible, easily angered or inflamed
     comments: Flammable and inflammable are synonyms in the same way flame and inflame are not opposites
+  - word: Daresay
+    def: To say something boldly
+  - word: Pica
+    defs:
+      - An abnormal desire to eat substances (such as chalk or ash) not normally eaten
+      - A magpie
+      - A typographical unit of length equal to 12 points
+      - A book directing Roman Catholic holiday observance under various calendars
+    origin: Latin pica "magpie"
+    comments: Pica and pie both originated from the same Latin word
 
 
-# - word: Daresay
 # - word: Droll
 # - word: Donnybrook
 # - word: Druthers
