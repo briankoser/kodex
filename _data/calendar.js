@@ -623,7 +623,8 @@ module.exports = function () {
                 "Read about the Old Testament patriarchs who were Christ's ancestors",
                 "Start reading \"A Christmas Carol\"",
                 "Pray \"To Mark the Start of the Christmas Season\" (Every Moment Holy Vol I p. 121)",
-                "Pray \"For Setting Up a Christmas Tree\" (Every Moment Holy Vol I p. 123)"
+                "Pray \"For Setting Up a Christmas Tree\" (Every Moment Holy Vol I p. 123)",
+                "Plan Christmas foods: Mincemeat pies, Figgy Pudding, Sausage Rolls, Goose or Duck"
             ],
             get calculation() {
                 return addDays(getNextOccurence(new Date(year, 11, 25), 0), -28);
