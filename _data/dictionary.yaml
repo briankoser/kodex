@@ -871,9 +871,20 @@ words:
       - A book directing Roman Catholic holiday observance under various calendars
     origin: Latin pica "magpie"
     comments: Pica and pie both originated from the same Latin word
+  - word: Doublet
+    defs:
+      - A man's waistcoat
+      - A pair of similar things
+      - One of two different words with the same etymological root, such as shade and shadow
+      - A word or phrase mistakenly typeset twice
+  - word: Droll
+    defs:
+      - Odd, merry, facetious, comical
+      - A jester
+      - A farce
+  - word: Licit
+    def: Following the requirements, permissible
 
-
-# - word: Droll
 # - word: Donnybrook
 # - word: Druthers
 # - word: Edge
