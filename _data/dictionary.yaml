@@ -884,8 +884,17 @@ words:
       - A farce
   - word: Licit
     def: Following the requirements, permissible
+  - word: Colloquial
+    defs:
+      - Related to conversation, conversational
+      - Characteristic of familiar, informal conversation
+  - word: Donnybrook
+    defs: 
+      - A scene of riotous disorder
+      - A heated argument
+    origin: Donnybrook Fair (Irish Domhnach Broc "Church of Saint Broc"), which started c. 1200 and by late 18c had become proverbial for carousing and brawling.
 
-# - word: Donnybrook
+
 # - word: Druthers
 # - word: Edge
 # - word: Eftsoons
