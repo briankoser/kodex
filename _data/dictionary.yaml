@@ -893,9 +893,18 @@ words:
       - A scene of riotous disorder
       - A heated argument
     origin: Donnybrook Fair (Irish Domhnach Broc "Church of Saint Broc"), which started c. 1200 and by late 18c had become proverbial for carousing and brawling.
+  - word: Fuse
+    def: To melt, to liquify by heat, to render fluid, to dissolve
+    comments: Root of many related words such as suffuse "to spread in the manner of fluid or light", diffuse "to pour out and spread freely", effuse "to pour or flow out", transfuse "to cause to pass from one to another".
+  - word: Druthers
+    def: Preference, choice, wish
+    origin: Contraction of "I'd rather"
+  - word: Fool
+    defs:
+      - A silly or ignorant person
+      - A jester
+      - A type of custard dish, a trifle
 
-
-# - word: Druthers
 # - word: Edge
 # - word: Eftsoons
 # - word: Elan
