@@ -904,10 +904,14 @@ words:
       - A silly or ignorant person
       - A jester
       - A type of custard dish, a trifle
+  - word: Eftsoons
+    def: Soon after, once again
+  - word: Élan
+    defs:
+      - Spirit, zeal, ardor
+      - Grace, effortless style
+    
 
-# - word: Edge
-# - word: Eftsoons
-# - word: Elan
 # - word: Ephemeron
 # - word: Esdraelon
 # - word: Extraordinaire
