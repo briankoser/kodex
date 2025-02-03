@@ -910,10 +910,16 @@ words:
     defs:
       - Spirit, zeal, ardor
       - Grace, effortless style
-    
+  - word: Brumal
+    def: Related to winter
+    origin: Latin bruma "winter"
+  - word: Laconic
+    defs: 
+      - Terse, often to the point of seeming rude or mysterious
+      - Related to Laconia
+    comments: Laconia was an ancient Greek country, of which the capital was Sparta
 
 # - word: Ephemeron
-# - word: Esdraelon
 # - word: Extraordinaire
 # - word: Fastidious
 # - word: Festoon
