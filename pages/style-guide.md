@@ -96,8 +96,12 @@ noteCard:
     {% swatch {"brightness":"dark", "color":"lydia", "text":"Lydia Purple"} %}
     {% swatch {"brightness":"light", "color":"amber", "text":"Amber Yellow"} %}
     {% swatch {"brightness":"dark", "color":"amber", "text":"Amber Yellow"} %}
-    {% swatch {"brightness":"light", "color":"penny", "text":"Penny Orange"} %}
-    {% swatch {"brightness":"dark", "color":"penny", "text":"Penny Orange"} %}
+    {% swatch {"brightness":"light", "color":"penelope", "text":"Penelope Orange"} %}
+    {% swatch {"brightness":"dark", "color":"penelope", "text":"Penelope Orange"} %}
+    {% swatch {"brightness":"light", "color":"susanna", "text":"Susanna Pink"} %}
+    {% swatch {"brightness":"dark", "color":"susanna", "text":"Susanna Pink"} %}
+    {% swatch {"brightness":"light", "color":"verity", "text":"Verity Red"} %}
+    {% swatch {"brightness":"dark", "color":"verity", "text":"Verity Red"} %}
 {% enddemo %}
 
 {% demo "Greyscale Colors" %}
@@ -264,6 +268,7 @@ noteCard:
     <ol>
         <li>Adams</li>
         <li>Bradbury</li>
+        <li>Brontë</li>
         <li>Melville</li>
         <li>Simmons</li>
         <li>Stephenson</li>
@@ -275,6 +280,7 @@ noteCard:
     <ul>
         <li>Adams</li>
         <li>Bradbury</li>
+        <li>Brontë</li>
         <li>Melville</li>
         <li>Simmons</li>
         <li>Stephenson</li>
@@ -287,6 +293,7 @@ noteCard:
     <ol>
         <li>Adams</li>
         <li>Bradbury</li>
+        <li>Brontë</li>
         <li>Melville</li>
         <li>Simmons</li>
         <li>Stephenson</li>
@@ -296,6 +303,7 @@ noteCard:
     <ul>
         <li>Adams</li>
         <li>Bradbury</li>
+        <li>Brontë</li>
         <li>Melville</li>
         <li>Simmons</li>
         <li>Stephenson</li>
