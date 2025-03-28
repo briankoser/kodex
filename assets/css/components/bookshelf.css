@@ -25,9 +25,20 @@
         width: 42px;
     }
 
-    .book-tall   { margin-top: 20px; }
-    .book-medium { margin-top: 30px; }
-    .book-short  { margin-top: 40px; }
+    .book-tall { 
+        margin-top: 20px; 
+        height: 190px;
+    }
+    
+    .book-medium { 
+        margin-top: 30px; 
+        height: 180px;
+    }
+    
+    .book-short { 
+        margin-top: 40px; 
+        height: 170px;
+    }
 
     .book-amber {
         color: var(--color-black);

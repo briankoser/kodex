@@ -47,6 +47,15 @@ body {
     margin-top: var(--s5);
 }
 
+.site-footer-books {
+    width: 100%;
+    overflow: hidden;
+}
+
+.site-footer-books .bookshelf {
+    width: 110%;
+}
+
 .site-footer-bar {
     background-color: var(--color-black);
     color: var(--color-white);
