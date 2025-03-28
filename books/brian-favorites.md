@@ -4,7 +4,7 @@ title: Brian's Books · Favorites
 permalink: /books/brian/favorites/index.html
 ---
 
-<div class="bookshelf">
+<div class="bookgrid">
 {% for book in goodreadsBrianFavorites -%}
     {% goodreadsbook book %}
 {%- endfor %}

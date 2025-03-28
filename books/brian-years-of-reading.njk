@@ -16,7 +16,7 @@ permalink: /books/brian/years/index.html
 
 {% for yearShelf in goodreadsBrianYearsRead -%}
     <sl-tab-panel name="books-read-{{ yearShelf.year }}">
-        <div class="bookshelf">
+        <div class="bookgrid">
         {% for book in yearShelf -%}
             {% goodreadsbook book %}
         {%- endfor %}

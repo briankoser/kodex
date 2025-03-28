@@ -5,6 +5,9 @@ permalink: "css/theme.css"
 :root {
   {% for author in metadata.authors -%}
     --color-{{author | lower}}: {{ tokens['color' + author] }};
+
+    {# bookshelf theme #}
+    --color-{{author | lower}}-book-border: hsl(from var(--color-{{author | lower}}) h calc(s - 10) calc(l - 10));
   {%- endfor %}
 }
 
@@ -40,6 +43,18 @@ permalink: "css/theme.css"
   .card.{{author | lower}} {
     box-shadow: 0 var(--shadow-thickness) var(--color-{{author | lower}});
   }
+
+  .bookshelf .book-{{author | lower}} {
+    background-color: var(--color-{{author | lower}});
+    border-left: 2px solid var(--color-{{author | lower}}-book-border);
+    border-right: 2px solid var(--color-{{author | lower}}-book-border);
+  }
+
+  .bookshelf .book-{{author | lower}}::before {
+      border-left-color: var(--color-{{author | lower}});
+      border-right-color: var(--color-{{author | lower}});
+  }
+
 {% endfor %}
 
 .dark h1 {

@@ -208,6 +208,7 @@ module.exports = function (eleventyConfig) {
     addShortcode('letterboxdfilm');
     addShortcode('podcastcard');
     addShortcode('quote');
+    eleventyConfig.addShortcode("shelfbook", (color, height, shelf1, shelf2) => shortcodes["shelfbook"](color, height, shelf1, shelf2));
     addShortcode('stars');
     addShortcode('swatch');
     addShortcode('vimeo');

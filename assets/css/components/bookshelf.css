@@ -1,0 +1,43 @@
+.bookshelf {
+    overflow: hidden;
+    height: 210px;
+
+    .book {
+        height: 200px;
+        width: 42px;
+        margin-top: 20px;
+        float: left;
+        color: white;
+        font-size: 0.6em;
+    }
+
+    .book::before {
+        background-color: white;
+        border-left-style: solid;
+        border-left-width: 4px;
+        border-right-style: solid;
+        border-right-width: 4px;
+        margin-top: -10px;
+        margin-left: -2px;
+        display: block;
+        content: ' ';
+        height: 10px;
+        width: 42px;
+    }
+
+    .book-tall   { margin-top: 20px; }
+    .book-medium { margin-top: 30px; }
+    .book-short  { margin-top: 40px; }
+
+    .book-amber {
+        color: var(--color-black);
+    }
+
+    .book h2 {
+        padding: 0;
+        font-size: 1em;
+        transform-origin: 0% 0%;
+        transform: rotate(0.25turn) translateY(-35px);
+        width: 170px;
+    }
+}

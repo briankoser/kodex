@@ -5,7 +5,7 @@ permalink: /books/brian/index.html
 ---
 
 ## Currently Reading
-<div class="bookshelf">
+<div class="bookgrid">
 {% for book in goodreadsBrianCurrentlyReading -%}
     {% goodreadsbook book %}
 {%- endfor %}

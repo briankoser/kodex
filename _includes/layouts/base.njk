@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="/css/boilerform.css" />
     <link rel="stylesheet" href="/css/theme.css" />
     <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="stylesheet" href="/css/components/bookshelf.css" />
     {% for cssFile in cssFiles -%}
         <link rel="stylesheet" href="/css/{{ cssFile }}.css" />
     {% endfor %}
@@ -90,7 +91,16 @@
         </ul>
     </nav>
     <footer class="site-footer">
-        Words are © Brian &amp; Melissa Koser {{ 'year' | today }} · Code is MIT Licensed · Good vibes are public domain · Phase of the moon in North America is {{ moon.phaseToday().emoji }} · Terms of venery are commutative 🦉
+        <div class="site-footer-books">
+            <div class="bookshelf">
+                {% for i in range(0, 100) -%}
+                    {% shelfbook metadata.authors | random | lower, ['tall', 'medium', 'short'] | random, goodreadsBrianFavorites, goodreadsBrianCurrentlyReading %}
+                {%- endfor %}
+            </div>
+        </div>
+        <div class="site-footer-bar">
+            Words are © Brian &amp; Melissa Koser {{ 'year' | today }} · Code is MIT Licensed · Vibes are public domain · Phase of the moon in North America is {{ moon.phaseToday().emoji }} · Terms of venery are commutative 🦉
+        </div>
     </footer>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.8.0/cdn/themes/light.css" />

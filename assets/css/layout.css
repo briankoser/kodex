@@ -44,13 +44,17 @@ body {
 }
 
 .site-footer {
+    margin-top: var(--s5);
+}
+
+.site-footer-bar {
     background-color: var(--color-black);
     color: var(--color-white);
     font-size: var(--s-1); 
     padding: var(--s1);
 }
 
-.site-footer a {
+.site-footer-bar a {
     color: var(--color-white);
     text-decoration: none; 
 }
@@ -268,7 +272,7 @@ body {
     content: " · ";
 }  
 
-.bookshelf {
+.bookgrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(6em, 1fr));
     grid-gap: 2em;
