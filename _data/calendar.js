@@ -424,7 +424,7 @@ module.exports = function () {
                 "Read Malcolm Guite's poem \"Ascension day\" (Sounding the Seasons p. 45)"
             ],
             get calculation() {
-                return getDaysFromEaster(year, 40);
+                return getDaysFromEaster(year, 39);
             }
         },
         {
