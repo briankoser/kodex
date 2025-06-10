@@ -8,6 +8,11 @@ authors:
   - Brian
 
 arguments:
+  augustusCarp:
+    book: "Augustus Carp, Esq., by Himself: Being the Autobiography of a Really Good Man"
+    author: Sir H. H. Bashford
+    chapter: CHAPTER I
+    body: "No apology for writing this book. An imperative duty under present conditions. Description of my parents and their personal appearances. Description of Mon Repos, Angela Gardens. Long anxiety prior to my birth. Intense joy when at last this takes place. My father’s decision as to my Xtian name. Early selection of my first godfather"
   bloodMeridian:
     book: Blood Meridian
     author: Cormac McCarthy
@@ -98,6 +103,8 @@ When writing about "spoilers" being a modern concept, [Kelly Cumbee](https://bad
 Argument is the right answer, but I do wish there were a term for arguments in lists instead of paragraphs. I propose to call them "bulleted arguments".
 
 ## Chapter 3. Bulleted Argument Examples
+
+{% argument arguments.augustusCarp %}
 
 {% argument arguments.bloodMeridian %}
 
