@@ -257,7 +257,11 @@ words:
   - word: Amble
     def: Horse gait where both legs on side move at the same time
   - word: Avuncular
-    def: Related to an uncle
+    defs: 
+      - Related to an uncle
+      - Related to a pawnbroker
+    origin: Latin avunculus "maternal uncle"
+    comments: Uncle is archaic slang for a pawnbroker.
   - word: Bilious
     defs: 
       - Related to bile
@@ -918,7 +922,13 @@ words:
       - Terse, often to the point of seeming rude or mysterious
       - Related to Laconia
     comments: Laconia was an ancient Greek country, of which the capital was Sparta
+  - word: Spissitude
+    def: The thickness of soft substances
 
+# - word: Onslaught
+# - word: Hamlet
+# - word: Bafflegab
+# - word: Ephemeral
 # - word: Ephemeron
 # - word: Extraordinaire
 # - word: Fastidious
