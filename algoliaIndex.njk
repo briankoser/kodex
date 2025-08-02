@@ -1,0 +1,15 @@
+---
+permalink: "algoliaIndex.json"
+---
+{# [
+{% for post in collections.publishedArticles %}
+{%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    {
+        "objectID": "{{ post.data.page.fileSlug }}",
+        "title": "{{ post.data.title }}",
+        "date": "{{ post.date | machineDate }}",
+        "url": "{{ absolutePostUrl }}",
+        "content": "{{ post.templateContent | htmlStrip | jsonify }}"
+    }{% if not loop.last %},{% endif %}
+{% endfor %}
+] #}

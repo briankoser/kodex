@@ -33,7 +33,7 @@ Merry Christmas everyone! You're likely reading this at the end of Advent or dur
 
 In January and February, Brian helped revamp the [House of Humane Letters](https://houseofhumaneletters.com/) online registration system. There were a few tense moments (like it's-three-days-before-registration-starts-and-maybe-we-need-to-scrap-everything-and-use-the-old-system tense), but they finished by registration day and the system worked fairly smoothly. Success!
 
-Otherwise, we stayed close to home and kept it low-key before it was time to meet our newest daughter. Our friend Louise volunteered to watch the girls when it was time to go to the hospital. On the 20th, when Melissa's water broke at 3 am, we called and Louise arrived 10 minutes later! Less than six hours after that, Verity Hope Koser was born.
+Otherwise, we stayed close to home and kept it low-key before it was time to meet our newest daughter. Our friend Louise volunteered to watch the girls when it was time to go to the hospital. On the 20th, when Melissa's contractions increased at 3 am, we called and Louise arrived 10 minutes later! Less than six hours after that, Verity Hope Koser was born.
 
 Verity had some early struggles with gaining weight and with her neck, but has been a cheerful sweetheart through it all.
 
