@@ -924,9 +924,19 @@ words:
     comments: Laconia was an ancient Greek country, of which the capital was Sparta
   - word: Spissitude
     def: The thickness of soft substances
+  - word: Facinerious
+    def: Extremely wicked
+  - word: Onslaught
+    defs: 
+      - An attack, especially a furious and deadly assault
+      - A storm
+    origin: Dutch aen "on" + slach "blow"
+    comments: Slaughter, from the Old English sleaht, influenced the spelling but probably not the meaning. There is no record of the word in the 18th century; it was revived by Sir Walter Scott.
+ - word: Hamlet
+   def: A small village, especially one without a church
+   origin: Old French hamelet "small village", diminutive of hamel and ham "village"
+   
 
-# - word: Onslaught
-# - word: Hamlet
 # - word: Bafflegab
 # - word: Ephemeral
 # - word: Ephemeron
