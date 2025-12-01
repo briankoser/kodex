@@ -614,6 +614,17 @@ module.exports = function () {
             comments: 'Wednesday, Friday, and Saturday are Ember Days'
         },
         {
+            name: "Blue Christmas",
+            category: 'christian',
+            aka: ["St. Thomas's Day", 'Longest Night', 'Winter Solstice'],
+            month: 12,
+            day: 21,
+            traditions: [
+                "Read Malcolm Guite's poem \"St. Thomas the Apostle\" (Sounding the Seasons p. 77)"
+            ],
+            comments: 'The longest night of the year is a time for sorrow, remembering loved ones that have died. It coincides with the traditional feast day of St. Thomas, who struggled with doubt.'
+        },
+        {
             name: "Advent Sunday",
             category: 'christian',
             traditions: [
