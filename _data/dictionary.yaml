@@ -932,12 +932,25 @@ words:
       - A storm
     origin: Dutch aen "on" + slach "blow"
     comments: Slaughter, from the Old English sleaht, influenced the spelling but probably not the meaning. There is no record of the word in the 18th century; it was revived by Sir Walter Scott.
- - word: Hamlet
-   def: A small village, especially one without a church
-   origin: Old French hamelet "small village", diminutive of hamel and ham "village"
+  - word: Hamlet
+    def: A small village, especially one without a church
+    origin: Old French hamelet "small village", diminutive of hamel and ham "village"
+  - word: Hiraeth
+    def: A sense of incompleteness from a lost home or ideal
+    origin: Welsh
+    comments: The idea of a lost, idyllic homeland recurs in Welsh folklore and culture
+  - word: Bafflegab
+    def: Pretentious, incomprehensible, or overly technical language
+    origin: Baffle + gab, coined in 1952
+  - word: Gobbledygook
+    def: The overinvolved, pompous talk of officialdom
+    origin: Texas politician Maury Maverick invented the word in a March 30, 1944 corporate memo. It's an imitation of turkey sounds.
+  - word: Baffle
+    defs:
+      - To frustrate by interposing obstacles or difficulties
+      - To disgrace publicly, especially a perjured knight (original definition, now obsolete)
    
 
-# - word: Bafflegab
 # - word: Ephemeral
 # - word: Ephemeron
 # - word: Extraordinaire
