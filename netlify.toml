@@ -27,4 +27,4 @@
     Content-Type = "application/xml; charset=utf-8"
 
 [functions."scheduled-deploy"]
-schedule = "@daily"
+  schedule = "@daily"
