@@ -307,7 +307,8 @@ words:
   - word: Patrimony
     def: Right or estate inherited from father or ancestor
   - word: Riparian
-    def: Related to a river
+    def: Related to a river bank
+    comments: Came to also mean, related to a river
   - word: Spangle
     def: Small metal ornamental plate; therefore, any little thing that sparkles
   - word: Tussock
@@ -413,12 +414,6 @@ words:
   - word: Bathos
     def: The art of poetic sinking, ludicrous descent from the elevated to the low, anticlimax
     comments: "Rob Cantor's \"Shia LeBeouf\" is peak bathos"
-  - word: Dabble
-    defs: 
-      - Play in water
-      - Do any thing in a slight or superficial manner
-      - Tamper
-    origin: "Hebrew \"dip\""
   - word: Farrier
     def: Smith who shoes horses
   - word: Fettle
@@ -855,6 +850,7 @@ words:
       - To play in water
       - To do anything in a slight or superficial manner
       - To meddle
+    origin: "Hebrew \"dip\""
   - word: Dandy
     defs:
       - A man overly concerned with his dress and appearance
@@ -949,11 +945,18 @@ words:
     defs:
       - To frustrate by interposing obstacles or difficulties
       - To disgrace publicly, especially a perjured knight (original definition, now obsolete)
-   
+  - word: Derring-do
+    def: Valiant deeds in desperate times
+  - word: Ephemeral
+    defs:
+      - Lasting one day
+      - Transitory 
+  - word: Extraordinaire
+    defs:
+      - Extraordinary (adjective)
+      - Something particularly remarkable or outstanding (noun)
+    notes: "As an adjective, used after the noun: a magician extraordinaire"
 
-# - word: Ephemeral
-# - word: Ephemeron
-# - word: Extraordinaire
 # - word: Fastidious
 # - word: Festoon
 # - word: Figment
@@ -1029,4 +1032,29 @@ words:
 # - word: Yarn
 # - word: Yester
 # - word: Incipit
+# - word: Amok
+# - word: Askance
+# - word: Aspersions
+# - word: Bated
+# - word: Betide
+# - word: Bide
+# - word: Clarion
+# - word: Dudgeon
+# - word: Dulcet
+# - word: Forfend
+# - word: Fro
+# - word: Halcyon
+# - word: Hale
+# - word: Clement
+# - word: Knell
+# - word: Nape
+# - word: Petard
+# - word: Shebang
+# - word: Shrift
+# - word: Serried
+# - word: Spick
+# - word: Squib
+# - word: Wreak
+# - word: Prowess
+
 # Dictionary of Untold Sorrows
