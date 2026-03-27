@@ -40,6 +40,11 @@
         height: 170px;
     }
 
+    .book-x-short { 
+        margin-top: 50px; 
+        height: 160px;
+    }
+
     .book-amber {
         color: var(--color-black);
     }

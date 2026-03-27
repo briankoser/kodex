@@ -93,7 +93,7 @@
         <div class="site-footer-books">
             <div class="bookshelf">
                 {% for i in range(0, 100) -%}
-                    {% shelfbook metadata.authors | random | lower, ['tall', 'medium', 'short'] | random, goodreadsBrianFavorites, goodreadsBrianCurrentlyReading %}
+                    {% shelfbook metadata.authors | random | lower, ['tall', 'medium', 'short', 'x-short'] | random, goodreadsBrianFavorites, goodreadsBrianCurrentlyReading %}
                 {%- endfor %}
             </div>
         </div>
